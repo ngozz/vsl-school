@@ -116,15 +116,25 @@ class DownloadService extends ChangeNotifier {
 
   VideoEntry? downloadedEntry(String name) => _downloaded[name];
 
-  File fileFor(String name) => File('$_root/$name.mp4');
+  File fileFor(String name) => File('$_root/${_baseName(name)}.mp4');
 
-  String _metaPath(String name) => '$_root/$name.meta';
+  String _metaPath(String name) => '$_root/${_baseName(name)}.meta';
+
+  /// Strips a stray '.mp4' so callers can pass either form; every internal
+  /// map (sidecars, downloads, catalog) is keyed by extension-less names.
+  static String _baseName(String name) {
+    if (name.toLowerCase().endsWith('.mp4')) {
+      return name.substring(0, name.length - 4);
+    }
+    return name;
+  }
 
   /// Resolves how a video filename plays ('TOANL1KB01_02.mp4').
   ///
   /// Downloaded copies are trusted only together with a matching size (the
   /// play-time validity check); broken/missing copies fall back to streaming.
-  VideoSource resolve(String name) {
+  VideoSource resolve(String rawName) {
+    final name = _baseName(rawName);
     final meta = _downloaded[name];
     if (meta != null) {
       try {
