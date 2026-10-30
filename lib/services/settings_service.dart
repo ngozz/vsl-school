@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../config.dart' show AppConfig;
+
 /// App settings (theme + video player prefs) stored in shared_preferences.
 /// Theme logic mirrors vsl-dictionary.
 enum ThemeChoice { dark, black, light }
@@ -25,7 +27,7 @@ class SettingsService extends ChangeNotifier {
     final p = await SharedPreferences.getInstance();
     _theme = ThemeChoice.values.asNameMap()[p.getString(_themeKey)] ??
         ThemeChoice.dark;
-    _subtitles = p.getBool(_subtitlesKey) ?? true;
+    _subtitles = p.getBool(_subtitlesKey) ?? AppConfig.defaultSubtitles;
     _rememberSpeed = p.getBool(_rememberSpeedKey) ?? false;
     _speed = p.getDouble(_speedKey) ?? 1.0;
   }

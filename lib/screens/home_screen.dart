@@ -1,8 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import '../main.dart';
 import '../models/lesson.dart';
 import '../services/settings_service.dart' show ThemeChoice;
+import '../config.dart' show AppConfig;
 import 'lesson_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -60,17 +61,17 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('Cài đặt', style: theme.textTheme.titleMedium),
+                  Text('CÃ i Ä‘áº·t', style: theme.textTheme.titleMedium),
                   const SizedBox(height: 16),
-                  Text('Giao diện', style: theme.textTheme.bodySmall),
+                  Text('Giao diá»‡n', style: theme.textTheme.bodySmall),
                   const SizedBox(height: 8),
                   SegmentedButton<ThemeChoice>(
                     segments: const [
-                      ButtonSegment(value: ThemeChoice.dark, label: Text('Tối')),
+                      ButtonSegment(value: ThemeChoice.dark, label: Text('Tá»‘i')),
                       ButtonSegment(
-                          value: ThemeChoice.black, label: Text('Đen')),
+                          value: ThemeChoice.black, label: Text('Äen')),
                       ButtonSegment(
-                          value: ThemeChoice.light, label: Text('Sáng')),
+                          value: ThemeChoice.light, label: Text('SÃ¡ng')),
                     ],
                     selected: {App.settings.theme},
                     onSelectionChanged: (sel) =>
@@ -80,9 +81,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   SwitchListTile(
                     contentPadding: EdgeInsets.zero,
                     dense: true,
-                    title: const Text('Ghi nhớ tốc độ phát'),
+                    title: const Text('Ghi nhá»› tá»‘c Ä‘á»™ phÃ¡t'),
                     subtitle: Text(
-                      'Áp dụng tốc độ đã chọn cho video kế tiếp',
+                      'Ãp dá»¥ng tá»‘c Ä‘á»™ Ä‘Ã£ chá»n cho video káº¿ tiáº¿p',
                       style: theme.textTheme.bodySmall,
                     ),
                     value: App.settings.rememberSpeed,
@@ -90,9 +91,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   const SizedBox(height: 12),
                   Text(
-                    'Số bài học: ${App.lessons.count}\n\n'
-                    'Nội dung bài học từ “App Khiem Thinh” (qipedc.moet.gov.vn) '
-                    '— dùng làm cá nhân.',
+                    'Sá»‘ bÃ i há»c: ${App.lessons.count}\n\n'
+                    'Ná»™i dung bÃ i há»c tá»« â€œApp Khiem Thinhâ€ (qipedc.moet.gov.vn) '
+                    'â€” dÃ¹ng lÃ m cÃ¡ nhÃ¢n.',
                     style: theme.textTheme.bodySmall,
                   ),
                 ],
@@ -114,7 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
             style: TextStyle(fontWeight: FontWeight.w700, fontSize: 22)),
         actions: [
           IconButton(
-            tooltip: 'Cài đặt',
+            tooltip: 'CÃ i Ä‘áº·t',
             icon: const Icon(Icons.settings_outlined),
             onPressed: () => _showSettings(context),
           ),
@@ -124,7 +125,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ? const Center(child: CircularProgressIndicator())
           : _error != null
               ? Center(
-                  child: Text('Lỗi tải dữ liệu:\n$_error',
+                  child: Text('Lá»—i táº£i dá»¯ liá»‡u:\n$_error',
                       textAlign: TextAlign.center))
               : Center(
                   child: ConstrainedBox(
@@ -168,10 +169,10 @@ class _HomeScreenState extends State<HomeScreen> {
         SegmentedButton<Subject>(
           segments: const [
             ButtonSegment(
-                value: Subject.math, label: Text('Toán'), icon: Icon(Icons.calculate)),
+                value: Subject.math, label: Text('ToÃ¡n'), icon: Icon(Icons.calculate)),
             ButtonSegment(
                 value: Subject.literature,
-                label: Text('Tiếng Việt'),
+                label: Text('Tiáº¿ng Viá»‡t'),
                 icon: Icon(Icons.menu_book)),
           ],
           selected: {_subject},
@@ -187,11 +188,11 @@ class _HomeScreenState extends State<HomeScreen> {
           scrollDirection: Axis.horizontal,
           child: Row(
             children: [
-              for (var g = 1; g <= 5; g++)
+              for (final g in AppConfig.grades)
                 Padding(
-                  padding: EdgeInsets.only(right: g < 5 ? 8 : 0),
+                  padding: EdgeInsets.only(right: (g == AppConfig.grades.last ? 0 : 8)),
                   child: ChoiceChip(
-                    label: Text('Lớp $g'),
+                    label: Text('Lá»›p $g'),
                     selected: _grade == g,
                     showCheckmark: false,
                     labelPadding: const EdgeInsets.symmetric(horizontal: 14),
@@ -250,7 +251,7 @@ class _LessonTile extends StatelessWidget {
                       'data/thumbs/${lesson.id}.webp',
                       fit: BoxFit.contain,
                       errorBuilder: (_, _, _) => Text(
-                        lesson.id.startsWith('TOAN') ? 'Số' : 'TV',
+                        lesson.id.startsWith('TOAN') ? 'Sá»‘' : 'TV',
                         style: TextStyle(
                           fontWeight: FontWeight.w800,
                           fontSize: 13,

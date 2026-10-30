@@ -1,13 +1,12 @@
-import 'dart:async';
+﻿import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:video_player/video_player.dart';
 
 import '../main.dart';
-
+import '../config.dart';
 const _accent = Color(0xFF81C995); // active state colour (always on dark video)
-const _speeds = [0.25, 0.5, 0.75, 1.0, 1.5];
 
 /// 16:9 lesson video with custom controls, SRT captions and a speed dropup.
 ///
@@ -65,12 +64,20 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
         debugPrint('[VIDEO] stale player dispose: $e');
       }));
     }
-    final c = VideoPlayerController.asset(
-      widget.videoAsset,
-      closedCaptionFile: _loadCaptions(widget.captionAsset),
-      // Never steal audio focus from other apps.
-      videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
-    );
+    // Small (CDN) build: stream over https; full build: bundled asset.
+    final c = CdnConfig.videosBundled
+        ? VideoPlayerController.asset(
+            widget.videoAsset,
+            closedCaptionFile: _loadCaptions(widget.captionAsset),
+            // Never steal audio focus from other apps.
+            videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
+          )
+        : VideoPlayerController.networkUrl(
+            Uri.parse(
+                '${CdnConfig.baseUrl}/videos/${widget.videoAsset.split('/').last}'),
+            closedCaptionFile: _loadCaptions(widget.captionAsset),
+            videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
+          );
     _controller = c;
     _surfaceKey = UniqueKey();
     _init = _start(c);
@@ -80,7 +87,7 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
     var text = '';
     try {
       text = await rootBundle.loadString(asset);
-    } catch (_) {} // no SRT for this video → CC button is disabled
+    } catch (_) {} // no SRT for this video â†’ CC button is disabled
     // Only apply for the video that is still current; a superseded load may
     // resolve after a newer one and would describe the wrong video.
     if (widget.captionAsset == asset) {
@@ -263,7 +270,7 @@ class _Captions extends StatelessWidget {
   }
 }
 
-/// [play] [——seek——] [0:01 / 0:03] [CC] [speed] [fullscreen]
+/// [play] [â€”â€”seekâ€”â€”] [0:01 / 0:03] [CC] [speed] [fullscreen]
 /// Tap the video to show/hide. Auto-hides while playing.
 class _Controls extends StatefulWidget {
   final VideoPlayerController controller;
@@ -303,7 +310,7 @@ class _ControlsState extends State<_Controls> {
 
   void _scheduleHide() {
     _hideTimer?.cancel();
-    _hideTimer = Timer(const Duration(seconds: 3), () {
+    _hideTimer = Timer(Duration(seconds: AppConfig.autoHideControlsSeconds), () {
       if (mounted && _c.value.isPlaying && _dragMs == null) {
         setState(() => _visible = false);
       }
@@ -333,7 +340,7 @@ class _ControlsState extends State<_Controls> {
     final box = button.findRenderObject() as RenderBox;
     final overlay = Overlay.of(button).context.findRenderObject() as RenderBox;
     final origin = box.localToGlobal(Offset.zero, ancestor: overlay);
-    final menuH = _speeds.length * itemH + 16; // + menu's vertical padding
+    final menuH = AppConfig.playbackSpeeds.length * itemH + 16; // + menu's vertical padding
     final picked = await showMenu<double>(
       context: button,
       position: RelativeRect.fromRect(
@@ -341,12 +348,12 @@ class _ControlsState extends State<_Controls> {
         Offset.zero & overlay.size,
       ),
       items: [
-        for (final r in _speeds)
+        for (final r in AppConfig.playbackSpeeds)
           CheckedPopupMenuItem<double>(
             value: r,
             checked: r == current,
             height: itemH,
-            child: Text(r == 1.0 ? 'Chuẩn' : '$r×'),
+            child: Text(r == 1.0 ? 'Chuáº©n' : '$rÃ—'),
           ),
       ],
     );
@@ -381,7 +388,7 @@ class _ControlsState extends State<_Controls> {
                     : value.isPlaying
                         ? Icons.pause
                         : Icons.play_arrow,
-                tooltip: ended ? 'Phát lại' : value.isPlaying ? 'Tạm dừng' : 'Phát',
+                tooltip: ended ? 'PhÃ¡t láº¡i' : value.isPlaying ? 'Táº¡m dá»«ng' : 'PhÃ¡t',
                 onPressed: () => _togglePlay(value.isPlaying, ended),
               ),
               Expanded(
@@ -426,7 +433,7 @@ class _ControlsState extends State<_Controls> {
                 ),
               ),
               const SizedBox(width: 4),
-              // CC — on/off is remembered in settings (default on).
+              // CC â€” on/off is remembered in settings (default on).
               ListenableBuilder(
                 listenable: App.settings,
                 builder: (_, _) {
@@ -435,7 +442,7 @@ class _ControlsState extends State<_Controls> {
                     icon: on
                         ? Icons.closed_caption
                         : Icons.closed_caption_outlined,
-                    tooltip: 'Phụ đề',
+                    tooltip: 'Phá»¥ Ä‘á»',
                     color: on ? _accent : Colors.white,
                     onPressed: widget.hasCaptions
                         ? () {
@@ -446,11 +453,11 @@ class _ControlsState extends State<_Controls> {
                   );
                 },
               ),
-              // Speed — opens the dropup. Tinted while not at normal speed.
+              // Speed â€” opens the dropup. Tinted while not at normal speed.
               Builder(
                 builder: (ctx) => _BarButton(
                   icon: Icons.slow_motion_video,
-                  tooltip: 'Tốc độ phát',
+                  tooltip: 'Tá»‘c Ä‘á»™ phÃ¡t',
                   color: value.playbackSpeed == 1.0 ? Colors.white : _accent,
                   onPressed: () => _pickSpeed(ctx, value.playbackSpeed),
                 ),
@@ -459,7 +466,7 @@ class _ControlsState extends State<_Controls> {
                 icon: widget.isFullscreen
                     ? Icons.fullscreen_exit
                     : Icons.fullscreen,
-                tooltip: widget.isFullscreen ? 'Thu nhỏ' : 'Toàn màn hình',
+                tooltip: widget.isFullscreen ? 'Thu nhá»' : 'ToÃ n mÃ n hÃ¬nh',
                 onPressed: widget.onFullscreen,
               ),
             ],
@@ -528,7 +535,7 @@ class _BarButton extends StatelessWidget {
   final IconData icon;
   final String tooltip;
   final Color color;
-  final VoidCallback? onPressed; // null → disabled (dimmed)
+  final VoidCallback? onPressed; // null â†’ disabled (dimmed)
 
   const _BarButton({
     required this.icon,

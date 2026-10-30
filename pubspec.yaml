@@ -1,5 +1,5 @@
-name: vsl_school
-description: "Trường học Ký hiệu Việt Nam — offline sign-language lessons (Toán & Tiếng Việt, lớp 1–5)."
+﻿name: vsl_school
+description: "TrÆ°á»ng há»c KÃ½ hiá»‡u Viá»‡t Nam â€” offline sign-language lessons (ToÃ¡n & Tiáº¿ng Viá»‡t, lá»›p 1â€“5)."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev

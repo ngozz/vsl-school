@@ -1,9 +1,10 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'services/settings_service.dart';
 import 'services/lesson_service.dart';
 import 'screens/home_screen.dart';
+import 'config.dart' show AppConfig;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -12,9 +13,7 @@ void main() {
   runApp(const VslSchoolApp());
 }
 
-const _seedGreen = Color(0xFF4CAF50);
-
-/// Material You themes seeded from green — same logic as vsl-dictionary.
+/// Material You themes seeded from green â€” same logic as vsl-dictionary.
 ///  - light: standard M3 light
 ///  - dark : standard M3 dark
 ///  - black: pure-black ("AMOLED") dark variant
@@ -22,7 +21,7 @@ ThemeData _buildTheme(ThemeChoice choice) {
   switch (choice) {
     case ThemeChoice.light:
       final scheme = ColorScheme.fromSeed(
-          seedColor: _seedGreen, brightness: Brightness.light);
+          seedColor: AppConfig.seedColor, brightness: Brightness.light);
       return _common(ThemeData(
         useMaterial3: true,
         colorScheme: scheme,
@@ -30,7 +29,7 @@ ThemeData _buildTheme(ThemeChoice choice) {
       ));
     case ThemeChoice.dark:
       final scheme = ColorScheme.fromSeed(
-          seedColor: _seedGreen, brightness: Brightness.dark);
+          seedColor: AppConfig.seedColor, brightness: Brightness.dark);
       return _common(ThemeData(
         useMaterial3: true,
         colorScheme: scheme,
