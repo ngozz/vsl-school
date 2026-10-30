@@ -202,16 +202,15 @@ class DownloadService extends ChangeNotifier {
       // Limit to a few concurrent downloads so Wi-Fi browsers and calls
       // keep bandwidth to themselves.
       _dl.configure(globalConfig: (Config.holdingQueue, (3, null, null)));
-      // One merged notification for the whole batch ("25/500"), not one per
-      // file. Errors summarize; completions stay silent (the app shows
-      // detailed progress).
+      // One merged notification for the whole batch, not one per file.
+      // Note: {numTotal} can't be used here — with a holding queue the
+      // plugin registers totals in WorkManager batches, so the pair creeps
+      // (50/100 → 100/150). numFinished is always accurate.
       _dl.configureNotificationForGroup(
         _taskGroup,
         running: const TaskNotification(
-            'Đang tải bài học', '{numFinished}/{numTotal} — {progress}'),
-        error: const TaskNotification(
-            'Lỗi tải bài học', '{numFailed}/{numTotal} lỗi'),
-        progressBar: true,
+            'Đang tải bài học', 'Đã tải xong {numFinished} video'),
+        error: const TaskNotification('Lỗi tải bài học', '{numFailed} lỗi'),
         groupNotificationId: 'vsl_school_downloads',
       );
       final base = await getApplicationSupportDirectory();

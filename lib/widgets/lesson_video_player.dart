@@ -117,8 +117,12 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
       await c.initialize();
       if (_controller != c) return; // superseded by a newer video
       final s = App.settings;
-      await c.setPlaybackSpeed(s.rememberSpeed ? s.speed : 1.0);
+      // Speed must be applied AFTER play(): on iOS a setPlaybackSpeed before
+      // play() is silently dropped, so videos would always start at 1×.
       await c.play();
+      if (s.rememberSpeed && s.speed != 1.0) {
+        await c.setPlaybackSpeed(s.speed);
+      }
       if (mounted) setState(() {});
     } catch (e) {
       debugPrint('[VIDEO] ${widget.videoAsset}: $e');
@@ -201,7 +205,7 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
 }
 
 /// Frame + captions + controls. Used inline and in the fullscreen route.
-class _PlayerView extends StatelessWidget {
+class _PlayerView extends StatefulWidget {
   final VideoPlayerController controller;
   final bool hasCaptions;
   final bool isNetwork;
@@ -218,8 +222,23 @@ class _PlayerView extends StatelessWidget {
   });
 
   @override
+  State<_PlayerView> createState() => _PlayerViewState();
+}
+
+class _PlayerViewState extends State<_PlayerView> {
+  /// Whether the control bar is on screen; captions ride above it
+  /// (YouTube-style) and drop when it fades out.
+  final ValueNotifier<bool> _controlsVisible = ValueNotifier<bool>(true);
+
+  @override
+  void dispose() {
+    _controlsVisible.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final size = controller.value.size;
+    final size = widget.controller.value.size;
     return Stack(
       fit: StackFit.expand,
       children: [
@@ -228,16 +247,21 @@ class _PlayerView extends StatelessWidget {
           child: SizedBox(
             width: size.width <= 0 ? 1920.0 : size.width,
             height: size.height <= 0 ? 1080.0 : size.height,
-            child: VideoPlayer(controller),
+            child: VideoPlayer(widget.controller),
           ),
         ),
-        _Captions(controller: controller, isFullscreen: isFullscreen),
+        _Captions(
+          controller: widget.controller,
+          isFullscreen: widget.isFullscreen,
+          controlsVisible: _controlsVisible,
+        ),
         _Controls(
-          controller: controller,
-          hasCaptions: hasCaptions,
-          isNetwork: isNetwork,
-          isFullscreen: isFullscreen,
-          onFullscreen: onFullscreen,
+          controller: widget.controller,
+          hasCaptions: widget.hasCaptions,
+          isNetwork: widget.isNetwork,
+          isFullscreen: widget.isFullscreen,
+          onFullscreen: widget.onFullscreen,
+          controlsVisible: _controlsVisible,
         ),
       ],
     );
@@ -247,7 +271,13 @@ class _PlayerView extends StatelessWidget {
 class _Captions extends StatelessWidget {
   final VideoPlayerController controller;
   final bool isFullscreen;
-  const _Captions({required this.controller, required this.isFullscreen});
+  final ValueNotifier<bool> controlsVisible;
+
+  const _Captions({
+    required this.controller,
+    required this.isFullscreen,
+    required this.controlsVisible,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -261,28 +291,39 @@ class _Captions extends StatelessWidget {
           }
           return Align(
             alignment: Alignment.bottomCenter,
-            child: Padding(
-              padding: EdgeInsets.fromLTRB(16, 0, 16, isFullscreen ? 64 : 48),
-              child: DecoratedBox(
-                decoration: BoxDecoration(
-                  color: const Color(0xAA000000),
-                  borderRadius: BorderRadius.circular(6),
-                ),
-                child: Padding(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                  child: Text(
-                    text,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: isFullscreen ? 20 : 15,
-                      fontWeight: FontWeight.w500,
-                      height: 1.3,
+            child: ValueListenableBuilder<bool>(
+              valueListenable: controlsVisible,
+              builder: (_, controlsUp, _) {
+                // Ride above the control bar while it is on screen
+                // (YouTube-style), drop low when it fades out.
+                final bottom =
+                    controlsUp ? (isFullscreen ? 76.0 : 58.0) : (isFullscreen ? 20.0 : 14.0);
+                return AnimatedPadding(
+                  duration: const Duration(milliseconds: 180),
+                  curve: Curves.easeOut,
+                  padding: EdgeInsets.fromLTRB(16, 0, 16, bottom),
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      color: const Color(0xAA000000),
+                      borderRadius: BorderRadius.circular(6),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 10, vertical: 4),
+                      child: Text(
+                        text,
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: isFullscreen ? 20 : 15,
+                          fontWeight: FontWeight.w500,
+                          height: 1.3,
+                        ),
+                      ),
                     ),
                   ),
-                ),
-              ),
+                );
+              },
             ),
           );
         },
@@ -299,6 +340,7 @@ class _Controls extends StatefulWidget {
   final bool isNetwork; // streamed over http → seek only when fully buffered
   final bool isFullscreen;
   final VoidCallback onFullscreen; // enter, or exit when isFullscreen
+  final ValueNotifier<bool> controlsVisible; // captions ride this
 
   const _Controls({
     required this.controller,
@@ -306,6 +348,7 @@ class _Controls extends StatefulWidget {
     this.isNetwork = false,
     required this.isFullscreen,
     required this.onFullscreen,
+    required this.controlsVisible,
   });
 
   @override
@@ -405,6 +448,9 @@ class _ControlsState extends State<_Controls> {
             !value.isPlaying &&
             value.position.inMilliseconds >= durMs - 50;
         final show = _visible || !value.isPlaying || _dragMs != null;
+        // Captions ride above the bar; assigning the same value is a no-op
+        // for listeners, so this is cheap on every position tick.
+        widget.controlsVisible.value = show;
 
         // CDN streams ignore Range (200-only): the player re-downloads from
         // byte 0 to satisfy a mid-file seek. Lock the scrubber until the
@@ -563,12 +609,13 @@ class _ControlsState extends State<_Controls> {
                 ),
               ),
             ),
-            // Seek-lock hint: spinner only — when it vanishes, seek is unlocked.
+            // Seek-lock hint: spinner only — when it vanishes, seek is
+            // unlocked. Kept at the top so it never covers the subtitles.
             if (scrubLocked && show)
               Positioned(
                 left: 0,
                 right: 0,
-                bottom: widget.isFullscreen ? 64 : 54,
+                top: widget.isFullscreen ? 16 : 12,
                 child: IgnorePointer(
                   child: Center(
                     child: DecoratedBox(
