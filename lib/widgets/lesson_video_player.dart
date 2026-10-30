@@ -68,7 +68,7 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
     }
     // Resolver order: downloaded file → CDN stream → bundled asset.
     final name = widget.videoAsset.split('/').last;
-    final src = CdnConfig.videosBundled
+    final src = !CdnConfig.useCdn
         ? VideoSource.asset
         : App.downloads.resolve(name);
     _isNetwork = src == VideoSource.network;

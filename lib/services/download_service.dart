@@ -124,7 +124,6 @@ class DownloadService extends ChangeNotifier {
   /// Downloaded copies are trusted only together with a matching size (the
   /// play-time validity check); broken/missing copies fall back to streaming.
   VideoSource resolve(String name) {
-    if (CdnConfig.videosBundled) return VideoSource.asset;
     final meta = _downloaded[name];
     if (meta != null) {
       try {
@@ -146,7 +145,7 @@ class DownloadService extends ChangeNotifier {
     _ready = true; // guards double init
     try {
       _active = !kIsWeb &&
-          !CdnConfig.videosBundled &&
+          CdnConfig.useCdn &&
           (Platform.isAndroid || Platform.isIOS);
       if (!_active) {
         notifyListeners();

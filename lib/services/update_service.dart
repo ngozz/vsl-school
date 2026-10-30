@@ -26,7 +26,7 @@ class UpdateService extends ChangeNotifier {
   /// relative to the last successful check. Silent failure (offline etc.):
   /// check `lastError`.
   Future<bool> check() async {
-    if (!CdnConfig.useCdn || CdnConfig.videosBundled) return false;
+    if (!CdnConfig.useCdn) return false;
     if (checking) return false;
     checking = true;
     lastError = null;
