@@ -56,10 +56,18 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
   }
 
   void _load() {
-    _controller?.dispose();
+    final old = _controller;
+    _controller = null;
+    // Dispose asynchronously with a guard: disposing while the previous
+    // controller's initialize() is still pending can throw on Android.
+    if (old != null) {
+      unawaited((old.dispose()).catchError((Object e) {
+        debugPrint('[VIDEO] stale player dispose: $e');
+      }));
+    }
     final c = VideoPlayerController.asset(
       widget.videoAsset,
-      closedCaptionFile: _loadCaptions(),
+      closedCaptionFile: _loadCaptions(widget.captionAsset),
       // Never steal audio focus from other apps.
       videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
     );
@@ -68,12 +76,16 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
     _init = _start(c);
   }
 
-  Future<ClosedCaptionFile> _loadCaptions() async {
+  Future<ClosedCaptionFile> _loadCaptions(String asset) async {
     var text = '';
     try {
-      text = await rootBundle.loadString(widget.captionAsset);
+      text = await rootBundle.loadString(asset);
     } catch (_) {} // no SRT for this video → CC button is disabled
-    _hasCaptions = text.trim().isNotEmpty;
+    // Only apply for the video that is still current; a superseded load may
+    // resolve after a newer one and would describe the wrong video.
+    if (widget.captionAsset == asset) {
+      _hasCaptions = text.trim().isNotEmpty;
+    }
     return SubRipCaptionFile(text);
   }
 
@@ -504,9 +516,11 @@ class _ControlsState extends State<_Controls> {
   }
 
   static String _fmt(Duration d) {
+    final h = d.inHours;
     final m = d.inMinutes.remainder(60);
     final s = d.inSeconds.remainder(60);
-    return '$m:${s.toString().padLeft(2, '0')}';
+    final mm = h > 0 ? m.toString().padLeft(2, '0') : '$m';
+    return '${h > 0 ? '$h:' : ''}$mm:${s.toString().padLeft(2, '0')}';
   }
 }
 

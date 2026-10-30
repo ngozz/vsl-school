@@ -9,11 +9,11 @@ class LessonService {
   List<Lesson> _lessons = const [];
   bool _loaded = false;
 
-  bool get isLoaded => _loaded;
   int get count => _lessons.length;
 
   /// Parses `{_id,title}` entries from the bundled title.json.
   Future<void> load() async {
+    if (_loaded) return;
     if (_loaded) return;
     final raw = await rootBundle.loadString('data/json/title.json');
     final data = jsonDecode(raw) as Map<String, dynamic>;
@@ -28,8 +28,9 @@ class LessonService {
     _loaded = true;
   }
 
-  static bool _validId(String id) =>
-      RegExp(r'^(TOAN|TV)L([1-5])KB(\d+)$').hasMatch(id);
+  static final RegExp _idRegex = RegExp(r'^(TOAN|TV)L([1-5])KB(\d+)$');
+
+  static bool _validId(String id) => _idRegex.hasMatch(id);
 
   static int _compare(Lesson a, Lesson b) {
     final ra = _breakdown(a.id), rb = _breakdown(b.id);
@@ -40,7 +41,7 @@ class LessonService {
 
   /// [subjectRank (0=TOAN,1=TV), grade, bai] — for sorting / filtering.
   static List<int> _breakdown(String id) {
-    final m = RegExp(r'^(TOAN|TV)L([1-5])KB(\d+)$').firstMatch(id)!;
+    final m = _idRegex.firstMatch(id)!;
     return [
       m.group(1) == 'TOAN' ? 0 : 1,
       int.parse(m.group(2)!),
