@@ -29,14 +29,18 @@ class DownloadBanner extends StatelessWidget {
           );
         }
         final busy = dl.busyBatchCount;
-        if (busy == 0 || dl.batchTotal == 0) return const SizedBox.shrink();
-        final finished = (dl.batchTotal - busy).clamp(0, dl.batchTotal);
+        final pending = dl.pendingBatchCount;
+        final total = dl.batchTotal;
+        if ((busy == 0 && pending == 0) || total == 0) {
+          return const SizedBox.shrink();
+        }
+        final finished = (total - busy - pending).clamp(0, total);
         return _chip(
           context,
           theme,
           icon: Icons.cloud_download_outlined,
-          label: 'Đang tải $finished/${dl.batchTotal} video…',
-          progress: finished / dl.batchTotal,
+          label: 'Đang tải $finished/$total video…',
+          progress: finished / total,
           onCancel: () => dl.cancelBatch(),
         );
       },
@@ -52,8 +56,11 @@ class DownloadBanner extends StatelessWidget {
     VoidCallback? onCancel,
   }) {
     return Material(
-      color: theme.colorScheme.surfaceContainerHigh,
-      borderRadius: BorderRadius.circular(12),
+      color: theme.colorScheme.surface,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12),
+        side: BorderSide(color: theme.colorScheme.outlineVariant),
+      ),
       child: Padding(
         padding: const EdgeInsets.fromLTRB(12, 8, 4, 8),
         child: Row(

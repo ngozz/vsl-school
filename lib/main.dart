@@ -80,6 +80,7 @@ ThemeData _common(ThemeData t) {
   return t.copyWith(
     appBarTheme: t.appBarTheme.copyWith(
       surfaceTintColor: Colors.transparent,
+      scrolledUnderElevation: 0,
       centerTitle: false,
     ),
     cardTheme: const CardThemeData(elevation: 0),

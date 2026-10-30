@@ -32,8 +32,10 @@ class _OnboardingPageState extends State<OnboardingPage> {
     (
       Icons.volunteer_activism_outlined,
       'Nguồn dữ liệu',
-      'Nội dung bài học từ “App Khiem Thinh” (qipedc.moet.gov.vn) — dùng '
-          'làm cá nhân. Chúc học tốt!',
+      'Nội dung, video và phụ đề từ cổng Ký hiệu Việt Nam quốc gia: '
+          '“App Khiem Thinh” (qipedc.moet.gov.vn) — Trung tâm Ký hiệu Việt '
+          'Nam / Bộ Giáo dục và Đào tạo. Ứng dụng dùng làm cá nhân, không '
+          'phải tác phẩm gốc. Chúc học tốt!',
     ),
   ];
 

@@ -1,12 +1,14 @@
 import 'dart:async';
+import 'dart:collection';
 import 'dart:convert';
 import 'dart:io';
 
 import 'package:background_downloader/background_downloader.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:crypto/crypto.dart' as crypto;
-import 'package:flutter/foundation.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/widgets.dart';
 import 'package:path_provider/path_provider.dart';
 
 import '../config.dart';
@@ -65,9 +67,17 @@ class LessonDiff {
 /// Every finished download is verified (size, then sha256 when known) before
 /// a sidecar `<name>.meta` file is written; the sidecar is what makes a copy
 /// "promoted". Startup sweeps remove anything that lacks a valid sidecar.
-class DownloadService extends ChangeNotifier {
+///
+/// The app itself is the download queue: at most [_maxConcurrent] tasks are
+/// native (WorkManager) at a time, refilled from an app-side pending list.
+/// This keeps cancels clean (only a few native tasks to cancel — no
+/// notification worker storms), and the pending list is flushed to the
+/// native queue when the app is backgrounded, so downloads continue after
+/// quitting.
+class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
   static const _dirName = 'videos';
   static const _taskGroup = 'vsl_downloads';
+  static const _maxConcurrent = 3;
 
   final FileDownloader _dl = FileDownloader();
 
@@ -82,6 +92,8 @@ class DownloadService extends ChangeNotifier {
   final List<String> _failedNames = [];
   final Map<String, Completer<bool>> _waiters = {};
   final Map<String, String> _taskGroups = {}; // name → notification group
+  final ListQueue<VideoEntry> _pending = ListQueue(); // app-side queue
+  final Set<String> _pendingNames = <String>{};
   int _batchTotal = 0; // baked total of the current batch (notification/UI)
   int _deleteDone = 0;
   int _deleteTotal = 0;
@@ -191,6 +203,7 @@ class DownloadService extends ChangeNotifier {
 
   Future<void> initialize() async {
     _ready = true; // guards double init
+    WidgetsBinding.instance.addObserver(this);
     try {
       _active = !kIsWeb &&
           CdnConfig.useCdn &&
@@ -322,6 +335,8 @@ class DownloadService extends ChangeNotifier {
           if (busyBatchCount == 0) _batchTotal = 0;
         }
       }
+      // Top the native queue back up as slots free up.
+      _refillBatch();
     }
     notifyListeners();
   }
@@ -384,15 +399,73 @@ class DownloadService extends ChangeNotifier {
     return n;
   }
 
+  // ── App-side queue ───────────────────────────────────────────────────────
+
+  DownloadTask _buildTask(VideoEntry e, String group) => DownloadTask(
+        taskId: '${e.name}.mp4',
+        group: group,
+        url: '${CdnConfig.baseUrl}/videos/${e.name}.mp4',
+        filename: '${e.name}.mp4',
+        baseDirectory: BaseDirectory.applicationSupport,
+        directory: _dirName,
+        allowPause: true, // resumes across Android's 9-min Worker cycles
+        retries: 2,
+      );
+
+  /// Discards any old copy, then natively enqueues one task.
+  void _enqueueNow(VideoEntry e, String group) {
+    final file = fileFor(e.name);
+    if (file.existsSync()) file.deleteSync();
+    final sidecar = File(_metaPath(e.name));
+    if (sidecar.existsSync()) sidecar.deleteSync();
+    _downloaded.remove(e.name);
+    _status[e.name] = TaskStatus.enqueued;
+    _progress[e.name] = 0;
+    final task = _buildTask(e, group);
+    _expect[task.taskId] = e;
+    _taskGroups[e.name] = group;
+    unawaited(_dl.enqueue(task));
+  }
+
+  /// Tops the native queue back up to [_maxConcurrent] from [_pending].
+  void _refillBatch() {
+    while (_pending.isNotEmpty && busyBatchCount < _maxConcurrent) {
+      _enqueueNow(_pending.removeFirst(), _taskGroup);
+    }
+  }
+
+  /// Called when the app is backgrounded: hand the whole pending list to the
+  /// native queue (the holding queue keeps concurrency bounded) so downloads
+  /// continue even if the OS kills the Dart isolate.
+  void _flushPendingToNative() {
+    if (_pending.isEmpty) return;
+    final tasks = <DownloadTask>[];
+    while (_pending.isNotEmpty) {
+      final e = _pending.removeFirst();
+      _pendingNames.remove(e.name);
+      _status[e.name] = TaskStatus.enqueued;
+      _taskGroups[e.name] = _taskGroup;
+      tasks.add(_buildTask(e, _taskGroup));
+    }
+    unawaited(_dl.enqueueAll(tasks));
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.paused) _flushPendingToNative();
+  }
+
   // ── Enqueueing ───────────────────────────────────────────────────────────
 
   bool _isBusyOrDone(String name) =>
-      _downloaded.containsKey(name) || isBusy(name);
+      _downloaded.containsKey(name) ||
+      isBusy(name) ||
+      _pendingNames.contains(name);
 
-  /// Downloads [entries], skipping already-downloaded/busy ones and discarding
-  /// old copies first (so "changed content" replaces them). Returns how many
-  /// tasks were created. Downloads continue after app close (WorkManager on
-  /// Android, background URLSession on iOS).
+  /// Downloads [entries], skipping already-downloaded/busy/queued ones and
+  /// discarding old copies first (so "changed content" replaces them).
+  /// Returns the total number of videos in this batch. At most
+  /// [_maxConcurrent] run natively; the rest wait in the app-side queue.
   int enqueueAll(List<VideoEntry> entries) {
     if (!_active || entries.isEmpty) return 0;
     if (_askNotifications) {
@@ -401,50 +474,35 @@ class DownloadService extends ChangeNotifier {
           .request(PermissionType.notifications)
           .then<Object?>((_) => null));
     }
-    // Bake the true outstanding total into the notification text: the
-    // plugin's own {numTotal} trails (its registration jobs are batched by
-    // WorkManager), but {numFinished} is accurate and the total is known
-    // here, at enqueue time.
     var outstanding = 0;
     _taskGroups.forEach((n, g) {
       if (g == _taskGroup && isBusy(n)) outstanding++;
     });
+    final slots = (_maxConcurrent - outstanding).clamp(0, _maxConcurrent);
     var created = 0;
-    final tasks = <DownloadTask>[];
     for (final e in entries) {
-      if (_isBusyOrDone(e.name)) continue;
-      final file = fileFor(e.name);
-      if (file.existsSync()) file.deleteSync();
-      final sidecar = File(_metaPath(e.name));
-      if (sidecar.existsSync()) sidecar.deleteSync();
-      _downloaded.remove(e.name);
-      _status[e.name] = TaskStatus.enqueued;
-      _progress[e.name] = 0;
-      final task = DownloadTask(
-        taskId: '${e.name}.mp4',
-        group: _taskGroup,
-        url: '${CdnConfig.baseUrl}/videos/${e.name}.mp4',
-        filename: '${e.name}.mp4',
-        baseDirectory: BaseDirectory.applicationSupport,
-        directory: _dirName,
-        allowPause: true, // resumes across Android's 9-min Worker cycles
-        retries: 2,
-      );
-      tasks.add(task);
-      _expect[task.taskId] = e;
-      _taskGroups[e.name] = _taskGroup;
-      created++;
+      if (_isBusyOrDone(e.name) || _pendingNames.contains(e.name)) continue;
+      if (created < slots) {
+        _enqueueNow(e, _taskGroup);
+        created++;
+      } else {
+        _pending.add(e);
+        _pendingNames.add(e.name);
+      }
     }
-    // iOS: a dynamic group text re-issues a notification per change — stay
-    // silent there (progress lives in the app). Android: a neutral STATIC
-    // text — no dynamic placeholders, so nothing can trail; the complete
-    // notification fires from the final worker when the batch ends.
-    if (!Platform.isIOS && created > 0) {
-      final total = outstanding + created;
+    // Bake the true total into a neutral STATIC notification text: the
+    // plugin's own {numTotal} trails (its registration jobs are batched by
+    // WorkManager). The complete notification is posted by the final worker
+    // — timely, and truthful even after cancels.
+    final total = outstanding + created + _pendingNames.length;
+    if (!Platform.isIOS && total > 0) {
       var remainingBytes = 0;
       _expect.forEach((taskId, e) {
         if (_taskGroups[e.name] == _taskGroup) remainingBytes += e.size;
       });
+      for (final e in _pending) {
+        remainingBytes += e.size;
+      }
       final mb = remainingBytes >= 1073741824
           ? '${(remainingBytes / 1073741824).toStringAsFixed(1)} GB'
           : '${(remainingBytes / 1048576).round()} MB';
@@ -459,9 +517,8 @@ class DownloadService extends ChangeNotifier {
         groupNotificationId: 'vsl_school_downloads',
       );
     }
-    unawaited(_dl.enqueueAll(tasks));
     notifyListeners();
-    return created;
+    return total;
   }
 
   int enqueueAllContent() => enqueueAll(remainingEntries());
@@ -472,7 +529,10 @@ class DownloadService extends ChangeNotifier {
       ..._extras,
       ..._lessonEntries.values.expand((l) => l),
     ];
-    return [for (final e in out) if (!_isBusyOrDone(e.name)) e];
+    return [
+      for (final e in out)
+        if (!_isBusyOrDone(e.name) && !_pendingNames.contains(e.name)) e,
+    ];
   }
 
   bool allDownloaded(Iterable<String> names) =>
@@ -512,16 +572,25 @@ class DownloadService extends ChangeNotifier {
     await _dl.cancelTasksWithIds(ids);
   }
 
-  /// Cancels every in-flight batch download (downloaded copies are kept).
-  Future<void> cancelBatch() =>
-      cancelTasks(_taskGroups.entries
-          .where((e) => e.value == _taskGroup)
-          .map((e) => e.key));
+  /// Cancels the current batch: in-flight tasks are canceled, app-side
+  /// pending entries are dropped; downloaded copies are kept.
+  Future<void> cancelBatch() async {
+    _pending.clear();
+    _pendingNames.clear();
+    _batchTotal = 0;
+    notifyListeners();
+    await cancelTasks(_taskGroups.entries
+        .where((e) => e.value == _taskGroup)
+        .map((e) => e.key));
+  }
 
   /// In-flight batch downloads (the notification group).
   int get busyBatchCount => _taskGroups.entries
       .where((e) => e.value == _taskGroup && isBusy(e.key))
       .length;
+
+  /// Batch videos waiting in the app-side queue.
+  int get pendingBatchCount => _pendingNames.length;
 
   /// The baked total of the current batch (0 when idle).
   int get batchTotal => _batchTotal;
@@ -533,6 +602,8 @@ class DownloadService extends ChangeNotifier {
   /// Deletes every downloaded copy, canceling in-flight tasks first.
   /// Reports progress via [deleteDone]/[deleteTotal] for the in-app banner.
   Future<int> deleteAll() async {
+    _pending.clear();
+    _pendingNames.clear();
     await cancelTasks(_catalogByName.keys);
     final names = _downloaded.keys.toList();
     if (names.isEmpty) return 0;
