@@ -76,6 +76,19 @@ The web artifact is also **deployed to GitHub Pages** automatically on each
 `main` build (base path is baked at build time so it works under `/<repo>/`),
 at `https://ngozz.github.io/vsl-school/`.
 
+## iOS via SideStore / AltStore
+
+The iOS build can be added to SideStore or AltStore using this source:
+
+```
+https://ngozz.github.io/vsl-school/altstore-source.json
+```
+
+It points at the latest unsigned IPA release; SideStore/AltStore signs it
+during installation (same scheme as vsl-dictionary). The file lives in
+`web/altstore-source.json` and ships to Pages with every web build — bump its
+`version`/`date` when you want SideStore to see an update.
+
 ### Repo setup notes
 
 1. Enable **Actions → Settings → Pages → GitHub Pages** with the workflow

@@ -131,6 +131,10 @@ class _HomeScreenState extends State<HomeScreen> {
           animation: Listenable.merge([App.settings, App.downloads, App.updates]),
           builder: (sheetContext, _) {
             final dl = App.downloads;
+            final optionTitle = theme.textTheme.bodyMedium
+                ?.copyWith(fontWeight: FontWeight.w600);
+            final muted = theme.textTheme.bodySmall
+                ?.copyWith(color: theme.colorScheme.onSurfaceVariant);
             return SafeArea(
               child: SingleChildScrollView(
                 child: Padding(
@@ -139,17 +143,28 @@ class _HomeScreenState extends State<HomeScreen> {
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Cài đặt', style: theme.textTheme.titleMedium),
+                      Text('Cài đặt', style: theme.textTheme.titleLarge),
                       const SizedBox(height: 16),
-                      Text('Giao diện', style: theme.textTheme.bodySmall),
+                      Text('Giao diện', style: optionTitle),
                       const SizedBox(height: 8),
                       SegmentedButton<ThemeChoice>(
+                        showSelectedIcon: false, // no width change on select
                         segments: const [
-                          ButtonSegment(value: ThemeChoice.dark, label: Text('Tối')),
                           ButtonSegment(
-                              value: ThemeChoice.black, label: Text('Đen')),
+                              value: ThemeChoice.dark,
+                              label: SizedBox(
+                                  width: 52,
+                                  child: Center(child: Text('Tối')))),
                           ButtonSegment(
-                              value: ThemeChoice.light, label: Text('Sáng')),
+                              value: ThemeChoice.black,
+                              label: SizedBox(
+                                  width: 52,
+                                  child: Center(child: Text('Đen')))),
+                          ButtonSegment(
+                              value: ThemeChoice.light,
+                              label: SizedBox(
+                                  width: 52,
+                                  child: Center(child: Text('Sáng')))),
                         ],
                         selected: {App.settings.theme},
                         onSelectionChanged: (sel) =>
@@ -159,32 +174,31 @@ class _HomeScreenState extends State<HomeScreen> {
                       SwitchListTile(
                         contentPadding: EdgeInsets.zero,
                         dense: true,
-                        title: const Text('Ghi nhớ tốc độ phát'),
+                        title: Text('Ghi nhớ tốc độ phát', style: optionTitle),
                         subtitle: Text(
                           'Áp dụng tốc độ đã chọn cho video kế tiếp',
-                          style: theme.textTheme.bodySmall,
+                          style: muted,
                         ),
                         value: App.settings.rememberSpeed,
                         onChanged: (v) => App.settings.setRememberSpeed(v),
                       ),
                       if (dl.active) ...[
                         const SizedBox(height: 12),
-                        Text('Tải xuống & cập nhật',
-                            style: theme.textTheme.bodySmall),
+                        Text('Tải xuống & cập nhật', style: optionTitle),
                         const SizedBox(height: 8),
                         Text(
                           'Đã tải: ${dl.downloadedLessonCount}/${dl.catalogLessonCount} bài '
                           '(${dl.downloadedCount} video, ${_fmtMB(dl.downloadedBytes)})',
-                          style: theme.textTheme.bodySmall,
+                          style: muted,
                         ),
                         SwitchListTile(
                           contentPadding: EdgeInsets.zero,
                           dense: true,
-                          title: const Text(
-                              'Kiểm tra cập nhật khi mở ứng dụng'),
+                          title: Text('Kiểm tra cập nhật khi mở ứng dụng',
+                              style: optionTitle),
                           subtitle: Text(
                             'Tắt = app hoàn toàn ngoại tuyến sau khi đã tải',
-                            style: theme.textTheme.bodySmall,
+                            style: muted,
                           ),
                           value: App.settings.checkUpdates,
                           onChanged: (v) => App.settings.setCheckUpdates(v),
@@ -225,9 +239,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       const SizedBox(height: 12),
                       Text(
                         'Số bài học: ${App.lessons.count}\n\n'
-                        'Nội dung bài học từ “App Khiem Thinh” (qipedc.moet.gov.vn) '
-                        '— dùng làm cá nhân.',
-                        style: theme.textTheme.bodySmall,
+                        'Nội dung bài học từ “App Khiem Thinh” (qipedc.moet.gov.vn)',
+                        style: muted,
                       ),
                     ],
                   ),
@@ -320,15 +333,28 @@ class _HomeScreenState extends State<HomeScreen> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SegmentedButton<Subject>(
+          showSelectedIcon: false, // no width change on select
           segments: const [
             ButtonSegment(
                 value: Subject.math,
-                label: Text('Toán'),
-                icon: Icon(Icons.calculate)),
+                label: SizedBox(
+                    width: 104,
+                    child: Center(
+                        child: Row(mainAxisSize: MainAxisSize.min, children: [
+                      Icon(Icons.calculate, size: 15),
+                      SizedBox(width: 5),
+                      Text('Toán'),
+                    ])))),
             ButtonSegment(
                 value: Subject.literature,
-                label: Text('Tiếng Việt'),
-                icon: Icon(Icons.menu_book)),
+                label: SizedBox(
+                    width: 104,
+                    child: Center(
+                        child: Row(mainAxisSize: MainAxisSize.min, children: [
+                      Icon(Icons.menu_book, size: 15),
+                      SizedBox(width: 5),
+                      Text('Tiếng Việt'),
+                    ])))),
           ],
           selected: {_subject},
           onSelectionChanged: (sel) {

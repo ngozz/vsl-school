@@ -27,7 +27,7 @@ class CdnConfig {
 class AppConfig {
   /// Entries shown in the player's speed dropup. Stored user speeds outside
   /// this list are simply not offered again in the menu.
-  static const List<double> playbackSpeeds = [0.25, 0.5, 0.75, 1.0, 1.5];
+  static const List<double> playbackSpeeds = [0.5, 0.75, 1.0, 1.25, 1.5];
 
   /// Seconds without interaction before the controls fade out.
   static const int autoHideControlsSeconds = 3;

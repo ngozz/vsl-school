@@ -67,6 +67,7 @@ class LessonDiff {
 /// "promoted". Startup sweeps remove anything that lacks a valid sidecar.
 class DownloadService extends ChangeNotifier {
   static const _dirName = 'videos';
+  static const _taskGroup = 'vsl_downloads';
 
   final FileDownloader _dl = FileDownloader();
 
@@ -155,9 +156,20 @@ class DownloadService extends ChangeNotifier {
       _dl.updates.listen(_onUpdate, onError: (Object e) {
         debugPrint('[DOWNLOAD] update stream error: $e');
       });
-      _dl.configureNotification(
-        running: const TaskNotification('Đang tải bài học', '{filename}'),
+      // Limit to a few concurrent downloads so Wi-Fi browsers and calls
+      // keep bandwidth to themselves.
+      _dl.configure(globalConfig: (Config.holdingQueue, (3, null, null)));
+      // One merged notification for the whole batch ("25/500"), not one per
+      // file. Errors summarize; completions stay silent (the app shows
+      // detailed progress).
+      _dl.configureNotificationForGroup(
+        _taskGroup,
+        running: const TaskNotification(
+            'Đang tải bài học', '{numFinished}/{numTotal} — {progress}'),
+        error: const TaskNotification(
+            'Lỗi tải bài học', '{numFailed}/{numTotal} lỗi'),
         progressBar: true,
+        groupNotificationId: 'vsl_school_downloads',
       );
       final base = await getApplicationSupportDirectory();
       _root = '${base.path}/$_dirName';
@@ -354,6 +366,7 @@ class DownloadService extends ChangeNotifier {
       _progress[e.name] = 0;
       final task = DownloadTask(
         taskId: '${e.name}.mp4',
+        group: _taskGroup,
         url: '${CdnConfig.baseUrl}/videos/${e.name}.mp4',
         filename: '${e.name}.mp4',
         baseDirectory: BaseDirectory.applicationSupport,

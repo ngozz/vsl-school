@@ -377,7 +377,7 @@ class _ControlsState extends State<_Controls> {
             value: r,
             checked: r == current,
             height: itemH,
-            child: Text(r == 1.0 ? 'Chuẩn' : '$r×'),
+            child: Text(r == 1.0 ? '1×' : '$r×'),
           ),
       ],
     );
@@ -559,8 +559,7 @@ class _ControlsState extends State<_Controls> {
                 ),
               ),
             ),
-            // Seek-lock hint: shown while the streamed file is not fully
-            // buffered yet (scrubber disabled).
+            // Seek-lock hint: spinner only — when it vanishes, seek is unlocked.
             if (scrubLocked && show)
               Positioned(
                 left: 0,
@@ -573,21 +572,14 @@ class _ControlsState extends State<_Controls> {
                         color: const Color(0x99000000),
                         borderRadius: BorderRadius.circular(999),
                       ),
-                      child: Padding(
-                        padding:
-                            const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                        child: Row(mainAxisSize: MainAxisSize.min, children: [
-                          const SizedBox(
-                            width: 10,
-                            height: 10,
-                            child: CircularProgressIndicator(strokeWidth: 1.6),
-                          ),
-                          const SizedBox(width: 8),
-                          Text('Chờ tải đủ video để tua',
-                              style: TextStyle(
-                                  color: Colors.white.withValues(alpha: .9),
-                                  fontSize: 12)),
-                        ]),
+                      child: const Padding(
+                        padding: EdgeInsets.symmetric(
+                            horizontal: 9, vertical: 9),
+                        child: SizedBox(
+                          width: 14,
+                          height: 14,
+                          child: CircularProgressIndicator(strokeWidth: 2),
+                        ),
                       ),
                     ),
                   ),
