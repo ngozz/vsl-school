@@ -117,12 +117,29 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
       await c.initialize();
       if (_controller != c) return; // superseded by a newer video
       final s = App.settings;
-      // Speed must be applied AFTER play(): on iOS a setPlaybackSpeed before
-      // play() is silently dropped, so videos would always start at 1×.
-      await c.play();
-      if (s.rememberSpeed && s.speed != 1.0) {
-        await c.setPlaybackSpeed(s.speed);
+      final target = s.rememberSpeed ? s.speed : 1.0;
+      // iOS: AVPlayer resets the rate on play() (Apple's own TV app shares
+      // this quirk — see flutter/flutter#71264), so the remembered speed is
+      // re-asserted once playback is actually running.
+      if (target != 1.0) {
+        var applied = false;
+        late final VoidCallback l;
+        l = () {
+          if (applied) {
+            c.removeListener(l);
+            return;
+          }
+          final v = c.value;
+          if (v.isPlaying && !v.isBuffering && v.position > Duration.zero) {
+            applied = true;
+            c.removeListener(l);
+            c.setPlaybackSpeed(target);
+          }
+        };
+        c.addListener(l);
       }
+      await c.play();
+      if (target != 1.0) await c.setPlaybackSpeed(target);
       if (mounted) setState(() {});
     } catch (e) {
       debugPrint('[VIDEO] ${widget.videoAsset}: $e');

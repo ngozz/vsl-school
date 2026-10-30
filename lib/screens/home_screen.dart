@@ -1,12 +1,16 @@
 ﻿import 'dart:async';
+import 'dart:io';
 
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 
 import '../main.dart';
 import '../models/lesson.dart';
 import '../services/settings_service.dart';
+import '../services/settings_service.dart' show ThemeChoice;
 import '../widgets/download_dialogs.dart';
-import '../config.dart' show AppConfig;
+import '../widgets/onboarding.dart';
+import '../config.dart' show AppConfig, CdnConfig;
 import 'lesson_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -37,6 +41,26 @@ class _HomeScreenState extends State<HomeScreen> {
       await App.downloads.initialize();
       if (!mounted) return;
       setState(() => _ready = true);
+      // Surface a silent downloader failure instead of degrading quietly.
+      if (CdnConfig.useCdn &&
+          !kIsWeb &&
+          (Platform.isAndroid || Platform.isIOS) &&
+          !App.downloads.active) {
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (mounted) {
+            _snack('CDN không khả dụng — tải/phát trực tuyến bị tắt.');
+          }
+        });
+      }
+      // First launch: show the onboarding once (re-openable in settings).
+      if (!App.settings.introSeen) {
+        WidgetsBinding.instance.addPostFrameCallback((_) async {
+          if (!mounted) return;
+          await Navigator.of(context).push(MaterialPageRoute(
+              builder: (_) => const OnboardingPage(), fullscreenDialog: true));
+          App.settings.setIntroSeen();
+        });
+      }
       if (App.downloads.active && App.settings.checkUpdates) {
         unawaited(_startupUpdateCheck());
       }
@@ -48,6 +72,40 @@ class _HomeScreenState extends State<HomeScreen> {
         });
       }
     }
+  }
+
+  /// iOS: opening a not-fully-downloaded lesson blocks on the download
+  /// popup (progress shows on the home screen); Android streams directly.
+  Future<void> _openLesson(Lesson lesson) async {
+    final dl = App.downloads;
+    if (dl.active && !kIsWeb && Platform.isIOS) {
+      final entries = dl.entriesForLesson(lesson.id);
+      if (entries != null &&
+          entries.any((e) => !dl.hasPlayableLocal(e.name))) {
+        final ok =
+            await DownloadDialogs.ensureLessonDownloaded(context, dl, entries);
+        if (!mounted) return;
+        if (!ok) return;
+      }
+    }
+    if (!mounted) return;
+    Navigator.of(context).push(
+        MaterialPageRoute(builder: (ctx) => LessonScreen(lesson: lesson)));
+  }
+
+  Future<void> _deleteAllData() async {
+    final dl = App.downloads;
+    if (dl.downloadedCount == 0) return;
+    if (!await DownloadDialogs.confirmDeleteAll(context, dl)) return;
+    if (!mounted) return;
+    final n = await dl.deleteAll();
+    _snack('Đã xoá $n video.');
+  }
+
+  Future<void> _showIntro() async {
+    await Navigator.of(context).push(MaterialPageRoute(
+        builder: (_) => const OnboardingPage(), fullscreenDialog: true));
+    App.settings.setIntroSeen();
   }
 
   /// Auto-*check* at startup (cheap manifest fetch); applying is manual.
@@ -231,7 +289,25 @@ class _HomeScreenState extends State<HomeScreen> {
                                       _manualUpdateCheck();
                                     },
                             ),
+                            OutlinedButton.icon(
+                              icon: const Icon(Icons.delete_outline, size: 18),
+                              label: const Text('Xoá dữ liệu đã tải'),
+                              onPressed: dl.downloadedCount == 0
+                                  ? null
+                                  : () {
+                                      Navigator.pop(sheetContext);
+                                      _deleteAllData();
+                                    },
+                            ),
                           ],
+                        ),
+                        TextButton.icon(
+                          icon: const Icon(Icons.slideshow, size: 18),
+                          label: const Text('Xem lại hướng dẫn'),
+                          onPressed: () {
+                            Navigator.pop(sheetContext);
+                            _showIntro();
+                          },
                         ),
                       ],
                       const SizedBox(height: 12),
@@ -303,12 +379,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     return _LessonTile(
                                         lesson: l,
                                         hasUpdate: staleIds.contains(l.id),
-                                        onTap: () =>
-                                            Navigator.of(context).push(
-                                                MaterialPageRoute(
-                                                    builder: (ctx) =>
-                                                        LessonScreen(
-                                                            lesson: l))));
+                                        onTap: () => unawaited(_openLesson(l)));
                                   },
                                   childCount: _lessons.length,
                                 ),

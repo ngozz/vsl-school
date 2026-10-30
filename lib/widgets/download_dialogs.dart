@@ -18,6 +18,57 @@ abstract final class DownloadDialogs {
     return true;
   }
 
+  /// "Xoá tất cả dữ liệu đã tải?" — the cleanup confirmation.
+  static Future<bool> confirmDeleteAll(
+      BuildContext context, DownloadService dl) async {
+    return await showDialog<bool>(
+          context: context,
+          builder: (context) => AlertDialog(
+            title: const Text('Xoá dữ liệu đã tải'),
+            content: Text(
+                'Xoá ${dl.downloadedCount} video đã tải '
+                '(~${_fmtBytes(dl.downloadedBytes)})? '
+                'Video sẽ phát trực tuyến từ CDN.'),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context, false),
+                child: const Text('Huỷ'),
+              ),
+              FilledButton(
+                onPressed: () => Navigator.pop(context, true),
+                child: const Text('Xoá'),
+              ),
+            ],
+          ),
+        ) ??
+        false;
+  }
+
+  /// iOS: blocks opening a lesson until its videos are on the device.
+  /// Decision → live progress popup (stays on the home screen) → true when
+  /// every entry has a verified local copy. Cancelling cancels the in-flight
+  /// tasks (downloaded copies are kept).
+  static Future<bool> ensureLessonDownloaded(BuildContext context,
+      DownloadService dl, List<VideoEntry> entries) async {
+    final remaining = [
+      for (final e in entries)
+        if (!dl.hasPlayableLocal(e.name)) e,
+    ];
+    if (remaining.isEmpty) return true;
+    final bytes = remaining.fold(0, (a, e) => a + e.size);
+    if (!await confirmBatch(context, remaining.length, bytes)) return false;
+    if (!context.mounted) return false;
+    if (!await ensureNetworkOk(context, dl, bytes)) return false;
+    if (!context.mounted) return false;
+    dl.enqueueAll(remaining);
+    final result = await showDialog<bool>(
+      context: context,
+      barrierDismissible: false,
+      builder: (_) => _LessonProgressDialog(dl: dl, entries: remaining),
+    );
+    return result ?? false;
+  }
+
   /// "Sẽ tải N video (~X MB)" — the 3 GB-class warning before download-all.
   static Future<bool> confirmBatch(
       BuildContext context, int fileCount, int bytes) async {
@@ -135,5 +186,77 @@ abstract final class DownloadDialogs {
     final mb = b / 1048576;
     if (mb >= 1024) return '${(mb / 1024).toStringAsFixed(1)} GB';
     return '${mb.round()} MB';
+  }
+}
+
+/// Live progress for the iOS lesson-download gate: X/Y video, MB counters
+/// and a bar. Auto-closes when every entry has a verified local copy;
+/// the Huỷ button cancels in-flight tasks (downloaded copies are kept).
+class _LessonProgressDialog extends StatefulWidget {
+  final DownloadService dl;
+  final List<VideoEntry> entries;
+
+  const _LessonProgressDialog({required this.dl, required this.entries});
+
+  @override
+  State<_LessonProgressDialog> createState() => _LessonProgressDialogState();
+}
+
+class _LessonProgressDialogState extends State<_LessonProgressDialog> {
+  bool _closed = false;
+
+  void _finish(bool ok) {
+    if (_closed) return;
+    _closed = true;
+    Navigator.of(context).pop(ok);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return AnimatedBuilder(
+      animation: widget.dl,
+      builder: (context, _) {
+        final entries = widget.entries;
+        final allDone = entries.every((e) => widget.dl.hasPlayableLocal(e.name));
+        if (allDone) _finish(true);
+        final total = entries.fold(0, (a, e) => a + e.size);
+        var doneBytes = 0;
+        var doneCount = 0;
+        for (final e in entries) {
+          final done = widget.dl.hasPlayableLocal(e.name);
+          if (done) doneCount++;
+          final p =
+              done ? 1.0 : widget.dl.progressOf(e.name).clamp(0.0, 1.0);
+          doneBytes += (e.size * p).round();
+        }
+        return AlertDialog(
+          title: const Text('Đang tải bài học'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                  '$doneCount/${entries.length} video — '
+                  '${DownloadDialogs._fmtBytes(doneBytes)} / ${DownloadDialogs._fmtBytes(total)}',
+                  style: Theme.of(context).textTheme.bodyMedium),
+              const SizedBox(height: 12),
+              LinearProgressIndicator(
+                  value: total == 0 ? null : doneBytes / total),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                _closed = true;
+                widget.dl
+                    .cancelTasks(entries.map((e) => e.name));
+                Navigator.of(context).pop(false);
+              },
+              child: const Text('Huỷ'),
+            ),
+          ],
+        );
+      },
+    );
   }
 }
