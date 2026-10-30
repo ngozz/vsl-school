@@ -82,6 +82,9 @@ class DownloadService extends ChangeNotifier {
   final List<String> _failedNames = [];
   final Map<String, Completer<bool>> _waiters = {};
   final Map<String, String> _taskGroups = {}; // name → notification group
+  int _batchTotal = 0; // baked total of the current batch (notification/UI)
+  int _deleteDone = 0;
+  int _deleteTotal = 0;
 
   final Map<String, VideoEntry> _catalogByName = {};
   final Map<String, List<VideoEntry>> _lessonEntries = {};
@@ -316,6 +319,7 @@ class DownloadService extends ChangeNotifier {
           _failedNames.add(name);
           _completeWaiter(name, false);
           _taskGroups.remove(name);
+          if (busyBatchCount == 0) _batchTotal = 0;
         }
       }
     }
@@ -370,6 +374,7 @@ class DownloadService extends ChangeNotifier {
     }
     _completeWaiter(name, ok);
     _taskGroups.remove(name);
+    if (busyBatchCount == 0) _batchTotal = 0;
     notifyListeners();
   }
 
@@ -431,14 +436,25 @@ class DownloadService extends ChangeNotifier {
       created++;
     }
     // iOS: a dynamic group text re-issues a notification per change — stay
-    // silent there (progress lives in the app). Android shows X/Y with the
-    // precalculated total.
+    // silent there (progress lives in the app). Android: a neutral STATIC
+    // text — no dynamic placeholders, so nothing can trail; the complete
+    // notification fires from the final worker when the batch ends.
     if (!Platform.isIOS && created > 0) {
       final total = outstanding + created;
+      var remainingBytes = 0;
+      _expect.forEach((taskId, e) {
+        if (_taskGroups[e.name] == _taskGroup) remainingBytes += e.size;
+      });
+      final mb = remainingBytes >= 1073741824
+          ? '${(remainingBytes / 1073741824).toStringAsFixed(1)} GB'
+          : '${(remainingBytes / 1048576).round()} MB';
+      _batchTotal = total;
       _dl.configureNotificationForGroup(
         _taskGroup,
         running: TaskNotification(
-            'Đang tải bài học', 'Đã tải {numFinished}/$total'),
+            'Đang tải trong nền', '$total video (~$mb MB)'),
+        complete: const TaskNotification(
+            'Hoàn tất tải', 'Đã tải xong {numFinished} video'),
         error: const TaskNotification('Lỗi tải bài học', '{numFailed} lỗi'),
         groupNotificationId: 'vsl_school_downloads',
       );
@@ -480,18 +496,7 @@ class DownloadService extends ChangeNotifier {
   int removeLocal(List<String> names) {
     var removed = 0;
     for (final name in names) {
-      if (!_downloaded.containsKey(name)) continue;
-      try {
-        final f = fileFor(name);
-        if (f.existsSync()) f.deleteSync();
-        final m = File(_metaPath(name));
-        if (m.existsSync()) m.deleteSync();
-      } catch (e) {
-        debugPrint('[DOWNLOAD] remove $name: $e');
-        continue;
-      }
-      _downloaded.remove(name);
-      removed++;
+      if (_removeOne(name)) removed++;
     }
     if (removed > 0) notifyListeners();
     return removed;
@@ -507,11 +512,60 @@ class DownloadService extends ChangeNotifier {
     await _dl.cancelTasksWithIds(ids);
   }
 
+  /// Cancels every in-flight batch download (downloaded copies are kept).
+  Future<void> cancelBatch() =>
+      cancelTasks(_taskGroups.entries
+          .where((e) => e.value == _taskGroup)
+          .map((e) => e.key));
+
+  /// In-flight batch downloads (the notification group).
+  int get busyBatchCount => _taskGroups.entries
+      .where((e) => e.value == _taskGroup && isBusy(e.key))
+      .length;
+
+  /// The baked total of the current batch (0 when idle).
+  int get batchTotal => _batchTotal;
+
+  /// Deletion progress for the in-app banner (0/0 when idle).
+  int get deleteDone => _deleteDone;
+  int get deleteTotal => _deleteTotal;
+
   /// Deletes every downloaded copy, canceling in-flight tasks first.
-  /// Returns how many files were removed.
+  /// Reports progress via [deleteDone]/[deleteTotal] for the in-app banner.
   Future<int> deleteAll() async {
     await cancelTasks(_catalogByName.keys);
-    return removeLocal(_downloaded.keys.toList());
+    final names = _downloaded.keys.toList();
+    if (names.isEmpty) return 0;
+    _deleteTotal = names.length;
+    _deleteDone = 0;
+    notifyListeners();
+    var removed = 0;
+    for (final name in names) {
+      if (_removeOne(name)) removed++;
+      _deleteDone++;
+      notifyListeners();
+      // Yield so the banner can repaint between files.
+      await Future<void>.delayed(Duration.zero);
+    }
+    _deleteDone = 0;
+    _deleteTotal = 0;
+    notifyListeners();
+    return removed;
+  }
+
+  bool _removeOne(String name) {
+    if (!_downloaded.containsKey(name)) return false;
+    try {
+      final f = fileFor(name);
+      if (f.existsSync()) f.deleteSync();
+      final m = File(_metaPath(name));
+      if (m.existsSync()) m.deleteSync();
+    } catch (e) {
+      debugPrint('[DOWNLOAD] remove $name: $e');
+      return false;
+    }
+    _downloaded.remove(name);
+    return true;
   }
 
   // ── Network detection (Wi-Fi / mobile-data UX) ──────────────────────────

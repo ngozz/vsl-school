@@ -8,6 +8,7 @@ import '../main.dart';
 import '../models/lesson.dart';
 import '../services/settings_service.dart';
 import '../services/settings_service.dart' show ThemeChoice;
+import '../widgets/download_banner.dart';
 import '../widgets/download_dialogs.dart';
 import '../widgets/onboarding.dart';
 import '../config.dart' show AppConfig, CdnConfig;
@@ -363,30 +364,41 @@ class _HomeScreenState extends State<HomeScreen> {
                     return Center(
                       child: ConstrainedBox(
                         constraints: const BoxConstraints(maxWidth: 720),
-                        child: CustomScrollView(
-                          slivers: [
-                            SliverPadding(
-                              padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-                              sliver: SliverToBoxAdapter(child: _filters()),
-                            ),
-                            SliverPadding(
-                              padding:
-                                  const EdgeInsets.symmetric(horizontal: 16),
-                              sliver: SliverList(
-                                delegate: SliverChildBuilderDelegate(
-                                  (context, i) {
-                                    final l = _lessons[i];
-                                    return _LessonTile(
-                                        lesson: l,
-                                        hasUpdate: staleIds.contains(l.id),
-                                        onTap: () => unawaited(_openLesson(l)));
-                                  },
-                                  childCount: _lessons.length,
-                                ),
+                        child: Column(
+                          children: [
+                            const DownloadBanner(),
+                            Expanded(
+                              child: CustomScrollView(
+                                slivers: [
+                                  SliverPadding(
+                                    padding:
+                                        const EdgeInsets.fromLTRB(16, 8, 16, 8),
+                                    sliver: SliverToBoxAdapter(
+                                        child: _filters()),
+                                  ),
+                                  SliverPadding(
+                                    padding: const EdgeInsets.symmetric(
+                                        horizontal: 16),
+                                    sliver: SliverList(
+                                      delegate: SliverChildBuilderDelegate(
+                                        (context, i) {
+                                          final l = _lessons[i];
+                                          return _LessonTile(
+                                              lesson: l,
+                                              hasUpdate:
+                                                  staleIds.contains(l.id),
+                                              onTap: () => unawaited(
+                                                  _openLesson(l)));
+                                        },
+                                        childCount: _lessons.length,
+                                      ),
+                                    ),
+                                  ),
+                                  const SliverPadding(
+                                      padding: EdgeInsets.only(bottom: 24)),
+                                ],
                               ),
                             ),
-                            const SliverPadding(
-                                padding: EdgeInsets.only(bottom: 24)),
                           ],
                         ),
                       ),
