@@ -67,10 +67,14 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
       }));
     }
     // Resolver order: downloaded file → CDN stream → bundled asset.
-    final name = widget.videoAsset.split('/').last;
+    final name = widget.videoAsset.split('/').last; // e.g. TOANL3KB01_02.mp4
+    // DownloadService stores _downloaded keys without the .mp4 extension.
+    final bare = name.endsWith('.mp4')
+        ? name.substring(0, name.length - 4)
+        : name;
     final src = !CdnConfig.useCdn
         ? VideoSource.asset
-        : App.downloads.resolve(name);
+        : App.downloads.resolve(bare);
     _isNetwork = src == VideoSource.network;
     final c = switch (src) {
       VideoSource.asset => VideoPlayerController.asset(
@@ -80,7 +84,7 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
           videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
         ),
       VideoSource.localFile => VideoPlayerController.file(
-          App.downloads.fileFor(name),
+          App.downloads.fileFor(bare),
           closedCaptionFile: _loadCaptions(widget.captionAsset),
           videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
         ),
