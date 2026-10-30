@@ -16,10 +16,11 @@ class CdnConfig {
 
   /// Does this build bundle data/videos as APK assets? Kept in sync with
   /// pubspec.yaml by tools/toggle_videos.ps1.
-  static const bool videosBundled = true;
+  static const bool videosBundled = false;
 
-  /// Base URL of the media Cloudflare Pages project (no trailing slash).
-  static const String baseUrl = 'https://vsl-school-media.pages.dev';
+  /// Base URL of the media Workers (static assets) host, no trailing slash.
+  /// Serves /videos/{name}.mp4, /srt/, /thumbs/, /json mirrors.
+  static const String baseUrl = 'https://vsl-school-media.ngozz.workers.dev';
 }
 
 /// Playback & theming knobs.
@@ -39,4 +40,7 @@ class AppConfig {
 
   /// Captions default (first run / when nothing stored).
   static const bool defaultSubtitles = true;
+
+  /// Default for the "check for content updates at startup" user toggle.
+  static const bool checkUpdatesAtStart = true;
 }

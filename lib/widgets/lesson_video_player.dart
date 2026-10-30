@@ -6,6 +6,7 @@ import 'package:video_player/video_player.dart';
 
 import '../main.dart';
 import '../config.dart';
+import '../services/download_service.dart' show VideoSource;
 const _accent = Color(0xFF81C995); // active state colour (always on dark video)
 
 /// 16:9 lesson video with custom controls, SRT captions and a speed dropup.
@@ -31,6 +32,7 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
   VideoPlayerController? _controller;
   Future<void>? _init;
   bool _hasCaptions = false;
+  bool _isNetwork = false;
 
   /// New key per created surface; also bumped after fullscreen because on web
   /// the recycled platform view can end up with an empty texture.
@@ -64,20 +66,30 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
         debugPrint('[VIDEO] stale player dispose: $e');
       }));
     }
-    // Small (CDN) build: stream over https; full build: bundled asset.
-    final c = CdnConfig.videosBundled
-        ? VideoPlayerController.asset(
-            widget.videoAsset,
-            closedCaptionFile: _loadCaptions(widget.captionAsset),
-            // Never steal audio focus from other apps.
-            videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
-          )
-        : VideoPlayerController.networkUrl(
-            Uri.parse(
-                '${CdnConfig.baseUrl}/videos/${widget.videoAsset.split('/').last}'),
-            closedCaptionFile: _loadCaptions(widget.captionAsset),
-            videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
-          );
+    // Resolver order: downloaded file → CDN stream → bundled asset.
+    final name = widget.videoAsset.split('/').last;
+    final src = CdnConfig.videosBundled
+        ? VideoSource.asset
+        : App.downloads.resolve(name);
+    _isNetwork = src == VideoSource.network;
+    final c = switch (src) {
+      VideoSource.asset => VideoPlayerController.asset(
+          widget.videoAsset,
+          closedCaptionFile: _loadCaptions(widget.captionAsset),
+          // Never steal audio focus from other apps.
+          videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
+        ),
+      VideoSource.localFile => VideoPlayerController.file(
+          App.downloads.fileFor(name),
+          closedCaptionFile: _loadCaptions(widget.captionAsset),
+          videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
+        ),
+      VideoSource.network => VideoPlayerController.networkUrl(
+          Uri.parse('${CdnConfig.baseUrl}/videos/$name'),
+          closedCaptionFile: _loadCaptions(widget.captionAsset),
+          videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
+        ),
+    };
     _controller = c;
     _surfaceKey = UniqueKey();
     _init = _start(c);
@@ -87,7 +99,7 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
     var text = '';
     try {
       text = await rootBundle.loadString(asset);
-    } catch (_) {} // no SRT for this video â†’ CC button is disabled
+    } catch (_) {} // no SRT for this video → CC button is disabled
     // Only apply for the video that is still current; a superseded load may
     // resolve after a newer one and would describe the wrong video.
     if (widget.captionAsset == asset) {
@@ -128,6 +140,7 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
             body: _PlayerView(
               controller: c,
               hasCaptions: _hasCaptions,
+              isNetwork: _isNetwork,
               isFullscreen: true,
               onFullscreen: () => Navigator.of(ctx).pop(),
             ),
@@ -171,6 +184,7 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
                 key: _surfaceKey,
                 controller: c,
                 hasCaptions: _hasCaptions,
+                isNetwork: _isNetwork,
                 isFullscreen: false,
                 onFullscreen: _enterFullscreen,
               );
@@ -186,6 +200,7 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
 class _PlayerView extends StatelessWidget {
   final VideoPlayerController controller;
   final bool hasCaptions;
+  final bool isNetwork;
   final bool isFullscreen;
   final VoidCallback onFullscreen;
 
@@ -193,6 +208,7 @@ class _PlayerView extends StatelessWidget {
     super.key,
     required this.controller,
     required this.hasCaptions,
+    required this.isNetwork,
     required this.isFullscreen,
     required this.onFullscreen,
   });
@@ -215,6 +231,7 @@ class _PlayerView extends StatelessWidget {
         _Controls(
           controller: controller,
           hasCaptions: hasCaptions,
+          isNetwork: isNetwork,
           isFullscreen: isFullscreen,
           onFullscreen: onFullscreen,
         ),
@@ -270,17 +287,19 @@ class _Captions extends StatelessWidget {
   }
 }
 
-/// [play] [â€”â€”seekâ€”â€”] [0:01 / 0:03] [CC] [speed] [fullscreen]
+/// [play] [——seek——] [0:01 / 0:03] [CC] [speed] [fullscreen]
 /// Tap the video to show/hide. Auto-hides while playing.
 class _Controls extends StatefulWidget {
   final VideoPlayerController controller;
   final bool hasCaptions;
+  final bool isNetwork; // streamed over http → seek only when fully buffered
   final bool isFullscreen;
   final VoidCallback onFullscreen; // enter, or exit when isFullscreen
 
   const _Controls({
     required this.controller,
     required this.hasCaptions,
+    this.isNetwork = false,
     required this.isFullscreen,
     required this.onFullscreen,
   });
@@ -293,8 +312,12 @@ class _ControlsState extends State<_Controls> {
   Timer? _hideTimer;
   bool _visible = true;
   double? _dragMs; // non-null while scrubbing
+  bool _scrubUnlocked = false; // sticky: true once the whole file is buffered
 
   VideoPlayerController get _c => widget.controller;
+
+  /// Seek is locked while streaming and not yet fully buffered.
+  bool get _scrubLocked => widget.isNetwork && !_scrubUnlocked;
 
   @override
   void initState() {
@@ -324,6 +347,7 @@ class _ControlsState extends State<_Controls> {
 
   Future<void> _togglePlay(bool playing, bool ended) async {
     if (ended) {
+      if (_scrubLocked) return; // seek back to 0 stays locked until buffered
       await _c.seekTo(Duration.zero);
       await _c.play();
     } else {
@@ -353,7 +377,7 @@ class _ControlsState extends State<_Controls> {
             value: r,
             checked: r == current,
             height: itemH,
-            child: Text(r == 1.0 ? 'Chuáº©n' : '$rÃ—'),
+            child: Text(r == 1.0 ? 'Chuẩn' : '$r×'),
           ),
       ],
     );
@@ -378,6 +402,17 @@ class _ControlsState extends State<_Controls> {
             value.position.inMilliseconds >= durMs - 50;
         final show = _visible || !value.isPlaying || _dragMs != null;
 
+        // CDN streams ignore Range (200-only): the player re-downloads from
+        // byte 0 to satisfy a mid-file seek. Lock the scrubber until the
+        // whole small file is buffered — then seeking is free forever.
+        final buffered = value.buffered;
+        if (durMs > 0 &&
+            buffered.isNotEmpty &&
+            buffered.last.end.inMilliseconds >= durMs - 30) {
+          _scrubUnlocked = true;
+        }
+        final scrubLocked = _scrubLocked;
+
         Widget bar = Padding(
           padding: EdgeInsets.fromLTRB(4, 0, 4, widget.isFullscreen ? 8 : 2),
           child: Row(
@@ -388,8 +423,10 @@ class _ControlsState extends State<_Controls> {
                     : value.isPlaying
                         ? Icons.pause
                         : Icons.play_arrow,
-                tooltip: ended ? 'PhÃ¡t láº¡i' : value.isPlaying ? 'Táº¡m dá»«ng' : 'PhÃ¡t',
-                onPressed: () => _togglePlay(value.isPlaying, ended),
+                tooltip: ended ? 'Phát lại' : value.isPlaying ? 'Tạm dừng' : 'Phát',
+                onPressed: (ended && scrubLocked)
+                    ? null
+                    : () => _togglePlay(value.isPlaying, ended),
               ),
               Expanded(
                 child: SliderTheme(
@@ -411,15 +448,21 @@ class _ControlsState extends State<_Controls> {
                     min: 0,
                     max: maxMs,
                     value: posMs,
-                    onChangeStart: (v) => setState(() => _dragMs = v),
-                    onChanged: (v) {
-                      setState(() => _dragMs = v);
-                      _c.seekTo(Duration(milliseconds: v.round()));
-                    },
-                    onChangeEnd: (_) {
-                      setState(() => _dragMs = null);
-                      _scheduleHide();
-                    },
+                    onChangeStart: scrubLocked
+                        ? null
+                        : (v) => setState(() => _dragMs = v),
+                    onChanged: scrubLocked
+                        ? null
+                        : (v) {
+                            setState(() => _dragMs = v);
+                            _c.seekTo(Duration(milliseconds: v.round()));
+                          },
+                    onChangeEnd: scrubLocked
+                        ? null
+                        : (_) {
+                            setState(() => _dragMs = null);
+                            _scheduleHide();
+                          },
                   ),
                 ),
               ),
@@ -433,7 +476,7 @@ class _ControlsState extends State<_Controls> {
                 ),
               ),
               const SizedBox(width: 4),
-              // CC â€” on/off is remembered in settings (default on).
+              // CC — on/off is remembered in settings (default on).
               ListenableBuilder(
                 listenable: App.settings,
                 builder: (_, _) {
@@ -442,7 +485,7 @@ class _ControlsState extends State<_Controls> {
                     icon: on
                         ? Icons.closed_caption
                         : Icons.closed_caption_outlined,
-                    tooltip: 'Phá»¥ Ä‘á»',
+                    tooltip: 'Phụ đề',
                     color: on ? _accent : Colors.white,
                     onPressed: widget.hasCaptions
                         ? () {
@@ -453,11 +496,11 @@ class _ControlsState extends State<_Controls> {
                   );
                 },
               ),
-              // Speed â€” opens the dropup. Tinted while not at normal speed.
+              // Speed — opens the dropup. Tinted while not at normal speed.
               Builder(
                 builder: (ctx) => _BarButton(
                   icon: Icons.slow_motion_video,
-                  tooltip: 'Tá»‘c Ä‘á»™ phÃ¡t',
+                  tooltip: 'Tốc độ phát',
                   color: value.playbackSpeed == 1.0 ? Colors.white : _accent,
                   onPressed: () => _pickSpeed(ctx, value.playbackSpeed),
                 ),
@@ -466,7 +509,7 @@ class _ControlsState extends State<_Controls> {
                 icon: widget.isFullscreen
                     ? Icons.fullscreen_exit
                     : Icons.fullscreen,
-                tooltip: widget.isFullscreen ? 'Thu nhá»' : 'ToÃ n mÃ n hÃ¬nh',
+                tooltip: widget.isFullscreen ? 'Thu nhỏ' : 'Toàn màn hình',
                 onPressed: widget.onFullscreen,
               ),
             ],
@@ -516,6 +559,40 @@ class _ControlsState extends State<_Controls> {
                 ),
               ),
             ),
+            // Seek-lock hint: shown while the streamed file is not fully
+            // buffered yet (scrubber disabled).
+            if (scrubLocked && show)
+              Positioned(
+                left: 0,
+                right: 0,
+                bottom: widget.isFullscreen ? 64 : 54,
+                child: IgnorePointer(
+                  child: Center(
+                    child: DecoratedBox(
+                      decoration: BoxDecoration(
+                        color: const Color(0x99000000),
+                        borderRadius: BorderRadius.circular(999),
+                      ),
+                      child: Padding(
+                        padding:
+                            const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                        child: Row(mainAxisSize: MainAxisSize.min, children: [
+                          const SizedBox(
+                            width: 10,
+                            height: 10,
+                            child: CircularProgressIndicator(strokeWidth: 1.6),
+                          ),
+                          const SizedBox(width: 8),
+                          Text('Chờ tải đủ video để tua',
+                              style: TextStyle(
+                                  color: Colors.white.withValues(alpha: .9),
+                                  fontSize: 12)),
+                        ]),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
           ],
         );
       },
@@ -535,7 +612,7 @@ class _BarButton extends StatelessWidget {
   final IconData icon;
   final String tooltip;
   final Color color;
-  final VoidCallback? onPressed; // null â†’ disabled (dimmed)
+  final VoidCallback? onPressed; // null → disabled (dimmed)
 
   const _BarButton({
     required this.icon,

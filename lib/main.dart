@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 
 import 'services/settings_service.dart';
 import 'services/lesson_service.dart';
+import 'services/download_service.dart';
+import 'services/update_service.dart';
 import 'screens/home_screen.dart';
 import 'config.dart' show AppConfig;
 
@@ -13,7 +15,7 @@ void main() {
   runApp(const VslSchoolApp());
 }
 
-/// Material You themes seeded from green â€” same logic as vsl-dictionary.
+/// Material You themes seeded from green — same logic as vsl-dictionary.
 ///  - light: standard M3 light
 ///  - dark : standard M3 dark
 ///  - black: pure-black ("AMOLED") dark variant
@@ -139,4 +141,6 @@ class _VslSchoolAppState extends State<VslSchoolApp> {
 class App {
   static final settings = SettingsService();
   static final lessons = LessonService();
+  static final downloads = DownloadService();
+  static final updates = UpdateService();
 }

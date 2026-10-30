@@ -1,7 +1,11 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../main.dart';
 import '../models/lesson.dart';
+import '../services/download_service.dart';
+import '../widgets/download_dialogs.dart';
 import '../widgets/lesson_video_player.dart';
 
 /// One lesson: video player on top, clickable segment outline below.
@@ -30,6 +34,36 @@ class _LessonScreenState extends State<LessonScreen> {
     });
   }
 
+  Set<String> get _videoNames => {for (final s in _segments) s.video};
+
+  /// Per-lesson download with the same confirmations as download-all.
+  Future<void> _downloadLesson() async {
+    final dl = App.downloads;
+    final entries = <VideoEntry>[
+      for (final n in _videoNames)
+        if (!_isSafeToSkip(n))
+          dl.entryFor(n) ?? VideoEntry(name: n, size: 0, sha256: ''),
+    ];
+    if (entries.isEmpty) return;
+    final bytes = entries.fold(0, (a, e) => a + e.size);
+    if (!await DownloadDialogs.confirmBatch(context, entries.length, bytes)) {
+      return;
+    }
+    if (!mounted) return;
+    final wifi = await dl.onWifi();
+    if (!mounted) return;
+    if (!wifi && !(await DownloadDialogs.confirmMobileData(context, bytes))) {
+      return;
+    }
+    if (!mounted) return;
+    final n = dl.enqueueAll(entries);
+    ScaffoldMessenger.of(context)
+        .showSnackBar(SnackBar(content: Text('Đã bắt đầu tải $n video…')));
+  }
+
+  bool _isSafeToSkip(String name) =>
+      App.downloads.isDownloaded(name) || App.downloads.isBusy(name);
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -37,6 +71,48 @@ class _LessonScreenState extends State<LessonScreen> {
       appBar: AppBar(
         title: Text(widget.lesson.title,
             maxLines: 1, overflow: TextOverflow.ellipsis),
+        actions: [
+          if (App.downloads.active)
+            AnimatedBuilder(
+              animation: App.downloads,
+              builder: (context, _) {
+                if (_loading) return const SizedBox.shrink();
+                final names = _videoNames;
+                final done = App.downloads.allDownloaded(names);
+                if (done) {
+                  return const IconButton(
+                    tooltip: 'Đã tải về máy',
+                    icon: Icon(Icons.download_done,
+                        color: Color(0xFF81C995)),
+                    onPressed: null,
+                  );
+                }
+                final progress = App.downloads.lessonProgress(names);
+                if (progress > 0) {
+                  return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 14),
+                    child: Center(
+                      child: Text(
+                        '${(progress * 100).round()}%',
+                        style: TextStyle(
+                          color: Theme.of(context).colorScheme.primary,
+                          fontWeight: FontWeight.w700,
+                          fontFeatures: const [
+                            FontFeature.tabularFigures()
+                          ],
+                        ),
+                      ),
+                    ),
+                  );
+                }
+                return IconButton(
+                  tooltip: 'Tải bài này về máy',
+                  icon: const Icon(Icons.download_outlined),
+                  onPressed: _downloadLesson,
+                );
+              },
+            ),
+        ],
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator())

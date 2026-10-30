@@ -12,16 +12,19 @@ class SettingsService extends ChangeNotifier {
   static const _subtitlesKey = 'vsl_school.subtitles';
   static const _rememberSpeedKey = 'vsl_school.remember_speed';
   static const _speedKey = 'vsl_school.speed';
+  static const _checkUpdatesKey = 'vsl_school.check_updates';
 
   ThemeChoice _theme = ThemeChoice.dark;
   bool _subtitles = true; // CC on/off — always remembered, on by default
   bool _rememberSpeed = false; // opt-in: reuse the last speed for new videos
   double _speed = 1.0; // last chosen speed (only applied if _rememberSpeed)
+  bool _checkUpdates = true; // auto-check for content updates at startup
 
   ThemeChoice get theme => _theme;
   bool get subtitles => _subtitles;
   bool get rememberSpeed => _rememberSpeed;
   double get speed => _speed;
+  bool get checkUpdates => _checkUpdates;
 
   Future<void> load() async {
     final p = await SharedPreferences.getInstance();
@@ -30,6 +33,14 @@ class SettingsService extends ChangeNotifier {
     _subtitles = p.getBool(_subtitlesKey) ?? AppConfig.defaultSubtitles;
     _rememberSpeed = p.getBool(_rememberSpeedKey) ?? false;
     _speed = p.getDouble(_speedKey) ?? 1.0;
+    _checkUpdates = p.getBool(_checkUpdatesKey) ?? AppConfig.checkUpdatesAtStart;
+  }
+
+  Future<void> setCheckUpdates(bool on) async {
+    if (on == _checkUpdates) return;
+    _checkUpdates = on;
+    notifyListeners();
+    (await SharedPreferences.getInstance()).setBool(_checkUpdatesKey, on);
   }
 
   Future<void> setTheme(ThemeChoice choice) async {

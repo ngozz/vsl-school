@@ -46,3 +46,10 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Node / Cloudflare wrangler (CDN upload tooling)
+node_modules/
+.wrangler/
+.wrangler-deploy/
+.wrangler-configuration.json
+package-lock.json
