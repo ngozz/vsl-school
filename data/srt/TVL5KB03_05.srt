@@ -1,0 +1,28 @@
+1
+00:00:02,170 --> 00:00:08,020
+Các em đã đọc bài đọc giới thiệu về Văn Miếu Quốc Tử Giám.
+
+2
+00:00:08,020 --> 00:00:14,550
+Bài đọc Văn Miếu Quốc Tử Giám cho em biết điều gì?
+
+3
+00:00:15,130 --> 00:00:23,200
+Khoanh vào chữ cái trước câu trả lời đúng nhất.
+
+4
+00:00:23,840 --> 00:00:30,480
+A. Nước Việt Nam có nhiều trường đại học.
+
+5
+00:00:30,480 --> 00:00:36,370
+B. Nước Việt Nam có nhiều người đỗ tiến sĩ.
+
+6
+00:00:36,750 --> 00:00:46,000
+C. Nước Việt Nam có truyền thống hiếu học lâu đời.
+
+7
+00:00:47,240 --> 00:00:57,400
+Đáp án C:
+Nước Việt Nam có truyền thống hiếu học lâu đời.

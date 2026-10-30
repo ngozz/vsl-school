@@ -1,122 +1,143 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
+import 'services/settings_service.dart';
+import 'services/lesson_service.dart';
+import 'screens/home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  // Default orientation: portrait on mobile (fullscreen video rotates later).
+  SystemChrome.setPreferredOrientations(const [DeviceOrientation.portraitUp]);
+  runApp(const VslSchoolApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+const _seedGreen = Color(0xFF4CAF50);
 
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
+/// Material You themes seeded from green — same logic as vsl-dictionary.
+///  - light: standard M3 light
+///  - dark : standard M3 dark
+///  - black: pure-black ("AMOLED") dark variant
+ThemeData _buildTheme(ThemeChoice choice) {
+  switch (choice) {
+    case ThemeChoice.light:
+      final scheme = ColorScheme.fromSeed(
+          seedColor: _seedGreen, brightness: Brightness.light);
+      return _common(ThemeData(
+        useMaterial3: true,
+        colorScheme: scheme,
+        scaffoldBackgroundColor: scheme.surfaceContainerLowest,
+      ));
+    case ThemeChoice.dark:
+      final scheme = ColorScheme.fromSeed(
+          seedColor: _seedGreen, brightness: Brightness.dark);
+      return _common(ThemeData(
+        useMaterial3: true,
+        colorScheme: scheme,
+        scaffoldBackgroundColor: scheme.surfaceContainerLowest,
+      ));
+    case ThemeChoice.black:
+      const scheme = ColorScheme(
+        brightness: Brightness.dark,
+        primary: Color(0xFF81C995),
+        onPrimary: Color(0xFF00210C),
+        primaryContainer: Color(0xFF00391C),
+        onPrimaryContainer: Color(0xFF9CD6AE),
+        secondary: Color(0xFFB0CCB5),
+        onSecondary: Color(0xFF1B3221),
+        secondaryContainer: Color(0xFF334835),
+        onSecondaryContainer: Color(0xFFCCE8D1),
+        tertiary: Color(0xFFA2CFDF),
+        onTertiary: Color(0xFF003544),
+        tertiaryContainer: Color(0xFF204B5A),
+        onTertiaryContainer: Color(0xFFBEEBF8),
+        error: Color(0xFFFFB4AB),
+        onError: Color(0xFF690005),
+        errorContainer: Color(0xFF93000A),
+        onErrorContainer: Color(0xFFFFDAD6),
+        surface: Colors.black,
+        onSurface: Color(0xFFDDE5DC),
+        surfaceContainerLowest: Colors.black,
+        surfaceContainerLow: Color(0xFF0A0D0A),
+        surfaceContainer: Color(0xFF121512),
+        surfaceContainerHigh: Color(0xFF1A1E1B),
+        surfaceContainerHighest: Color(0xFF252925),
+        onSurfaceVariant: Color(0xFFBDC9BE),
+        outline: Color(0xFF879388),
+        outlineVariant: Color(0xFF414942),
+      );
+      return _common(ThemeData(
+        useMaterial3: true,
+        colorScheme: scheme,
+        scaffoldBackgroundColor: Colors.black,
+      ));
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
-    return Scaffold(
-      appBar: AppBar(
-        // TRY THIS: Try changing the color here to a specific color (to
-        // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
-        // change color while the other colors stay the same.
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          //
-          // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
-          // action in the IDE, or press "p" in the console), to see the
-          // wireframe for each widget.
-          mainAxisAlignment: .center,
-          children: [
-            const Text('You have pushed the button this many times:'),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
+/// Small shared polish applied to all three variants.
+ThemeData _common(ThemeData t) {
+  return t.copyWith(
+    appBarTheme: t.appBarTheme.copyWith(
+      surfaceTintColor: Colors.transparent,
+      centerTitle: false,
+    ),
+    cardTheme: const CardThemeData(elevation: 0),
+    snackBarTheme: const SnackBarThemeData(behavior: SnackBarBehavior.floating),
+    segmentedButtonTheme: SegmentedButtonThemeData(
+      style: ButtonStyle(
+        visualDensity: VisualDensity.compact,
+        side: WidgetStatePropertyAll(
+          BorderSide(color: t.colorScheme.outlineVariant),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ),
+    ),
+  );
+}
+
+class VslSchoolApp extends StatefulWidget {
+  const VslSchoolApp({super.key});
+
+  @override
+  State<VslSchoolApp> createState() => _VslSchoolAppState();
+}
+
+class _VslSchoolAppState extends State<VslSchoolApp> {
+  @override
+  void initState() {
+    super.initState();
+    App.settings.load().then((_) {
+      if (mounted) setState(() {}); // apply persisted theme after load
+    });
+    App.settings.addListener(_onSettings);
+  }
+
+  void _onSettings() {
+    if (mounted) setState(() {});
+  }
+
+  @override
+  void dispose() {
+    App.settings.removeListener(_onSettings);
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final choice = App.settings.theme;
+    return MaterialApp(
+      title: 'VSL School',
+      debugShowCheckedModeBanner: false,
+      theme: _buildTheme(ThemeChoice.light),
+      darkTheme: _buildTheme(
+          choice == ThemeChoice.light ? ThemeChoice.dark : choice),
+      themeMode: choice == ThemeChoice.light ? ThemeMode.light : ThemeMode.dark,
+      home: const HomeScreen(),
     );
   }
+}
+
+/// App-scoped singleton holder.
+class App {
+  static final settings = SettingsService();
+  static final lessons = LessonService();
 }

@@ -1,0 +1,4 @@
+1
+00:00:01,340 --> 00:00:18,620
+Bây giờ, mỗi em hãy viết 4 đến 5 câu kể các việc em làm
+cùng với bạn bè hoặc người thân.

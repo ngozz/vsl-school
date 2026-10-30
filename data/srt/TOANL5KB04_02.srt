@@ -1,0 +1,43 @@
+1
+00:00:01,680 --> 00:00:08,880
+Nhân một số số thập phân với một số tự nhiên.
+
+2
+00:00:08,880 --> 00:00:16,660
+Ví dụ: Tính 1,2 nhân 3
+
+3
+00:00:17,150 --> 00:00:24,420
+Để tính 1,2 nhân 3 ta làm như sau:
+
+4
+00:00:24,420 --> 00:00:31,060
+Thực hiện phép nhân như nhân các số tự nhiên:
+
+5
+00:00:31,400 --> 00:00:44,860
+Phần thập phân của số 1,2 có một chữ số, ta dùng dấu phẩy
+ tách ở tích ra một chữ số kể từ phải sang trái,
+ đánh dấu phẩy vào kết quả.
+
+6
+00:00:45,060 --> 00:00:54,080
+Vậy: 1,2 nhân 3 bằng 3,6
+
+7
+00:00:54,510 --> 00:01:03,420
+Kết luận:
+Muốn nhân một số thập phân với một số tự nhiên ta làm như sau:
+
+8
+00:01:03,420 --> 00:01:08,770
+Nhân như nhân các số tự nhiên.
+
+9
+00:01:08,770 --> 00:01:20,950
+Đếm chữ số trong phần thập phân rồi dùng dấu phẩy tách ra
+ ở tích ra bấy nhiêu chữ số kể từ phải sang trái.
+
+10
+00:01:21,460 --> 00:01:37,000
+Để nắm chắc quy tắc chúng ta làm thêm các ví dụ sau:

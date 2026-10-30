@@ -1,0 +1,40 @@
+1
+00:00:03,550 --> 00:00:10,420
+Một cậu bé đang đi trên phố.
+
+2
+00:00:10,420 --> 00:00:16,260
+Một ông lão ăn xin bước đến trước mặt cậu.
+
+3
+00:00:16,260 --> 00:00:25,020
+Dáng người ông lọm khọm, quần áo ông rách rưới.
+
+4
+00:00:25,640 --> 00:00:36,220
+Ông chìa bàn tay sưng vù, bẩn thỉu cầu xin cứu giúp.
+
+5
+00:00:37,080 --> 00:00:48,710
+Cậu bé lục tìm các túi, nhưng không tìm được gì để cho ông lão.
+
+6
+00:00:50,040 --> 00:00:54,510
+Cậu bé nắm chặt bàn tay ông:
+
+7
+00:00:54,510 --> 00:01:05,820
+Ông đừng giận cháu, cháu không có gì để cho ông cả.
+
+8
+00:01:06,800 --> 00:01:17,020
+Người ăn xin nhìn cậu bé, cặp môi tái nhợt nở nụ cười.
+
+9
+00:01:17,020 --> 00:01:22,080
+Ông năm tay cậu, nói:
+
+10
+00:01:22,080 --> 00:01:35,730
+Cảm ơn cháu!
+Cháu đã cho lão tình thương là đủ rồi.

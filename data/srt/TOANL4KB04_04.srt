@@ -1,0 +1,36 @@
+1
+00:00:01,407 --> 00:00:12,165
+Cần điền số vào chỗ trống để hoàn thành bài giải cho bài toán.
+
+2
+00:00:13,218 --> 00:00:24,966
+Bài toán cho biết những gì?
+
+3
+00:00:25,908 --> 00:00:34,569
+Buổi thứ nhất, Nga giải được 3 bài tập.
+
+4
+00:00:34,799 --> 00:00:43,138
+Buổi thứ hai, Nga giải được 5 bài tập.
+
+5
+00:00:43,787 --> 00:00:52,289
+Buổi thứ ba, Nga giải được 4 bài tập.
+
+6
+00:00:53,176 --> 00:00:59,100
+Bài toán yêu cầu gì?
+
+7
+00:01:01,976 --> 00:01:16,543
+Trung bình mỗi buổi tự học Nga giải được bao nhiêu bài tập?
+
+8
+00:01:18,226 --> 00:01:30,562
+Tìm tổng số bài tập Nga đã giải?
+
+9
+00:01:32,014 --> 00:01:42,506
+Chia tổng số bài tập cho 3 buổi học,
+ ta được số bài tập trung bình mỗi buổi.

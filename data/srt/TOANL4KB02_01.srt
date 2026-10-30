@@ -1,0 +1,16 @@
+1
+00:00:00,714 --> 00:00:03,171
+Chào các em!
+
+2
+00:00:04,913 --> 00:00:14,163
+Bài này chúng ta cùng ôn tập về phép nhân
+ với số có hai chữ số.
+
+3
+00:00:14,191 --> 00:00:24,852
+Luyên tập phép nhân với 10, 100, 1 000
+
+4
+00:00:25,069 --> 00:00:39,082
+Luyện tập phép nhân với tính chất giao hoán và kết hợp của phép nhân.

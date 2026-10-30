@@ -1,0 +1,55 @@
+1
+00:00:03,420 --> 00:00:05,890
+Quy đồng mẫu số hai phân số.
+
+2
+00:00:07,200 --> 00:00:34,520
+Ví dụ 4: Cho hai phân số một phần hai và một phần ba,
+tìm hai phân số có cùng mẫu số, trong đó có một phân số bằng một phần hai và một phân số bằng một phần ba.
+
+3
+00:00:37,760 --> 00:00:44,560
+Thực chất ta quy đồng mẫu số hai phân số một phần hai
+và một phần ba.
+
+4
+00:00:48,170 --> 00:00:56,970
+Muốn quy đồng mẫu số hai phân số một phần hai và
+một phần ba, ta làm mấy bước, là những bước nào?
+
+5
+00:01:06,050 --> 00:01:10,750
+Nhân cả tử số và mẫu số của một phần hai với ba
+
+6
+00:01:16,450 --> 00:01:22,000
+Nhân cả tử số và mẫu số của một phần ba với hai.
+
+7
+00:01:27,580 --> 00:01:37,760
+Ta nói rằng hai phân số một phần hai và một phần ba đã được quy đồng mẫu số thành hai phân số ba phần sáu và
+hai phần sáu.
+
+8
+00:01:41,720 --> 00:01:49,730
+Sáu gọi là mẫu số chung của hai phân số
+ba phần sáu và hai phần sáu.
+
+9
+00:01:54,100 --> 00:02:03,340
+Mẫu số chung chia hết cho mẫu số của hai phân số
+một phần hai và một phần ba.
+
+10
+00:02:07,640 --> 00:02:12,280
+Kết luận: Muốn quy đồng mẫu số hai phân số ta làm như sau.
+
+11
+00:02:16,620 --> 00:02:24,620
+Lấy tử số và mẫu số của phân số thứ nhất nhân với mẫu số
+của phân số thứ hai.
+
+12
+00:02:28,990 --> 00:02:35,980
+Lấy tử số và mẫu số của phân số thứ hai nhân với mẫu số
+của phân số thứ nhất.

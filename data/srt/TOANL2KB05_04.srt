@@ -1,0 +1,23 @@
+1
+00:00:14,220 --> 00:00:23,640
+Hãy quan sát các tờ lịch tháng
+
+2
+00:00:23,640 --> 00:00:41,970
+Nhìn vào tờ lịch chúng ta biết số ngày trong một tháng
+
+3
+00:00:41,970 --> 00:00:48,220
+Tháng 9 có bao nhiêu ngày?
+
+4
+00:00:48,220 --> 00:00:56,150
+Ngày mùng 8 tháng 9 là thứ mấy?
+
+5
+00:00:56,880 --> 00:01:04,440
+Chủ nhật của tháng 9 là những ngày nào?
+
+6
+00:01:04,440 --> 00:01:12,220
+Ngày mùng 7 tháng 9 là thứ mấy?

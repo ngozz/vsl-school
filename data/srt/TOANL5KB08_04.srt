@@ -1,0 +1,35 @@
+1
+00:00:01,300 --> 00:00:10,500
+Diện tích xung quanh và diện tích toàn phần của
+hình (khối) lập phương.
+
+2
+00:00:11,120 --> 00:00:22,320
+Diện tích xung quanh của hình lập phương bằng
+diện tích một mặt nhân với 4.
+
+3
+00:00:22,320 --> 00:00:38,470
+Diện tích toàn phần của hình lập phương bằng
+diện tích một mặt nhân với 6.
+
+4
+00:00:41,020 --> 00:01:02,850
+Ví dụ: Tính diện tích xung quanh và diện tích toàn phần của
+hình lập phương có cạnh 5 cm.
+
+5
+00:01:04,420 --> 00:01:08,600
+Diện tích xung quanh của hình lập phương đó là:
+
+6
+00:01:08,600 --> 00:01:21,170
+(5 x 5) x 4 = 100 (cm<sup>2</sup>)
+
+7
+00:01:21,170 --> 00:01:27,170
+Diện tích toàn phần của hình lập phương đó là:
+
+8
+00:01:27,170 --> 00:01:42,720
+(5 x 5) x 6 = 150 (cm<sup>2</sup>)

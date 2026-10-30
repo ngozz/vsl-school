@@ -1,0 +1,4 @@
+1
+00:00:00,550 --> 00:00:10,070
+Hôm nay các em học cách viết đoạn văn về
+nhân vật em yêu thích.

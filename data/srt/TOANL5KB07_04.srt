@@ -1,0 +1,94 @@
+1
+00:00:00,720 --> 00:00:06,850
+Hình tròn, đường tròn
+
+2
+00:00:09,700 --> 00:00:13,440
+Chúng ta cùng quan sát hình sau:
+
+3
+00:00:16,590 --> 00:00:18,900
+Hình tròn
+
+4
+00:00:21,630 --> 00:00:27,540
+Để vẽ đường tròn tâm O ta làm như sau:
+
+5
+00:00:30,670 --> 00:00:43,210
+Ta đặt đầu nhọn của com-pa tạo điểm O,
+
+6
+00:00:43,440 --> 00:00:55,100
+và lấy đầu chì của com-pa vạch trên tờ giấy đủ một vòng,
+ta được một đường tròn với tâm O
+
+7
+00:00:57,140 --> 00:01:08,190
+nối tâm O với điểm A trên đường tròn,
+ta được bán kính OA của hình tròn.
+
+8
+00:01:10,580 --> 00:01:16,040
+Tất cả các bán kính của hình tròn đều bằng nhau.
+
+9
+00:01:18,490 --> 00:01:25,040
+Nối điểm M, N nằm trên đường tròn qua tâm O thành một đoạn thẳng
+
+10
+00:01:25,720 --> 00:01:30,900
+thì MN là đường kính của hình tròn
+
+11
+00:01:34,320 --> 00:01:41,520
+Trong một hình tròn, đường kính dài gấp 2 lần bán kính.
+
+12
+00:01:48,430 --> 00:01:53,530
+Chu vi, diện tích hình tròn.
+
+13
+00:01:56,420 --> 00:02:00,560
+Gọi C là chu vi
+
+14
+00:02:01,390 --> 00:02:05,120
+S là diện tích của hình tròn
+
+15
+00:02:05,540 --> 00:02:08,640
+d là đường kính
+
+16
+00:02:10,100 --> 00:02:14,460
+r là bán kính của hình tròn
+
+17
+00:02:16,720 --> 00:02:26,440
+Muốn tính chu vi của hình tròn ta lấy đường kính nhân với số 3,14
+
+18
+00:02:31,080 --> 00:02:36,590
+Chúng ta có công thức tính chu vi của hình tròn là:
+
+19
+00:02:37,400 --> 00:02:56,910
+C = d x 3,14 hoặc C = r x 2 x 3,14
+
+20
+00:03:00,880 --> 00:03:13,970
+Muốn tính diện tích hình tròn
+ta lấy bán kính nhân với bán kính nhân với 3,14
+
+21
+00:03:17,930 --> 00:03:22,030
+Công thức tính diện tích của hình tròn là:
+
+22
+00:03:23,490 --> 00:03:31,930
+S = r x r x 3,14
+
+23
+00:03:37,180 --> 00:03:44,960
+Các em hãy đọc lại bài và tiếp tục làm các bài tập nhé!

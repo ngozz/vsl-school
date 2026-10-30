@@ -1,0 +1,50 @@
+1
+00:00:00,620 --> 00:00:11,700
+Thể tích hình (khối) hộp chữ nhật, hình (khối) lập phương.
+
+2
+00:00:11,700 --> 00:00:16,850
+Thể tích hình hộp chữ nhật
+
+3
+00:00:18,220 --> 00:00:26,520
+Chúng ta cùng quan sát hình sau:
+
+4
+00:00:27,300 --> 00:00:43,820
+Để tích thể tích hình hộp chữ nhật ta lấy chiều dài nhân với
+chiều rộng rồi nhân với chiều cao (cùng một đơn vị đo).
+
+5
+00:00:44,420 --> 00:01:05,870
+Gọi V là thể tích hình hộp chữ nhật.
+a, b, c là ba kích thước của hình hộp chữ nhật.
+
+6
+00:01:06,700 --> 00:01:19,820
+Ta có: V = a x b x c
+
+7
+00:01:20,850 --> 00:01:26,020
+Thể tích hình lập phương
+
+8
+00:01:27,020 --> 00:01:34,650
+Chúng ta cùng quan sát hình sau:
+
+9
+00:01:35,470 --> 00:01:49,570
+Để tính thể tích hình lập phương ta lấy cạnh nhân với cạnh rồi
+nhân với cạnh.
+
+10
+00:01:50,000 --> 00:01:55,070
+Gọi V là thể tích hình lập phương.
+
+11
+00:01:56,200 --> 00:02:07,750
+Ta có: V = a x a x a
+
+12
+00:02:10,170 --> 00:02:22,000
+Các em hãy đọc lại bài và tiếp tục làm các bài tập nhé.

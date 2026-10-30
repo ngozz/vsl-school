@@ -1,0 +1,4 @@
+1
+00:00:01,200 --> 00:00:11,370
+Chào các em. Hôm nay chúng ta sẽ cùng nhau tìm hiểu về
+hình (khối) hộp chữ nhật, hình (khối) lập phương.

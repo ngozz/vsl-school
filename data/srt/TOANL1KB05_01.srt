@@ -1,0 +1,16 @@
+1
+00:00:01,700 --> 00:00:04,150
+Chào các em!
+
+2
+00:00:05,559 --> 00:00:14,200
+Chúng ta cùng ôn tập về các số trong phạm vi 100.
+
+3
+00:00:15,900 --> 00:00:25,600
+Luyện tập về cách đếm, đọc và viết các số trong phạm vi 20,
+các số trong phạm vi 100.
+
+4
+00:00:25,600 --> 00:00:35,000
+Củng cố các số trong phạm vi 20, các số trong phạm vi 100.

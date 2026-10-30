@@ -1,0 +1,8 @@
+1
+00:00:01,340 --> 00:00:03,960
+Chuyện bốn mùa
+
+2
+00:00:06,100 --> 00:00:13,420
+Hôm nay các em học cách kể câu chuyện tên là
+"chuyện bốn mùa".

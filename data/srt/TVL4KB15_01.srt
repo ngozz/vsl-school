@@ -1,0 +1,3 @@
+1
+00:00:01,820 --> 00:00:14,060
+Hôm nay các em học về câu và các thành phần chính của câu.

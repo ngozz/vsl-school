@@ -1,0 +1,5 @@
+1
+00:00:03,081 --> 00:00:18,154
+Chào các em!
+Chúng ta cùng nhau học về một số đơn vị đo độ dài,
+khối lượng, dung tích.

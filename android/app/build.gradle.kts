@@ -5,9 +5,8 @@ plugins {
 }
 
 android {
-    namespace = "com.example.vsl_school"
+    namespace = "com.ngozz.vsl_school"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -16,7 +15,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.vsl_school"
+        applicationId = "com.ngozz.vsl_school"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
@@ -31,8 +30,8 @@ android {
 
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
+            // Debug-signed release builds for now; replace with a real
+            // signing config once a keystore is set up (CI or local).
             signingConfig = signingConfigs.getByName("debug")
         }
     }

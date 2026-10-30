@@ -1,0 +1,3 @@
+1
+00:00:02,550 --> 00:00:11,860
+Đọc từ ngữ dưới hình minh hoạ: <color=orange><b>lúa gạo</b></color>, <color=orange><b>vàng bạc</b></color>

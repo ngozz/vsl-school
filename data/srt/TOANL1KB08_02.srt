@@ -1,0 +1,24 @@
+1
+00:00:01,100 --> 00:00:09,000
+Ví dụ 1: Tính 57 – 23
+
+2
+00:00:09,000 --> 00:00:14,020
+Bước 1: Đặt tính
+
+3
+00:00:14,200 --> 00:00:31,150
+Bước 2: Thực hiện tính trừ từ phải sang trái.
+Trừ đơn vị cho đơn vị. Trừ chục cho chục.
+
+4
+00:00:31,600 --> 00:00:41,650
+Ta trừ như sau: bảy trừ ba bằng bốn, viết bốn.
+
+5
+00:00:41,920 --> 00:00:49,250
+Năm trừ hai bằng ba, viết ba.
+
+6
+00:00:49,820 --> 00:00:56,570
+Năm mươi bảy trừ hai mươi ba bằng ba mươi tư.

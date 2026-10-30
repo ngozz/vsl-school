@@ -1,0 +1,31 @@
+1
+00:00:00,750 --> 00:00:20,480
+Chúng ta ôn quy tắc chia nhẩm các số tròn chục,
+ tròn trăm, tròn nghìn cho 10; 100; 1 000 qua ví dụ 1
+
+2
+00:00:20,480 --> 00:00:36,970
+Muốn nhân một số với 10; 100; 1 000 ta chỉ việc viết thêm 1; 2; 3 chữ số 0 vào bên phải số đó
+
+3
+00:00:36,970 --> 00:00:54,350
+Ở câu a để điền 35 vào chỗ trống theo cách tìm một thừa số của tích lớp 2 ta đã thực hiện phép chia
+
+4
+00:00:54,350 --> 00:01:05,080
+350 chia 10 bằng 35
+
+5
+00:01:05,080 --> 00:01:21,240
+Tương tự với câu b để tìm thừa số điền vào chỗ trống
+ ta cần thực hiện phép chia 2500 chia 100 bằng 25
+
+6
+00:01:21,240 --> 00:01:36,910
+Tương tự với câu c ta thực hiện phép chia 72000 chia 1000 bằng 72
+
+7
+00:01:36,910 --> 00:01:57,860
+Kết luận: Khi chia các số tròn chục; tròn trăm; tròn nghìn...
+ cho 10; 100; 1 000;... ta chỉ việc bỏ bớt đi 1; 2; 3...
+ chữ số 0 ở bên phải số đó

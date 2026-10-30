@@ -1,0 +1,12 @@
+1
+00:00:03,800 --> 00:00:15,350
+Hãy kể tên một số câu chuyện em đã học hoặc đã đọc.
+
+2
+00:00:20,620 --> 00:00:31,900
+Em thích (hoặc không thích) nhân vật nào
+trong các câu chuyện em vừa kể?
+
+3
+00:00:35,470 --> 00:00:46,970
+Em hãy nói lí do vì sao em thích nhân vật đó?

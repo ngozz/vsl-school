@@ -1,0 +1,13 @@
+1
+00:00:00,770 --> 00:00:14,570
+Khi viết đoạn giới thiệu một nhân vật, các em cần giới thiệu
+tên, tuổi, những đặc điểm nổi bật của nhân vật.
+
+2
+00:00:14,570 --> 00:00:27,770
+Về tài năng, tính cách, tình cảm, những đóng góp,
+ảnh hưởng của nhân vật đó đối với mình hoặc với mọi người.
+
+3
+00:00:27,770 --> 00:00:40,400
+Em cần thể hiện suy nghĩ, tình cảm của mình đối với nhân vật.

@@ -1,0 +1,12 @@
+1
+00:00:01,234 --> 00:00:03,695
+Chào các em!
+
+2
+00:00:04,604 --> 00:00:12,025
+Chúng ta sẽ cùng nhau ôn tập về phép cộng, phép trừ các số thập phân.
+
+3
+00:00:14,033 --> 00:00:23,331
+Luyện tập làm tính giải các bài toán liên quan đến
+các phép cộng phép trừ với các số thập phân.

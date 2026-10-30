@@ -1,0 +1,74 @@
+1
+00:00:01,870 --> 00:00:10,000
+Phép cộng hai phân số khác mẫu số
+
+2
+00:00:10,300 --> 00:00:17,770
+Tính: ba phần tư cộng bốn phần năm bằng bao nhiêu?
+
+3
+00:00:17,770 --> 00:00:23,070
+Ta thấy 2 phân số khác mẫu số.
+
+4
+00:00:23,070 --> 00:00:29,100
+Vậy để cộng được hai phân số, ta làm như sau:
+
+5
+00:00:29,100 --> 00:00:39,900
+Bước 1: Quy đồng mẫu số hai phân số.
+
+6
+00:00:39,900 --> 00:01:01,750
+Bước 2: Cộng các phân số có cùng mẫu số.
+
+7
+00:01:05,250 --> 00:01:16,370
+Kết luận
+Muốn cộng hai phân số khác mẫu số ta thực hiện hai bước
+
+8
+00:01:16,370 --> 00:01:23,220
+Bước 1: Quy đồng mẫu số hai phân số.
+
+9
+00:01:23,220 --> 00:01:31,800
+Bước 2: Cộng hai phân số cùng mẫu số.
+
+10
+00:01:33,100 --> 00:01:41,470
+Cộng các phân số:
+hai phần ba cộng hai phần chín bằng bao nhiêu?
+
+11
+00:01:44,220 --> 00:01:59,520
+Hai phân số có mẫu số khác nhau,
+nhưng giữa hai mẫu số có gì đặc biệt,
+mẫu số chung là bao nhiêu?
+
+12
+00:01:59,520 --> 00:02:06,520
+Ta thấy mẫu số 9 chia 3 bằng 3,
+
+13
+00:02:06,520 --> 00:02:21,700
+Ta thấy mẫu số 9 chia 3 bằng 3, nên mẫu số chung
+của hai phân số hai phần ba và hai phần chín là số nào? Là số 9.
+
+14
+00:02:27,600 --> 00:02:35,870
+Cộng các phân số:
+ba phần năm cộng hai phần ba bằng bao nhiêu?
+
+15
+00:02:35,870 --> 00:02:49,370
+Điền số hoặc phân số thích hợp vào ô trống:
+
+16
+00:02:50,720 --> 00:02:58,720
+Để cộng hai phân số này, ta làm như thế nào?
+
+17
+00:02:58,720 --> 00:03:17,100
+Mẫu số chung của hai phân số
+ba phần năm và hai phần ba là: 5 x 3 = 15.

@@ -1,0 +1,43 @@
+1
+00:00:00,530 --> 00:00:07,680
+Nhân một số thập phân với một số thập phân
+
+2
+00:00:08,170 --> 00:00:16,130
+Tính 9,8 nhân 5,3 ta làm như sau:
+
+3
+00:00:16,130 --> 00:00:21,770
+Thực hiện phép nhân như nhân các số tự nhiên.
+
+4
+00:00:21,770 --> 00:00:26,910
+Lấy 98 nhân 53
+
+5
+00:00:26,910 --> 00:00:45,680
+Hai thừa số có tất cả hai chữ số ở phần thập phân, ta dùng dấu phẩy tách ở tích ra hai chữ số kể từ phải sang trái,
+ đánh dấu phẩy vào kết quả.
+
+6
+00:00:46,130 --> 00:00:59,080
+Vậy: 9,8 nhân 5,3 bằng 51,94
+
+7
+00:01:00,570 --> 00:01:10,080
+Kết luận:
+Muốn nhân một số thập phân với một số thập phân ta làm như sau:
+
+8
+00:01:10,080 --> 00:01:16,350
+Thực hiện phép nhân như nhân các số tự nhiên.
+
+9
+00:01:16,350 --> 00:01:33,880
+Đếm xem trong phần thập phân của cả hai thừa số
+có bao nhiêu chữ số rồi dùng dấu phẩy tách ở tích ra
+ bấy nhiêu chữ số kể từ phải sang trái.
+
+10
+00:01:34,420 --> 00:01:50,950
+Để nắm chắc quy tắc chúng ta làm thêm các ví dụ sau:

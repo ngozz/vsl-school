@@ -1,0 +1,32 @@
+1
+00:00:01,680 --> 00:00:09,110
+Nhiều hơn, ít hơn, bằng nhau.
+
+2
+00:00:11,200 --> 00:00:17,420
+Em hãy xem tranh và làm ký hiệu theo cô.
+
+3
+00:00:18,770 --> 00:00:25,970
+Số đĩa nhiều hơn số cốc.
+
+4
+00:00:27,710 --> 00:00:33,110
+Số cốc ít hơn số đĩa.
+
+5
+00:00:35,000 --> 00:00:41,200
+Xem tranh đếm số lượng và làm ký hiệu theo cô
+
+6
+00:00:42,820 --> 00:00:49,140
+Tiếng Việt có 2 cách viết.
+
+7
+00:00:51,910 --> 00:00:55,970
+Ngôn ngữ ký hiệu có 1 cách.
+
+8
+00:00:56,940 --> 00:01:07,540
+Số hình tam giác bằng số hình tròn hoặc
+ số hình tam giác và số hình tròn bằng nhau.

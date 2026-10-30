@@ -1,0 +1,109 @@
+1
+00:00:02,970 --> 00:00:04,420
+Phân số
+
+2
+00:00:04,420 --> 00:00:11,670
+Ta cùng ôn lại phân số qua ví dụ 1.
+
+3
+00:00:14,300 --> 00:00:17,370
+Ví dụ 1:
+
+4
+00:00:17,370 --> 00:00:25,320
+Ví dụ 1: Quan sát hình vẽ bên cho thấy cái bánh chia đều thành
+bốn phần bằng nhau,
+
+5
+00:00:25,320 --> 00:00:29,770
+Ví dụ 1: Quan sát hình vẽ bên cho thấy cái bánh chia đều thành
+bốn phần bằng nhau, lấy đi một phần,
+
+6
+00:00:29,770 --> 00:00:40,420
+Ví dụ 1: Quan sát hình vẽ bên cho thấy cái bánh chia đều thành bốn phần bằng nhau, lấy đi một phần, ta nói đã lấy đi
+một phần tư cái bánh.
+
+7
+00:00:42,820 --> 00:00:49,270
+Ta viết: một phần tư cái bánh.
+
+8
+00:00:49,950 --> 00:00:57,050
+một phần tư gọi là phân số.
+
+9
+00:00:58,350 --> 00:01:12,250
+phân số một phần tư có tử số là một, viết trên vạch ngang.
+
+10
+00:01:12,800 --> 00:01:24,050
+mẫu số là bốn, mẫu số viết dưới vạch ngang.
+
+11
+00:01:24,050 --> 00:01:30,020
+Viết: một phần tư.
+
+12
+00:01:30,020 --> 00:01:38,400
+Đọc: “Một phần tư”.
+
+13
+00:01:40,220 --> 00:01:50,370
+Mẫu số cho biết số phần bằng nhau mà cái bánh được chia ra.
+
+14
+00:01:51,370 --> 00:02:01,850
+Tử số 1 cho biết có một phần đã lấy đi (hoặc được tách ra).
+
+15
+00:02:03,650 --> 00:02:07,650
+Quy tắc:
+
+16
+00:02:07,650 --> 00:02:19,250
+Mẫu số cho biết số phần bằng nhau
+mà một đơn vị được chia ra.
+
+17
+00:02:20,120 --> 00:02:26,020
+Mẫu số khác 0.
+
+18
+00:02:26,350 --> 00:02:35,470
+Tử số cho biết số phần đã lấy đi.
+
+19
+00:02:35,470 --> 00:02:41,170
+Tử số viết trên gạch ngang.
+
+20
+00:02:41,770 --> 00:02:51,220
+Mẫu số viết dưới gạch ngang.
+
+21
+00:02:57,270 --> 00:03:00,450
+Ví dụ 2:
+
+22
+00:03:00,450 --> 00:03:10,350
+Quan sát hình vẽ và cho biết phân số biểu thị
+phần tô màu băng giấy?
+
+23
+00:03:10,350 --> 00:03:19,120
+Tử số là mấy?
+Mẫu số là mấy?
+
+24
+00:03:20,020 --> 00:03:23,220
+Viết:
+
+25
+00:03:23,220 --> 00:03:31,650
+Đọc: “Một phần hai”.
+
+26
+00:03:32,920 --> 00:03:45,820
+Phân số một phần hai có tử số là 1; mẫu số là 2.

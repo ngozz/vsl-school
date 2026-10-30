@@ -1,0 +1,12 @@
+1
+00:00:02,874 --> 00:00:05,331
+Chào các em!
+
+2
+00:00:07,982 --> 00:00:24,483
+Chúng ta đã học về các dạng biểu đồ tranh, biểu đồ cột.
+
+3
+00:00:27,082 --> 00:00:45,878
+Chúng ta sẽ cùng nhau ôn tập để phân biệt các dạng biểu đồ,
+luyện đọc các số từ các dạng biểu đồ.

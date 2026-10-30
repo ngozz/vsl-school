@@ -1,0 +1,55 @@
+1
+00:00:01,880 --> 00:00:07,932
+Cộng hai số thập phân.
+
+2
+00:00:08,580 --> 00:00:16,946
+Chúng ta cộng hai số thập phân thông qua ví dụ sau đây.
+
+3
+00:00:17,545 --> 00:00:21,751
+Để làm được phép toán này ta làm như sau:
+
+4
+00:00:22,510 --> 00:00:42,219
+Bước 1: Đặt tính: Viết số hạng này dưới số dạng kia sao cho các chữ số ở cùng một hàng thẳng cột với nhau.
+
+5
+00:00:42,437 --> 00:00:51,584
+Bước 2: Cộng như cộng các số tự nhiên.
+
+6
+00:00:52,446 --> 00:01:02,993
+Bước 3: Đặt dấu phẩy ở tổng thẳng hàng với dấu phẩy ở các số hạng.
+
+7
+00:01:11,499 --> 00:01:21,597
+15,90 cộng 8,75 bằng 24,65.
+
+8
+00:01:23,492 --> 00:01:25,905
+Ghi nhớ.
+
+9
+00:01:26,374 --> 00:01:32,733
+Muốn cộng hai số thập phân ta làm như sau:
+
+10
+00:01:33,673 --> 00:01:48,826
+Viết số hạng này dưới số hạng kia sao cho các chữ số ở cùng một hàng đặt thẳng cột với nhau.
+
+11
+00:01:50,009 --> 00:01:57,985
+Cộng như cộng các số tự nhiên.
+
+12
+00:01:59,195 --> 00:02:08,060
+Viết dấu phẩy ở tổng thẳng cột với các dấu phẩy của các số hạng.
+
+13
+00:02:11,547 --> 00:02:17,722
+Ví dụ 2:
+
+14
+00:02:15,043 --> 00:02:33,472
+Kiểm tra cách đặt tính. Đúng ghi Đ, sai ghi S.

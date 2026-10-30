@@ -1,0 +1,58 @@
+1
+00:00:03,110 --> 00:00:08,220
+Ví dụ 1.
+
+2
+00:00:08,660 --> 00:00:21,370
+Theo mẫu có số 45 321 thì điền chữ số 4 vào hàng chục nghìn
+
+3
+00:00:22,110 --> 00:00:27,110
+chữ số 5 vào hàng nghìn
+
+4
+00:00:27,110 --> 00:00:30,550
+chữ số 3 vào hàng trăm
+
+5
+00:00:30,550 --> 00:00:33,620
+chữ số 2 vào hàng chục
+
+6
+00:00:33,620 --> 00:00:41,080
+chữ số 1 vào hàng đơn vị.
+
+7
+00:00:43,820 --> 00:00:54,570
+Hãy đọc lại các số viết được và kiểm tra lại các chữ số thuộc mỗi hàng đã chính xác chưa.
+
+8
+00:00:54,860 --> 00:01:02,840
+Vậy điền được như bảng bên.
+
+9
+00:01:02,840 --> 00:01:12,220
+Các số hàng đơn vị, hàng chục, hàng trăm thuộc lớp đơn vị.
+
+10
+00:01:12,220 --> 00:01:24,730
+Các số hàng nghìn, hàng chục nghìn, hàng trăm nghìn thuộc lớp nghìn.
+
+11
+00:01:24,730 --> 00:01:40,330
+Số 654 000 đọc là:
+ Sáu trăm năm mươi tư nghìn.
+
+12
+00:01:41,440 --> 00:02:02,620
+Số 654 321 đọc là:
+ Sáu trăm năm mươi tư nghìn, ba trăm hai mươi mốt.
+
+13
+00:02:03,530 --> 00:02:09,950
+Mỗi số đều có 6 chữ số,
+tính từ phải sang trái cứ 3 hàng là một lớp.
+
+14
+00:02:09,950 --> 00:02:27,040
+Vậy 6 chữ số thuộc hai lớp, lớp đơn vị và lớp nghìn.

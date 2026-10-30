@@ -1,0 +1,9 @@
+1
+00:00:01,400 --> 00:00:13,020
+Đề bài yêu cầu viết gì?
+
+2
+00:00:14,250 --> 00:00:27,670
+Đề bài yêu cầu viết một đoạn văn về một nhân vật
+em yêu thích trong một câu chuyên em đã được học
+hoặc đã đọc.

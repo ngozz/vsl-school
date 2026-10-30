@@ -1,0 +1,7 @@
+1
+00:00:01,120 --> 00:00:12,640
+Các em hãy tìm hiểu ý nghĩa của từ <color=orange><b>ngạc nhiên</b></color>.
+
+2
+00:00:14,200 --> 00:00:25,430
+<color=orange><b>ngạc nhiên</b></color>: là lạ, bất ngờ.

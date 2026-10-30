@@ -1,0 +1,13 @@
+1
+00:00:04,152 --> 00:00:11,686
+Nhân một số thập phân với 10, 100, 1000,...
+
+2
+00:00:13,220 --> 00:00:40,956
+Muốn nhân một số thập phân với 10, 100, 1000,... 
+ta chỉ việc chuyển dấu phẩy của số đó
+ lần lượt sang bên phải một, hai, ba,... chữ số.
+
+3
+00:00:44,533 --> 00:00:48,881
+Các em làm bài tập sau:

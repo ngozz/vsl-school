@@ -1,0 +1,4 @@
+1
+00:00:02,290 --> 00:00:08,560
+Chúng ta hãy kể lại câu chuyện "chuyện bốn mùa" theo tranh
+bằng ngôn ngữ ký hiệu.

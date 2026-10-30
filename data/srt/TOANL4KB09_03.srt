@@ -1,0 +1,61 @@
+1
+00:00:00,950 --> 00:00:07,400
+Hình thoi
+
+2
+00:00:08,600 --> 00:00:21,420
+Quan sát hình thoi ABCD ở hình bên ta có:
+
+3
+00:00:22,570 --> 00:00:32,770
+Cạnh AB song song cạnh DC.
+
+4
+00:00:33,450 --> 00:00:43,650
+Cạnh AD song song cạnh BC.
+
+5
+00:00:43,650 --> 00:01:00,800
+4 cạnh AB, BC, CD, DA có độ dài bằng nhau.
+
+6
+00:01:00,800 --> 00:01:11,570
+Kết luận:
+Trong hình thoi thì hai cặp cạnh đối diện song song với nhau.
+
+7
+00:01:11,570 --> 00:01:18,500
+Độ dài 4 cạnh đều bằng nhau.
+
+8
+00:01:21,400 --> 00:01:29,600
+Quan sát hình thoi ở hình bên ta có:
+
+9
+00:01:29,600 --> 00:01:42,050
+Hai đường chéo AC và BD vuông góc với nhau.
+
+10
+00:01:43,020 --> 00:01:52,520
+Độ dài hai đoạn OA và OC bằng nhau.
+
+11
+00:01:52,700 --> 00:02:04,670
+Độ dài hai đoạn OB và OD bằng nhau.
+
+12
+00:02:04,920 --> 00:02:13,520
+Như vậy, mọi hình thoi đều có đặc điểm sau:
+
+13
+00:02:13,520 --> 00:02:22,000
+Hai cặp cạnh đối diện song song với nhau.
+
+14
+00:02:22,000 --> 00:02:29,570
+Độ dài 4 cạnh đều bằng nhau.
+
+15
+00:02:29,570 --> 00:02:39,870
+Hai đường chéo vuông góc với nhau tại trung điểm
+của mỗi đường.

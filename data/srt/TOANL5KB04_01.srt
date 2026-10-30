@@ -1,0 +1,4 @@
+1
+00:00:01,773 --> 00:00:09,152
+Bài hôm nay chúng ta sẽ cùng nhau luyện tập về
+ phép nhân, phép chia số thập phân.

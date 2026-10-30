@@ -1,0 +1,7 @@
+1
+00:00:01,900 --> 00:00:05,820
+Chúng ta đã học bài "phần thưởng".
+
+2
+00:00:06,190 --> 00:00:12,520
+Câu chuyện nói về một bạn học sinh rất đáng mến.

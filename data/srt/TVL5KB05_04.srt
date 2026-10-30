@@ -1,0 +1,12 @@
+1
+00:00:06,060 --> 00:00:13,510
+Có hai từ là "bê" và "vác".
+
+2
+00:00:14,220 --> 00:00:25,200
+Các em chọn từ cho mỗi tranh.
+
+3
+00:00:28,880 --> 00:00:44,400
+Các em quan sát đáp án xem có đúng với
+ sự lựa chọn của mình không.

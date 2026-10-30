@@ -1,0 +1,13 @@
+1
+00:00:02,820 --> 00:00:11,400
+Chia một số thập phân cho 10, 100, 1000
+
+2
+00:00:11,400 --> 00:00:51,600
+Muốn chia một số thập phân cho 10, 100, 1000,... 
+ta chỉ việc chuyển dấu phẩy của số đó
+ lần lượt sang bên trái một, hai, ba,... chữ số.
+
+3
+00:00:52,820 --> 00:00:59,970
+Các em làm bài tập sau:

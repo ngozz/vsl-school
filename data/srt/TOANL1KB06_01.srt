@@ -1,0 +1,4 @@
+1
+00:00:01,840 --> 00:00:09,040
+Hôm nay chúng ta cùng nhau ôn tập
+về so sánh các số trong phạm vi 100.

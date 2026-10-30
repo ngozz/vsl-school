@@ -1,0 +1,4 @@
+1
+00:00:03,210 --> 00:00:09,820
+Chào các em!
+Hôm nay, chúng ta sẽ cùng nhau ôn tập về các hình đã học.

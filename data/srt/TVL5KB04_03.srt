@@ -1,0 +1,20 @@
+1
+00:00:02,860 --> 00:00:19,370
+Chọn từ ngữ thích hợp với mỗi nội dung để có dàn ý chung
+của bài văn tả cảnh: mở bài, thân bài, kết bài.
+
+2
+00:00:20,200 --> 00:00:26,330
+Giới thiệu cảnh sẽ tả.
+
+3
+00:00:26,330 --> 00:00:33,660
+Cách 1: Tả lần lượt từng đặc điểm của cảnh.
+
+4
+00:00:33,660 --> 00:00:42,620
+Cách 2: Tả cảnh ở mỗi thời điểm.
+
+5
+00:00:43,640 --> 00:00:51,770
+Nêu cảm xúc, suy nghĩ về cảnh được tả.

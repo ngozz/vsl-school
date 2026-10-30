@@ -1,0 +1,4 @@
+1
+00:00:01,450 --> 00:00:08,370
+Em hãy viết đoạn văn ngắn về một nhân vật em yêu thích
+trong câu chuyện.

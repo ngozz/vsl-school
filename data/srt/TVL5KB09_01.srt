@@ -1,0 +1,4 @@
+1
+00:00:01,213 --> 00:00:12,623
+Tiết học hôm nay các em sẽ ôn tập cách miêu tả ngoại hình
+ (hình dáng bên ngoài) của một người mình biết.

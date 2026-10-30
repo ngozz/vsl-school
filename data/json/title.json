@@ -1,0 +1,604 @@
+{
+  "datas": [
+    {
+      "_id": "TOANL1KB01",
+      "title": "Các số trong phạm vi 10"
+    },
+    {
+      "_id": "TOANL1KB02",
+      "title": "So sánh các số trong phạm vi 10"
+    },
+    {
+      "_id": "TOANL1KB03",
+      "title": "Phép cộng trong phạm vi 10"
+    },
+    {
+      "_id": "TOANL1KB04",
+      "title": "Phép trừ trong phạm vi 10"
+    },
+    {
+      "_id": "TOANL1KB05",
+      "title": "Các số trong phạm vi 100"
+    },
+    {
+      "_id": "TOANL1KB06",
+      "title": "So sánh các số trong phạm vi 100"
+    },
+    {
+      "_id": "TOANL1KB07",
+      "title": "Phép cộng trong phạm vi 100"
+    },
+    {
+      "_id": "TOANL1KB08",
+      "title": "Phép trừ trong phạm vi 100"
+    },
+    {
+      "_id": "TOANL1KB09",
+      "title": "Hình học trực quan"
+    },
+    {
+      "_id": "TOANL1KB10",
+      "title": "Các đơn vị đo độ dài,đơn vị đo thời gian"
+    },
+    {
+      "_id": "TOANL2KB01",
+      "title": "Phép cộng, phép trừ trong phạm vi 20 có nhớ"
+    },
+    {
+      "_id": "TOANL2KB02",
+      "title": "Hình phẳng"
+    },
+    {
+      "_id": "TOANL2KB03",
+      "title": "Hình khối"
+    },
+    {
+      "_id": "TOANL2KB04",
+      "title": "Các đơn vị đo độ dài, khối lượng, dung tích"
+    },
+    {
+      "_id": "TOANL2KB05",
+      "title": "Thời gian"
+    },
+    {
+      "_id": "TOANL2KB06",
+      "title": "Các số trong phạm vi 1000"
+    },
+    {
+      "_id": "TOANL2KB07",
+      "title": "So sánh các số trong phạm vi 1000"
+    },
+    {
+      "_id": "TOANL2KB08",
+      "title": "Phép cộng, phép trừ trong phạm vi 1000"
+    },
+    {
+      "_id": "TOANL2KB09",
+      "title": "Phép nhân"
+    },
+    {
+      "_id": "TOANL2KB10",
+      "title": "Phép chia"
+    },
+    {
+      "_id": "TOANL3KB01",
+      "title": "Các số trong phạm vi 100000"
+    },
+    {
+      "_id": "TOANL3KB02",
+      "title": "So sánh các số trong phạm vi 100000"
+    },
+    {
+      "_id": "TOANL3KB03",
+      "title": "Phép cộng, phép trừ trong phạm vi 100000"
+    },
+    {
+      "_id": "TOANL3KB04",
+      "title": "Bảng nhân bảng chia"
+    },
+    {
+      "_id": "TOANL3KB05",
+      "title": "Phép nhân số có nhiều chữ số với số có một chữ số"
+    },
+    {
+      "_id": "TOANL3KB06",
+      "title": "Phép chia số có nhiều chữ số cho số có một chữ số"
+    },
+    {
+      "_id": "TOANL3KB07",
+      "title": "Biểu thức số"
+    },
+    {
+      "_id": "TOANL3KB08",
+      "title": "Hình học trực quan"
+    },
+    {
+      "_id": "TOANL3KB09",
+      "title": "Các đơn vị đo độ dài, diện tích"
+    },
+    {
+      "_id": "TOANL3KB10",
+      "title": "Một số yếu tố thống kê"
+    },
+    {
+      "_id": "TOANL4KB01",
+      "title": "Các số có nhiều chữ số"
+    },
+    {
+      "_id": "TOANL4KB02",
+      "title": "Phép nhân với số có 2 chữ số"
+    },
+    {
+      "_id": "TOANL4KB03",
+      "title": "Phép chia cho số có hai chữ số"
+    },
+    {
+      "_id": "TOANL4KB04",
+      "title": "Chủ đề về giải toán có lời văn"
+    },
+    {
+      "_id": "TOANL4KB05",
+      "title": "Chủ đề về biểu đồ"
+    },
+    {
+      "_id": "TOANL4KB06",
+      "title": "Phân số"
+    },
+    {
+      "_id": "TOANL4KB07",
+      "title": "Tính chất cơ bản của phân số và ứng dụng"
+    },
+    {
+      "_id": "TOANL4KB08",
+      "title": "Phép cộng phân số"
+    },
+    {
+      "_id": "TOANL4KB09",
+      "title": "Chủ đề hình học"
+    },
+    {
+      "_id": "TOANL4KB10",
+      "title": "Chủ đề đo lường"
+    },
+    {
+      "_id": "TOANL5KB01",
+      "title": "Số thập phân"
+    },
+    {
+      "_id": "TOANL5KB02",
+      "title": "So sánh các số thập phân"
+    },
+    {
+      "_id": "TOANL5KB03",
+      "title": "Phép cộng, phép trừ các số thập phân"
+    },
+    {
+      "_id": "TOANL5KB04",
+      "title": "Phép nhân, phép chia các số thập phân"
+    },
+    {
+      "_id": "TOANL5KB05",
+      "title": "Tỉ số phần trăm"
+    },
+    {
+      "_id": "TOANL5KB06",
+      "title": "Tỉ lệ bản đồ"
+    },
+    {
+      "_id": "TOANL5KB07",
+      "title": "Hình học"
+    },
+    {
+      "_id": "TOANL5KB08",
+      "title": "Hình (khối) hộp chữ nhật, hình (khối) lập phương"
+    },
+    {
+      "_id": "TOANL5KB09",
+      "title": "Vận tốc, quãng đường, thời gian"
+    },
+    {
+      "_id": "TOANL5KB10",
+      "title": "Biểu đồ hình quạt"
+    },
+    {
+      "_id": "TVL1KB01",
+      "title": "Ôn tập các âm và chữ đã học:\na, b, c, i, o, ô, t, u"
+    },
+    {
+      "_id": "TVL1KB02",
+      "title": "Ôn tập các âm và chữ đã học:\ne, ơ, d, k, h, n, m, v"
+    },
+    {
+      "_id": "TVL1KB03",
+      "title": "Ôn tập các âm và chữ đã học:\nê, ư, đ, kh, l, tr, ch, s"
+    },
+    {
+      "_id": "TVL1KB04",
+      "title": "Ôn tập các âm và chữ đã học:\ng - gh, ph, r, gi, nh"
+    },
+    {
+      "_id": "TVL1KB05",
+      "title": "Ôn tập các âm và chữ đã học:\nth, qu, ng - ngh, x, y"
+    },
+    {
+      "_id": "TVL1KB06",
+      "title": "Học vần:\nia, ua, ưa"
+    },
+    {
+      "_id": "TVL1KB07",
+      "title": "Học vần:\nâ, ai, ay, ây, oi, ôi, ơi, ui, ưi, uôi, ươi"
+    },
+    {
+      "_id": "TVL1KB08",
+      "title": "Học vần:\nao, eo, au, âu, êu, iu, iêu, yêu, ưu, ươu"
+    },
+    {
+      "_id": "TVL1KB09",
+      "title": "Học vần:\nan, ăn, ân, on, ôn, ơn, en, ên, un, in, iên, yên, uôn, ươn"
+    },
+    {
+      "_id": "TVL1KB10",
+      "title": "Học vần:\nat, ăt, ât, ot, ôt, ơt, et, êt, it, ut, ưt, iêt, uôt, ươt "
+    },
+    {
+      "_id": "TVL1KB11",
+      "title": "Học vần:\nam, ăm, âm, om, ôm, ơm, em, êm, im, um, uôm, ươm, iêm, yêm"
+    },
+    {
+      "_id": "TVL1KB12",
+      "title": "Học vần:\nap, ăp, âp, op, ôp, ơp, ep, êp, ip, up, ươp, iêp"
+    },
+    {
+      "_id": "TVL1KB13",
+      "title": "Học vần:\nang, ăng, âng, ong, ông, ung, ưng, iêng, uông, ương, inh, ênh, anh"
+    },
+    {
+      "_id": "TVL1KB14",
+      "title": "Học vần:\nac, ăc, âc, oc, ôc, uc, ưc, ich, êch, ach, iêc, uôc, ươc "
+    },
+    {
+      "_id": "TVL1KB15",
+      "title": "Học vần:\noa, oe, oai, oay, oan, oăn, oat, oăt, oang, oăng, oanh, oac, oăc, oach"
+    },
+    {
+      "_id": "TVL1KB16",
+      "title": "Học vần:\nuê, uy, uơ, uân, uât, uây, uyên, uyêt, uyt"
+    },
+    {
+      "_id": "TVL1KB17",
+      "title": "Ôn luyện tổng hợp:\nRùa và Thỏ"
+    },
+    {
+      "_id": "TVL1KB18",
+      "title": "Ôn luyện tổng hợp:\nChồn con đi học"
+    },
+    {
+      "_id": "TVL1KB19",
+      "title": "Ôn luyện tổng hợp:\nSư tử và chuột nhắt"
+    },
+    {
+      "_id": "TVL1KB20",
+      "title": "Ôn luyện tổng hợp:\nDê con nghe lời mẹ"
+    },
+    {
+      "_id": "TVL2KB01",
+      "title": "Luyện đọc hiểu:\nPhần thưởng"
+    },
+    {
+      "_id": "TVL2KB02",
+      "title": "Luyện đọc hiểu:\nNgôi trường mới"
+    },
+    {
+      "_id": "TVL2KB03",
+      "title": "Luyện đọc hiểu:\nDanh sách học sinh"
+    },
+    {
+      "_id": "TVL2KB04",
+      "title": "Luyện từ và câu:\nMở rộng vốn từ về chủ điểm nhà trường"
+    },
+    {
+      "_id": "TVL2KB05",
+      "title": "Tập làm văn\nGiới thiệu về bản thân"
+    },
+    {
+      "_id": "TVL2KB06",
+      "title": "Luyện đọc hiểu:\nSự tích cây vú sữa"
+    },
+    {
+      "_id": "TVL2KB07",
+      "title": "Luyện đọc hiểu:\nHai anh em"
+    },
+    {
+      "_id": "TVL2KB08",
+      "title": "Luyện đọc hiểu:\nLàm thế nào để luộc trứng ngon?"
+    },
+    {
+      "_id": "TVL2KB09",
+      "title": "Kể chuyện:\nChuyện bốn mùa"
+    },
+    {
+      "_id": "TVL2KB10",
+      "title": "Luyện từ và câu - Mở rộng vốn từ:\nĐồ dùng và công việc nhà"
+    },
+    {
+      "_id": "TVL2KB11",
+      "title": "Luyện đọc hiểu:\nSơn Tinh, Thuỷ Tinh"
+    },
+    {
+      "_id": "TVL2KB12",
+      "title": "Luyện đọc hiểu:\nMùa xuân đến"
+    },
+    {
+      "_id": "TVL2KB13",
+      "title": "Luyện đọc hiểu:\nNội quy Đảo Khỉ"
+    },
+    {
+      "_id": "TVL2KB14",
+      "title": "Luyện từ và câu:\nMở rộng vốn từ về thời tiết"
+    },
+    {
+      "_id": "TVL2KB15",
+      "title": "Tập làm văn:\nViết đoạn văn thuật lại sự việc"
+    },
+    {
+      "_id": "TVL2KB16",
+      "title": "Luyện đọc hiểu:\nChú khỉ thông minh"
+    },
+    {
+      "_id": "TVL2KB17",
+      "title": "Luyện đọc hiểu:\nNgười làm đồ chơi"
+    },
+    {
+      "_id": "TVL2KB18",
+      "title": "Luyện đọc hiểu văn bản thông tin:\nLàm đồ tái chế tại lớp học"
+    },
+    {
+      "_id": "TVL2KB19",
+      "title": "Tập làm văn:\nViết đoạn văn thuật lại sự việc đã tham gia"
+    },
+    {
+      "_id": "TVL2KB20",
+      "title": "Luyện từ và câu:\nMở rộng vốn từ về nghề nghiệp"
+    },
+    {
+      "_id": "TVL3KB01",
+      "title": "Luyện đọc hiểu:\nChiếc áo len"
+    },
+    {
+      "_id": "TVL3KB02",
+      "title": "Luyện đọc hiểu:\nĐôi bạn"
+    },
+    {
+      "_id": "TVL3KB03",
+      "title": "Luyện đọc hiểu:\nĐơn xin vào đội"
+    },
+    {
+      "_id": "TVL3KB04",
+      "title": "Luyện từ và câu:\nMở rộng vốn từ: Măng non"
+    },
+    {
+      "_id": "TVL3KB05",
+      "title": "Tập làm văn:\nLuyện viết đoạn văn giới thiệu về bản thân"
+    },
+    {
+      "_id": "TVL3KB06",
+      "title": "Luyện đọc hiểu:\nBuổi học thể dục"
+    },
+    {
+      "_id": "TVL3KB07",
+      "title": "Luyện đọc hiểu:\nAi có lỗi"
+    },
+    {
+      "_id": "TVL3KB08",
+      "title": "Luyện đọc hiểu:\nMột trường tiểu học vùng cao"
+    },
+    {
+      "_id": "TVL3KB09",
+      "title": "Luyện đọc hiểu:\nTrường học"
+    },
+    {
+      "_id": "TVL3KB10",
+      "title": "Tập làm văn:\nLuyện viết đoạn văn kể về trường em"
+    },
+    {
+      "_id": "TVL3KB11",
+      "title": "Luyện đọc hiểu:\nBài tập làm văn"
+    },
+    {
+      "_id": "TVL3KB12",
+      "title": "Luyện đọc hiểu:\nÔng ngoại"
+    },
+    {
+      "_id": "TVL3KB13",
+      "title": "Luyện đọc hiểu:\nThư gửi bà"
+    },
+    {
+      "_id": "TVL3KB14",
+      "title": "Tập làm văn:\nLuyện viết đoạn văn miêu tả"
+    },
+    {
+      "_id": "TVL3KB15",
+      "title": "Luyện từ và câu:\nMở rộng vốn từ chủ điểm gia đình"
+    },
+    {
+      "_id": "TVL3KB16",
+      "title": "Luyện đọc hiểu:\nNắng phương Nam"
+    },
+    {
+      "_id": "TVL3KB17",
+      "title": "Luyện đọc hiểu:\nCuộc chạy đua trong rừng"
+    },
+    {
+      "_id": "TVL3KB18",
+      "title": "Luyện đọc hiểu:\nNhà rông ở Tây Nguyên"
+    },
+    {
+      "_id": "TVL3KB19",
+      "title": "Tập làm văn:\nLuyện viết đoạn văn về nhân vật trong câu chuyện đã học hoặc đã đọc"
+    },
+    {
+      "_id": "TVL3KB20",
+      "title": "Luyện đọc hiểu:\nHũ bạc của người cha"
+    },
+    {
+      "_id": "TVL4KB01",
+      "title": "Luyện đọc hiểu:\nSự tích hồ Ba Bể"
+    },
+    {
+      "_id": "TVL4KB02",
+      "title": "Luyện đọc hiểu:\nNgười ăn xin"
+    },
+    {
+      "_id": "TVL4KB03",
+      "title": "Luyện đọc hiểu:\nThư thăm bạn"
+    },
+    {
+      "_id": "TVL4KB04",
+      "title": "Luyện viết đoạn văn:\nLòng tốt"
+    },
+    {
+      "_id": "TVL4KB05",
+      "title": "Luyện từ và câu:\nMở rộng vốn từ: Nhân hậu"
+    },
+    {
+      "_id": "TVL4KB06",
+      "title": "Luyện đọc hiểu:\nBa lưỡi rìu"
+    },
+    {
+      "_id": "TVL4KB07",
+      "title": "Luyện đọc hiểu:\nNhững hạt thóc giống"
+    },
+    {
+      "_id": "TVL4KB08",
+      "title": "Luyện đọc hiểu:\nDù sao Trái Đất vẫn quay"
+    },
+    {
+      "_id": "TVL4KB09",
+      "title": "Tập làm văn:\nLuyện viết đoạn văn giới thiệu cuốn sách yêu thích"
+    },
+    {
+      "_id": "TVL4KB10",
+      "title": "Luyện từ và câu:\nÔn tập về từ loại: danh từ, động từ, tính từ"
+    },
+    {
+      "_id": "TVL4KB11",
+      "title": "Luyện đọc hiểu:\nCon sẻ"
+    },
+    {
+      "_id": "TVL4KB12",
+      "title": "Luyện đọc hiểu:\nKhuất phục tên cướp biển"
+    },
+    {
+      "_id": "TVL4KB13",
+      "title": "Luyện đọc hiểu:\nTiếng cười là liều thuốc bổ"
+    },
+    {
+      "_id": "TVL4KB14",
+      "title": "Tập làm văn:\nLuyện viết đoạn văn thuật lại một sự việc"
+    },
+    {
+      "_id": "TVL4KB15",
+      "title": "Luyện từ và câu:\nCâu và thành phần chính của câu"
+    },
+    {
+      "_id": "TVL4KB16",
+      "title": "Luyện đọc hiểu:\nCâu chuyện về Chử Đồng Tử và công chúa Tiên Dung"
+    },
+    {
+      "_id": "TVL4KB17",
+      "title": "Luyện đọc hiểu:\nSầu riêng"
+    },
+    {
+      "_id": "TVL4KB18",
+      "title": "Luyện đọc hiểu:\nVẽ về cuộc sống an toàn"
+    },
+    {
+      "_id": "TVL4KB19",
+      "title": "Tập làm văn:\nLuyện viết đoạn văn miêu tả cây cối"
+    },
+    {
+      "_id": "TVL4KB20",
+      "title": "Kể chuyện:\nĐôi cánh của Ngựa Trắng"
+    },
+    {
+      "_id": "TVL5KB01",
+      "title": "Luyện đọc hiểu:\nQuang cảnh làng mạc ngày mùa"
+    },
+    {
+      "_id": "TVL5KB02",
+      "title": "Luyện đọc hiểu:\nĐất Cà Mau"
+    },
+    {
+      "_id": "TVL5KB03",
+      "title": "Luyện đọc hiểu:\nVăn Miếu - Quốc Tử Giám"
+    },
+    {
+      "_id": "TVL5KB04",
+      "title": "Ôn luyện về dàn ý\nbài văn tả cảnh"
+    },
+    {
+      "_id": "TVL5KB05",
+      "title": "Ôn luyện:\nTừ đồng nghĩa"
+    },
+    {
+      "_id": "TVL5KB06",
+      "title": "Luyện đọc hiểu:\nCái gì quý nhất?"
+    },
+    {
+      "_id": "TVL5KB07",
+      "title": "Luyện đọc hiểu:\nCây cỏ nước Nam"
+    },
+    {
+      "_id": "TVL5KB08",
+      "title": "Luyện đọc hiểu:\nVừ A Dính"
+    },
+    {
+      "_id": "TVL5KB09",
+      "title": "Tập làm văn:\nLuyện tập tả người"
+    },
+    {
+      "_id": "TVL5KB10",
+      "title": "Luyện từ và câu:\nTừ đa nghĩa (Từ nhiều nghĩa)"
+    },
+    {
+      "_id": "TVL5KB11",
+      "title": "Luyện đọc hiểu:\nTiếng đàn ba-la-lai-ca trên sông Đà"
+    },
+    {
+      "_id": "TVL5KB12",
+      "title": "Tập làm văn:\nCách viết đoạn văn giới thiệu nhân vật"
+    },
+    {
+      "_id": "TVL5KB13",
+      "title": "Luyện đọc hiểu:\nNhững con sếu bằng giấy"
+    },
+    {
+      "_id": "TVL5KB14",
+      "title": "Luyện đọc hiểu:\nNhững lợi ích và tác hại của internet"
+    },
+    {
+      "_id": "TVL5KB15",
+      "title": "Luyện đọc hiểu:\nLớp trưởng lớp tôi"
+    },
+    {
+      "_id": "TVL5KB16",
+      "title": "Tập làm văn:\nCách viết đoạn văn bày tỏ ý kiến tán thành hoặc phản đối"
+    },
+    {
+      "_id": "TVL5KB17",
+      "title": "Luyện từ và câu:\nLuyện tập sử dụng dấu kết thúc câu"
+    },
+    {
+      "_id": "TVL5KB18",
+      "title": "Luyện đọc hiểu:\nLuật trẻ em (về quyền trẻ em)"
+    },
+    {
+      "_id": "TVL5KB19",
+      "title": "Luyện đọc hiểu:\nLuật trẻ em (về bổn phận trẻ em)"
+    },
+    {
+      "_id": "TVL5KB20",
+      "title": "Luyện đọc hiểu:\nTranh làng Hồ"
+    }
+  ]
+}

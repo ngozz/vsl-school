@@ -1,0 +1,12 @@
+1
+00:00:01,200 --> 00:00:08,520
+Các em hãy trả lời các câu hỏi dưới đây.
+
+2
+00:00:08,520 --> 00:00:23,520
+a) Quan sát tranh và cho biết câu chuyện có mấy nhân vật?
+
+3
+00:00:24,270 --> 00:00:38,170
+Đáp án: Câu chuyện có sự xuất hiện của các con vật:
+Ngựa Trắng, Đại Bàng, Sói Xám.

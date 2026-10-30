@@ -1,0 +1,104 @@
+1
+00:00:02,370 --> 00:00:15,300
+Đơn vị đo diện tích xăng-ti-mét vuông.
+
+2
+00:00:18,480 --> 00:00:34,350
+Để đo diện tích ta dùng đơn vị đo diện tích,
+chẳng hạn: xăng-ti-mét vuông.
+
+3
+00:00:36,060 --> 00:00:49,890
+Xăng-ti-mét vuông là diện tích hình vuông có cạnh dài 1 cm.
+
+4
+00:00:53,710 --> 00:00:58,410
+Xăng-ti-mét vuông viết tắt là:
+
+5
+00:01:04,160 --> 00:01:10,810
+Ví dụ 1: Tính diện tích hình A.
+
+6
+00:01:16,100 --> 00:01:18,930
+Quan sát hình A ta thấy:
+
+7
+00:01:20,160 --> 00:01:28,040
+Hình A gồm 5 ô vuông 1 cm<sup>2</sup>.
+
+8
+00:01:32,410 --> 00:01:39,920
+Diện tích hình A là 5 cm<sup>2</sup>.
+
+9
+00:01:44,290 --> 00:01:58,620
+Ví dụ 2: Tính diện tích hình chữ nhật có chiều dài 9 cm,
+chiều rộng 6 cm.
+
+10
+00:02:00,290 --> 00:02:07,880
+Đề bài cho biết hình chữ nhật có chiều dài 9 cm,
+chiều rộng 6 cm.
+
+11
+00:02:10,680 --> 00:02:15,870
+Đề bài yêu cầu tính diện tích hình chữ nhật.
+
+12
+00:02:19,180 --> 00:02:26,510
+Em hãy nhớ lại quy tắc tính diện tích hình chữ nhật.
+
+13
+00:02:28,650 --> 00:02:41,800
+Muốn tính diện tích hình chữ nhật ta lấy
+chiều dài nhân với chiều rộng (cùng đơn vị đo).
+
+14
+00:02:43,870 --> 00:02:51,770
+Vận dụng quy tắc tính diện tích hình chữ nhật để giải bài toán.
+
+15
+00:02:55,570 --> 00:03:08,750
+Diện tích hình chữ nhật là: 9 x 6 = 54 (cm<sup>2</sup>)
+
+16
+00:03:11,310 --> 00:03:15,370
+Ví dụ 3: Chọn kết quả đúng
+
+17
+00:03:19,920 --> 00:03:25,930
+Diện tích hình vuông có cạnh dài 6 cm là:
+
+18
+00:03:28,000 --> 00:03:33,090
+A. 24 cm<sup>2</sup>
+
+19
+00:03:35,310 --> 00:03:40,570
+B. 36 cm<sup>2</sup>
+
+20
+00:03:42,220 --> 00:03:47,330
+C. 63 cm<sup>2</sup>
+
+21
+00:03:51,000 --> 00:03:56,700
+Đề bài cho biết hình vuông có cạnh dài 6 cm.
+
+22
+00:03:58,680 --> 00:04:02,880
+Đề bài yêu cầu tính diện tích hình vuông.
+
+23
+00:04:04,810 --> 00:04:11,090
+Vận dụng quy tắc tính diện tích hình vuông.
+
+24
+00:04:12,640 --> 00:04:19,810
+Muốn tính diện tích hình vuông ta lấy
+độ dài cạnh nhân với chính nó.
+
+25
+00:04:22,400 --> 00:04:25,390
+Chọn đáp án B.

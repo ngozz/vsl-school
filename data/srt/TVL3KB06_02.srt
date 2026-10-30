@@ -1,0 +1,36 @@
+1
+00:00:01,020 --> 00:00:05,000
+Buổi học thể dục.
+
+2
+00:00:05,000 --> 00:00:10,860
+Giờ học thể dục, thầy giáo nói:
+
+3
+00:00:11,110 --> 00:00:18,680
+Hôm nay, cả lớp chúng ta sẽ tập nhảy dây.
+
+4
+00:00:19,400 --> 00:00:25,310
+Các bạn rất vui và hào hứng.
+
+5
+00:00:25,310 --> 00:00:36,530
+Trong lớp chỉ có mình Tuấn được miễn học môn Thể dục
+ vì bị tật ở chân từ nhỏ,
+
+6
+00:00:37,040 --> 00:00:47,370
+nhưng Tuấn vẫn cố xin thầy để được tập cùng các bạn.
+
+7
+00:00:47,370 --> 00:00:55,480
+Sau nhều lần chật vật và cố gắng,
+
+8
+00:00:56,620 --> 00:01:05,550
+Tuấn đã hoàn thành được bài tập nhảy dây trước sự ngạc nhiên của mọi người.
+
+9
+00:01:06,020 --> 00:01:15,640
+Cả lớp rất vui khi nhìn thấy nụ cười rạng rỡ trên gương mặt của Tuấn.

@@ -1,0 +1,100 @@
+1
+00:00:03,310 --> 00:00:14,960
+Các em hãy đọc lời bạn học sinh giới thiệu về mình,
+để biết bạn đã giới thiệu gì về mình nhé!
+
+2
+00:00:15,790 --> 00:00:27,080
+Trước tiên bạn học sinh làm gì?
+
+3
+00:00:31,100 --> 00:00:36,360
+À, bạn học sinh đang chào các bạn.
+
+4
+00:00:37,120 --> 00:00:45,550
+Đúng rồi! Khi gặp nhau chúng ta cần chào nhau.
+
+5
+00:00:47,080 --> 00:00:57,390
+Bạn nhỏ trong tranh tên là gì?
+
+6
+00:00:59,650 --> 00:01:09,870
+Bạn nhỏ tên là Sơn.
+
+7
+00:01:12,440 --> 00:01:26,410
+Sau lời chào chúng ta giới thiệu tên của mình.
+
+8
+00:01:30,020 --> 00:01:37,690
+Bạn nhỏ trong tranh học lớp mấy?
+
+9
+00:01:39,050 --> 00:01:47,980
+Bạn Sơn học lớp 2.
+
+10
+00:01:50,430 --> 00:01:58,280
+Tiếp đến giới thiệu học lớp nào?
+
+11
+00:02:00,640 --> 00:02:08,160
+Bạn nhỏ trong tranh thích học môn gì?
+
+12
+00:02:10,700 --> 00:02:21,050
+Sơn thích học môn Toán.
+
+13
+00:02:23,810 --> 00:02:26,370
+Tiếp đến giới thiệu sở thích.
+
+14
+00:02:26,610 --> 00:02:39,890
+Có thể là môn học,
+có thể là món ăn,
+có thể là một môn thể thao.
+
+15
+00:02:42,440 --> 00:02:45,720
+Ví dụ:
+
+16
+00:02:47,080 --> 00:03:00,960
+Ở trường, giờ ra chơi là vui nhất.
+
+17
+00:03:03,880 --> 00:03:08,400
+Tiếp đến giới thiệu hoạt động vui nhất ở trường.
+
+18
+00:03:08,740 --> 00:03:25,450
+Có thể là giờ ra chơi,
+có thể là một hoạt động ngoại khoá,
+có thể là một môn học nào đó.
+
+19
+00:03:28,180 --> 00:03:39,890
+Các em hãy đọc lại lời bạn học sinh đã giới thiệu về mình ở trên nhé!
+
+20
+00:03:41,940 --> 00:03:47,870
+Chào các bạn!
+
+21
+00:03:50,500 --> 00:03:57,960
+Tôi tên là Sơn.
+
+22
+00:04:01,440 --> 00:04:09,530
+Tôi là học sinh lớp 2.
+
+23
+00:04:11,780 --> 00:04:17,710
+Tôi thích học môn toán.
+
+24
+00:04:20,690 --> 00:04:28,750
+Ở trường, tôi thích giờ ra chơi vì nó vui nhất.

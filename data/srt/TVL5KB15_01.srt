@@ -1,0 +1,7 @@
+1
+00:00:01,100 --> 00:00:06,150
+Chúng ta đã đọc bài “Lớp trưởng lớp tôi".
+
+2
+00:00:06,150 --> 00:00:13,550
+Tiết học này chúng ta sẽ tìm hiểu kĩ về nội dung bài.

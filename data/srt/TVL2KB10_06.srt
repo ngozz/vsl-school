@@ -1,0 +1,23 @@
+1
+00:00:01,910 --> 00:00:06,170
+Chúng ta cùng làm bài tập sau.
+
+2
+00:00:07,000 --> 00:00:16,840
+Chọn cụm từ phù hợp với chỗ trống trong câu.
+
+3
+00:00:17,950 --> 00:00:25,550
+Đi học về, em giúp mẹ
+
+4
+00:00:26,970 --> 00:00:32,880
+Chọn nấu cơm hay nồi cơm?
+
+5
+00:00:37,680 --> 00:00:47,880
+Mấy hôm nay trời nóng, bố đã mua cho em
+
+6
+00:00:48,770 --> 00:00:55,400
+Chọn <color=orange><b>bóng đèn</b></color> hay <color=orange><b>quạt điện</b></color>?

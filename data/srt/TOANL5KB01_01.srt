@@ -1,0 +1,12 @@
+1
+00:00:02,953 --> 00:00:07,591
+Chúng ta sẽ cùng nhau ôn tập về số thập phân
+
+2
+00:00:07,860 --> 00:00:22,605
+Phần nguyên và phần thập phân
+
+3
+00:00:23,345 --> 00:00:31,232
+Luyện tập cách viết các số đo đại lượng
+ bằng cách dùng số thập phân

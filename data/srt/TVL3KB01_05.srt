@@ -1,0 +1,21 @@
+1
+00:00:00,000 --> 00:00:10,240
+Chọn câu trả lời "Nên" hay "Không nên"
+
+2
+00:00:11,400 --> 00:00:18,970
+Em có nên đòi cha mẹ mua cho những thứ quá đắt tiền không?
+
+3
+00:00:19,770 --> 00:00:26,500
+Em có nên giận dỗi những người xung quanh một cách vô cớ không?
+
+4
+00:00:30,260 --> 00:00:35,800
+Câu chuyện cho thấy tình cảm giữa anh với em.
+
+5
+00:00:35,800 --> 00:00:51,730
+Câu chuyện cũng khuyên chúng mình phải biết
+ nhường nhịn quan tâm đến những người thân trong gia đình,
+ không nên chỉ nghĩ đến bản thân mình.

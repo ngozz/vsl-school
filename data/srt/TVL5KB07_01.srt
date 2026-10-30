@@ -1,0 +1,3 @@
+1
+00:00:03,079 --> 00:00:21,055
+Hôm nay, chúng ta sẽ tìm hiểu bài "Cây cỏ nước Nam".

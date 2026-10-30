@@ -1,0 +1,15 @@
+1
+00:00:00,213 --> 00:00:02,703
+Chào các em.
+
+2
+00:00:04,264 --> 00:00:10,329
+Chúng ta sẽ ôn tập về các số có nhiều chữ số.
+
+3
+00:00:12,913 --> 00:00:18,886
+Luyện tập về phân định các số theo hàng, lớp.
+
+4
+00:00:21,166 --> 00:00:28,308
+Luyện đọc viết các số có nhiều chữ số đến lớp triệu.

@@ -1,0 +1,63 @@
+1
+00:00:03,640 --> 00:00:12,020
+Nhìn vào danh sách em thấy tổ 1 của lớp 2A có bao nhiêu học sinh?
+
+2
+00:00:28,910 --> 00:00:38,000
+Nhìn vào danh sách ở cột thứ tự các em sẽ biết được số lượng học sinh.
+
+3
+00:00:39,770 --> 00:00:44,770
+Tổ 1 có 5 học sinh.
+
+4
+00:00:51,910 --> 00:01:00,950
+Nhìn vào danh sách em thấy tổ 1 của lớp 2A có mấy học sinh nữ?
+
+5
+00:01:02,570 --> 00:01:07,170
+A. Có 2 học sinh nữ.
+
+6
+00:01:07,950 --> 00:01:11,460
+B. Có 3 học sinh nữ.
+
+7
+00:01:12,040 --> 00:01:15,930
+C. Có 5 học sinh nữ.
+
+8
+00:01:27,130 --> 00:01:36,260
+Nhìn vào danh sách em thấy tổ 1 của lớp 2A có mấy học sinh nam?
+
+9
+00:01:40,750 --> 00:01:45,040
+A. Có 2 học sinh nam.
+
+10
+00:01:45,400 --> 00:01:49,510
+B. Có 3 học sinh nam.
+
+11
+00:01:50,420 --> 00:01:54,880
+C. Có 5 học sinh nam.
+
+12
+00:02:02,350 --> 00:02:06,550
+Tổ 1 có học sinh mới.
+
+13
+00:02:07,660 --> 00:02:12,310
+Học sinh đó tên là gì?
+
+14
+00:02:32,950 --> 00:02:48,350
+Học sinh mới tên là Trần Anh Dũng.
+
+15
+00:02:51,620 --> 00:02:57,880
+Trong bảng danh sách tổ 1 tên học sinh mới xếp ở số mấy?
+
+16
+00:03:15,080 --> 00:03:19,510
+Bạn mới xếp ở số 4.

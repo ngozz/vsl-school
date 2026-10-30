@@ -1,0 +1,11 @@
+1
+00:00:01,592 --> 00:00:09,337
+Chúng ta cùng ôn luyện về giải các bài toán có lời văn.
+
+2
+00:00:10,092 --> 00:00:20,487
+Luyện tập tìm số trung bình cộng của hai hay nhiều số.
+
+3
+00:00:21,239 --> 00:00:38,826
+Luyện tập giải bài toán tìm số trung bình cộng và tìm hai số khi biết tổng và hiệu của hai số đó.

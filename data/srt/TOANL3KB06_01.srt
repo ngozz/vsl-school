@@ -1,0 +1,8 @@
+1
+00:00:01,650 --> 00:00:03,780
+Chào các em!
+
+2
+00:00:04,570 --> 00:00:19,170
+Hôm nay chúng ta cùng ôn tập
+phép chia số có nhiều chữ số cho số có một chữ số.

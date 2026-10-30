@@ -1,0 +1,58 @@
+1
+00:00:01,800 --> 00:00:10,400
+Tính tỉ số phần trăm của hai số
+
+2
+00:00:10,400 --> 00:00:20,150
+Ví dụ: Trong vườn nhà chú Tư có 600 cây,
+
+3
+00:00:20,150 --> 00:00:25,370
+trong đó có 315 cây xoài.
+
+4
+00:00:25,370 --> 00:00:41,020
+Hỏi số cây xoài chiếm bao nhiêu phần trăm trong vườn nhà chú Tư?
+
+5
+00:00:41,510 --> 00:00:57,060
+Tỉ số cây xoài và tổng số cây trong vườn nhà chú Tư là 315 : 600
+
+6
+00:00:57,710 --> 00:01:10,420
+Ta có 315 chia 600 bằng 0,525
+
+7
+00:01:10,420 --> 00:01:24,080
+0,525 nhân 100 chia 100 bằng 52,5 chia 100 bằng 52,5%
+
+8
+00:01:24,080 --> 00:01:38,480
+Vậy tỉ số cây xoài và tổng số cây trong vườn nhà chú Tư là 52,5%
+
+9
+00:01:38,480 --> 00:01:50,460
+Kết luận:
+Muốn tìm tỉ số phần trăm của hai số 315 và 600 ta làm như sau:
+
+10
+00:01:50,460 --> 00:01:59,310
+Tìm thương của 315 và 600
+
+11
+00:02:00,130 --> 00:02:13,530
+Nhân thương đó với 100
+và điền thêm kí hiệu % vào bên phải tích tìm được.
+
+12
+00:02:14,280 --> 00:02:28,880
+Bài toán 1: Trong 40 kg nước biển có 1,4 kg muối.
+
+13
+00:02:29,730 --> 00:02:40,240
+Tìm tỉ số phần trăm của lượng muối trong nước biển.
+
+14
+00:02:40,820 --> 00:02:49,040
+Em hãy cho biết lời giải
+và điền vào chỗ trống để được kết quả đúng.

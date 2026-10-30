@@ -1,0 +1,4 @@
+1
+00:00:02,240 --> 00:00:09,540
+Em hãy viết một câu thể hiện tình cảm của mình
+với những người trong gia đình.

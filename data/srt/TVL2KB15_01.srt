@@ -1,0 +1,4 @@
+1
+00:00:02,020 --> 00:00:13,480
+Bài học hôm nay các em tập viết đoạn văn
+thuật lại các việc đã làm hoặc các việc cần làm.

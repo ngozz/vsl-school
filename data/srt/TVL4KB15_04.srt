@@ -1,0 +1,13 @@
+1
+00:00:02,810 --> 00:00:06,080
+Câu thường gồm hai bộ phận:
+
+2
+00:00:08,730 --> 00:00:26,880
+Bộ phận thứ nhất là chủ ngữ, trả lời cho câu hỏi:
+Ai (con gì, cái gì)?
+
+3
+00:00:29,440 --> 00:00:45,950
+Bộ phận thứ hai là vị ngữ, trả lời cho câu hỏi:
+Là gì? / Làm gì? / Thế nào?

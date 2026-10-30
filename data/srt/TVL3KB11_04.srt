@@ -1,0 +1,102 @@
+1
+00:00:01,750 --> 00:00:09,130
+Các em hãy trả lời các câu hỏi sau:
+
+2
+00:00:09,530 --> 00:00:20,110
+Cô giáo cho cả lớp đề văn như thế nào?
+
+3
+00:00:20,420 --> 00:00:28,200
+Em hãy đánh dấu X vào ô trước câu trả lời đúng:
+
+4
+00:00:29,220 --> 00:00:36,660
+Em có hay giúp đỡ mẹ không?
+
+5
+00:00:38,000 --> 00:00:44,020
+Em đã giúp đỡ những ai?
+
+6
+00:00:44,800 --> 00:00:48,170
+Em đã làm gì để giúp đỡ mẹ?
+
+7
+00:00:51,970 --> 00:01:03,480
+Đề văn là: Em đã làm gì để giúp đỡ mẹ?
+
+8
+00:01:05,060 --> 00:01:14,440
+Đầu tiên, Nguyên viết những gì?
+
+9
+00:01:15,480 --> 00:01:37,510
+Đáp án: Đầu tiên, Nguyên viết: "Em đã nhiều lần giúp đỡ mẹ.
+Em quét nhà và rửa bát đĩa. Đôi khi, em giặt khăn mặt."
+
+10
+00:01:39,420 --> 00:01:46,910
+Vì sao Nguyên thấy khó viết bài tập làm văn?
+
+11
+00:01:47,310 --> 00:01:56,680
+Em hãy đánh dấu X vào ô Đúng hoặc ô Sai.
+
+12
+00:01:58,150 --> 00:02:06,710
+Vì ở nhà mẹ thường làm mọi việc.
+
+13
+00:02:07,240 --> 00:02:12,480
+Vì ở nhà Nguyên thường làm mọi việc.
+
+14
+00:02:17,080 --> 00:02:28,710
+Đáp án: Nguyên thấy khó viết bài tập làm văn vì
+ở nhà mẹ thường làm mọi việc.
+
+15
+00:02:30,550 --> 00:02:37,060
+Tiếp theo Nguyên viết những gì?
+
+16
+00:02:37,570 --> 00:02:43,400
+Em hãy đánh dấu X vào ô trước câu trả lời đúng:
+
+17
+00:02:43,570 --> 00:02:53,530
+Em giặt áo lót, áo sơ mi và không giặt quần.
+
+18
+00:02:54,150 --> 00:03:02,060
+Em không thích giặt áo lót, áo sơ mi và quần.
+
+19
+00:03:02,310 --> 00:03:07,710
+Em giặt cả áo lót, áo sơ mi và quần.
+
+20
+00:03:10,950 --> 00:03:23,110
+Đáp án: Tiếp theo Nguyên viết:
+Em giặt cả áo lót, áo sơ mi và quần.
+
+21
+00:03:23,770 --> 00:03:31,880
+Vì sao Nguyên vui vẻ làm theo lời mẹ?
+
+22
+00:03:32,420 --> 00:03:41,310
+Em hãy đánh dấu X vào ô Đúng hoặc ô Sai.
+
+23
+00:03:41,680 --> 00:03:52,420
+Vì Nguyên vẫn thường xuyên giúp mẹ làm các việc nhà.
+
+24
+00:03:53,080 --> 00:03:59,310
+Vì đó là việc mà Nguyên đã viết trong bài tập làm văn.
+
+25
+00:04:02,350 --> 00:04:10,240
+Đáp án: Vì đó là việc mà Nguyên đã viết trong bài tập làm văn.

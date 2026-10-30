@@ -1,0 +1,8 @@
+1
+00:00:01,300 --> 00:00:08,350
+Các em đã đọc bài "Luật trẻ em".
+
+2
+00:00:08,350 --> 00:00:20,300
+Tiết học này chúng ta sẽ tìm hiểu kĩ bài đọc để hiểu trẻ em
+có quyền lợi gì.

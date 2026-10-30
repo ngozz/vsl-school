@@ -1,0 +1,24 @@
+1
+00:00:02,730 --> 00:00:05,500
+Có một số cuốn truyện mà trẻ em thích đọc.
+
+2
+00:00:05,500 --> 00:00:12,340
+Các em hãy quan sát những cuốn sách này.
+
+3
+00:00:13,300 --> 00:00:16,410
+Tên một số cuốn sách giới thiệu trên màn hình.
+
+4
+00:00:16,410 --> 00:00:46,650
+Kho tàng truyện cổ tích Việt Nam, Tấm Cám,
+Dế Mèn phiêu lưu ký, truyện cổ Grimm, truyện cổ Andersen.
+
+5
+00:00:48,050 --> 00:00:56,210
+Em đã đọc những cuốn này chưa?
+
+6
+00:00:57,370 --> 00:01:03,770
+Em có thích tranh vẽ trong cuốn sách?

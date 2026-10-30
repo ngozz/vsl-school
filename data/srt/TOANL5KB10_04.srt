@@ -1,0 +1,38 @@
+1
+00:00:01,860 --> 00:00:12,610
+Giải quyết những vấn đề đơn giản liên quan đến
+các số liệu thu được từ biểu đồ hình quạt.
+
+2
+00:00:16,190 --> 00:00:19,380
+Bài toán 2:
+
+3
+00:00:23,140 --> 00:00:33,040
+Biểu đồ hình quạt bên cho biết tỉ số phần trăm học sinh
+tham gia các môn thể thao của lớp 5C.
+
+4
+00:00:33,540 --> 00:00:39,440
+Biết rằng lớp 5C có 32 bạn học sinh.
+
+5
+00:00:39,640 --> 00:00:47,530
+Hỏi có bao nhiêu bạn tham gia môn Bơi?
+
+6
+00:00:48,400 --> 00:00:53,920
+- Bài toán cho biết gì?
+
+7
+00:00:54,280 --> 00:01:00,170
+- Bài toán yêu cầu gì?
+
+8
+00:01:01,900 --> 00:01:13,230
+- Em hãy nhìn vào biểu đồ và cho biết có bao nhiêu phần trăm
+số bạn tham gia môn Bơi?
+
+9
+00:01:14,530 --> 00:01:20,090
+Vậy số học sinh tham gia môn bơi là bao nhiêu?

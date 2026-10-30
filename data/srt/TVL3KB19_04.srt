@@ -1,0 +1,50 @@
+1
+00:00:02,870 --> 00:00:08,820
+Câu đầu đoạn văn viết gì?
+
+2
+00:00:08,820 --> 00:00:13,620
+Các câu tiếp theo trong đoạn viết gì?
+
+3
+00:00:13,620 --> 00:00:21,750
+Câu cuối đoạn viết gì?
+
+4
+00:00:22,250 --> 00:00:31,250
+Nối A với B để có câu trả lời đúng:
+
+5
+00:00:31,250 --> 00:00:50,420
+A: Câu mở đầu đoạn văn; Các câu thân đoạn;
+Câu cuối đoạn văn.
+
+6
+00:00:50,420 --> 00:01:05,750
+B: Nêu cảm nhận hoặc suy nghĩ về nhân vật em yêu thích.
+
+7
+00:01:05,750 --> 00:01:19,370
+Giới thiệu về nhân vật em yêu thích, tên câu chuyện.
+
+8
+00:01:19,370 --> 00:01:34,900
+Lý do vì sao em thích nhân vật đó
+(về ngoại hình, hành động hay tính tình).
+
+9
+00:01:42,570 --> 00:01:58,100
+Đáp án:
+Câu mở đầu đoạn văn: Giới thiệu về nhân vật em yêu thích,
+tên câu chuyện.
+
+10
+00:01:58,850 --> 00:02:18,200
+Các câu tiếp theo trong đoạn văn:
+Lý do vì sao em thích nhân vật đó
+(về ngoại hình, hành động hay tính tình).
+
+11
+00:02:19,300 --> 00:02:32,400
+Câu cuối đoạn văn:
+Nêu cảm nhận hoặc suy nghĩ về nhân vật em yêu thích.

@@ -1,0 +1,36 @@
+1
+00:00:01,300 --> 00:00:06,000
+tường vàng
+
+2
+00:00:07,930 --> 00:00:11,300
+ngói đỏ
+
+3
+00:00:13,330 --> 00:00:17,100
+cánh cửa xanh
+
+4
+00:00:18,800 --> 00:00:24,830
+bàn ghế gỗ
+
+5
+00:00:28,360 --> 00:00:40,830
+Bây giờ, các em hãy nối ô chữ với hình ảnh thích hợp.
+
+6
+00:00:44,630 --> 00:00:49,030
+Những hình ảnh tường vàng, ngói đỏ
+
+7
+00:00:49,460 --> 00:00:51,530
+Những hình ảnh tường vàng, ngói đỏ, cánh cửa xanh
+
+8
+00:00:51,900 --> 00:00:53,730
+Những hình ảnh tường vàng, ngói đỏ, cánh cửa xanh, bàn ghế gỗ
+
+9
+00:00:54,160 --> 00:00:59,830
+Những hình ảnh tường vàng, ngói đỏ, cánh cửa xanh, bàn ghế gỗ
+chính là những hình ảnh quen thuộc trong trường học.

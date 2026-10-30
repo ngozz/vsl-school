@@ -1,0 +1,8 @@
+1
+00:00:02,550 --> 00:00:10,720
+Các em đã đọc bài "Cái gì quý nhất".
+
+2
+00:00:14,260 --> 00:00:23,170
+Bài đọc là cuộc trao đổi, tranh luận
+xem cái gì là quý nhất trong cuộc sống.

@@ -1,0 +1,5 @@
+1
+00:00:01,620 --> 00:00:09,710
+Chào các em!
+Chúng ta cùng nhau ôn lại phép cộng có nhớ,
+phép trừ có nhớ trong phạm vi 20.

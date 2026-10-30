@@ -1,0 +1,9 @@
+1
+00:00:01,750 --> 00:00:15,100
+Các em đã được phát biểu ý kiến thể hiện sự đồng ý
+hay không đồng ý một hành động, việc làm nào đó.
+
+2
+00:00:15,950 --> 00:00:28,200
+Hôm nay các em sẽ tập viết đoạn văn
+bày tỏ ý kiến tán thành hay phản đối.

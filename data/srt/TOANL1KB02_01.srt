@@ -1,0 +1,4 @@
+1
+00:00:02,000 --> 00:00:11,819
+Chúng ta cùng ôn lại cách so sánh các số trong phạm vi 10,
+ cùng luyện tập phân biết dấu nhiều hơn, ít hơn, bằng nhau.

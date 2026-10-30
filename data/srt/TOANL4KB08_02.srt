@@ -1,0 +1,69 @@
+1
+00:00:01,450 --> 00:00:09,870
+Phép cộng hai phân số cùng mẫu số.
+
+2
+00:00:11,400 --> 00:00:16,270
+Quan sát hình bên và cho biết:
+
+3
+00:00:16,270 --> 00:00:24,420
+Băng giấy được chia thành mấy phần?
+
+4
+00:00:24,700 --> 00:00:30,900
+Nga tô được mấy phần?
+
+5
+00:00:30,900 --> 00:00:35,820
+Linh tô được mấy phần?
+
+6
+00:00:37,370 --> 00:00:47,050
+Viết phân số thích hợp với phần băng giấy mà
+mỗi bạn tô được.
+
+7
+00:00:50,470 --> 00:00:57,850
+Cả hai bạn đã tô mấy phần băng giấy?
+
+8
+00:01:03,320 --> 00:01:12,300
+Theo hình vẽ ta biết cả hai bạn đã tô màu năm phần tám
+(băng giấy).
+
+9
+00:01:13,570 --> 00:01:23,200
+Để tìm số phần băng giấy 2 bạn đã tô màu, ta có phép cộng:
+
+10
+00:01:23,950 --> 00:01:34,370
+hai phần tám cộng ba phần tám bằng năm phần tám.
+
+11
+00:01:34,720 --> 00:01:49,020
+Nhận xét tử số của tổng bằng tổng hai tử số;
+mẫu số giữ nguyên.
+
+12
+00:01:50,050 --> 00:02:08,300
+Kết luận: Muốn cộng hai phân số cùng mẫu số,
+ta cộng hai tử số với nhau, và giữ nguyên mẫu số.
+
+13
+00:02:09,400 --> 00:02:14,420
+Cộng hai phân số sau:
+
+14
+00:02:14,420 --> 00:02:23,220
+một phần tư cộng hai phần tư bằng bao nhiêu?
+
+15
+00:02:23,420 --> 00:02:34,820
+Theo nhận xét đã nêu,
+hãy điền vào ô trống rồi kiểm tra lại trên hình vẽ.
+
+16
+00:02:40,150 --> 00:02:50,120
+Cộng hai phân số sau:
+ba phần bảy cộng hai phần bảy bằng bao nhiêu?

@@ -1,0 +1,11 @@
+1
+00:00:00,596 --> 00:00:04,110
+Chào các em!
+
+2
+00:00:05,018 --> 00:00:16,273
+Chúng ta cùng ôn lại phép cộng, phép trừ trong phạm vi 100 000.
+
+3
+00:00:18,497 --> 00:00:36,245
+Cùng luyện tập làm tính với phép cộng phép trừ trong phạm vi 10 000 và trong phạm vi 100 000.

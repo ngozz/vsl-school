@@ -1,0 +1,64 @@
+1
+00:00:01,600 --> 00:00:07,200
+10 trăm nghìn gọi là một triệu.
+
+2
+00:00:07,200 --> 00:00:13,880
+Viết là 1 000 000.
+
+3
+00:00:13,880 --> 00:00:27,020
+10 triệu gọi là một chục triệu.
+Viết là 10 000 000.
+
+4
+00:00:27,020 --> 00:00:44,600
+10 chục triệu gọi là một trăm triệu.
+Viết là 100 000 000.
+
+5
+00:00:45,420 --> 00:01:03,910
+Lớp triệu gồm ba hàng: triệu, chục triệu và trăm triệu.
+
+6
+00:01:04,600 --> 00:01:13,420
+Xem cách điền mẫu ở dòng đầu trong bảng
+ để thực hiện dòng hai.
+
+7
+00:01:13,420 --> 00:01:24,770
+Nói: Số 53 218 762
+
+8
+00:01:24,770 --> 00:01:39,240
+Đọc là: Năm mươi ba triệu, hai trăm mười tám nghìn,
+ bảy trăm sáu mươi hai.
+
+9
+00:01:39,600 --> 00:01:52,370
+Số 53 218 762 gồm 8 chữ số
+
+10
+00:01:52,370 --> 00:02:05,150
+Giá trị của mỗi chữ số tùy thuộc vị trí của nó
+ trong cách viết số
+
+11
+00:02:05,150 --> 00:02:12,860
+Chữ số 5 có giá trị là năm chục triệu.
+
+12
+00:02:12,860 --> 00:02:25,170
+Chữ số 1 có giá trị là một chục nghìn.
+
+13
+00:02:25,460 --> 00:02:34,080
+Tập đọc tiếp
+
+14
+00:02:34,080 --> 00:02:42,970
+Đọc số lần lượt từ lớp triệu, lớp nghìn rồi đến lớp đơn vị.
+
+15
+00:02:42,970 --> 00:02:53,620
+Số trên đọc là: Ba trăm hai mươi lăm triệu, một trăm sáu mươi bảy nghìn, hai trăm mười lăm.

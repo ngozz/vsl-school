@@ -1,0 +1,4 @@
+1
+00:00:02,106 --> 00:00:11,291
+Vậy trường em có những hoạt động nào?
+Đánh dấu X vào bức tranh em chọn.

@@ -1,0 +1,226 @@
+name: Build Flutter App
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: flutter-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Check build trigger
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.trigger.outputs.should_run }}
+    steps:
+      - name: Check commit marker
+        id: trigger
+        shell: bash
+        run: |
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Manual run: build enabled."
+            exit 0
+          fi
+
+          commit_message="$(jq -r '.head_commit.message // ""' "$GITHUB_EVENT_PATH")"
+          if grep -Fq '[build]' <<< "$commit_message"; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Push message includes [build]: build enabled."
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "Push message missing [build]: skipping builds."
+          fi
+
+  analyze:
+    name: Analyze
+    needs: check
+    if: needs.check.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Analyze
+        run: flutter analyze
+
+  build-web:
+    name: Build Web
+    needs: [check, analyze]
+    if: needs.check.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Build web
+        run: flutter build web --release --base-href /vsl-school/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+      - name: Package web build
+        run: |
+          cd build/web
+          zip -qr ../../vsl-school-web.zip .
+
+      - name: Upload web artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: web
+          path: vsl-school-web.zip
+          if-no-files-found: error
+
+  deploy-pages:
+    name: Deploy Web to GitHub Pages
+    needs: [check, build-web]
+    if: needs.check.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  build-android:
+    name: Build Android APK
+    needs: [check, analyze]
+    if: needs.check.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      # Debug-signed for now (see android/app/build.gradle.kts); add keystore
+      # secrets + a signing config later if a Play-Store-ready APK is needed.
+
+      - name: Build APK
+        run: flutter build apk --release
+
+      - name: Rename APK
+        run: cp build/app/outputs/flutter-apk/app-release.apk vsl-school-android.apk
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: android
+          path: vsl-school-android.apk
+          if-no-files-found: error
+
+  build-ios:
+    name: Build unsigned iOS IPA
+    needs: [check, analyze]
+    if: needs.check.outputs.should_run == 'true'
+    runs-on: macos-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Build unsigned iOS app
+        run: flutter build ios --release --no-codesign
+
+      - name: Package unsigned IPA
+        shell: bash
+        run: |
+          mkdir -p build/ios/Payload
+          cp -R build/ios/iphoneos/Runner.app build/ios/Payload/Runner.app
+          cd build/ios
+          zip -qr ../../vsl-school-ios-unsigned.ipa Payload
+
+      - name: Upload unsigned IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios
+          path: vsl-school-ios-unsigned.ipa
+          if-no-files-found: error
+
+  release:
+    name: Create GitHub Release
+    needs:
+      - check
+      - build-web
+      - build-android
+      - build-ios
+    if: needs.check.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download web artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: web
+          path: release
+
+      - name: Download Android artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: android
+          path: release
+
+      - name: Download iOS artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ios
+          path: release
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: Build ${{ github.run_number }}
+          generate_release_notes: true
+          files: |
+            release/vsl-school-web.zip
+            release/vsl-school-android.apk
+            release/vsl-school-ios-unsigned.ipa

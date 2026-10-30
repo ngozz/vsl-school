@@ -1,0 +1,92 @@
+1
+00:00:01,700 --> 00:00:09,830
+Thành phố sắp vào thu được miêu tả qua chi tiết nào?
+
+2
+00:00:10,030 --> 00:00:17,630
+Em hãy đánh dấu X vào ô trước câu trả lời đúng:
+
+3
+00:00:17,900 --> 00:00:29,960
+Trời xanh ngắt trên cao, không khí ấm dần.
+
+4
+00:00:30,760 --> 00:00:42,330
+Trời xanh ngắt trên cao, không khí lạnh dần.
+
+5
+00:00:42,330 --> 00:00:50,260
+Trời xanh ngắt trên cao, không khí dần trở nên mát dịu.
+
+6
+00:00:54,660 --> 00:01:15,600
+Đáp án: Thành phố sắp vào thu được miêu tả qua các chi tiết:
+Trời xanh ngắt trên cao, không khí dần trở nên mát dịu.
+
+7
+00:01:16,060 --> 00:01:26,130
+Ông ngoại đã giúp bạn nhỏ làm những gì
+để chuẩn bị cho bạn nhỏ đi học?
+
+8
+00:01:26,130 --> 00:01:36,060
+Để giúp bạn nhỏ chuẩn bị đi học,
+ông ngoại đã dẫn bạn nhỏ đi mua vở,
+
+9
+00:01:36,060 --> 00:01:41,460
+Để giúp bạn nhỏ chuẩn bị đi học,
+ông ngoại đã dẫn bạn nhỏ đi mua vở, chọn bút,
+hướng dẫn cách bọc vở,
+
+10
+00:01:41,460 --> 00:01:56,060
+Để giúp bạn nhỏ chuẩn bị đi học, ông ngoại đã dẫn bạn nhỏ
+đi mua vở, chọn bút, hướng dẫn cách bọc vở, dán nhãn,
+pha mực và dạy bạn nhỏ những chữ cái đầu tiên.
+
+11
+00:01:57,030 --> 00:02:04,760
+Ông ngoại dẫn bạn nhỏ đến trường để làm gì?
+
+12
+00:02:04,760 --> 00:02:11,200
+Em hãy đánh dấu X vào ô đúng hoặc ô sai.
+
+13
+00:02:12,100 --> 00:02:19,400
+1. Để đưa bạn nhỏ đi học.
+
+14
+00:02:19,860 --> 00:02:26,000
+2. Để đưa bạn nhỏ đi thăm các lớp học.
+
+15
+00:02:27,300 --> 00:02:39,130
+Đáp án: Ông ngoại dẫn bạn nhỏ đến trường
+để đưa bạn ấy đi thăm các lớp học.
+
+16
+00:02:39,760 --> 00:02:48,060
+d) Bạn nhỏ đã coi ai là người thầy đầu tiên của mình?
+
+17
+00:02:49,700 --> 00:02:55,460
+Em hãy đánh dấu X vào ô trước câu trả lời đúng:
+
+18
+00:02:55,460 --> 00:02:58,300
+bố
+
+19
+00:02:58,300 --> 00:03:00,560
+ông ngoại
+
+20
+00:03:00,560 --> 00:03:03,530
+mẹ
+
+21
+00:03:07,630 --> 00:03:17,060
+Đáp án:
+Bạn nhỏ đã coi ông ngoại là người thầy đầu tiên của mình.

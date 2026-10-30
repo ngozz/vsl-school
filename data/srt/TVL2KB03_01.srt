@@ -1,0 +1,8 @@
+1
+00:00:03,480 --> 00:00:07,880
+Các em đã đọc bài danh sách học sinh.
+
+2
+00:00:10,080 --> 00:00:17,480
+Chúng ta sẽ đọc lại và tìm hiểu nội dung
+các thông tin trong bản danh sách.

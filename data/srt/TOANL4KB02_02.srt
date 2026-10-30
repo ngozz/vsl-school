@@ -1,0 +1,8 @@
+1
+00:00:05,820 --> 00:00:17,170
+Điền số thích hợp vào chỗ trống
+
+2
+00:00:18,150 --> 00:00:39,330
+Quy tắc: Muốn nhân một số với 10; 100; hay 1000...,
+ta chỉ việc thêm 1, 2 hay 3 chữ số 0 vào bên phải số đó.

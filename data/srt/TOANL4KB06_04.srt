@@ -1,0 +1,76 @@
+1
+00:00:02,450 --> 00:00:10,820
+Phân số và phép chia số tự nhiên
+
+2
+00:00:12,670 --> 00:00:22,650
+Hãy thảo luận cách chia đều 3 cái bánh cho 4 bạn.
+
+3
+00:00:23,800 --> 00:00:35,850
+Mỗi cái bánh đều được chia thành 4 phần bằng nhau và
+chia đều cho 4 bạn.
+
+4
+00:00:37,150 --> 00:00:52,050
+Sau khi chia mỗi bạn được bao nhiêu phần cái bánh?
+
+5
+00:00:53,170 --> 00:01:04,520
+Kết quả: Mỗi bạn được ba phần tư cái bánh.
+
+6
+00:01:05,320 --> 00:01:14,950
+Ta viết: 3 chia 4 bằng 3 phần 4.
+
+7
+00:01:14,950 --> 00:01:30,620
+Kết luận: Có thể viết kết quả phép chia 2 số tự nhiên dưới dạng phân số,
+
+8
+00:01:31,870 --> 00:01:46,500
+tử số là số bị chia và mẫu số là số chia.
+
+9
+00:01:46,500 --> 00:01:52,820
+Chẳng hạn: 3 chia 4 bằng
+
+10
+00:01:52,820 --> 00:01:58,070
+5 chia 4 bằng
+
+11
+00:01:58,070 --> 00:02:05,720
+9 chia 3 bằng
+
+12
+00:02:07,270 --> 00:02:18,350
+Ví dụ 5: Hãy điền số vào ô trống để được phân số thích hợp.
+
+13
+00:02:19,350 --> 00:02:28,650
+Có 5 quả táo chia đều cho 4 bạn.
+
+14
+00:02:28,870 --> 00:02:39,200
+Mỗi bạn được bao nhiêu quả táo?
+
+15
+00:02:41,200 --> 00:02:49,770
+Có 1 kg đường; chia đều vào 3 gói nhỏ;
+
+16
+00:02:49,770 --> 00:03:01,220
+Mỗi gói có cân nặng bao nhiêu?
+
+17
+00:03:03,770 --> 00:03:10,550
+Băng giấy màu được chia đều thành 8 phần bằng nhau;
+
+18
+00:03:10,550 --> 00:03:20,650
+An cắt lấy 3 phần để làm thủ công,
+
+19
+00:03:20,650 --> 00:03:31,520
+vậy số phần băng giấy An đã lấy làm thủ công là bao nhiêu?

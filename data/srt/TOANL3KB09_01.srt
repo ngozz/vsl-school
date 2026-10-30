@@ -1,0 +1,4 @@
+1
+00:00:01,840 --> 00:00:10,880
+Hôm nay chúng ta cùng ôn tập về các đơn vị đo độ dài,
+diện tích.

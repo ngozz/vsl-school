@@ -1,0 +1,11 @@
+1
+00:00:04,040 --> 00:00:16,110
+Quan sát các tranh, ảnh và trả lời câu hỏi.
+
+2
+00:00:17,310 --> 00:00:23,880
+Trong tranh hoặc ảnh có những đồ vật gì?
+
+3
+00:00:23,880 --> 00:00:30,680
+Trên bảng có các từ chỉ các đồ vật.

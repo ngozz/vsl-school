@@ -1,0 +1,4 @@
+1
+00:00:00,880 --> 00:00:12,020
+Các em đã đọc bài “Nội quy Đảo Khỉ”.
+Chúng ta sẽ đọc lại và tìm hiểu nội dung bài.

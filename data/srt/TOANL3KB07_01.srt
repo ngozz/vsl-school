@@ -1,0 +1,8 @@
+1
+00:00:02,120 --> 00:00:04,250
+Chào các em!
+
+2
+00:00:05,140 --> 00:00:12,330
+Hôm nay chúng ta cùng ôn tập kiến thức
+về biểu thức và cách tính giá trị biểu thức số.

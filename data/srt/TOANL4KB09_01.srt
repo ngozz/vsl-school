@@ -1,0 +1,4 @@
+1
+00:00:01,670 --> 00:00:11,370
+Chào các em!
+Hôm nay chúng ta sẽ ôn tập về hình bình hành và hình thoi.

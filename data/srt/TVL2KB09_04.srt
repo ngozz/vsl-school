@@ -1,0 +1,15 @@
+1
+00:00:05,810 --> 00:00:10,450
+<color=orange><b>Mùa Xuân</b></color> cây cối đâm chồi nảy lộc.
+
+2
+00:00:20,290 --> 00:00:30,760
+<color=orange><b>Mùa Hè</b></color> cây có nhiều trái ngọt và học sinh được nghỉ hè.
+
+3
+00:00:38,680 --> 00:00:49,620
+<color=orange><b>Mùa Thu</b></color> có đêm trăng rằm rước đèn phá cỗ.
+
+4
+00:00:58,060 --> 00:01:03,490
+<color=orange><b>Mùa Đông</b></color> rất lạnh.

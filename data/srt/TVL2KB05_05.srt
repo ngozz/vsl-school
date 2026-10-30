@@ -1,0 +1,36 @@
+1
+00:00:01,610 --> 00:00:06,670
+Từ hình ảnh bạn Sơn đã giới thiệu về mình ở trên.
+
+2
+00:00:06,700 --> 00:00:25,520
+Cô sẽ hướng dẫn các em
+cách giới thiệu về bản thân khi gặp nhau lần đầu nhé!
+
+3
+00:00:26,730 --> 00:00:34,880
+Trước tiên, khi gặp nhau cần chào nhau.
+
+4
+00:00:36,940 --> 00:00:42,410
+Xin chào các bạn!
+
+5
+00:00:43,330 --> 00:00:51,240
+Tiếp đến cần giới thiệu về bản thân mình cho bạn biết:
+
+6
+00:00:52,500 --> 00:00:55,060
+Giới thiệu tên.
+
+7
+00:00:55,970 --> 00:00:58,670
+Giới thiệu lớp học.
+
+8
+00:00:59,130 --> 00:01:02,820
+Giới thiệu sở thích.
+
+9
+00:01:03,810 --> 00:01:09,620
+Giới thiệu hoạt động yêu thích ở trường.

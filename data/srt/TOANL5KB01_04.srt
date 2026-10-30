@@ -1,0 +1,74 @@
+1
+00:00:01,240 --> 00:00:08,880
+Thể hiện số đo đại lượng bằng cách dùng số thập phân
+
+2
+00:00:09,730 --> 00:00:18,880
+Chúng ta cùng tìm hiểu cách viết số đo độ dài
+dưới dạng số thập phân như sau:
+
+3
+00:00:19,640 --> 00:00:26,000
+Em hãy điền vào chỗ trống
+
+4
+00:00:26,620 --> 00:00:47,330
+Cách làm:
+Trước hết ta chuyển 6 m 4 dm về hỗn số 6 và 4 phần 10 m
+rồi tiếp tục chuyển về số thập phân được 6,4 m
+
+5
+00:00:47,330 --> 00:00:59,260
+Vậy: 6 m 4 dm = 6,4 m
+
+6
+00:00:59,730 --> 00:01:09,600
+Chúng ta cùng tìm hiểu cách viết số đo khối lượng dưới dạng
+ số thập phân
+
+7
+00:01:09,970 --> 00:01:16,620
+Em hãy điền vào chỗ trống
+
+8
+00:01:18,020 --> 00:01:20,930
+Cách làm:
+
+9
+00:01:20,930 --> 00:01:27,970
+Trước hết ta chuyển 5 tấn 132 kg về hỗn số
+
+10
+00:01:27,970 --> 00:01:33,460
+5 và 132 phần 1000
+
+11
+00:01:33,840 --> 00:01:43,080
+rồi tiếp tục chuyển về số thập phân được 5,132 tấn
+
+12
+00:01:43,550 --> 00:02:01,480
+Vậy: 5 tấn 132 kg bằng 5,132 tấn
+
+13
+00:02:02,403 --> 00:02:10,040
+Chúng ta cùng tìm hiểu cách viết số đo diện tích dưới dạng
+số thập phân.
+
+14
+00:02:11,029 --> 00:02:17,498
+Em hãy điền vào chỗ trống.
+
+15
+00:02:18,658 --> 00:02:41,130
+Cách làm:
+Trước hết ta chuyển 3 m<sup>2</sup> 5 dm<sup>2</sup> về hỗn số được 3 và 5 phần 100 m<sup>2</sup>
+ rồi tiếp tục chuyển về số thập phân ta được 3,05 m<sup>2</sup>
+
+16
+00:02:42,716 --> 00:02:55,661
+3 m<sup>2</sup> 5 dm<sup>2</sup> bằng 3,05 m<sup>2</sup>
+
+17
+00:02:57,518 --> 00:03:04,460
+Em đọc kĩ lại bài học và làm các bài tập dưới đây.

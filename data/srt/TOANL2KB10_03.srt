@@ -1,0 +1,11 @@
+1
+00:00:01,200 --> 00:00:10,780
+Quan hệ giữa phép nhân và phép chia.
+
+2
+00:00:11,610 --> 00:00:23,610
+Phép nhân và phép chia có quan hệ gì với nhau?
+
+3
+00:00:25,840 --> 00:00:57,960
+Từ phép nhân, 4 x 2 = 8 ta viết được 2 phép chia 8 : 2 = 4 và 8 : 4 = 2

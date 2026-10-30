@@ -1,0 +1,8 @@
+1
+00:00:01,170 --> 00:00:12,570
+Các em đã đọc bài "Làm đồ tái chế tại lớp học"
+và đã biết các việc học sinh có thể làm giúp bảo vệ môi trường.
+
+2
+00:00:12,880 --> 00:00:24,310
+Chúng ta sẽ tìm hiểu kỹ hơn nội dung bài.

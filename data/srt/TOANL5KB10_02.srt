@@ -1,0 +1,39 @@
+1
+00:00:01,310 --> 00:00:08,490
+Biểu đồ hình quạt
+
+2
+00:00:12,690 --> 00:00:22,260
+Chúng ta cùng xem biểu đồ hình quạt qua ví dụ sau:
+
+3
+00:00:26,020 --> 00:00:31,290
+Nhìn vào biểu đồ em hãy cho biết:
+
+4
+00:00:32,410 --> 00:00:37,960
+- Bao nhiêu phần trăm số sách là truyện thiếu nhi?
+
+5
+00:00:39,560 --> 00:00:45,450
+- Bao nhiêu phần trăm số sách là sách giáo khoa?
+
+6
+00:00:45,840 --> 00:00:52,170
+- Bao nhiêu phần trăm số sách là các loại sách khác?
+
+7
+00:00:57,550 --> 00:01:01,520
+Nhìn vào biểu đồ ta biết:
+
+8
+00:01:01,800 --> 00:01:07,470
+- Có 50% số sách là truyện thiếu nhi;
+
+9
+00:01:08,210 --> 00:01:14,440
+- Có 25% số sách là sách giáo khoa;
+
+10
+00:01:15,220 --> 00:01:21,140
+- Có 25% số sách là các loại sách khác.

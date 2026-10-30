@@ -1,0 +1,4 @@
+1
+00:00:05,000 --> 00:00:12,250
+Chúng ta hãy đọc lại bài
+và trả lời lại các câu hỏi trong bài nhé!

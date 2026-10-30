@@ -1,0 +1,4 @@
+1
+00:00:00,300 --> 00:00:09,350
+Các em đã được đọc câu chuyện và biết
+trong câu chuyện có nhân vật Khỉ và Cá Sấu.

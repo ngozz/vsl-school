@@ -1,0 +1,21 @@
+1
+00:00:02,600 --> 00:00:18,000
+Các em hãy quan sát hình ảnh điền số thứ tự thể hiện các bước luộc trứng, 
+bài đọc hướng dẫn cách luộc trứng theo 4 bước, 
+làm lần lượt từng việc theo một trình tự trước sau.
+
+2
+00:00:18,000 --> 00:00:24,710
+Đổ nước vào nồi.
+
+3
+00:00:24,710 --> 00:00:31,550
+Cho trứng vào nồi.
+
+4
+00:00:32,310 --> 00:00:40,480
+Lấy trứng ra, ngâm qua nước lạnh.
+
+5
+00:00:40,480 --> 00:00:50,350
+Luộc trứng đến khi sôi, chờ thêm 5 phút.

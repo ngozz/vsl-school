@@ -1,0 +1,23 @@
+1
+00:00:01,960 --> 00:00:11,460
+Em có thêm hiểu biết gì về nhà rông sau khi đọc bài?
+
+2
+00:00:12,850 --> 00:00:18,100
+Khoanh tròn vào những chữ cái trước câu trả lời em chọn.
+
+3
+00:00:18,410 --> 00:00:25,880
+A. Nhà rông rất độc đáo, lạ mắt.
+
+4
+00:00:26,360 --> 00:00:31,850
+B. Nhà rông đồ sộ.
+
+5
+00:00:32,360 --> 00:00:37,840
+C. Nhà rông rất tiện lợi với người Tây Nguyên.
+
+6
+00:00:38,090 --> 00:00:45,680
+D. Nhà rông thể hiện nét đẹp văn hóa của người Tây Nguyên.

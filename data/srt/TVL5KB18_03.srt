@@ -1,0 +1,8 @@
+1
+00:00:00,770 --> 00:00:08,720
+Các em cần biết nghĩa của từ “quyền”.
+
+2
+00:00:08,720 --> 00:00:19,250
+Quyền: những điều được hưởng, được làm,
+được yêu cầu theo quy định của pháp luật.

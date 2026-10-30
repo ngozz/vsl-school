@@ -1,0 +1,19 @@
+1
+00:00:01,980 --> 00:00:10,580
+Bảng chia 2, bảng chia 5
+
+2
+00:00:11,850 --> 00:00:21,100
+Chúng ta ôn lại bảng chia 2
+
+3
+00:00:25,540 --> 00:00:33,360
+Chúng ta ôn lại bảng chia 5
+
+4
+00:00:34,730 --> 00:00:41,720
+Chúng ta đã có bảng chia 2, bảng chia 5.
+
+5
+00:00:42,260 --> 00:00:49,690
+Các em hãy ghi nhớ để vận dụng vào thực hành tính nhé.

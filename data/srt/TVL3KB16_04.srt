@@ -1,0 +1,90 @@
+1
+00:00:01,450 --> 00:00:06,270
+Em hãy trả lời các câu hỏi sau:
+
+2
+00:00:06,270 --> 00:00:11,750
+Câu chuyện nhắc tới tên những bạn nhỏ nào?
+
+3
+00:00:11,750 --> 00:00:18,350
+Em hãy đánh dấu X vào ô trước câu trả lời đúng.
+
+4
+00:00:20,470 --> 00:00:36,220
+Câu chuyện nhắc tới tên của các bạn nhỏ đó là:
+Uyên, Vân, Huệ và Phương.
+
+5
+00:00:36,600 --> 00:00:45,050
+Uyên và các bạn đi đâu? Vào dịp nào?
+
+6
+00:00:45,050 --> 00:00:53,100
+Em hãy đánh dấu X vào ô trước câu trả lời đúng.
+
+7
+00:00:53,100 --> 00:01:01,150
+Đi chơi chợ hoa vào dịp sau Tết.
+
+8
+00:01:01,550 --> 00:01:07,270
+Đi công viên vào dịp giáp Tết.
+
+9
+00:01:07,270 --> 00:01:14,420
+Đi chơi chợ hoa vào dịp giáp Tết.
+
+10
+00:01:15,320 --> 00:01:18,650
+Đi công viên vào dịp sau Tết.
+
+11
+00:01:24,350 --> 00:01:35,750
+Đáp án: Uyên và các bạn đi chơi chợ hoa
+vào dịp giáp Tết.
+
+12
+00:01:36,350 --> 00:01:45,470
+Uyên và các bạn quen Vân ở đâu?
+
+13
+00:01:46,150 --> 00:01:51,300
+Các em hãy chọn đáp án đúng:
+
+14
+00:01:51,300 --> 00:01:58,350
+1. Ở chợ hoa trên đường Nguyễn Huệ.
+
+15
+00:01:58,700 --> 00:02:02,550
+2. Ở trại hè Nha Trang.
+
+16
+00:02:05,520 --> 00:02:18,670
+Đáp án: Uyên và các bạn quen Vân ở trại hè Nha Trang.
+
+17
+00:02:20,420 --> 00:02:27,970
+Đọc thư Vân, các bạn mong ước điều gì?
+
+18
+00:02:28,850 --> 00:02:35,720
+Em hãy đánh dẫu X vào ô trước câu trả lời đúng.
+
+19
+00:02:36,420 --> 00:02:41,650
+Gửi ngay thư cho Vân.
+
+20
+00:02:41,650 --> 00:02:48,600
+Gửi cho Vân một ít nắng phương Nam.
+
+21
+00:02:49,170 --> 00:02:53,220
+Ra Hà Nội thăm Vân.
+
+22
+00:02:59,800 --> 00:03:11,050
+Đáp án: Đọc thư Vân, các bạn ước gửi cho Vân
+một ít nắng phương Nam.

@@ -1,0 +1,114 @@
+1
+00:00:01,050 --> 00:00:12,250
+Diện tích xung quanh, diện tích toàn phần của
+hình (khối) hộp chữ nhật và hình (khối) lập phương.
+
+2
+00:00:12,250 --> 00:00:21,600
+Diện tích xung quanh, diện tích toàn phần của
+hình (khối) hộp chữ nhật.
+
+3
+00:00:21,600 --> 00:00:27,500
+Diện tích xung quanh
+
+4
+00:00:27,500 --> 00:00:42,150
+Diện tích xung quanh của hình hộp chữ nhật là tổng diện tích
+bốn mặt bên của hình hộp chữ nhật.
+
+5
+00:00:42,150 --> 00:00:51,270
+Ví dụ: cho hình hộp chữ nhật có chiều dài 8 cm,
+
+6
+00:00:51,270 --> 00:01:01,350
+Ví dụ: cho hình hộp chữ nhật có chiều dài 8 cm,
+chiều rộng 5 cm và chiều cao 4 cm.
+
+7
+00:01:01,350 --> 00:01:10,520
+Tính diện tích xung quanh của hình hộp chữ nhật đó.
+
+8
+00:01:11,520 --> 00:01:20,650
+Để tính diện tích xung quanh của hình hộp chữ nhật
+ta làm như sau:
+
+9
+00:01:20,650 --> 00:01:30,850
+Diện tích xung quanh của hình hộp chữ nhật bằng
+diện tích hình hộp chữ nhật khi khai triển có:
+
+10
+00:01:30,850 --> 00:01:46,520
+Chiều dài là: 5 + 8 + 5 + 8 = 26 (cm)
+
+11
+00:01:46,520 --> 00:01:54,450
+Tức là bằng chu vi của mặt đáy hình hộp.
+
+12
+00:01:55,150 --> 00:02:05,270
+Chiều rộng 4 cm (tức là bằng chiều cao hình hộp).
+
+13
+00:02:05,270 --> 00:02:13,500
+Do đó, diện tích xung quanh của hình hộp chữ nhật đó là:
+
+14
+00:02:13,500 --> 00:02:26,620
+26 x 4 = 104 (cm<sup>2</sup>)
+
+15
+00:02:27,650 --> 00:02:54,270
+Kết luận: Muốn tính diện tích xung quanh của
+hình hộp chữ nhật ta lấy chu vi mặt đáy nhân với chiều cao
+(cùng một đơn vị đo).
+
+16
+00:02:56,300 --> 00:03:10,770
+Diện tích toàn phần
+
+17
+00:03:12,070 --> 00:03:27,970
+Diện tích toàn phần của hình hộp chữ nhật là tổng của
+diện tích xung quanh và diện tích hai đáy.
+
+18
+00:03:29,970 --> 00:03:47,370
+Ví dụ: cho hình hộp chữ nhật có chiều dài 8 cm,
+chiều rộng 5 cm và chiều cao 4 cm.
+
+19
+00:03:47,400 --> 00:03:58,670
+Tính diện tích toàn phần của hình hộp chữ nhật đó.
+
+20
+00:03:59,650 --> 00:04:07,650
+Để tính diện tích toàn phần của hình hộp chữ nhật
+ta làm như sau:
+
+21
+00:04:07,650 --> 00:04:14,700
+Tính diện tích một mặt đáy.
+
+22
+00:04:14,700 --> 00:04:25,250
+Lấy diện tích xung quanh cộng với diện tích hai mặt đáy.
+
+23
+00:04:26,120 --> 00:04:37,900
+Hình hộp chữ nhật ở ví dụ trên có diện tích một mặt đáy là:
+
+24
+00:04:38,650 --> 00:04:47,870
+8 x 5 = 40 (cm<sup>2</sup>)
+
+25
+00:04:47,870 --> 00:04:56,350
+Do đó, diện tích toàn phần của hình hộp chữ nhật đó là:
+
+26
+00:04:56,350 --> 00:05:11,820
+104 + 40 x 2 = 184 (cm<sup>2</sup>)

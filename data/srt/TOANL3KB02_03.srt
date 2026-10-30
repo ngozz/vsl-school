@@ -1,0 +1,19 @@
+1
+00:00:00,660 --> 00:00:09,330
+So sánh các số có số chữ số bằng nhau
+
+2
+00:00:09,330 --> 00:00:26,110
+Nếu hai số có cùng số chữ số và từng cặp chữ số ở cùng một hàng đều giống nhau thì hai số đó bằng nhau.
+
+3
+00:00:30,260 --> 00:00:41,330
+Em hãy so sánh hai số 6 852 và số 6 852
+
+4
+00:00:41,860 --> 00:01:01,310
+Vì hai số này có cùng số chữ số và từng cặp chữ số ở hàng nghìn, hàng trăm, hàng chục, hàng đơn vị đều giống nhau
+
+5
+00:01:02,200 --> 00:01:16,080
+Ta có kết quả: 6 852 bằng 6 852

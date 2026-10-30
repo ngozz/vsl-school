@@ -1,0 +1,45 @@
+1
+00:00:01,530 --> 00:00:07,930
+Em lần lượt trả lời các câu hỏi về câu chuyện mình sẽ kể.
+
+2
+00:00:10,440 --> 00:00:17,170
+Câu 1: Câu chuyện em sẽ kể là chuyện nói về ai?
+
+3
+00:00:23,610 --> 00:00:31,980
+Câu 2:
+Đó là câu chuyện em được chứng kiến hay trực tiếp tham gia?
+
+4
+00:00:39,130 --> 00:00:45,410
+Câu 3: Câu chuyện bắt đầu như thế nào?
+
+5
+00:00:52,750 --> 00:00:59,560
+Câu 4: Diễn biến chính của câu chuyện ra sao?
+
+6
+00:01:06,700 --> 00:01:12,690
+Câu 5: Câu chuyện kết thúc như thế nào?
+
+7
+00:01:19,500 --> 00:01:28,800
+Câu 1: Câu chuyện em sẽ kể là chuyện nói về ai?
+
+8
+00:01:28,800 --> 00:01:41,100
+Câu 2:
+Đó là câu chuyện em được chứng kiến hay trực tiếp tham gia?
+
+9
+00:01:41,720 --> 00:01:51,250
+Câu 3: Câu chuyện bắt đầu như thế nào?
+
+10
+00:01:51,900 --> 00:02:02,000
+Câu 4: Diễn biến chính của câu chuyện ra sao?
+
+11
+00:02:02,750 --> 00:02:11,970
+Câu 5: Câu chuyện kết thúc như thế nào?

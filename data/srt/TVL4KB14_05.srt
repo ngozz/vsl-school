@@ -1,0 +1,4 @@
+1
+00:00:01,950 --> 00:00:10,650
+Em hãy viết đoạn văn kể lại một việc tốt
+mà em được chứng kiến hoặc tham gia.

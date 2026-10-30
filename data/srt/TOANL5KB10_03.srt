@@ -1,0 +1,33 @@
+1
+00:00:01,530 --> 00:00:09,740
+Sắp xếp số liệu vào biểu đồ hình quạt cho trước.
+
+2
+00:00:13,050 --> 00:00:15,970
+Bài toán 1:
+
+3
+00:00:17,040 --> 00:00:23,060
+Trong câu lạc bộ yêu thích thể thao của một trường tiểu học,
+có:
+
+4
+00:00:23,850 --> 00:00:30,270
+- 50% số bạn thích nhất môn bóng đá;
+
+5
+00:00:30,750 --> 00:00:36,490
+- 25% số bạn thích nhất môn cầu lông;
+
+6
+00:00:36,900 --> 00:00:42,670
+- 25% số bạn thích nhất môn bơi.
+
+7
+00:00:43,230 --> 00:00:52,270
+Bài toán cho biết số tỷ lệ phần trăm (%)
+các bạn thích các môn thể thao.
+
+8
+00:00:55,600 --> 00:01:04,400
+- Em hãy điền số liệu thích hợp vào biểu đồ hình quạt.

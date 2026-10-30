@@ -1,0 +1,20 @@
+1
+00:00:00,946 --> 00:00:03,845
+Chào các em!
+
+2
+00:00:07,095 --> 00:00:17,496
+Chúng ta cùng ôn tập về <color=orange><b>phép nhân</b></color> số có nhiều chữ số với
+ số có một chữ số.
+
+3
+00:00:18,677 --> 00:00:23,162
+Luyện tập thực hiện <color=orange><b>phép nhân</b></color> <color=orange><b>số có hai chữ số</b></color>,
+
+4
+00:00:23,162 --> 00:00:27,348
+<color=orange><b>số có ba chữ số</b></color> và số có nhiều chữ số
+
+5
+00:00:27,348 --> 00:00:30,223
+với số có một chữ số

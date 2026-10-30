@@ -1,0 +1,141 @@
+1
+00:00:02,080 --> 00:00:12,000
+3. So sánh hai số thập phân có phần nguyên bằng nhau.
+
+2
+00:00:15,050 --> 00:00:28,940
+Ví dụ 2: So sánh 35,7 m và 35,698 m
+
+3
+00:00:30,420 --> 00:00:36,770
+Để so sánh hai số, ta làm như sau:
+
+4
+00:00:40,450 --> 00:00:46,850
+So sánh phần nguyên của hai số thập phân.
+
+5
+00:00:49,970 --> 00:00:57,540
+So sánh phần thập phân của hai số thập phân.
+
+6
+00:00:59,170 --> 00:01:20,970
+Ta thấy
+hai số 35,7 m và 35,698 m có phần nguyên bằng nhau (35 m),
+ta so sánh các phần thập phân.
+
+7
+00:01:23,080 --> 00:01:36,220
+Phần thập phân của 35,7 m là (7 phần 10) m = 7 dm = 700 mm
+
+8
+00:01:36,970 --> 00:01:59,310
+Phần thập phân của số 35,698 m là 698 phần 1000 m = 698 mm
+
+9
+00:02:00,420 --> 00:02:19,940
+Nhận thấy 700 mm > 698 mm
+(do 700 > 698, vì ở hàng trăm có 7 > 6)
+
+10
+00:02:21,340 --> 00:02:33,110
+nên 7 phần 10 m > 698 phần 1000 m.
+
+11
+00:02:35,140 --> 00:02:47,880
+Do đó 35,7 m > 35,698 m
+
+12
+00:02:50,110 --> 00:03:19,340
+Quan sát thấy trong phép so sánh 35,7 > 35,698
+(thì ở phần nguyên bằng nhau, nhưng ở phần thập phân
+hàng phần mười có 7 > 6)
+
+13
+00:03:23,220 --> 00:03:25,400
+Kết luận:
+
+14
+00:03:26,540 --> 00:03:34,020
+Muốn so sánh hai số thập phân, ta có thể làm như sau:
+
+15
+00:03:35,910 --> 00:03:56,050
+So sánh
+các phần nguyên của hai số đó như so sánh hai số tự nhiên,
+số thập phân nào có phần nguyên lớn hơn thì lớn hơn.
+
+16
+00:03:56,940 --> 00:04:18,140
+Nếu phần nguyên của hai số đó bằng nhau
+thì so sánh phần thập phân, lần lượt từ hàng phần mười,
+hàng phần trăm, hàng phần nghìn,…
+
+17
+00:04:18,450 --> 00:04:28,680
+đến cùng một hàng nào đó,
+số thập phân nào có chữ số ở hàng tương ứng lớn hơn
+thì số đó lớn hơn.
+
+18
+00:04:31,910 --> 00:04:43,800
+Nếu phần nguyên và phần thập phân của hai số đó bằng nhau
+thì hai số đó bằng nhau.
+
+19
+00:04:47,940 --> 00:04:56,420
+Ví dụ 3: Hãy so sánh hai số thập phân
+
+20
+00:04:59,620 --> 00:05:12,080
+Mẫu: 2021,2 > 2020,7
+
+21
+00:05:13,000 --> 00:05:17,480
+Các em làm tiếp bài tập sau:
+
+22
+00:05:21,940 --> 00:05:27,600
+Em hãy xem kết quả.
+
+23
+00:05:30,310 --> 00:05:42,020
+b) 45,678 < 45,7
+
+24
+00:05:43,220 --> 00:05:55,080
+c) 34,5 = 34,5000
+
+25
+00:05:58,620 --> 00:06:02,080
+Ví dụ 4:
+
+26
+00:06:03,570 --> 00:06:10,940
+Viết các số thập phân sau theo thứ tự từ bé đến lớn.
+
+27
+00:06:12,080 --> 00:06:19,770
+Để điền được các số theo thứ tự từ bé đến lớn, ta làm như sau:
+
+28
+00:06:21,170 --> 00:06:30,110
+So sánh các phần nguyên của các số thập phân,
+ rồi sắp thứ tự từ bé đến lớn.
+
+29
+00:06:33,480 --> 00:06:43,600
+Ta có phần nguyên 6; 8; 8.
+
+30
+00:06:45,050 --> 00:06:52,140
+Sắp xếp 6 bé hơn 8.
+
+31
+00:06:54,340 --> 00:07:06,140
+Các số có phần nguyên bằng nhau
+thì ta so sánh tiếp phần thập phân.
+
+32
+00:07:07,620 --> 00:07:13,540
+Giữa 7 và 1 ta có 1 bé hơn 7.

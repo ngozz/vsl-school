@@ -1,0 +1,4 @@
+1
+00:00:00,950 --> 00:00:12,280
+Chào các em! Hôm nay chúng ta sẽ cùng nhau ôn tập
+về các số trong phạm vi 1000.

@@ -1,0 +1,45 @@
+1
+00:00:03,960 --> 00:00:11,400
+Ví dụ 2: So sánh số 32 và 28.
+
+2
+00:00:13,970 --> 00:00:18,330
+Em hãy điền vào chỗ trống.
+
+3
+00:00:20,720 --> 00:00:31,240
+Số 32 gồm 3 chục và 2 đơn vị
+
+4
+00:00:33,040 --> 00:00:43,700
+Số 28 gồm 2 chục và 8 đơn vị
+
+5
+00:00:45,370 --> 00:00:57,740
+Số 32 và 28 có chữ số hàng chục khác nhau nên
+ta so sánh số hàng chục của hai số này.
+
+6
+00:00:58,970 --> 00:01:08,480
+Ta thấy 3 > 2 nên 32 > 28
+
+7
+00:01:09,780 --> 00:01:19,890
+So sánh số có hai chữ số.
+
+8
+00:01:22,300 --> 00:01:32,490
+Trước tiên ta so sánh chữ số hàng chục của hai số.
+
+9
+00:01:34,260 --> 00:01:44,940
+Nếu chữ số hàng chục số nào lớn hơn thì số đó lớn hơn.
+
+10
+00:01:46,100 --> 00:01:59,540
+Nếu chữ số hàng chục của hai số bằng nhau,
+ta so sánh chữ số hàng đơn vị của hai số.
+
+11
+00:02:01,880 --> 00:02:13,060
+Khi đó, chữ số hàng đơn vị của số nào lớn hơn thì số đó lớn hơn.

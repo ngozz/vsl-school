@@ -1,0 +1,64 @@
+1
+00:00:01,790 --> 00:00:10,440
+Hình tam giác
+
+2
+00:00:14,380 --> 00:00:19,680
+Chúng ta cùng quan sát hình tam giác ABC.
+
+3
+00:00:28,560 --> 00:00:33,960
+Đáy và đường cao hình tam giác.
+
+4
+00:00:38,190 --> 00:00:42,770
+Quan sát hình tam giác ABC có:
+
+5
+00:00:45,720 --> 00:00:49,640
+BC là đáy
+
+6
+00:00:52,250 --> 00:00:59,080
+AH là đường cao tương ứng với đáy BC.
+
+7
+00:01:01,280 --> 00:01:10,120
+Độ dài AH là chiều cao.
+
+8
+00:01:15,660 --> 00:01:19,070
+Diện tích hình tam giác.
+
+9
+00:01:20,480 --> 00:01:24,160
+Cách tính diện tích hình tam giác.
+
+10
+00:01:26,450 --> 00:01:31,260
+Gọi S là diện tích.
+
+11
+00:01:32,280 --> 00:01:39,340
+a là độ dài đáy của hình tam giác.
+
+12
+00:01:40,220 --> 00:01:46,250
+Gọi h là chiều cao của hình tam giác.
+
+13
+00:01:48,200 --> 00:01:51,570
+Muốn tính diện tích hình tam giác
+
+14
+00:01:52,040 --> 00:02:09,120
+ta lấy độ dài đáy nhân với chiều cao (cùng một đơn vị đo)
+rồi chia cho 2.
+
+15
+00:02:10,890 --> 00:02:16,480
+Chúng ta có công thức tính diện tích của hình tam giác là:
+
+16
+00:02:17,130 --> 00:02:26,040
+S = (a x h) : 2

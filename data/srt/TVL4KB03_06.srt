@@ -1,0 +1,19 @@
+1
+00:00:00,800 --> 00:00:10,040
+Phương là người bạn thế nào?
+
+2
+00:00:10,440 --> 00:00:22,260
+Phương rất tốt bụng, sẵn sàng giúp đỡ người gặp khó khăn.
+
+3
+00:00:23,710 --> 00:00:37,460
+Em hãy đánh dấu vào cột đúng hoặc cột sai.
+
+4
+00:00:39,260 --> 00:00:53,640
+Phương rất tốt bụng, sẵn sàng giúp đỡ người khác.
+
+5
+00:00:54,240 --> 00:01:06,060
+Chúng ta cần quan tâm, giúp đỡ những người gặp khó khăn.

@@ -1,0 +1,3 @@
+1
+00:00:01,370 --> 00:00:09,480
+Em hãy chọn hai từ ngữ trong số từ dưới và đặt câu với mỗi từ đó.

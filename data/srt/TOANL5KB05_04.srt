@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:09,950
+Tìm một số biết giá trị phần trăm của số đó
+
+2
+00:00:10,640 --> 00:00:23,060
+Ví dụ: Một trường tiểu học có 800 học sinh,
+ trong đó số học sinh nữ chiếm 52,5%.
+
+3
+00:00:23,060 --> 00:00:32,660
+Tính số học sinh nữ của trường đó.
+
+4
+00:00:33,040 --> 00:00:40,350
+Để làm được bài toán này ta làm như sau:
+
+5
+00:00:40,350 --> 00:00:52,860
+Em cho biết 100% học sinh toàn trường là bao nhiêu học sinh?
+
+6
+00:00:52,860 --> 00:01:00,400
+800 học sinh
+
+7
+00:01:00,400 --> 00:01:13,200
+Em tính xem 1% số học sinh toàn trường là bao nhiêu học sinh?
+
+8
+00:01:14,280 --> 00:01:25,200
+800 chia 100 bằng 8 học sinh
+
+9
+00:01:26,660 --> 00:01:36,770
+Em cho biết số học sinh nữ là bao nhiêu?
+
+10
+00:01:37,170 --> 00:01:50,110
+8 x 52,5 bằng
+
+11
+00:01:52,710 --> 00:02:00,510
+Hai bước tính trên có thể gộp thành
+
+12
+00:02:01,510 --> 00:02:15,910
+800 chia 100 nhân 52,5 bằng 420
+
+13
+00:02:16,750 --> 00:02:35,310
+Hoặc 800 nhân 52,5 chia 100 bằng 420
+
+14
+00:02:36,510 --> 00:02:46,060
+Số học sinh nữ là 420 người.
+
+15
+00:02:46,060 --> 00:03:11,280
+Kết luận:
+Muốn tìm giá trị a% của một số b, ta có thể lấy b chia cho 100
+ rồi nhân với a hoặc lấy b nhân với a rồi chia cho 100.
+
+16
+00:03:12,840 --> 00:03:15,420
+Bài toán:
+
+17
+00:03:15,420 --> 00:03:20,200
+Lãi suất tiết kiệm là 0,8% một tháng.
+
+18
+00:03:20,200 --> 00:03:32,800
+Một người gửi tiết kiệm 10 000 000 đồng.
+ Tính số tiền lãi sau một tháng.
+
+19
+00:03:33,550 --> 00:03:43,600
+Em hãy cho biết lời giải và điền vào chỗ trống để được kết quả đúng.

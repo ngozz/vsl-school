@@ -1,0 +1,24 @@
+1
+00:00:01,800 --> 00:00:07,310
+Quan sát các hình sau và tên gọi mỗi hình
+
+2
+00:00:07,310 --> 00:00:18,460
+Khối lập phương
+
+3
+00:00:19,040 --> 00:00:29,860
+Khối hộp chữ nhật
+
+4
+00:00:29,860 --> 00:00:37,220
+Chúng ta tìm hiểu thêm một hình khối mới
+
+5
+00:00:37,220 --> 00:00:45,420
+Khối trụ
+
+6
+00:00:46,750 --> 00:00:58,910
+Các em hãy cho biết những đồ vật nào có dạng khối trụ?
+ Quan sát hình và gọi tên

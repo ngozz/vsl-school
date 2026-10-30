@@ -1,0 +1,33 @@
+1
+00:00:01,300 --> 00:00:13,170
+Các em hãy chia các từ sau đây thành hai nhóm.
+
+2
+00:00:15,720 --> 00:00:19,020
+Nhóm 1: từ chỉ người.
+
+3
+00:00:19,450 --> 00:00:27,250
+Nhóm 2: từ chỉ hoạt động.
+
+4
+00:00:32,750 --> 00:00:40,750
+Các em đã xếp được các từ vào nhóm thích hợp chưa?
+
+5
+00:00:41,970 --> 00:00:46,670
+Từ ngữ chỉ người:
+
+6
+00:00:46,750 --> 00:01:02,000
+Từ ngữ chỉ người: học sinh, hiệu trưởng, thầy giáo, cô giáo,
+ bảo vệ, đầu bếp.
+
+7
+00:01:03,150 --> 00:01:08,720
+Từ ngữ chỉ hoạt động:
+
+8
+00:01:08,750 --> 00:01:28,900
+Từ ngữ chỉ hoạt động: đi học, nấu ăn, nhảy dây, đá cầu, vẽ tranh,
+ viết chữ, làm việc.

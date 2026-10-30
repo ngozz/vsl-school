@@ -1,0 +1,32 @@
+1
+00:00:01,060 --> 00:00:08,920
+Dài hơn, ngắn hơn
+
+2
+00:00:10,140 --> 00:00:20,900
+Ví dụ: Xem tranh và cho biết vật nào dài hơn,
+vật nào ngắn hơn?
+
+3
+00:00:22,220 --> 00:00:30,430
+Băng giấy màu cam dài hơn băng giấy màu tím.
+
+4
+00:00:32,560 --> 00:00:40,450
+Băng giấy màu tím ngắn hơn băng giấy màu cam.
+
+5
+00:00:45,040 --> 00:00:52,130
+Bút chì A dài hơn bút chì B.
+
+6
+00:00:54,110 --> 00:01:00,960
+Bút chì B ngắn hơn bút chì A.
+
+7
+00:01:05,970 --> 00:01:13,860
+Thang A ngắn hơn thang B.
+
+8
+00:01:15,560 --> 00:01:22,960
+Thang B dài hơn thang A.

@@ -1,0 +1,90 @@
+1
+00:00:02,240 --> 00:00:10,020
+Cấu tạo số thập phân.
+
+2
+00:00:10,020 --> 00:00:20,370
+Chúng ta cùng tìm hiểu về cấu tạo số thập phân.
+
+3
+00:00:22,000 --> 00:00:25,680
+Mỗi số thập phân gồm 2 phần.
+
+4
+00:00:25,680 --> 00:00:38,200
+Phần nguyên và phần thập phân.
+
+5
+00:00:38,200 --> 00:00:45,930
+chúng được phân cách bởi dấu phẩy.
+
+6
+00:00:46,420 --> 00:00:53,620
+Những chữ số ở bên trái dấu phẩy thuộc về phần nguyên,
+
+7
+00:00:53,620 --> 00:01:02,860
+những chữ số ở bên phải dấu phẩy thuộc về phần thập phân.
+
+8
+00:01:02,860 --> 00:01:16,440
+Em hãy nêu phần nguyên, phần thập phân của số thập phân 9,36.
+
+9
+00:01:17,150 --> 00:01:27,350
+Ví dụ 1: Với số 528,103
+
+10
+00:01:27,800 --> 00:01:40,620
+Chúng ta cùng quan sát bảng bên
+
+11
+00:01:42,040 --> 00:01:59,930
+Phần nguyên có đơn vị, chục, trăm
+
+12
+00:01:59,930 --> 00:02:12,130
+Phần thập phân có phần mười, phần trăm, phần nghìn
+
+13
+00:02:12,130 --> 00:02:17,620
+Mối quan hệ
+
+14
+00:02:17,620 --> 00:02:29,280
+Phần nguyên: Mỗi đơn vị của một hàng
+ bằng 10 đơn vị của hàng thấp hơn liền sau..
+
+15
+00:02:29,480 --> 00:02:42,040
+Phần thập phân: Mỗi đơn vị của một hàng
+ bằng 1 phần 10 (hay 0,1) đơn vị của hàng cao hơn liền trước.
+
+16
+00:02:42,040 --> 00:02:52,460
+Chúng ta cùng tìm chữ số thích hợp để điền vào chỗ trống
+ trong ví dụ sau:
+
+17
+00:02:52,460 --> 00:03:01,910
+Ví dụ 1: trong số thập phân 528,103
+
+18
+00:03:01,910 --> 00:03:08,770
+Phần nguyên gồm có: 528
+
+19
+00:03:08,770 --> 00:03:21,310
+Phần thập phân gồm các chữ số: 1; 0; 3
+
+20
+00:03:22,420 --> 00:03:32,020
+Ví dụ 2: Trong số thập phân 497,256
+
+21
+00:03:32,020 --> 00:03:39,170
+Phần nguyên gồm có: 497
+
+22
+00:03:39,170 --> 00:03:52,240
+Phần thập phân gồm các chữ số: 2; 5; 6

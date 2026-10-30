@@ -1,0 +1,27 @@
+1
+00:00:02,720 --> 00:00:07,220
+Mét vuông
+
+2
+00:00:10,260 --> 00:00:23,020
+Hình vuông trên màn hình có cạnh dài 1 m, có diện tích là 1 m<sup>2</sup>.
+
+3
+00:00:25,160 --> 00:00:34,780
+Mét vuông là một đơn vị đo diện tích.
+
+4
+00:00:37,260 --> 00:00:50,660
+Mét vuông là diện tích của hình vuông có cạnh dài 1 m.
+
+5
+00:00:51,360 --> 00:01:02,500
+Mét vuông viết tắt là m<sup>2</sup>.
+
+6
+00:01:03,380 --> 00:01:11,920
+1 m<sup>2</sup> = 100 dm<sup>2</sup>
+
+7
+00:01:14,520 --> 00:01:24,360
+Ví dụ: Điền số thích hợp vào ô trống:

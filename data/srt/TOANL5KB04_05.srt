@@ -1,0 +1,61 @@
+1
+00:00:00,910 --> 00:00:08,020
+Chia một số thập phân cho một số thập phân
+
+2
+00:00:08,020 --> 00:00:16,620
+Tính 30,24 chia 8,4 ta làm như sau
+
+3
+00:00:16,620 --> 00:00:25,310
+Phần thập phân của số chia 8,4 có một chữ số.
+
+4
+00:00:25,880 --> 00:00:42,310
+Chuyển dấu phẩy của số 30,24 sang bên phải một chữ số
+ được 302,4; bỏ dấu phẩy ở số 8,4 được 84.
+
+5
+00:00:42,310 --> 00:00:58,860
+Thực hiện phép chia 302,4 chia 84 theo cách
+ chia số thập phân cho số tự nhiên như trên.
+
+6
+00:00:58,860 --> 00:01:10,800
+Vậy 30,24 chia 8,4 bằng 3,6.
+
+7
+00:01:10,800 --> 00:01:19,370
+Kết luận: Muốn chia một số thập phân cho một số thập phân ta làm như sau:
+
+8
+00:01:19,370 --> 00:01:38,800
+Đếm xem có bao nhiêu chữ số ở phần thập phân của số chia
+ thì chuyển dấu phẩy ở số bị chia sang bên phải
+bấy nhiêu chữ số.
+
+9
+00:01:40,060 --> 00:01:56,570
+Bỏ dấu phẩy ở số chia rồi
+thực hiện phép chia số thập phân chia cho số tự nhiên.
+
+10
+00:01:58,040 --> 00:02:05,330
+Để nắm chắc quy tắc chúng ta thực hiện ví dụ sau:
+
+11
+00:02:05,330 --> 00:02:14,680
+49,95 chia 1,35
+
+12
+00:02:15,370 --> 00:02:30,750
+Phần thập phân của hai số 49,95 và 1,35 cùng có hai chữ số
+ bỏ dấu phẩy ở cả hai số đó ta được 4995 và 135.
+
+13
+00:02:30,750 --> 00:02:43,970
+Thực hiện phép chia 4995 chia 135.
+
+14
+00:02:43,970 --> 00:02:54,060
+Vậy 49,95 chia 1,35 bằng 37.

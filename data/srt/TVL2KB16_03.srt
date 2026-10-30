@@ -1,0 +1,7 @@
+1
+00:00:00,920 --> 00:00:09,100
+Trong truyện có những nhân vật nào?
+
+2
+00:00:09,920 --> 00:00:16,170
+Đáp án: Trong truyện có Cá Sấu và Khỉ.

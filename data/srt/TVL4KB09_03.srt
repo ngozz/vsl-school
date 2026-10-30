@@ -1,0 +1,4 @@
+1
+00:00:04,250 --> 00:00:10,560
+Cho biết mình yêu thích cuốn sách nào?
+Vì sao?

@@ -1,0 +1,56 @@
+1
+00:00:02,320 --> 00:00:10,090
+Bài đọc có những nhân vật nào?
+
+2
+00:00:12,420 --> 00:00:25,180
+Bài đọc có hai nhân vật là Nam và Hùng.
+
+3
+00:00:27,960 --> 00:00:32,600
+Ai là người có lỗi trước?
+
+4
+00:00:32,880 --> 00:00:41,200
+Chọn câu trả lời đúng hoặc sai.
+
+5
+00:00:42,240 --> 00:00:50,580
+Nam là người có lỗi trước.
+
+6
+00:00:53,610 --> 00:01:05,490
+Nam vô tình hay cố ý làm xấu trang tập viết của bạn.
+
+7
+00:01:06,010 --> 00:01:12,810
+Đánh dấu vào ô trống trước ý trả lời đúng.
+
+8
+00:01:14,640 --> 00:01:24,980
+Nam vô tình làm xấu trang tập viết của bạn.
+
+9
+00:01:28,480 --> 00:01:37,040
+Vì sao Hùng cảm thấy hối hận?
+
+10
+00:01:39,680 --> 00:01:55,500
+Hùng cảm thấy hối hận vì Hùng nghĩ là
+Nam không cố ý chạm vào khuỷu tay mình.
+
+11
+00:01:58,420 --> 00:02:08,920
+Theo em mỗi bạn có điều gì đáng khen?
+
+12
+00:02:10,490 --> 00:02:20,680
+Em hãy nối tên của hai bạn với câu phù hợp.
+
+13
+00:02:21,780 --> 00:02:35,200
+Hùng đã biết ân hận khi mình cố ý làm hỏng trang viết của bạn.
+
+14
+00:02:35,580 --> 00:02:45,570
+Nam biết quý trọng tình bạn khi chủ động làm lành trước.

@@ -1,0 +1,65 @@
+1
+00:00:04,570 --> 00:00:08,460
+Tính chất cơ bản của phân số.
+
+2
+00:00:13,360 --> 00:00:22,570
+Quan sát: So sánh phần tô màu ở hình (a) và hình (b)
+trong ví dụ 1:
+
+3
+00:00:26,590 --> 00:00:32,750
+Ta nhận thấy hai phần hoàn toàn bằng nhau.
+
+4
+00:00:36,560 --> 00:00:42,590
+Ta nói phân số một phần ba bằng phân số hai phần sáu.
+
+5
+00:00:46,160 --> 00:00:49,290
+Viết là
+
+6
+00:00:52,380 --> 00:00:59,660
+Nhận xét: hai phân số một phần ba và hai phần sáu.
+
+7
+00:01:00,320 --> 00:01:07,300
+Tử số và mẫu số của phân số một phần ba cùng nhân với 2.
+
+8
+00:01:09,140 --> 00:01:16,020
+Ta được tử số và mẫu số của phân số hai phần sáu.
+
+9
+00:01:18,920 --> 00:01:20,340
+Ngược lại
+
+10
+00:01:21,280 --> 00:01:27,340
+Tử số và mẫu số của phân số hai phần sáu cùng chia cho 2.
+
+11
+00:01:31,060 --> 00:01:37,740
+Ta được tử số và mẫu số của phân số một phần ba.
+
+12
+00:01:41,870 --> 00:01:51,390
+Tính chất này của phân số là tính chất cơ bản hay
+tính chất bằng nhau của phân số.
+
+13
+00:01:54,920 --> 00:01:56,360
+Tính chất
+
+14
+00:01:58,930 --> 00:02:09,890
+Khi nhân cả tử số và mẫu số của phân số
+với cùng với một số tự nhiên khác 0 
+ ta được phân số bằng phân số đã cho.
+
+15
+00:02:16,060 --> 00:02:29,500
+Nếu cả tử số và mẫu số của một phân số
+cùng chia hết cho một số tự nhiên khác 0
+thì sau khi chia ta được một phân số bằng phân số đã cho.

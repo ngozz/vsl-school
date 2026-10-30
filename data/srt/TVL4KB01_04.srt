@@ -1,0 +1,137 @@
+1
+00:00:03,240 --> 00:00:18,530
+Các em hãy đánh số 1, 2, 3, 4 vào ô trống để cho biết
+việc nào xảy ra trước, việc nào xảy ra sau.
+
+2
+00:00:18,530 --> 00:00:29,970
+Hai mẹ con chèo thuyền đi cứu người gặp nạn.
+
+3
+00:00:31,130 --> 00:00:41,640
+Hai mẹ con cho bà cụ ăn, cho ngủ nhờ.
+
+4
+00:00:42,060 --> 00:00:54,280
+Bà cụ cho hai mẹ con hai vỏ trấu.
+
+5
+00:00:55,150 --> 00:01:03,516
+Hai mẹ con đặt vỏ trấu xuống nước, vỏ trấu biến thành thuyền.
+
+6
+00:01:17,680 --> 00:01:25,840
+Ai cần được giúp đỡ?
+
+7
+00:01:25,840 --> 00:01:35,710
+A. Hai mẹ con tốt bụng.
+
+8
+00:01:35,710 --> 00:01:44,640
+B. Người gần nhà hai mẹ con.
+
+9
+00:01:45,930 --> 00:01:56,200
+C. Một bà cụ ăn xin.
+
+10
+00:01:58,550 --> 00:02:09,530
+Một bà cụ ăn xin cần được giúp đỡ.
+
+11
+00:02:11,750 --> 00:02:18,150
+Ai đã giúp đỡ bà cụ ăn xin?
+
+12
+00:02:18,150 --> 00:02:27,860
+A. Người gần nhà hai mẹ con.
+
+13
+00:02:28,260 --> 00:02:35,350
+B. Hai mẹ con tốt bụng.
+
+14
+00:02:35,350 --> 00:02:44,220
+C. Mọi người trong bản.
+
+15
+00:02:44,440 --> 00:02:56,460
+Hai mẹ con tốt bụng đã giúp đỡ bà cụ ăn xin.
+
+16
+00:02:59,370 --> 00:03:07,600
+Hai mẹ con đã làm gì để giúp bà cụ ăn xin?
+
+17
+00:03:07,600 --> 00:03:15,880
+A. Cho bà cụ ăn, ngủ.
+
+18
+00:03:15,880 --> 00:03:26,130
+B. Cho bà cụ nắm tro bếp.
+
+19
+00:03:26,750 --> 00:03:38,880
+C. Cho bà cụ mảnh vỏ trấu.
+
+20
+00:03:40,620 --> 00:03:55,750
+Hai mẹ con đã cho bà cụ ăn và cho ngủ nhờ.
+
+21
+00:03:56,800 --> 00:04:06,970
+Hai mẹ con đã làm gì để giúp những người bị nạn?
+
+22
+00:04:06,970 --> 00:04:18,600
+A. Rắc tro quanh nhà người bị nạn.
+
+23
+00:04:19,200 --> 00:04:28,460
+B. Cho người bị nạn mượn thuyền.
+
+24
+00:04:28,820 --> 00:04:41,150
+C. Chèo thuyền cứu người bị nạn.
+
+25
+00:04:43,950 --> 00:05:00,880
+Hai mẹ con chèo thuyền đi cứu người bị nạn.
+
+26
+00:05:00,880 --> 00:05:11,460
+Các em hãy ghép tranh với câu phù hợp.
+
+27
+00:05:11,860 --> 00:05:19,950
+Giúp đỡ bà cụ ăn xin.
+
+28
+00:05:20,280 --> 00:05:31,680
+Chèo thuyền cứu giúp người bị nạn.
+
+29
+00:05:33,950 --> 00:05:43,930
+Hai mẹ con đã làm những việc tốt nào?
+
+30
+00:05:43,930 --> 00:06:04,860
+Hai mẹ con đã giúp đỡ người nghèo khó
+cứu giúp người gặp nạn.
+
+31
+00:06:06,860 --> 00:06:18,170
+Các em xem các ý kiến sau và cho biết là đúng hay sai?
+
+32
+00:06:18,600 --> 00:06:29,550
+Hai mẹ con rất tốt bụng, thương người.
+
+33
+00:06:30,060 --> 00:06:41,400
+Hai mẹ con quan tâm, giúp đỡ những người gặp khó khăn.
+
+34
+00:06:42,770 --> 00:06:48,350
+Hai câu trên là đúng.

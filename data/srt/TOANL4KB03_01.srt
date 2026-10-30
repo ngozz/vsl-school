@@ -1,0 +1,15 @@
+1
+00:00:01,514 --> 00:00:04,400
+Chào các em
+
+2
+00:00:05,360 --> 00:00:13,756
+Chúng ta cùng nhau ôn tập phép chia số có hai chữ số
+
+3
+00:00:16,500 --> 00:00:33,926
+Thực hành chia nhẩm các số tròn chục, tròn trăm, tròn nghìn cho 10; 100; 1 000
+
+4
+00:00:34,360 --> 00:00:41,877
+Luyện tập phép chia hết và chia có số dư

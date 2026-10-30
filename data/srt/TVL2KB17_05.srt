@@ -1,0 +1,4 @@
+1
+00:00:01,240 --> 00:00:09,120
+Nêu nhận xét của em về việc làm của bạn nhỏ
+trong câu chuyện.
