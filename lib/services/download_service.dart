@@ -80,6 +80,7 @@ class DownloadService extends ChangeNotifier {
   final Map<String, double> _progress = {}; // name → 0..1
   final Map<String, TaskStatus> _status = {}; // name → TaskStatus
   final List<String> _failedNames = [];
+  final Map<String, Completer<bool>> _waiters = {};
 
   final Map<String, VideoEntry> _catalogByName = {};
   final Map<String, List<VideoEntry>> _lessonEntries = {};
@@ -100,6 +101,11 @@ class DownloadService extends ChangeNotifier {
       _downloaded.keys.map(lessonIdOf).whereType<String>().toSet().length;
   int get catalogLessonCount => _lessonEntries.length;
   List<String> get failedNames => _failedNames.toList();
+
+  /// True once the user confirmed a download on mobile data this session;
+  /// the warning is skipped for the rest of the session and resets on app
+  /// start (plain field).
+  bool mobileDataConfirmedThisSession = false;
 
   bool isDownloaded(String name) => _downloaded.containsKey(name);
 
@@ -127,6 +133,33 @@ class DownloadService extends ChangeNotifier {
       return name.substring(0, name.length - 4);
     }
     return name;
+  }
+
+  /// Whether a verified, size-matching local copy exists right now.
+  bool hasPlayableLocal(String name) {
+    final n = _baseName(name);
+    final meta = _downloaded[n];
+    if (meta == null) return false;
+    try {
+      final f = fileFor(n);
+      return f.existsSync() && f.lengthSync() == meta.size;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  /// Resolves when [name] reaches a terminal state: true = verified local
+  /// copy ready to play; false = failed/canceled/verification error.
+  Future<bool> waitFor(String name) {
+    final n = _baseName(name);
+    if (hasPlayableLocal(n)) return Future.value(true);
+    final s = _status[n];
+    if (s != null && isFailure(s)) return Future.value(false);
+    return _waiters.putIfAbsent(n, () => Completer<bool>()).future;
+  }
+
+  void _completeWaiter(String name, bool ok) {
+    _waiters.remove(name)?.complete(ok);
   }
 
   /// Resolves how a video filename plays ('TOANL1KB01_02.mp4').
@@ -287,7 +320,10 @@ class DownloadService extends ChangeNotifier {
         unawaited(_finish(name, update.task));
       } else {
         if (!_isBusy(update.status)) _progress.remove(name);
-        if (isFailure(update.status)) _failedNames.add(name);
+        if (isFailure(update.status)) {
+          _failedNames.add(name);
+          _completeWaiter(name, false);
+        }
       }
     }
     notifyListeners();
@@ -306,6 +342,7 @@ class DownloadService extends ChangeNotifier {
       s == TaskStatus.notFound;
 
   Future<void> _finish(String name, Task task) async {
+    var ok = true;
     try {
       final file = fileFor(name);
       if (!file.existsSync()) {
@@ -330,6 +367,7 @@ class DownloadService extends ChangeNotifier {
           jsonEncode({'name': name, 'size': actual, 'sha256': sha}));
       _progress.remove(name);
     } catch (e) {
+      ok = false;
       debugPrint('[DOWNLOAD] verify failed: $e');
       try {
         final f = fileFor(name);
@@ -337,6 +375,7 @@ class DownloadService extends ChangeNotifier {
       } catch (_) {}
       _failedNames.add(name);
     }
+    _completeWaiter(name, ok);
     notifyListeners();
   }
 

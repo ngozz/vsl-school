@@ -85,9 +85,7 @@ class _HomeScreenState extends State<HomeScreen> {
       return;
     }
     if (!mounted) return;
-    final wifi = await dl.onWifi();
-    if (!mounted) return;
-    if (!wifi && !(await DownloadDialogs.confirmMobileData(context, bytes))) {
+    if (!await DownloadDialogs.ensureNetworkOk(context, dl, bytes)) {
       _snack('Sẽ tải khi có Wi-Fi (mở lại màn hình này).');
       return;
     }

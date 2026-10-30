@@ -6,6 +6,18 @@ import '../services/download_service.dart';
 /// Shared confirmations for the download & update UX:
 /// large-batch warning → Wi-Fi check → explicit mobile-data confirmation.
 abstract final class DownloadDialogs {
+  /// Wi-Fi fast-path; on mobile data shows the warning once per app session
+  /// (the flag lives on [DownloadService] and resets on app start).
+  static Future<bool> ensureNetworkOk(
+      BuildContext context, DownloadService dl, int bytes) async {
+    if (await dl.onWifi()) return true;
+    if (dl.mobileDataConfirmedThisSession) return true;
+    if (!context.mounted) return false;
+    if (!(await confirmMobileData(context, bytes))) return false;
+    dl.mobileDataConfirmedThisSession = true;
+    return true;
+  }
+
   /// "Sẽ tải N video (~X MB)" — the 3 GB-class warning before download-all.
   static Future<bool> confirmBatch(
       BuildContext context, int fileCount, int bytes) async {
