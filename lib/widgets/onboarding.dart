@@ -55,7 +55,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
     final theme = Theme.of(context);
     final last = _page == _pages.length - 1;
     return Scaffold(
-      backgroundColor: theme.colorScheme.surfaceContainerLowest,
+      backgroundColor: theme.scaffoldBackgroundColor,
       body: SafeArea(
         child: Column(
           children: [

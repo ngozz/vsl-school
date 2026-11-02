@@ -332,9 +332,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
     return Scaffold(
-      backgroundColor: theme.colorScheme.surfaceContainerLowest,
       appBar: AppBar(
         title: const Text('VSL School',
             style: TextStyle(fontWeight: FontWeight.w700, fontSize: 22)),

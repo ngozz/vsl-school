@@ -24,7 +24,6 @@ class DownloadBanner extends StatelessWidget {
       builder: (context, _) {
         final dl = App.downloads;
         final theme = Theme.of(context);
-        final dark = theme.brightness == Brightness.dark;
 
         final String label;
         final IconData icon;
@@ -57,69 +56,60 @@ class DownloadBanner extends StatelessWidget {
           // Identical to the app bar (see _common in main.dart), so the strip
           // never contrasts with the frozen area above it.
           color: theme.scaffoldBackgroundColor,
-          child: DecoratedBox(
-            decoration: BoxDecoration(
-              border: Border(
-                bottom: BorderSide(
-                  color: theme.colorScheme.outlineVariant
-                      .withValues(alpha: dark || dl.canceling ? 0.45 : 0.9),
-                ),
-              ),
-            ),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Padding(
-                  // The cancel button carries 12 px of its own padding, so an
-                  // 8 px outer inset lands its label on the same 20 px line.
-                  padding: EdgeInsets.fromLTRB(
-                      _inset, 6, onCancel == null ? _inset : 8, 6),
-                  child: Row(
-                    children: [
-                      Icon(icon, size: 18, color: theme.colorScheme.primary),
-                      const SizedBox(width: 10),
-                      Expanded(
-                        child: Text(
-                          label,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            fontWeight: FontWeight.w600,
-                            letterSpacing: 0.1,
-                          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Padding(
+                // The cancel button carries 12 px of its own padding, so an
+                // 8 px outer inset lands its label on the same 20 px line.
+                padding: EdgeInsets.fromLTRB(
+                    _inset, 6, onCancel == null ? _inset : 8, 6),
+                child: Row(
+                  children: [
+                    Icon(icon, size: 18, color: theme.colorScheme.primary),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: Text(
+                        label,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          fontWeight: FontWeight.w600,
+                          letterSpacing: 0.1,
                         ),
                       ),
-                      if (onCancel != null)
-                        TextButton(
-                          onPressed: onCancel,
-                          style: TextButton.styleFrom(
-                            minimumSize: const Size(0, 30),
-                            padding: const EdgeInsets.symmetric(horizontal: 12),
-                            visualDensity: VisualDensity.compact,
-                            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                            foregroundColor: theme.colorScheme.onSurfaceVariant,
-                          ),
-                          child: const Text('Huỷ'),
-                        ),
-                    ],
-                  ),
-                ),
-                // Accent line, aligned with the content inset: reads as part of
-                // the page, not as an edge-to-edge divider.
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: _inset),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(1),
-                    child: LinearProgressIndicator(
-                      value: dl.canceling ? null : progress,
-                      minHeight: 2,
-                      backgroundColor: Colors.transparent,
-                      color: theme.colorScheme.primary,
                     ),
+                    if (onCancel != null)
+                      TextButton(
+                        onPressed: onCancel,
+                        style: TextButton.styleFrom(
+                          minimumSize: const Size(0, 30),
+                          padding: const EdgeInsets.symmetric(horizontal: 12),
+                          visualDensity: VisualDensity.compact,
+                          tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                          foregroundColor: theme.colorScheme.onSurfaceVariant,
+                        ),
+                        child: const Text('Huỷ'),
+                      ),
+                  ],
+                ),
+              ),
+              // Accent line, aligned with the content inset and with a little
+              // air below it: reads as part of the page, not as an
+              // edge-to-edge divider.
+              Padding(
+                padding: const EdgeInsets.fromLTRB(_inset, 0, _inset, 6),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(1),
+                  child: LinearProgressIndicator(
+                    value: dl.canceling ? null : progress,
+                    minHeight: 2,
+                    backgroundColor: Colors.transparent,
+                    color: theme.colorScheme.primary,
                   ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         );
       },

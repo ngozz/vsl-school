@@ -35,7 +35,9 @@ ThemeData _buildTheme(ThemeChoice choice) {
       return _common(ThemeData(
         useMaterial3: true,
         colorScheme: scheme,
-        scaffoldBackgroundColor: scheme.surfaceContainerLowest,
+        // A step above the near-black surfaceContainerLowest: matches the
+        // settings sheet, so the home screen no longer looks pitch black.
+        scaffoldBackgroundColor: scheme.surfaceContainerLow,
       ));
     case ThemeChoice.black:
       const scheme = ColorScheme(
