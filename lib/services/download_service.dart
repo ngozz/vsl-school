@@ -70,14 +70,28 @@ class LessonDiff {
 ///
 /// The app itself is the download queue: at most [_maxConcurrent] tasks are
 /// native (WorkManager) at a time, refilled from an app-side pending list.
-/// This keeps cancels clean (only a few native tasks to cancel — no
-/// notification worker storms), and the pending list is flushed to the
-/// native queue when the app is backgrounded, so downloads continue after
-/// quitting.
+/// Every native registration and every cancel schedules a notification
+/// worker, so keeping the registered set small is what keeps the notification
+/// (and cancels) quiet — concurrency alone is already bounded by the plugin's
+/// native holding queue.
+///
+/// When the app is backgrounded a bounded [_flushWindow] of the pending list
+/// is handed to the native queue (all of it on iOS, where the Dart isolate is
+/// suspended); the native holding queue drips those at [_maxConcurrent] and
+/// the Dart side keeps refilling while the process lives.
 class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
   static const _dirName = 'videos';
   static const _taskGroup = 'vsl_downloads';
   static const _maxConcurrent = 3;
+
+  /// How many tasks may be registered with the native queue at once (about
+  /// three times the concurrency: enough headroom to never starve, small
+  /// enough that a cancel is a handful of ids).
+  static const _flushWindow = 9;
+
+  /// Visual minimum for the "Đang huỷ…" state, so a fast cancel still reads
+  /// as feedback instead of a flicker.
+  static const _cancelVisualMin = Duration(milliseconds: 550);
 
   final FileDownloader _dl = FileDownloader();
 
@@ -94,6 +108,9 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
   final Map<String, String> _taskGroups = {}; // name → notification group
   final ListQueue<VideoEntry> _pending = ListQueue(); // app-side queue
   final Set<String> _pendingNames = <String>{};
+  final Set<String> _canceled = <String>{}; // names the user just cancelled
+  Future<void> _enqueueChain = Future<void>.value(); // serialises enqueues
+  bool _canceling = false;
   int _batchTotal = 0; // baked total of the current batch (notification/UI)
   int _deleteDone = 0;
   int _deleteTotal = 0;
@@ -318,21 +335,28 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
   // ── Events ───────────────────────────────────────────────────────────────
 
   void _onUpdate(TaskUpdate update) {
+    final name = _nameOf(update.task);
+    // A cancelled task keeps emitting acks (and its notification worker keeps
+    // running) for a while; none of that may move the in-app banner again.
+    if (_canceled.contains(name)) return;
     if (update is TaskProgressUpdate) {
-      final name = _nameOf(update.task);
       if (_status.containsKey(name)) _progress[name] = update.progress;
     } else if (update is TaskStatusUpdate) {
-      final name = _nameOf(update.task);
       _status[name] = update.status;
       if (update.status == TaskStatus.complete) {
         unawaited(_finish(name, update.task));
       } else {
         if (!_isBusy(update.status)) _progress.remove(name);
-        if (isFailure(update.status)) {
+        if (update.status == TaskStatus.canceled) {
+          // Cancel is not a failure: no failed entry, no error notification.
+          _completeWaiter(name, false);
+          _taskGroups.remove(name);
+          _settleBatch();
+        } else if (isFailure(update.status)) {
           _failedNames.add(name);
           _completeWaiter(name, false);
           _taskGroups.remove(name);
-          if (busyBatchCount == 0) _batchTotal = 0;
+          _settleBatch();
         }
       }
       // Top the native queue back up as slots free up.
@@ -389,7 +413,7 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
     }
     _completeWaiter(name, ok);
     _taskGroups.remove(name);
-    if (busyBatchCount == 0) _batchTotal = 0;
+    _settleBatch();
     notifyListeners();
   }
 
@@ -413,18 +437,27 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
       );
 
   /// Discards any old copy, then natively enqueues one task.
+  ///
+  /// Enqueues are serialised: a cancel can then wait for the chain and know
+  /// every announced task is registered natively (otherwise it would race the
+  /// plugin and cancel an id it does not know yet).
   void _enqueueNow(VideoEntry e, String group) {
     final file = fileFor(e.name);
     if (file.existsSync()) file.deleteSync();
     final sidecar = File(_metaPath(e.name));
     if (sidecar.existsSync()) sidecar.deleteSync();
     _downloaded.remove(e.name);
+    _canceled.remove(e.name);
     _status[e.name] = TaskStatus.enqueued;
     _progress[e.name] = 0;
     final task = _buildTask(e, group);
     _expect[task.taskId] = e;
     _taskGroups[e.name] = group;
-    unawaited(_dl.enqueue(task));
+    _enqueueChain = _enqueueChain
+        .then<void>((_) => _dl.enqueue(task))
+        .catchError((Object err) {
+      debugPrint('[DOWNLOAD] enqueue failed ($group): $err');
+    });
   }
 
   /// Tops the native queue back up to [_maxConcurrent] from [_pending].
@@ -434,25 +467,43 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
     }
   }
 
-  /// Called when the app is backgrounded: hand the whole pending list to the
-  /// native queue (the holding queue keeps concurrency bounded) so downloads
-  /// continue even if the OS kills the Dart isolate.
+  /// Called when the app is backgrounded: hand the pending list to the native
+  /// queue so downloads continue after the Dart isolate is suspended.
+  ///
+  /// Android flushes at most [_flushWindow] tasks — the Dart side keeps
+  /// refilling while the process lives, and a later cancel only has to touch
+  /// that window. iOS flushes everything, because the isolate is suspended
+  /// and nothing else can refill.
   void _flushPendingToNative() {
     if (_pending.isEmpty) return;
+    final limit = Platform.isIOS ? _pending.length : _flushWindow;
     final tasks = <DownloadTask>[];
-    while (_pending.isNotEmpty) {
+    while (_pending.isNotEmpty && tasks.length < limit) {
       final e = _pending.removeFirst();
       _pendingNames.remove(e.name);
+      _canceled.remove(e.name);
       _status[e.name] = TaskStatus.enqueued;
       _taskGroups[e.name] = _taskGroup;
       tasks.add(_buildTask(e, _taskGroup));
     }
-    unawaited(_dl.enqueueAll(tasks));
+    _enqueueChain = _enqueueChain
+        .then<void>((_) => _dl.enqueueAll(tasks))
+        .catchError((Object err) {
+      debugPrint('[DOWNLOAD] flush failed: $err');
+    });
   }
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
-    if (state == AppLifecycleState.paused) _flushPendingToNative();
+    if (state == AppLifecycleState.paused) {
+      _flushPendingToNative();
+    } else if (state == AppLifecycleState.resumed) {
+      // Slots freed while we were away: top the native queue back up and let
+      // the banner re-settle (e.g. after a batch finished in the background).
+      _refillBatch();
+      _settleBatch();
+      notifyListeners();
+    }
   }
 
   // ── Enqueueing ───────────────────────────────────────────────────────────
@@ -488,6 +539,7 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
       } else {
         _pending.add(e);
         _pendingNames.add(e.name);
+        _canceled.remove(e.name);
       }
     }
     // Bake the true total into a neutral STATIC notification text: the
@@ -495,6 +547,8 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
     // WorkManager). The complete notification is posted by the final worker
     // — timely, and truthful even after cancels.
     final total = outstanding + created + _pendingNames.length;
+    _batchTotal = total; // the in-app banner uses this on every platform
+    _canceling = false; // a fresh batch wins over a lingering cancel state
     if (!Platform.isIOS && total > 0) {
       var remainingBytes = 0;
       _expect.forEach((taskId, e) {
@@ -506,7 +560,6 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
       final mb = remainingBytes >= 1073741824
           ? '${(remainingBytes / 1073741824).toStringAsFixed(1)} GB'
           : '${(remainingBytes / 1048576).round()} MB';
-      _batchTotal = total;
       _dl.configureNotificationForGroup(
         _taskGroup,
         running: TaskNotification(
@@ -563,25 +616,91 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
   }
 
   /// Cancels in-flight tasks for [names]; downloaded copies are kept.
-  Future<void> cancelTasks(Iterable<String> names) async {
-    final ids = <String>[
-      for (final n in names)
-        if (isBusy(n)) '${_baseName(n)}.mp4',
-    ];
-    if (ids.isEmpty) return;
-    await _dl.cancelTasksWithIds(ids);
-  }
+  ///
+  /// Pending (app-side queued) entries are dropped too, and the UI settles
+  /// before any native call, so cancelling never looks like "it kept going".
+  Future<void> cancelTasks(Iterable<String> names) =>
+      _cancelNames(names, visual: true);
 
   /// Cancels the current batch: in-flight tasks are canceled, app-side
   /// pending entries are dropped; downloaded copies are kept.
-  Future<void> cancelBatch() async {
-    _pending.clear();
-    _pendingNames.clear();
-    _batchTotal = 0;
+  Future<void> cancelBatch() => _cancelNames(
+        [
+          ..._pendingNames,
+          ..._taskGroups.entries
+              .where((e) => e.value == _taskGroup)
+              .map((e) => e.key),
+        ],
+        batch: true,
+        visual: true,
+      );
+
+  /// One cancel path for every caller.
+  ///
+  /// 1. Drops matching entries from the app-side queue and marks them
+  ///    cancelled synchronously, then repaints — the banner switches to
+  ///    "Đang huỷ…" immediately.
+  /// 2. Only then waits for the enqueue chain and asks the plugin to cancel
+  ///    the native ids, with a timeout so the banner can never stick.
+  Future<void> _cancelNames(
+    Iterable<String> names, {
+    bool batch = false,
+    bool visual = true,
+  }) async {
+    final targets = {for (final n in names) _baseName(n)};
+    if (targets.isEmpty) return;
+    final started = DateTime.now();
+    final ids = <String>[];
+    var droppedFromBatch = 0;
+    for (final n in targets) {
+      final wasPending = _pendingNames.remove(n);
+      if ((wasPending || _taskGroups[n] == _taskGroup)) droppedFromBatch++;
+      if (!wasPending && isBusy(n)) ids.add('$n.mp4'); // before overwriting
+      _canceled.add(n); // ignore the plugin's acks for this task
+      _taskGroups.remove(n);
+      _status[n] = TaskStatus.canceled;
+      _progress.remove(n);
+      _completeWaiter(n, false);
+    }
+    _pending.removeWhere((e) => targets.contains(e.name));
+    // A partial cancel must not make the banner count cancelled items as
+    // finished; a full batch cancel clears the total outright.
+    if (batch) {
+      _batchTotal = 0;
+    } else if (droppedFromBatch > 0) {
+      _batchTotal = (_batchTotal - droppedFromBatch).clamp(0, _batchTotal);
+    }
+    _canceling = visual;
+    _refillBatch(); // a partial cancel must not stall the rest of the batch
     notifyListeners();
-    await cancelTasks(_taskGroups.entries
-        .where((e) => e.value == _taskGroup)
-        .map((e) => e.key));
+
+    try {
+      await _enqueueChain; // let announced enqueues register first
+      if (ids.isNotEmpty) {
+        await _dl
+            .cancelTasksWithIds(ids)
+            .timeout(const Duration(seconds: 10), onTimeout: () => false)
+            .catchError((Object err) {
+          debugPrint('[DOWNLOAD] cancel failed: $err');
+          return false;
+        });
+      }
+      if (visual) {
+        final elapsed = DateTime.now().difference(started);
+        if (elapsed < _cancelVisualMin) {
+          await Future<void>.delayed(_cancelVisualMin - elapsed);
+        }
+      }
+    } finally {
+      _canceling = false;
+      _settleBatch();
+      notifyListeners();
+    }
+  }
+
+  /// Clears the baked batch total once nothing is running or queued.
+  void _settleBatch() {
+    if (busyBatchCount == 0 && pendingBatchCount == 0) _batchTotal = 0;
   }
 
   /// In-flight batch downloads (the notification group).
@@ -595,6 +714,9 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
   /// The baked total of the current batch (0 when idle).
   int get batchTotal => _batchTotal;
 
+  /// True while a cancel is being settled (banner shows an indeterminate bar).
+  bool get canceling => _canceling;
+
   /// Deletion progress for the in-app banner (0/0 when idle).
   int get deleteDone => _deleteDone;
   int get deleteTotal => _deleteTotal;
@@ -604,7 +726,7 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
   Future<int> deleteAll() async {
     _pending.clear();
     _pendingNames.clear();
-    await cancelTasks(_catalogByName.keys);
+    await _cancelNames(_catalogByName.keys, batch: true, visual: false);
     final names = _downloaded.keys.toList();
     if (names.isEmpty) return 0;
     _deleteTotal = names.length;

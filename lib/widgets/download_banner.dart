@@ -2,10 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../main.dart';
 
-/// Persistent in-app status chip at the top of the home screen: batch
-/// download progress (X/Y + bar + cancel) and deletion progress. Always
-/// truthful — the numbers come from the Dart stream, not the native
-/// notification accounting.
+/// Full-bleed status strip under the app bar: batch download progress
+/// (X/Y + line + Huỷ), the indeterminate "Đang huỷ…" state while a cancel is
+/// settling, and determinate deletion progress.
+///
+/// It is deliberately chrome, not a card: no radius, no outline, no tint, so
+/// it disappears into the black theme (pure black + one hairline) and reads as
+/// part of the app bar everywhere else. Numbers come from the Dart stream, so
+/// they stay truthful no matter what the native notification is doing.
 class DownloadBanner extends StatelessWidget {
   const DownloadBanner({super.key});
 
@@ -16,82 +20,96 @@ class DownloadBanner extends StatelessWidget {
       builder: (context, _) {
         final dl = App.downloads;
         final theme = Theme.of(context);
+        final dark = theme.brightness == Brightness.dark;
 
-        // Deletion runs exclusively while this banner is visible.
+        final String label;
+        final IconData icon;
+        double? progress;
+        VoidCallback? onCancel;
+
         if (dl.deleteTotal > 0) {
-          return _chip(
-            context,
-            theme,
-            icon: Icons.delete_outline,
-            label: 'Đang xoá ${dl.deleteDone}/${dl.deleteTotal} video…',
-            progress:
-                dl.deleteTotal == 0 ? null : dl.deleteDone / dl.deleteTotal,
-          );
+          icon = Icons.delete_outline;
+          label = 'Đang xoá ${dl.deleteDone}/${dl.deleteTotal} video…';
+          progress = dl.deleteDone / dl.deleteTotal;
+        } else if (dl.canceling) {
+          // Indeterminate: the native cancel acks are still trickling in.
+          icon = Icons.close;
+          label = 'Đang huỷ tải…';
+        } else {
+          final busy = dl.busyBatchCount;
+          final pending = dl.pendingBatchCount;
+          final total = dl.batchTotal;
+          if ((busy == 0 && pending == 0) || total == 0) {
+            return const SizedBox.shrink();
+          }
+          final finished = (total - busy - pending).clamp(0, total);
+          icon = Icons.cloud_download_outlined;
+          label = 'Đang tải $finished/$total video…';
+          progress = finished / total;
+          onCancel = () => dl.cancelBatch();
         }
-        final busy = dl.busyBatchCount;
-        final pending = dl.pendingBatchCount;
-        final total = dl.batchTotal;
-        if ((busy == 0 && pending == 0) || total == 0) {
-          return const SizedBox.shrink();
-        }
-        final finished = (total - busy - pending).clamp(0, total);
-        return _chip(
-          context,
-          theme,
-          icon: Icons.cloud_download_outlined,
-          label: 'Đang tải $finished/$total video…',
-          progress: finished / total,
-          onCancel: () => dl.cancelBatch(),
-        );
-      },
-    );
-  }
 
-  Widget _chip(
-    BuildContext context,
-    ThemeData theme, {
-    required IconData icon,
-    required String label,
-    double? progress,
-    VoidCallback? onCancel,
-  }) {
-    return Material(
-      color: theme.colorScheme.surface,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
-        side: BorderSide(color: theme.colorScheme.outlineVariant),
-      ),
-      child: Padding(
-        padding: const EdgeInsets.fromLTRB(12, 8, 4, 8),
-        child: Row(
-          children: [
-            Icon(icon, size: 20, color: theme.colorScheme.primary),
-            const SizedBox(width: 10),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(label,
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                      style: theme.textTheme.bodySmall
-                          ?.copyWith(fontWeight: FontWeight.w600)),
-                  const SizedBox(height: 4),
-                  LinearProgressIndicator(
-                      value: progress, minHeight: 4, borderRadius: BorderRadius.circular(2)),
-                ],
+        return Material(
+          color: dark
+              ? theme.colorScheme.surfaceContainerLowest
+              : theme.colorScheme.surfaceContainerLow,
+          child: DecoratedBox(
+            decoration: BoxDecoration(
+              border: Border(
+                bottom: BorderSide(
+                  color: theme.colorScheme.outlineVariant
+                      .withValues(alpha: dark || dl.canceling ? 0.45 : 0.9),
+                ),
               ),
             ),
-            if (onCancel != null)
-              IconButton(
-                tooltip: 'Huỷ tải',
-                icon: const Icon(Icons.close, size: 18),
-                onPressed: onCancel,
-              ),
-          ],
-        ),
-      ),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Padding(
+                  padding:
+                      EdgeInsets.fromLTRB(16, 6, onCancel == null ? 16 : 6, 6),
+                  child: Row(
+                    children: [
+                      Icon(icon, size: 18, color: theme.colorScheme.primary),
+                      const SizedBox(width: 10),
+                      Expanded(
+                        child: Text(
+                          label,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            fontWeight: FontWeight.w600,
+                            letterSpacing: 0.1,
+                          ),
+                        ),
+                      ),
+                      if (onCancel != null)
+                        TextButton(
+                          onPressed: onCancel,
+                          style: TextButton.styleFrom(
+                            minimumSize: const Size(0, 30),
+                            padding: const EdgeInsets.symmetric(horizontal: 12),
+                            visualDensity: VisualDensity.compact,
+                            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                            foregroundColor: theme.colorScheme.onSurfaceVariant,
+                          ),
+                          child: const Text('Huỷ'),
+                        ),
+                    ],
+                  ),
+                ),
+                // Flush with the bottom edge: an accent line, no track.
+                LinearProgressIndicator(
+                  value: dl.canceling ? null : progress,
+                  minHeight: 2,
+                  backgroundColor: Colors.transparent,
+                  color: theme.colorScheme.primary,
+                ),
+              ],
+            ),
+          ),
+        );
+      },
     );
   }
 }
