@@ -6,12 +6,16 @@ import '../main.dart';
 /// (X/Y + line + Huỷ), the indeterminate "Đang huỷ…" state while a cancel is
 /// settling, and determinate deletion progress.
 ///
-/// It is deliberately chrome, not a card: no radius, no outline, no tint, so
-/// it disappears into the black theme (pure black + one hairline) and reads as
-/// part of the app bar everywhere else. Numbers come from the Dart stream, so
-/// they stay truthful no matter what the native notification is doing.
+/// It is deliberately chrome, not a card: no radius, no outline, no tint, and
+/// it uses the same background as the app bar / scaffold, so the strip is one
+/// continuous "frozen" area while the list scrolls beneath it. Content is
+/// inset like the rest of the screen (20 px) and the progress line shares that
+/// inset instead of bleeding to the edges.
 class DownloadBanner extends StatelessWidget {
   const DownloadBanner({super.key});
+
+  /// Same horizontal inset as the settings sheet and the page content.
+  static const _inset = 20.0;
 
   @override
   Widget build(BuildContext context) {
@@ -50,9 +54,9 @@ class DownloadBanner extends StatelessWidget {
         }
 
         return Material(
-          color: dark
-              ? theme.colorScheme.surfaceContainerLowest
-              : theme.colorScheme.surfaceContainerLow,
+          // Identical to the app bar (see _common in main.dart), so the strip
+          // never contrasts with the frozen area above it.
+          color: theme.scaffoldBackgroundColor,
           child: DecoratedBox(
             decoration: BoxDecoration(
               border: Border(
@@ -66,8 +70,10 @@ class DownloadBanner extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Padding(
-                  padding:
-                      EdgeInsets.fromLTRB(16, 6, onCancel == null ? 16 : 6, 6),
+                  // The cancel button carries 12 px of its own padding, so an
+                  // 8 px outer inset lands its label on the same 20 px line.
+                  padding: EdgeInsets.fromLTRB(
+                      _inset, 6, onCancel == null ? _inset : 8, 6),
                   child: Row(
                     children: [
                       Icon(icon, size: 18, color: theme.colorScheme.primary),
@@ -98,12 +104,19 @@ class DownloadBanner extends StatelessWidget {
                     ],
                   ),
                 ),
-                // Flush with the bottom edge: an accent line, no track.
-                LinearProgressIndicator(
-                  value: dl.canceling ? null : progress,
-                  minHeight: 2,
-                  backgroundColor: Colors.transparent,
-                  color: theme.colorScheme.primary,
+                // Accent line, aligned with the content inset: reads as part of
+                // the page, not as an edge-to-edge divider.
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: _inset),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(1),
+                    child: LinearProgressIndicator(
+                      value: dl.canceling ? null : progress,
+                      minHeight: 2,
+                      backgroundColor: Colors.transparent,
+                      color: theme.colorScheme.primary,
+                    ),
+                  ),
                 ),
               ],
             ),

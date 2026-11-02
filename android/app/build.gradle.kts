@@ -1,3 +1,6 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
@@ -28,11 +31,23 @@ android {
         versionName = flutter.versionName
     }
 
+    // CI injects android/key.properties (from GitHub secrets); when absent,
+    // release builds fall back to debug signing so local dev still works.
     buildTypes {
         release {
-            // Debug-signed release builds for now; replace with a real
-            // signing config once a keystore is set up (CI or local).
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = if (rootProject.file("key.properties").exists()) {
+                val keystoreProperties = Properties().apply {
+                    load(FileInputStream(rootProject.file("key.properties")))
+                }
+                signingConfigs.create("release").apply {
+                    storeFile = file(keystoreProperties["storeFile"] as String)
+                    storePassword = keystoreProperties["storePassword"] as String
+                    keyAlias = keystoreProperties["keyAlias"] as String
+                    keyPassword = keystoreProperties["keyPassword"] as String
+                }
+            } else {
+                signingConfigs.getByName("debug")
+            }
         }
     }
 }

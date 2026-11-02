@@ -463,7 +463,11 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
   /// Tops the native queue back up to [_maxConcurrent] from [_pending].
   void _refillBatch() {
     while (_pending.isNotEmpty && busyBatchCount < _maxConcurrent) {
-      _enqueueNow(_pending.removeFirst(), _taskGroup);
+      final e = _pending.removeFirst();
+      // The name is now native, not queued: the banner derives "finished" from
+      // (total − busy − pending), so a stale pending name would pin it at 0.
+      _pendingNames.remove(e.name);
+      _enqueueNow(e, _taskGroup);
     }
   }
 
@@ -547,7 +551,10 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
     // WorkManager). The complete notification is posted by the final worker
     // — timely, and truthful even after cancels.
     final total = outstanding + created + _pendingNames.length;
-    _batchTotal = total; // the in-app banner uses this on every platform
+    // The in-app banner uses (total − busy − pending). Keep the total
+    // monotonic while a batch runs: a second call (e.g. opening a lesson that
+    // is already in the batch) must not shrink the denominator.
+    _batchTotal = total > _batchTotal ? total : _batchTotal;
     _canceling = false; // a fresh batch wins over a lingering cancel state
     if (!Platform.isIOS && total > 0) {
       var remainingBytes = 0;

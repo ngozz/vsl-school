@@ -79,6 +79,12 @@ ThemeData _buildTheme(ThemeChoice choice) {
 ThemeData _common(ThemeData t) {
   return t.copyWith(
     appBarTheme: t.appBarTheme.copyWith(
+      // Newer Flutter swaps the app bar background to
+      // colorScheme.surfaceContainer as soon as content scrolls under it —
+      // even with scrolledUnderElevation: 0. Pinning the background to the
+      // scaffold color makes the "frozen" area constant while scrolling.
+      backgroundColor: t.scaffoldBackgroundColor,
+      foregroundColor: t.colorScheme.onSurface,
       surfaceTintColor: Colors.transparent,
       scrolledUnderElevation: 0,
       centerTitle: false,

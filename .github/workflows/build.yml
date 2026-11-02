@@ -132,8 +132,27 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      # Debug-signed for now (see android/app/build.gradle.kts); add keystore
-      # secrets + a signing config later if a Play-Store-ready APK is needed.
+      # Release signing (same pattern as vsl-dictionary). Secrets are
+      # optional: without ANDROID_KEYSTORE_BASE64 the APK stays debug-signed,
+      # so forks and local runs keep working.
+      - name: Set up release signing
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          STORE_PASSWORD: ${{ secrets.ANDROID_STORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          if [ -n "$KEYSTORE_BASE64" ]; then
+            echo "$KEYSTORE_BASE64" | base64 -d > android/app/vsl-school.jks
+            cat > android/key.properties <<EOF
+          storeFile=vsl-school.jks
+          storePassword=$STORE_PASSWORD
+          keyAlias=$KEY_ALIAS
+          keyPassword=$KEY_PASSWORD
+          EOF
+          else
+            echo "ANDROID_KEYSTORE_BASE64 not set: building a debug-signed APK."
+          fi
 
       - name: Build APK
         run: flutter build apk --release

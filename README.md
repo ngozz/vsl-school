@@ -50,10 +50,48 @@ H.264/AAC mp4 for broad platform support, captions exported to SRT.
 ```bash
 flutter pub get
 flutter run              # run on a device
-flutter build apk --release         # Android (debug signing for now)
+flutter build apk --release         # Android (CI release-signs; debug-signed locally)
 flutter build web --release         # Web → build/web
 flutter build ios --no-codesign     # iOS (needs Xcode + macOS)
 ```
+
+### Android release signing
+
+The keystore is created **once** and kept forever: Android refuses to update
+an installed app whose signing key changed. Back it up (e.g. Google Drive) and
+never commit it — `android/key.properties`, `*.jks` and `*.keystore` are
+git-ignored.
+
+```powershell
+# from vsl-school/android/app
+keytool -genkeypair -v -keystore vsl-school.jks -storetype PKCS12 `
+  -keyalg RSA -keysize 2048 -validity 10000 -alias vsl-school
+```
+
+- Use the **same password** for the store and the key (PKCS12 requires it).
+- Losing the keystore means every user has to uninstall before updating.
+
+Add four repository secrets (**Settings → Secrets and variables → Actions**):
+
+| Secret | Value |
+|---|---|
+| `ANDROID_KEYSTORE_BASE64` | the PowerShell output below |
+| `ANDROID_STORE_PASSWORD` | the keystore password |
+| `ANDROID_KEY_ALIAS` | `vsl-school` |
+| `ANDROID_KEY_PASSWORD` | same as the store password |
+
+```powershell
+[Convert]::ToBase64String([IO.File]::ReadAllBytes("vsl-school.jks"))
+```
+
+CI decodes that into `android/app/vsl-school.jks` and writes
+`android/key.properties` (`storeFile=vsl-school.jks`) before
+`flutter build apk --release`; without the secret the APK stays debug-signed.
+
+**One-time migration:** the previously published APK was debug-signed, so
+Android refuses to install a release-signed build over it. Uninstall the old
+app once (this also deletes downloaded videos and settings), then install the
+new APK.
 
 ## CI/CD (GitHub Actions)
 
@@ -67,7 +105,7 @@ flutter build ios --no-codesign     # iOS (needs Xcode + macOS)
 
 Each build run **creates a GitHub Release** (`build<run-number>`) containing:
 
-- `vsl-school-android.apk` — sideload-ready (debug-signed for now)
+- `vsl-school-android.apk` — sideload-ready (release-signed in CI)
 - `vsl-school-ios-unsigned.ipa` — not code-signed; resign or use a sideload
   tool (e.g. AltStore, Sideloadly) to install
 - `vsl-school-web.zip` — static web build
@@ -93,9 +131,12 @@ during installation (same scheme as vsl-dictionary). The file lives in
 
 1. Enable **Actions → Settings → Pages → GitHub Pages** with the workflow
    source set (the `deploy-pages` job configures this).
-2. The Android APK is **debug-signed** for now — fine for personal sideloading.
-   Replace the signing config in `android/app/build.gradle.kts` (and add CI
-   keystore secrets) when a Play-Store-ready build is needed.
+2. The Android APK is **release-signed** in CI from four repository secrets:
+   `ANDROID_KEYSTORE_BASE64` (base64 of `vsl-school.jks`),
+   `ANDROID_STORE_PASSWORD`, `ANDROID_KEY_ALIAS` (`vsl-school`) and
+   `ANDROID_KEY_PASSWORD`. Without them the build stays debug-signed, so
+   forks and local runs still work. See
+   [Android release signing](#android-release-signing).
 3. iOS builds need no extra setup (no signing config = unsigned IPA on a
    macOS runner).
 4. Media (~2.7 GB) makes the repo big; consider
