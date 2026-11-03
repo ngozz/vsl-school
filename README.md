@@ -9,6 +9,14 @@ player.
 Language portal of [qipedc.moet.gov.vn (App Khiem Thinh)](https://qipedc.moet.gov.vn/)
 (Trung tâm Kỹ hiệu Việt Nam / Bộ Giáo dục và Đào tạo).
 
+## Screenshots
+
+<p align="center">
+  <a href="ss/1.jpg"><img src="ss/1.jpg" width="23%" alt="Onboarding — Chào mừng đến với VSL School"></a>&nbsp;<a href="ss/2.jpg"><img src="ss/2.jpg" width="23%" alt="Lesson browser — subject and grade chips"></a>&nbsp;<a href="ss/3.jpg"><img src="ss/3.jpg" width="23%" alt="Settings — theme, playback speed and offline downloads"></a>&nbsp;<a href="ss/4.jpg"><img src="ss/4.jpg" width="23%" alt="Lesson player — captions and segment outline"></a>
+</p>
+
+*Click a screenshot to open it full size.*
+
 ## What it does
 
 - **Lesson browsing** — subject chips (Toán / Tiếng Việt) + grade chips
@@ -38,6 +46,7 @@ vsl-school/
 │   ├── services/        # lesson catalogue, settings
 │   ├── screens/         # home (browse) + lesson screen
 │   └── widgets/lesson_video_player.dart
+├── ss/                  # screenshots used in this README
 ├── .github/workflows/   # build + release CI (see below)
 └── icon.png             # launcher icon source
 ```
