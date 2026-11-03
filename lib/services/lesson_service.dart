@@ -14,7 +14,6 @@ class LessonService {
   /// Parses `{_id,title}` entries from the bundled title.json.
   Future<void> load() async {
     if (_loaded) return;
-    if (_loaded) return;
     final raw = await rootBundle.loadString('data/json/title.json');
     final data = jsonDecode(raw) as Map<String, dynamic>;
     final list = data['datas'] as List<dynamic>;

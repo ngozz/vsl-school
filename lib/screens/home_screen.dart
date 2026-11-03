@@ -7,7 +7,6 @@ import 'package:flutter/material.dart';
 import '../main.dart';
 import '../models/lesson.dart';
 import '../services/settings_service.dart';
-import '../services/settings_service.dart' show ThemeChoice;
 import '../widgets/download_banner.dart';
 import '../widgets/download_dialogs.dart';
 import '../widgets/onboarding.dart';
@@ -36,7 +35,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _init() async {
     try {
-      await App.lessons.load();
+      // Settings must be loaded before `introSeen` is read below, otherwise
+      // the onboarding can re-appear on every launch.
+      await Future.wait([App.lessons.load(), App.settings.load()]);
       if (!mounted) return;
       _applyFilter();
       await App.downloads.initialize();
@@ -112,10 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
   /// Auto-*check* at startup (cheap manifest fetch); applying is manual.
   Future<void> _startupUpdateCheck() async {
     await App.updates.check();
-    final diffs = [
-      for (final d in App.updates.diffsFor(App.downloads))
-        if (!d.isEmpty) d,
-    ];
+    final diffs = App.updates.diffsFor(App.downloads);
     if (!mounted ||
         diffs.isEmpty ||
         App.updates.dismissedThisSession ||
@@ -159,10 +157,7 @@ class _HomeScreenState extends State<HomeScreen> {
       _snack('Không thể kiểm tra: ${App.updates.lastError}');
       return;
     }
-    final diffs = [
-      for (final d in App.updates.diffsFor(App.downloads))
-        if (!d.isEmpty) d,
-    ];
+    final diffs = App.updates.diffsFor(App.downloads);
     if (!mounted) return;
     if (diffs.isEmpty) {
       _snack('Nội dung đã là bản mới nhất.');

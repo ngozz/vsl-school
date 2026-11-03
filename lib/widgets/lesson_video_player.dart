@@ -59,6 +59,7 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
   void _load() {
     final old = _controller;
     _controller = null;
+    _hasCaptions = false; // new video: CC stays off until its SRT resolves
     // Dispose asynchronously with a guard: disposing while the previous
     // controller's initialize() is still pending can throw on Android.
     if (old != null) {
@@ -150,7 +151,6 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
   void _enterFullscreen() {
     final c = _controller;
     if (c == null || !c.value.isInitialized) return;
-    final wasPlaying = c.value.isPlaying;
     SystemChrome.setPreferredOrientations(const [
       DeviceOrientation.landscapeLeft,
       DeviceOrientation.landscapeRight,
@@ -178,8 +178,9 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
           const [DeviceOrientation.portraitUp]);
       SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
       if (!mounted) return;
+      final resume = c.value.isPlaying; // respect a pause made in fullscreen
       setState(() => _surfaceKey = UniqueKey()); // fresh surface (web fix)
-      if (wasPlaying) c.play();
+      if (resume) c.play();
     });
   }
 
@@ -377,6 +378,8 @@ class _ControlsState extends State<_Controls> {
   bool _visible = true;
   double? _dragMs; // non-null while scrubbing
   bool _scrubUnlocked = false; // sticky: true once the whole file is buffered
+  // Last value pushed to [widget.controlsVisible]; see _publishControlsVisible.
+  bool _publishedVisible = true;
 
   VideoPlayerController get _c => widget.controller;
 
@@ -409,6 +412,19 @@ class _ControlsState extends State<_Controls> {
     _scheduleHide();
   }
 
+  /// Pushes the bar visibility to the captions overlay.
+  ///
+  /// The value is computed in build, but writing it there would notify a
+  /// sibling widget while the tree is building ("setState() called during
+  /// build"). Publish after the frame instead, only on a real change.
+  void _publishControlsVisible(bool show) {
+    if (_publishedVisible == show) return;
+    _publishedVisible = show;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) widget.controlsVisible.value = show;
+    });
+  }
+
   Future<void> _togglePlay(bool playing, bool ended) async {
     if (ended) {
       if (_scrubLocked) return; // seek back to 0 stays locked until buffered
@@ -417,6 +433,7 @@ class _ControlsState extends State<_Controls> {
     } else {
       await (playing ? _c.pause() : _c.play());
     }
+    if (!mounted) return;
     _poke();
   }
 
@@ -449,6 +466,7 @@ class _ControlsState extends State<_Controls> {
       await _c.setPlaybackSpeed(picked);
       App.settings.setSpeed(picked);
     }
+    if (!mounted) return;
     _poke();
   }
 
@@ -465,9 +483,9 @@ class _ControlsState extends State<_Controls> {
             !value.isPlaying &&
             value.position.inMilliseconds >= durMs - 50;
         final show = _visible || !value.isPlaying || _dragMs != null;
-        // Captions ride above the bar; assigning the same value is a no-op
-        // for listeners, so this is cheap on every position tick.
-        widget.controlsVisible.value = show;
+        // Captions ride above the bar; published after this frame (see
+        // _publishControlsVisible).
+        _publishControlsVisible(show);
 
         // CDN streams ignore Range (200-only): the player re-downloads from
         // byte 0 to satisfy a mid-file seek. Lock the scrubber until the

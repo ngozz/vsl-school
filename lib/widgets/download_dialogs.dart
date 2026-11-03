@@ -124,6 +124,9 @@ abstract final class DownloadDialogs {
       BuildContext context, List<LessonDiff> diffs) async {
     final totalBytes = diffs.fold(0, (a, d) => a + d.bytes);
     final totalFiles = diffs.fold(0, (a, d) => a + d.changed.length);
+    // Resolve the messenger before the dialog closes: looking it up from the
+    // dialog's own (then deactivated) context is unsafe.
+    final messenger = ScaffoldMessenger.of(context);
     await showDialog<void>(
       context: context,
       builder: (context) => AlertDialog(
@@ -170,7 +173,7 @@ abstract final class DownloadDialogs {
                   .enqueueAll(diffs.expand((d) => d.changed).toList());
               App.updates.dismissedThisSession = true;
               Navigator.pop(context);
-              ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+              messenger.showSnackBar(SnackBar(
                   content: Text(
                       'Đang tải lại $totalFiles video cập nhật…')));
             },
@@ -208,7 +211,11 @@ class _LessonProgressDialogState extends State<_LessonProgressDialog> {
   void _finish(bool ok) {
     if (_closed) return;
     _closed = true;
-    Navigator.of(context).pop(ok);
+    // _finish runs from build when the last copy lands; popping the route
+    // during build is illegal, so defer it to after the frame.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) Navigator.of(context).pop(ok);
+    });
   }
 
   @override

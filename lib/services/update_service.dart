@@ -15,19 +15,25 @@ import 'download_service.dart';
 /// is reserved for verifying fresh downloads (see DownloadService).
 class UpdateService extends ChangeNotifier {
   Manifest? _remote;
-  DateTime? lastCheck;
   String? lastError;
   bool checking = false;
   bool dismissedThisSession = false;
+  Future<bool>? _inFlight;
 
   Manifest? get remote => _remote;
 
   /// Fetches the CDN manifest. Returns true if the manifest content changed
   /// relative to the last successful check. Silent failure (offline etc.):
   /// check `lastError`.
-  Future<bool> check() async {
-    if (!CdnConfig.useCdn) return false;
-    if (checking) return false;
+  ///
+  /// Concurrent callers share one request instead of silently getting false.
+  Future<bool> check() {
+    if (!CdnConfig.useCdn) return Future.value(false);
+    return _inFlight ??=
+        _runCheck().whenComplete(() => _inFlight = null);
+  }
+
+  Future<bool> _runCheck() async {
     checking = true;
     lastError = null;
     notifyListeners();
@@ -36,7 +42,6 @@ class UpdateService extends ChangeNotifier {
       final manifest = Manifest.fromJson(jsonDecode(body) as Map<String, dynamic>);
       final changed = _remote == null || _remote!.version != manifest.version;
       _remote = manifest;
-      lastCheck = DateTime.now();
       return changed;
     } catch (e) {
       lastError = e.toString();
@@ -70,9 +75,22 @@ class UpdateService extends ChangeNotifier {
   ///
   /// Only lessons that hold downloaded files can produce differences here —
   /// untouched content cannot become stale.
+  ///
+  /// Callers re-run this on every download notification (including progress
+  /// ticks); the result only changes when the manifest version or the set of
+  /// downloaded files changes, so it is cached on those two.
+  List<LessonDiff>? _diffCache;
+  String? _diffVersion;
+  int _diffCount = -1;
+
   List<LessonDiff> diffsFor(DownloadService dl) {
     final remote = _remote;
     if (remote == null) return const [];
+    final count = dl.downloadedCount;
+    final cached = _diffCache;
+    if (cached != null && _diffVersion == remote.version && _diffCount == count) {
+      return cached;
+    }
     final byLesson = <String, LessonDiff>{};
     LessonDiff groupFor(String lesson) =>
         byLesson.putIfAbsent(lesson, () => LessonDiff(lesson));
@@ -86,9 +104,13 @@ class UpdateService extends ChangeNotifier {
         groupFor(lesson).changed.add(entry);
       }
     }
-    return [
+    final result = [
       for (final d in byLesson.values)
         if (!d.isEmpty) d,
     ];
+    _diffCache = result;
+    _diffVersion = remote.version;
+    _diffCount = count;
+    return result;
   }
 }

@@ -21,6 +21,7 @@ class SettingsService extends ChangeNotifier {
   double _speed = 1.0; // last chosen speed (only applied if _rememberSpeed)
   bool _checkUpdates = true; // auto-check for content updates at startup
   bool _introSeen = false; // first-launch onboarding shown
+  Future<void>? _loading; // load() is idempotent (main + home both call it)
 
   ThemeChoice get theme => _theme;
   bool get subtitles => _subtitles;
@@ -29,7 +30,9 @@ class SettingsService extends ChangeNotifier {
   bool get checkUpdates => _checkUpdates;
   bool get introSeen => _introSeen;
 
-  Future<void> load() async {
+  Future<void> load() => _loading ??= _load();
+
+  Future<void> _load() async {
     final p = await SharedPreferences.getInstance();
     _theme = ThemeChoice.values.asNameMap()[p.getString(_themeKey)] ??
         ThemeChoice.dark;
