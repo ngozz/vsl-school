@@ -10,6 +10,7 @@ import '../models/lesson.dart';
 import '../services/settings_service.dart';
 import '../widgets/download_banner.dart';
 import '../widgets/download_dialogs.dart';
+import '../widgets/fitting_text.dart';
 import '../widgets/onboarding.dart';
 import '../config.dart' show AppConfig, CdnConfig;
 import 'lesson_screen.dart';
@@ -533,13 +534,14 @@ class _LessonTile extends StatelessWidget {
             borderRadius: BorderRadius.circular(14),
             onTap: onTap,
             child: Container(
-              height: 68,
-              padding: const EdgeInsets.symmetric(horizontal: 16),
+              constraints: const BoxConstraints(minHeight: 84),
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
               child: Row(
                 children: [
                   Container(
-                    width: 92,
-                    height: 52,
+                    width: 80,
+                    height: 46,
                     alignment: Alignment.center,
                     child: Image.asset(
                       'data/thumbs/${lesson.id}.webp',
@@ -556,13 +558,18 @@ class _LessonTile extends StatelessWidget {
                       ),
                     ),
                   ),
-                  const SizedBox(width: 14),
+                  const SizedBox(width: 12),
                   Expanded(
-                    child: Text(lesson.displayTitle(english: english),
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                        style: theme.textTheme.bodyLarge
-                            ?.copyWith(fontWeight: FontWeight.w600)),
+                    child: FittingText(
+                      lesson.displayTitle(english: english),
+                      maxLines: 3,
+                      minFontSize: 12,
+                      maxFontSize: 15,
+                      style: theme.textTheme.bodyLarge?.copyWith(
+                        fontWeight: FontWeight.w600,
+                        height: 1.25,
+                      ),
+                    ),
                   ),
                   const SizedBox(width: 8),
                   if (hasUpdate)
@@ -580,7 +587,8 @@ class _LessonTile extends StatelessWidget {
                         ),
                       ),
                     ),
-                  Icon(Icons.chevron_right, color: theme.colorScheme.outline),
+                  Icon(Icons.chevron_right,
+                      size: 20, color: theme.colorScheme.outline),
                 ],
               ),
             ),

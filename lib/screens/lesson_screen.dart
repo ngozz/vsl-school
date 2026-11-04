@@ -8,6 +8,7 @@ import '../models/lesson.dart';
 import '../services/download_service.dart';
 import '../services/settings_service.dart' show AppLanguage;
 import '../widgets/download_dialogs.dart';
+import '../widgets/fitting_text.dart';
 import '../widgets/lesson_video_player.dart';
 
 /// One lesson: video player on top, clickable segment outline below.
@@ -75,8 +76,15 @@ class _LessonScreenState extends State<LessonScreen> {
     final english = App.settings.language == AppLanguage.en;
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.lesson.displayTitle(english: english),
-            maxLines: 1, overflow: TextOverflow.ellipsis),
+        toolbarHeight: 64,
+        title: FittingText(
+          widget.lesson.displayTitle(english: english),
+          maxLines: 2,
+          minFontSize: 13,
+          maxFontSize: 17,
+          style: theme.textTheme.titleMedium
+              ?.copyWith(fontWeight: FontWeight.w600),
+        ),
         actions: [
           if (App.downloads.active)
             AnimatedBuilder(

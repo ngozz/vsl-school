@@ -13,9 +13,18 @@ class Lesson {
   Lesson withEnglish(String english) =>
       Lesson(id: id, title: title, titleEn: english.trim());
 
+  static final _titleBreak = RegExp(r'\s*\n\s*');
+
   /// Title to show for the current interface language.
-  String displayTitle({required bool english}) =>
-      english && titleEn.isNotEmpty ? titleEn : title;
+  ///
+  /// Literature titles use a hard line break between the lesson topic and its
+  /// word list ("Learning Rhymes:\nang, ăng, ..."). Keep the data as-is, but
+  /// let the card wrap naturally instead of spending one of its three lines on
+  /// that break.
+  String displayTitle({required bool english}) {
+    final text = english && titleEn.isNotEmpty ? titleEn : title;
+    return text.replaceAll(_titleBreak, ' ').trim();
+  }
 
   static Lesson fromMap(Map<String, dynamic> j) =>
       Lesson(id: j['_id'] as String, title: j['title'] as String);

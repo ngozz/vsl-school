@@ -115,7 +115,7 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
     if (widget.captionAsset == asset) {
       _hasCaptions = vi.trim().isNotEmpty || (en?.trim().isNotEmpty ?? false);
     }
-    return BilingualCaptionFile(vi, en);
+    return PreferredCaptionFile(vi, en);
   }
 
   /// Missing assets are normal (some segments have no SRT, and English is
@@ -348,7 +348,7 @@ class _Captions extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: isFullscreen ? 20 : 15,
+                          fontSize: isFullscreen ? 18 : 14,
                           fontWeight: FontWeight.w500,
                           height: 1.3,
                         ),
