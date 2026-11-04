@@ -1,0 +1,4 @@
+1
+00:00:00,820 --> 00:00:07,330
+We will read comprehension lesson "The Wool Sweater".
+

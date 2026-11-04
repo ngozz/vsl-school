@@ -1,0 +1,4 @@
+1
+00:00:00,550 --> 00:00:11,170
+When going home practice boiling eggs according to steps in lesson everyone!
+

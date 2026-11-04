@@ -1,0 +1,100 @@
+1
+00:00:02,370 --> 00:00:15,300
+Square centimeter area unit.
+
+2
+00:00:18,480 --> 00:00:34,350
+To measure area we use area unit, for example: square centimeter.
+
+3
+00:00:36,060 --> 00:00:49,890
+Square centimeter is area of square with side length 1 cm.
+
+4
+00:00:53,710 --> 00:00:58,410
+Square centimeter is abbreviated as:
+
+5
+00:01:04,160 --> 00:01:10,810
+Example 1: Calculate area of shape A.
+
+6
+00:01:16,100 --> 00:01:18,930
+Observing shape A we see:
+
+7
+00:01:20,160 --> 00:01:28,040
+Shape A consists of 5 squares 1 cm<sup>2</sup>.
+
+8
+00:01:32,410 --> 00:01:39,920
+Area of shape A is 5 cm<sup>2</sup>.
+
+9
+00:01:44,290 --> 00:01:58,620
+Example 2: Calculate area of rectangle with length 9 cm, width 6 cm.
+
+10
+00:02:00,290 --> 00:02:07,880
+Problem states rectangle has length 9 cm, width 6 cm.
+
+11
+00:02:10,680 --> 00:02:15,870
+Problem asks to calculate area of rectangle.
+
+12
+00:02:19,180 --> 00:02:26,510
+Remember rectangle area rule.
+
+13
+00:02:28,650 --> 00:02:41,800
+To calculate rectangle area we take length times width (same unit).
+
+14
+00:02:43,870 --> 00:02:51,770
+Apply rectangle area rule to solve problem.
+
+15
+00:02:55,570 --> 00:03:08,750
+Rectangle area is: 9 x 6 = 54 (cm<sup>2</sup>)
+
+16
+00:03:11,310 --> 00:03:15,370
+Example 3: Choose correct answer
+
+17
+00:03:19,920 --> 00:03:25,930
+Area of square with side 6 cm is:
+
+18
+00:03:28,000 --> 00:03:33,090
+A. 24 cm<sup>2</sup>
+
+19
+00:03:35,310 --> 00:03:40,570
+B. 36 cm<sup>2</sup>
+
+20
+00:03:42,220 --> 00:03:47,330
+C. 63 cm<sup>2</sup>
+
+21
+00:03:51,000 --> 00:03:56,700
+Problem states square has side length 6 cm.
+
+22
+00:03:58,680 --> 00:04:02,880
+Problem asks to calculate area of square.
+
+23
+00:04:04,810 --> 00:04:11,090
+Apply square area rule.
+
+24
+00:04:12,640 --> 00:04:19,810
+To calculate square area we take side length times itself.
+
+25
+00:04:22,400 --> 00:04:25,390
+Choose answer B.
+

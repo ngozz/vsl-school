@@ -1,0 +1,64 @@
+1
+00:00:04,400 --> 00:00:10,620
+Speed
+
+2
+00:00:13,770 --> 00:00:19,020
+Let's solve problem below.
+
+3
+00:00:19,800 --> 00:00:21,510
+Problem 1:
+
+4
+00:00:22,850 --> 00:00:30,970
+A car travels a long distance of 170 km in 4 hours.
+
+5
+00:00:31,650 --> 00:00:41,140
+Ask on average how many kilometers does car travel per hour?
+
+6
+00:00:47,370 --> 00:00:54,280
+To find on average how many kilometers per hour car travels,
+
+7
+00:00:55,250 --> 00:01:00,540
+we take distance divided by 4.
+
+8
+00:01:01,570 --> 00:01:05,310
+Solution:
+
+9
+00:01:06,200 --> 00:01:11,480
+On average car travels per hour is:
+
+10
+00:01:13,510 --> 00:01:24,200
+170 : 4 = 42.5 (km)
+
+11
+00:01:25,020 --> 00:01:31,940
+Answer: 42.5 km.
+
+12
+00:01:32,620 --> 00:01:46,850
+We say average speed of car or short speed of car is 42.5 km/h.
+
+13
+00:01:47,250 --> 00:01:57,050
+Abbreviated as 42.5 km/h.
+
+14
+00:01:58,910 --> 00:02:13,110
+Rule: To calculate speed we take distance divided by time.
+
+15
+00:02:14,420 --> 00:02:38,310
+If we call speed v, distance s, time t, we have formula:
+
+16
+00:02:39,450 --> 00:02:48,170
+v = s : t
+

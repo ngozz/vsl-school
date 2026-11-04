@@ -1,0 +1,76 @@
+1
+00:00:00,280 --> 00:00:05,320
+Addition, subtraction (without regrouping) within 1000
+
+2
+00:00:09,080 --> 00:00:19,960
+Perform calculation 326 + 253 = ?
+
+3
+00:00:23,070 --> 00:00:28,430
+We set up and calculate step by step as follows:
+
+4
+00:00:30,010 --> 00:00:35,150
+Step 1: Set up vertically:
+
+5
+00:00:37,000 --> 00:00:53,330
+Write hundreds under hundreds, tens under tens, ones under ones.
+
+6
+00:00:54,620 --> 00:00:58,180
+Step 2. Calculate from right to left
+
+7
+00:01:00,130 --> 00:01:05,400
+6 plus 3 equals 9, write 9
+
+8
+00:01:07,500 --> 00:01:12,510
+2 plus 5 equals 7, write 7
+
+9
+00:01:14,110 --> 00:01:19,310
+3 plus 2 equals 5, write 5
+
+10
+00:01:21,970 --> 00:01:30,330
+So 326 + 253 = 579
+
+11
+00:01:34,530 --> 00:01:45,210
+Perform calculation 635 - 214 = ?
+
+12
+00:01:47,650 --> 00:01:52,250
+We set up and calculate step by step as follows:
+
+13
+00:01:54,280 --> 00:01:57,860
+Step 1: Set up vertically
+
+14
+00:01:59,940 --> 00:02:14,340
+Write hundreds under hundreds, tens under tens, ones under ones.
+
+15
+00:02:15,450 --> 00:02:19,140
+Step 2: Calculate from right to left
+
+16
+00:02:20,400 --> 00:02:26,280
+5 minus 4 equals 1, write 1
+
+17
+00:02:27,560 --> 00:02:33,080
+3 minus 1 equals 2, write 2
+
+18
+00:02:33,930 --> 00:02:38,940
+6 minus 2 equals 4, write 4
+
+19
+00:02:42,560 --> 00:02:50,570
+So 635 - 214 = 421
+

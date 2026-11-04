@@ -1,0 +1,56 @@
+1
+00:00:03,110 --> 00:00:08,220
+Example 1.
+
+2
+00:00:08,660 --> 00:00:21,370
+According to example number 45321 then fill digit 4 in ten thousands place
+
+3
+00:00:22,110 --> 00:00:27,110
+digit 5 in thousands place
+
+4
+00:00:27,110 --> 00:00:30,550
+digit 3 in hundreds place
+
+5
+00:00:30,550 --> 00:00:33,620
+digit 2 in tens place
+
+6
+00:00:33,620 --> 00:00:41,080
+digit 1 in ones place.
+
+7
+00:00:43,820 --> 00:00:54,570
+Read again the numbers written and check whether digits in each place are correct.
+
+8
+00:00:54,860 --> 00:01:02,840
+So filled as in the table beside.
+
+9
+00:01:02,840 --> 00:01:12,220
+Ones place, tens place, hundreds place belong to ones class.
+
+10
+00:01:12,220 --> 00:01:24,730
+Thousands place, ten thousands place, hundred thousands place belong to thousands class.
+
+11
+00:01:24,730 --> 00:01:40,330
+Number 654000 is read: Six hundred fifty-four thousand.
+
+12
+00:01:41,440 --> 00:02:02,620
+Number 654321 is read: Six hundred fifty-four thousand, three hundred twenty-one.
+
+13
+00:02:03,530 --> 00:02:09,950
+Each number has 6 digits, counting from right to left every 3 places is a class.
+
+14
+00:02:09,950 --> 00:02:27,040
+So 6 digits belong to two classes, ones class and thousands class.
+

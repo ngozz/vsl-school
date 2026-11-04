@@ -1,0 +1,8 @@
+1
+00:00:03,480 --> 00:00:07,880
+You have read student list.
+
+2
+00:00:10,080 --> 00:00:17,480
+We will read again and learn information in the list.
+

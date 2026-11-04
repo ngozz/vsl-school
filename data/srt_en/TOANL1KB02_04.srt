@@ -1,0 +1,24 @@
+1
+00:00:01,710 --> 00:00:08,080
+Look at the picture, count the quantity, and draw symbols as I do.
+
+2
+00:00:09,620 --> 00:00:21,080
+There are 3 yellow round dots, there are 3 orange round dots.
+
+3
+00:00:22,140 --> 00:00:31,000
+The number of yellow round dots equals the number of orange round dots.
+
+4
+00:00:32,170 --> 00:00:37,970
+We write: 3 = 3
+
+5
+00:00:39,910 --> 00:00:46,420
+Read: Three equals three.
+
+6
+00:00:48,600 --> 00:00:56,050
+Write: =  Read: Equals sign.
+

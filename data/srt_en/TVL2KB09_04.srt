@@ -1,0 +1,16 @@
+1
+00:00:05,810 --> 00:00:10,450
+<color=orange><b>Spring</b></color> trees sprout and grow.
+
+2
+00:00:20,290 --> 00:00:30,760
+<color=orange><b>Summer</b></color> trees have many sweet fruits and students get summer vacation.
+
+3
+00:00:38,680 --> 00:00:49,620
+<color=orange><b>Autumn</b></color> has full moon night with lanterns, feast.
+
+4
+00:00:58,060 --> 00:01:03,490
+<color=orange><b>Winter</b></color> is very cold.
+

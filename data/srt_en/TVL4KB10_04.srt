@@ -1,0 +1,44 @@
+1
+00:00:01,970 --> 00:00:23,200
+Find words describing feature, shape, quality,… of some people in picture.
+
+2
+00:00:28,730 --> 00:00:32,400
+Old man
+
+3
+00:00:32,400 --> 00:00:38,620
+old, weak.
+
+4
+00:00:39,460 --> 00:00:44,000
+Female student
+
+5
+00:00:44,000 --> 00:00:54,820
+well-behaved, diligent.
+
+6
+00:00:55,950 --> 00:01:00,220
+Male student
+
+7
+00:01:00,220 --> 00:01:08,200
+obedient, healthy.
+
+8
+00:01:08,730 --> 00:01:12,750
+Soldier
+
+9
+00:01:12,750 --> 00:01:20,310
+enthusiastic, active.
+
+10
+00:01:21,310 --> 00:01:34,440
+You answer question "What is adjective"?
+
+11
+00:01:35,800 --> 00:01:54,280
+Adjective is words describing feature or quality of objects, activities,…
+

@@ -1,0 +1,4 @@
+1
+00:00:02,290 --> 00:00:08,560
+Let's retell story "Story of Four Seasons" by picture using sign language.
+

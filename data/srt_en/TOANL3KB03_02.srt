@@ -1,0 +1,80 @@
+1
+00:00:02,220 --> 00:00:11,480
+Addition within 10000.
+
+2
+00:00:15,880 --> 00:00:29,040
+Perform setting up and calculating 2354 plus 3485.
+
+3
+00:00:29,040 --> 00:00:48,370
+To perform calculation 2354 plus 3485 we set up then calculate.
+
+4
+00:00:48,930 --> 00:01:01,510
+Step 1: Set up, when setting up note that digits in the same place are aligned in columns.
+
+5
+00:01:02,080 --> 00:01:12,710
+Step 2: Perform addition from right to left.
+
+6
+00:01:12,710 --> 00:01:22,570
+4 plus 5 equals 9 write 9
+
+7
+00:01:23,240 --> 00:01:36,280
+5 plus 8 equals 13 write 3 carry 1
+
+8
+00:01:36,880 --> 00:01:51,060
+3 plus 4 equals 7 plus 1 equals 8 write 8
+
+9
+00:01:51,510 --> 00:02:02,370
+2 plus 3 equals 5 write 5
+
+10
+00:02:04,000 --> 00:02:22,680
+So 2354 plus 3485 equals 5839.
+
+11
+00:02:22,680 --> 00:02:36,200
+Perform calculation 4527 plus 2738.
+
+12
+00:02:36,200 --> 00:02:54,400
+To perform calculation 4527 plus 2738 we set up then calculate.
+
+13
+00:02:54,400 --> 00:03:00,930
+To calculate we need to note.
+
+14
+00:03:00,930 --> 00:03:11,200
+Set up each addend aligned in columns.
+
+15
+00:03:11,460 --> 00:03:18,060
+Perform addition from right to left.
+
+16
+00:03:18,060 --> 00:03:30,020
+7 plus 8 equals 15, write 5 carry 1
+
+17
+00:03:30,570 --> 00:03:43,310
+2 plus 3 equals 5 plus 1 is 6, write 6
+
+18
+00:03:43,640 --> 00:03:54,130
+5 plus 7 equals 12, write 2 carry 1
+
+19
+00:03:54,840 --> 00:04:05,860
+4 plus 2 equals 6 plus 1 is 7, write 7
+
+20
+00:04:05,860 --> 00:04:27,220
+So 4527 plus 2738 equals 7265
+

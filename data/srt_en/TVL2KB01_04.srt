@@ -1,0 +1,24 @@
+1
+00:00:00,780 --> 00:00:03,150
+You have practiced reading.
+
+2
+00:00:03,200 --> 00:00:19,860
+Now tell me what the reading title is?
+
+3
+00:00:21,420 --> 00:00:29,100
+The reading title is: "The Reward".
+
+4
+00:00:31,210 --> 00:00:35,730
+This is friend Na.
+
+5
+00:00:37,230 --> 00:00:44,430
+These are Na's classmates.
+
+6
+00:00:45,580 --> 00:00:51,760
+Teacher gives Na a reward.
+

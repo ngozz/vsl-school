@@ -1,0 +1,4 @@
+1
+00:00:02,450 --> 00:00:09,550
+Hello everyone! Today we review adding two fractions again.
+

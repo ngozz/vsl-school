@@ -7,7 +7,9 @@ import 'package:video_player/video_player.dart';
 import '../l10n/l10n.dart';
 import '../main.dart';
 import '../config.dart';
+import '../services/caption_service.dart';
 import '../services/download_service.dart' show VideoSource;
+import '../services/settings_service.dart' show AppLanguage;
 const _accent = Color(0xFF81C995); // active state colour (always on dark video)
 
 /// 16:9 lesson video with custom controls, SRT captions and a speed dropup.
@@ -102,16 +104,28 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
   }
 
   Future<ClosedCaptionFile> _loadCaptions(String asset) async {
-    var text = '';
-    try {
-      text = await rootBundle.loadString(asset);
-    } catch (_) {} // no SRT for this video → CC button is disabled
+    final vi = await _tryLoad(asset);
+    String? en;
+    if (App.settings.language == AppLanguage.en) {
+      // data/srt/<video>.srt -> data/srt_en/<video>.srt
+      en = await _tryLoad(asset.replaceFirst('/srt/', '/srt_en/'));
+    }
     // Only apply for the video that is still current; a superseded load may
     // resolve after a newer one and would describe the wrong video.
     if (widget.captionAsset == asset) {
-      _hasCaptions = text.trim().isNotEmpty;
+      _hasCaptions = vi.trim().isNotEmpty || (en?.trim().isNotEmpty ?? false);
     }
-    return SubRipCaptionFile(text);
+    return BilingualCaptionFile(vi, en);
+  }
+
+  /// Missing assets are normal (some segments have no SRT, and English is
+  /// optional), so they resolve to an empty string instead of throwing.
+  Future<String> _tryLoad(String asset) async {
+    try {
+      return await rootBundle.loadString(asset);
+    } catch (_) {
+      return '';
+    }
   }
 
   Future<void> _start(VideoPlayerController c) async {

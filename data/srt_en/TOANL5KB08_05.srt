@@ -1,0 +1,48 @@
+1
+00:00:00,620 --> 00:00:11,700
+Volume of rectangular prism, cube.
+
+2
+00:00:11,700 --> 00:00:16,850
+Volume of rectangular prism
+
+3
+00:00:18,220 --> 00:00:26,520
+Let's observe figure below:
+
+4
+00:00:27,300 --> 00:00:43,820
+To calculate volume of rectangular prism we take length times width then times height (same unit).
+
+5
+00:00:44,420 --> 00:01:05,870
+Let V be volume of rectangular prism. a, b, c are three dimensions of rectangular prism.
+
+6
+00:01:06,700 --> 00:01:19,820
+We have: V = a x b x c
+
+7
+00:01:20,850 --> 00:01:26,020
+Volume of cube
+
+8
+00:01:27,020 --> 00:01:34,650
+Let's observe figure below:
+
+9
+00:01:35,470 --> 00:01:49,570
+To calculate volume of cube we take side times side then times side.
+
+10
+00:01:50,000 --> 00:01:55,070
+Let V be volume of cube.
+
+11
+00:01:56,200 --> 00:02:07,750
+We have: V = a x a x a
+
+12
+00:02:10,170 --> 00:02:22,000
+Read lesson again and continue with exercises.
+

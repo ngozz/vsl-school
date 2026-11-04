@@ -1,0 +1,12 @@
+1
+00:00:02,520 --> 00:00:09,200
+Match vocabulary with picture.
+
+2
+00:00:10,640 --> 00:00:16,120
+signboard
+
+3
+00:00:17,160 --> 00:00:24,160
+butterfly swarm
+

@@ -1,0 +1,104 @@
+1
+00:00:04,110 --> 00:00:11,240
+Multiplication table
+
+2
+00:00:13,800 --> 00:00:22,860
+Observe the multiplication table. Perform calculation
+
+3
+00:00:28,150 --> 00:00:36,860
+4 × 6 = ?
+
+4
+00:00:38,240 --> 00:00:47,080
+From number 4 in the first column following the arrow to the right
+
+5
+00:00:48,600 --> 00:00:58,880
+From number 6 in the first row following the arrow down
+
+6
+00:00:58,880 --> 00:01:07,770
+Two arrows meet at number 24
+
+7
+00:01:07,770 --> 00:01:18,400
+So 4 × 6 = 24
+
+8
+00:01:21,970 --> 00:01:34,620
+Based on the multiplication table, fill in appropriate numbers into the flowers
+
+9
+00:01:35,350 --> 00:01:41,820
+Check the result
+
+10
+00:01:41,820 --> 00:01:50,950
+7 times 6 equals 42
+
+11
+00:01:50,950 --> 00:02:00,040
+6 times 8 equals 48
+
+12
+00:02:01,620 --> 00:02:10,680
+7 times 9 equals 63
+
+13
+00:02:10,680 --> 00:02:20,600
+9 times 8 equals 72
+
+14
+00:02:20,600 --> 00:02:30,040
+6 times 5 equals 30
+
+15
+00:02:36,620 --> 00:02:41,730
+Multiplication table 2
+
+16
+00:02:41,730 --> 00:02:58,240
+Example: 2 × 1 = 2
+
+17
+00:03:02,220 --> 00:03:08,060
+Check the result
+
+18
+00:03:08,060 --> 00:03:16,020
+Two times two equals four
+
+19
+00:03:16,020 --> 00:03:23,730
+Two times three equals six
+
+20
+00:03:24,350 --> 00:03:32,060
+Two times four equals eight
+
+21
+00:03:32,060 --> 00:03:40,000
+Two times five equals ten
+
+22
+00:03:41,910 --> 00:03:50,150
+Two times six equals twelve
+
+23
+00:03:51,930 --> 00:04:00,080
+Two times seven equals fourteen
+
+24
+00:04:01,680 --> 00:04:10,840
+Two times eight equals sixteen
+
+25
+00:04:11,710 --> 00:04:20,880
+Two times nine equals eighteen
+
+26
+00:04:22,260 --> 00:04:31,370
+Two times ten equals twenty
+

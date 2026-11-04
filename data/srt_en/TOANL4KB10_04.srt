@@ -1,0 +1,32 @@
+1
+00:00:02,780 --> 00:00:10,740
+Square kilometer
+
+2
+00:00:12,010 --> 00:00:35,610
+To measure area of large pieces of land of a province, city, forest… need use area unit square kilometer.
+
+3
+00:00:37,130 --> 00:00:45,450
+So what is square kilometer?
+
+4
+00:00:48,290 --> 00:00:58,780
+Square kilometer is also area unit.
+
+5
+00:01:00,900 --> 00:01:14,460
+Square kilometer is area of square with side length 1 km.
+
+6
+00:01:16,090 --> 00:01:27,360
+Square kilometer abbreviated as km<sup>2</sup>.
+
+7
+00:01:28,880 --> 00:01:37,850
+1 km<sup>2</sup> = 1 000 000 m<sup>2</sup>
+
+8
+00:01:39,540 --> 00:01:52,680
+For example: Area of Hanoi capital (according to 2020 data) is 921 km<sup>2</sup>.
+

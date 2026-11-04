@@ -1,0 +1,28 @@
+1
+00:00:00,960 --> 00:00:19,810
+Dividend, divisor, quotient.
+
+2
+00:00:21,570 --> 00:00:36,000
+Let's learn together the names of the components and result of division.
+
+3
+00:00:36,740 --> 00:00:43,820
+In division 6 : 2 = 3
+
+4
+00:00:44,820 --> 00:00:53,360
+6 is called the dividend
+
+5
+00:00:54,130 --> 00:01:01,330
+2 is called the divisor
+
+6
+00:01:01,860 --> 00:01:08,200
+3 is called the quotient
+
+7
+00:01:09,730 --> 00:01:17,090
+6 : 2 is also called quotient.
+

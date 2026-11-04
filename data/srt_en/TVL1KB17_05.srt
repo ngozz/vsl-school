@@ -1,0 +1,4 @@
+1
+00:00:00,800 --> 00:00:07,560
+You should be diligent like the turtle friend!
+

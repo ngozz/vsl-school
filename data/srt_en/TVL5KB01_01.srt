@@ -1,0 +1,8 @@
+1
+00:00:01,150 --> 00:00:13,660
+You have read lesson "Fishing Village Scenery Across Seasons".
+
+2
+00:00:15,660 --> 00:00:24,150
+Lesson describes familiar scenery of Vietnamese countryside.
+

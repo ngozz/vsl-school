@@ -1,0 +1,32 @@
+1
+00:00:01,050 --> 00:00:07,650
+Practice fraction
+
+2
+00:00:08,270 --> 00:00:12,870
+Example 3:
+
+3
+00:00:12,870 --> 00:00:24,070
+Write and read appropriate fractions corresponding to colored part in each picture beside.
+
+4
+00:00:30,100 --> 00:00:40,370
+Each fraction has numerator and denominator;
+
+5
+00:00:40,370 --> 00:00:51,570
+Numerator is natural number written above horizontal bar;
+
+6
+00:00:52,470 --> 00:01:05,300
+Denominator is natural number not equal 0 written below horizontal bar.
+
+7
+00:01:05,800 --> 00:01:16,520
+For example: Fraction three-fourths is read "three-fourths".
+
+8
+00:01:16,520 --> 00:01:22,820
+There are 3 numerator, 4 denominator.
+

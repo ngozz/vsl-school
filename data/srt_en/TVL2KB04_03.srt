@@ -1,0 +1,36 @@
+1
+00:00:03,370 --> 00:00:09,000
+Observe pictures and answer questions:
+
+2
+00:00:10,700 --> 00:00:15,400
+What is principal doing?
+
+3
+00:00:16,170 --> 00:00:20,470
+Principal is sitting and working.
+
+4
+00:00:21,200 --> 00:00:34,870
+Find word for activity of people in picture
+
+5
+00:00:35,850 --> 00:00:48,870
+What does male teacher do?
+
+6
+00:00:53,600 --> 00:01:05,250
+What does female teacher do?
+
+7
+00:01:08,400 --> 00:01:20,270
+What do students do?
+
+8
+00:01:25,170 --> 00:01:36,870
+What does security guard do?
+
+9
+00:01:40,850 --> 00:01:49,970
+What does cook / chef do?
+

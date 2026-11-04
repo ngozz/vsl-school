@@ -6,6 +6,7 @@ import '../l10n/l10n.dart';
 import '../main.dart';
 import '../models/lesson.dart';
 import '../services/download_service.dart';
+import '../services/settings_service.dart' show AppLanguage;
 import '../widgets/download_dialogs.dart';
 import '../widgets/lesson_video_player.dart';
 
@@ -71,9 +72,10 @@ class _LessonScreenState extends State<LessonScreen> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final english = App.settings.language == AppLanguage.en;
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.lesson.title,
+        title: Text(widget.lesson.displayTitle(english: english),
             maxLines: 1, overflow: TextOverflow.ellipsis),
         actions: [
           if (App.downloads.active)
@@ -144,7 +146,7 @@ class _LessonScreenState extends State<LessonScreen> {
                           ),
                         ),
                         const SizedBox(height: 8),
-                        Expanded(child: _outlineList(theme)),
+                        Expanded(child: _outlineList(theme, english)),
                       ],
                     ),
                   ),
@@ -152,7 +154,7 @@ class _LessonScreenState extends State<LessonScreen> {
     );
   }
 
-  Widget _outlineList(ThemeData theme) {
+  Widget _outlineList(ThemeData theme, bool english) {
     return ListView.builder(
       itemCount: _segments.length,
       padding: const EdgeInsets.fromLTRB(16, 4, 16, 24),
@@ -196,7 +198,7 @@ class _LessonScreenState extends State<LessonScreen> {
                     const SizedBox(width: 12),
                     Expanded(
                       child: Text(
-                        _segments[i].content,
+                        _segments[i].displayContent(english: english),
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: theme.textTheme.bodyMedium?.copyWith(

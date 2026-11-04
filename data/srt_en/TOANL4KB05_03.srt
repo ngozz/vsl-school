@@ -1,0 +1,56 @@
+1
+00:00:07,310 --> 00:00:17,060
+Reading bar graph we know information about
+
+2
+00:00:18,510 --> 00:00:25,310
+Graph name
+
+3
+00:00:28,280 --> 00:00:35,950
+Meaning represented by bar graph
+
+4
+00:00:35,950 --> 00:00:49,080
+Number of trees of grade 4 class group and grade 5 class group planted
+
+5
+00:00:50,330 --> 00:00:53,660
+Objects represented
+
+6
+00:00:53,660 --> 00:01:05,240
+Classes 4A, 4B, 5A, 5B, 5C (column foot).
+
+7
+00:01:05,420 --> 00:01:13,840
+Data written at top of column, standing from value axis (write number and unit) left
+
+8
+00:01:13,840 --> 00:01:31,860
+Numbers 35, 28, 45, 40, 23
+
+9
+00:01:31,860 --> 00:01:37,970
+We have
+
+10
+00:01:37,970 --> 00:01:46,820
+Class 4A planted 35 trees
+
+11
+00:01:46,820 --> 00:01:56,460
+Class 4B planted 28 trees
+
+12
+00:01:57,130 --> 00:02:04,110
+Class 5A planted 45 trees
+
+13
+00:02:04,400 --> 00:02:12,310
+Class 5B planted 40 trees
+
+14
+00:02:12,750 --> 00:02:20,280
+Class 5C planted 23 trees
+

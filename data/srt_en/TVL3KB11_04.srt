@@ -1,0 +1,100 @@
+1
+00:00:01,750 --> 00:00:09,130
+Answer following questions:
+
+2
+00:00:09,530 --> 00:00:20,110
+How did teacher give class essay topic?
+
+3
+00:00:20,420 --> 00:00:28,200
+Mark X in box before correct answer:
+
+4
+00:00:29,220 --> 00:00:36,660
+Do you often help mother?
+
+5
+00:00:38,000 --> 00:00:44,020
+Who did you help?
+
+6
+00:00:44,800 --> 00:00:48,170
+What did you do to help mother?
+
+7
+00:00:51,970 --> 00:01:03,480
+Essay topic is: What did you do to help mother?
+
+8
+00:01:05,060 --> 00:01:14,440
+First, what did Nguyen write?
+
+9
+00:01:15,480 --> 00:01:37,510
+Answer: First, Nguyen wrote: "I have helped mother many times. I sweep house and wash dishes. Sometimes, I wash face towel."
+
+10
+00:01:39,420 --> 00:01:46,910
+Why did Nguyen find writing assignment hard?
+
+11
+00:01:47,310 --> 00:01:56,680
+Mark X on True or False box.
+
+12
+00:01:58,150 --> 00:02:06,710
+Because at home mother often does everything.
+
+13
+00:02:07,240 --> 00:02:12,480
+Because at home Nguyen often does everything.
+
+14
+00:02:17,080 --> 00:02:28,710
+Answer: Nguyen finds writing assignment hard because at home mother often does everything.
+
+15
+00:02:30,550 --> 00:02:37,060
+Next what did Nguyen write?
+
+16
+00:02:37,570 --> 00:02:43,400
+Mark X in box before correct answer:
+
+17
+00:02:43,570 --> 00:02:53,530
+I wash undershirt, shirt and don't wash pants.
+
+18
+00:02:54,150 --> 00:03:02,060
+I don't like washing undershirt, shirt and pants.
+
+19
+00:03:02,310 --> 00:03:07,710
+I wash all undershirt, shirt and pants.
+
+20
+00:03:10,950 --> 00:03:23,110
+Answer: Next Nguyen wrote: I wash all undershirt, shirt and pants.
+
+21
+00:03:23,770 --> 00:03:31,880
+Why did Nguyen gladly do according to mother?
+
+22
+00:03:32,420 --> 00:03:41,310
+Mark X on True or False box.
+
+23
+00:03:41,680 --> 00:03:52,420
+Because Nguyen still often helps mother with housework.
+
+24
+00:03:53,080 --> 00:03:59,310
+Because that is work Nguyen already wrote in writing assignment.
+
+25
+00:04:02,350 --> 00:04:10,240
+Answer: Because that is work Nguyen already wrote in writing assignment.
+

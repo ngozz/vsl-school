@@ -1,0 +1,16 @@
+1
+00:00:00,714 --> 00:00:03,171
+Hello everyone!
+
+2
+00:00:04,913 --> 00:00:14,163
+This lesson we will review multiplication with two-digit numbers.
+
+3
+00:00:14,191 --> 00:00:24,852
+Practice multiplication with 10, 100, 1000
+
+4
+00:00:25,069 --> 00:00:39,082
+Practice multiplication with commutative and associative properties of multiplication.
+

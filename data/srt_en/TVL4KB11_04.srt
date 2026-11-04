@@ -1,0 +1,56 @@
+1
+00:00:01,050 --> 00:00:09,300
+Question 1: Why did dog stop and start crawling?
+
+2
+00:00:09,300 --> 00:00:16,250
+Mark X before correct answer.
+
+3
+00:00:16,250 --> 00:00:23,100
+Because it waits for its owner.
+
+4
+00:00:23,100 --> 00:00:30,150
+Because it sees a young sparrow.
+
+5
+00:00:31,000 --> 00:00:35,900
+Because it sees a bird nest.
+
+6
+00:00:38,620 --> 00:00:44,400
+Observe answer:
+
+7
+00:00:44,770 --> 00:00:55,600
+Dog stopped and started crawling because it sees a young sparrow.
+
+8
+00:00:56,800 --> 00:01:04,870
+Question 2: What did dog intend to do with young sparrow?
+
+9
+00:01:04,870 --> 00:01:15,520
+Choose suitable word (save / bite) to fill blank.
+
+10
+00:01:15,520 --> 00:01:19,870
+Answer: bite.
+
+11
+00:01:21,250 --> 00:01:29,720
+Question 3: What suddenly happened to make dog stop?
+
+12
+00:01:29,720 --> 00:01:38,350
+Suddenly, an old sparrow swoops from tree to ground to save child.
+
+13
+00:01:38,350 --> 00:01:46,920
+Question 4: Why did mother sparrow swoop down to save child?
+
+14
+00:01:46,920 --> 00:01:54,750
+Because mother sparrow has deep love for its child.
+

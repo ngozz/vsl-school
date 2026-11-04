@@ -1,0 +1,4 @@
+1
+00:00:00,550 --> 00:00:10,070
+Today you learn how to write paragraph about favorite character.
+

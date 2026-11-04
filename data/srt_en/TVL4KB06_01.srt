@@ -1,0 +1,8 @@
+1
+00:00:01,883 --> 00:00:06,254
+We have read story "The Three-edged Axe".
+
+2
+00:00:06,254 --> 00:00:16,361
+Story tells about an honest, diligent woodcutter and a very lovable student.
+

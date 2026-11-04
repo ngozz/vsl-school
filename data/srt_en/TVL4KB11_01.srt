@@ -1,0 +1,4 @@
+1
+00:00:01,350 --> 00:00:07,820
+We will read comprehension lesson "The Sparrow".
+

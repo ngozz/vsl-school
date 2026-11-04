@@ -1,0 +1,44 @@
+1
+00:00:01,760 --> 00:00:04,290
+Midpoint
+
+2
+00:00:06,650 --> 00:00:09,720
+midpoint of line segment
+
+3
+00:00:15,600 --> 00:00:18,110
+Midpoint
+
+4
+00:00:23,000 --> 00:00:26,410
+Observing figure we see:
+
+5
+00:00:29,900 --> 00:00:36,060
+Three points A, B, C are collinear.
+
+6
+00:00:38,830 --> 00:00:43,630
+B is midpoint between two points A and C.
+
+7
+00:00:50,320 --> 00:00:53,410
+Midpoint of line segment
+
+8
+00:00:55,950 --> 00:01:02,350
+Three points A, O, B are collinear.
+
+9
+00:01:04,610 --> 00:01:08,920
+Point O is between two points A and B.
+
+10
+00:01:11,340 --> 00:01:22,830
+Length of line segment AO equals length of line segment OB and equals 3 cm.
+
+11
+00:01:24,490 --> 00:01:30,110
+O is called midpoint of line segment AB.
+

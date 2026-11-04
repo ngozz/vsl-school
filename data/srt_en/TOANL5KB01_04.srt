@@ -1,0 +1,68 @@
+1
+00:00:01,240 --> 00:00:08,880
+Express measurement quantity using decimal number
+
+2
+00:00:09,730 --> 00:00:18,880
+We learn together how to write length measurement in decimal number form as follows:
+
+3
+00:00:19,640 --> 00:00:26,000
+Fill in blank
+
+4
+00:00:26,620 --> 00:00:47,330
+Method: First convert 6 m 4 dm to mixed number 6 and 4 tenths m then continue convert to decimal number 6.4 m
+
+5
+00:00:47,330 --> 00:00:59,260
+So: 6 m 4 dm = 6.4 m
+
+6
+00:00:59,730 --> 00:01:09,600
+We learn together how to write mass measurement as decimal number
+
+7
+00:01:09,970 --> 00:01:16,620
+Fill in blank
+
+8
+00:01:18,020 --> 00:01:20,930
+Method:
+
+9
+00:01:20,930 --> 00:01:27,970
+First convert 5 tons 132 kg to mixed number
+
+10
+00:01:27,970 --> 00:01:33,460
+5 and 132 thousandths
+
+11
+00:01:33,840 --> 00:01:43,080
+then continue convert to decimal number 5.132 tons
+
+12
+00:01:43,550 --> 00:02:01,480
+So: 5 tons 132 kg equals 5.132 tons
+
+13
+00:02:02,403 --> 00:02:10,040
+We learn together how to write area measurement as decimal number.
+
+14
+00:02:11,029 --> 00:02:17,498
+Fill in blank.
+
+15
+00:02:18,658 --> 00:02:41,130
+Method: First convert 3 m<sup>2</sup> 5 dm<sup>2</sup> to mixed number 3 and 5 hundredths m<sup>2</sup> then continue convert to decimal number we get 3.05 m<sup>2</sup>
+
+16
+00:02:42,716 --> 00:02:55,661
+3 m<sup>2</sup> 5 dm<sup>2</sup> equals 3.05 m<sup>2</sup>
+
+17
+00:02:57,518 --> 00:03:04,460
+Read lesson carefully again and do exercises below.
+

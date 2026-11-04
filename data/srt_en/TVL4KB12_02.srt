@@ -1,0 +1,44 @@
+1
+00:00:01,000 --> 00:00:11,840
+Defeating the Pirate
+
+2
+00:00:12,680 --> 00:00:21,480
+Doctor Ly visits patient at innkeeper's house.
+
+3
+00:00:21,480 --> 00:00:29,260
+In inn there is a pirate looking very fierce.
+
+4
+00:00:29,800 --> 00:00:38,970
+He drinks alcohol and sings wild songs.
+
+5
+00:00:39,570 --> 00:00:48,770
+He orders everyone to be silent. Everyone quiets down.
+
+6
+00:00:48,930 --> 00:01:00,020
+Only Doctor Ly calmly explains how to treat illness to innkeeper.
+
+7
+00:01:00,660 --> 00:01:08,260
+Pirate shouts, orders Doctor Ly to be silent.
+
+8
+00:01:08,910 --> 00:01:15,400
+He also draws dagger to stab Doctor Ly.
+
+9
+00:01:15,400 --> 00:01:27,930
+But Doctor Ly still kindly reminds him to put dagger away and not drink alcohol.
+
+10
+00:01:27,930 --> 00:01:41,880
+Finally, before Doctor Ly's courage, pirate hangs head, dejectedly sits down.
+
+11
+00:01:41,880 --> 00:01:49,950
+From that night, pirate is silent as rice grain.
+

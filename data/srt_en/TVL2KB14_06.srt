@@ -1,0 +1,8 @@
+1
+00:00:00,350 --> 00:00:04,620
+Read weather words again.
+
+2
+00:00:04,620 --> 00:00:13,420
+Write weather words of your locality in notebook.
+

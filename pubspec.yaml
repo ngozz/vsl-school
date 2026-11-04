@@ -87,6 +87,8 @@ flutter:
     - data/json/exercises/
     - data/json/interactive/
     - data/srt/
+    - data/srt_en/
+    - data/i18n/en/
     # - data/videos/   # excluded: CDN mode (run tools\toggle_videos.ps1 -Bundled $true to include)
     - data/thumbs/
 

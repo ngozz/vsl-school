@@ -1,0 +1,8 @@
+1
+00:00:00,920 --> 00:00:09,100
+Who are characters in story?
+
+2
+00:00:09,920 --> 00:00:16,170
+Answer: Characters in story are Crocodile and Monkey.
+

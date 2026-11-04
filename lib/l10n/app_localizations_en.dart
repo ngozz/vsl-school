@@ -147,16 +147,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get upToDate => 'Content is up to date.';
 
   @override
-  String get subjectMath => 'Maths';
+  String get subjectMath => 'Math';
 
   @override
-  String get subjectLiterature => 'Vietnamese';
+  String get subjectLiterature => 'Literature';
 
   @override
   String get subjectMathShort => 'Num';
 
   @override
-  String get subjectLiteratureShort => 'Viet';
+  String get subjectLiteratureShort => 'Lit';
 
   @override
   String gradeChip(int grade) {

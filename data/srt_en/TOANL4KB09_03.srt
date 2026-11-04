@@ -1,0 +1,60 @@
+1
+00:00:00,950 --> 00:00:07,400
+Rhombus
+
+2
+00:00:08,600 --> 00:00:21,420
+Observing rhombus ABCD in picture beside we have:
+
+3
+00:00:22,570 --> 00:00:32,770
+Side AB parallel side DC.
+
+4
+00:00:33,450 --> 00:00:43,650
+Side AD parallel side BC.
+
+5
+00:00:43,650 --> 00:01:00,800
+4 sides AB, BC, CD, DA have equal lengths.
+
+6
+00:01:00,800 --> 00:01:11,570
+Conclusion: In rhombus then two pairs of opposite sides parallel to each other.
+
+7
+00:01:11,570 --> 00:01:18,500
+Length of 4 sides all equal.
+
+8
+00:01:21,400 --> 00:01:29,600
+Observing rhombus in picture beside we have:
+
+9
+00:01:29,600 --> 00:01:42,050
+Two diagonals AC and BD perpendicular to each other.
+
+10
+00:01:43,020 --> 00:01:52,520
+Length of two segments OA and OC equal each other.
+
+11
+00:01:52,700 --> 00:02:04,670
+Length of two segments OB and OD equal each other.
+
+12
+00:02:04,920 --> 00:02:13,520
+Thus, every rhombus has characteristics below:
+
+13
+00:02:13,520 --> 00:02:22,000
+Two pairs of opposite sides parallel to each other.
+
+14
+00:02:22,000 --> 00:02:29,570
+Length of 4 sides all equal.
+
+15
+00:02:29,570 --> 00:02:39,870
+Two diagonals perpendicular to each other at midpoint of each diagonal.
+

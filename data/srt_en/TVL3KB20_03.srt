@@ -1,0 +1,108 @@
+1
+00:00:04,620 --> 00:00:10,110
+Answer following question.
+
+2
+00:00:11,570 --> 00:00:16,910
+Why is father sad about his son?
+
+3
+00:00:19,200 --> 00:00:25,000
+Mark X on correct answer.
+
+4
+00:00:26,200 --> 00:00:31,200
+Because son is very hardworking.
+
+5
+00:00:32,880 --> 00:00:35,280
+Because son is lazy.
+
+6
+00:00:42,420 --> 00:00:51,620
+Answer: Father is sad because his son is lazy.
+
+7
+00:00:55,510 --> 00:01:06,310
+Seeing son lazy, what did father say to son?
+
+8
+00:01:08,800 --> 00:01:25,110
+Answer: Father wants before closing eyes to see son earn rice bowl. Son go work and bring money here!
+
+9
+00:01:28,570 --> 00:01:39,340
+When father threw son's money into pond, what was son's attitude?
+
+10
+00:01:41,200 --> 00:01:47,200
+Choose suitable word.
+
+11
+00:01:48,510 --> 00:01:50,770
+sad
+
+12
+00:01:51,820 --> 00:01:54,570
+calm
+
+13
+00:01:55,600 --> 00:01:57,620
+angry
+
+14
+00:02:04,020 --> 00:02:15,910
+Answer: When father threw son's money into pond, son's attitude was very calm.
+
+15
+00:02:19,220 --> 00:02:27,450
+What did son do to earn money?
+
+16
+00:02:28,970 --> 00:02:46,450
+Answer: Second time, son pounded rice for hire to earn living and saved to bring back.
+
+17
+00:02:51,620 --> 00:03:01,000
+When father threw son's money into fire, what did son do?
+
+18
+00:03:03,420 --> 00:03:08,940
+Mark X on correct answer.
+
+19
+00:03:11,250 --> 00:03:16,620
+Son was still calm.
+
+20
+00:03:19,050 --> 00:03:22,510
+Son quickly reached hand into fire to take out.
+
+21
+00:03:28,000 --> 00:03:39,310
+Answer: When father threw son's money into fire, son quickly reached hand into fire to take out.
+
+22
+00:03:41,280 --> 00:03:48,510
+Father gave son silver jar and said what?
+
+23
+00:03:50,170 --> 00:03:59,020
+Choose suitable word to fill blank in father's words.
+
+24
+00:04:02,080 --> 00:04:04,170
+silver jar
+
+25
+00:04:05,540 --> 00:04:07,740
+pair of hands
+
+26
+00:04:09,620 --> 00:04:11,200
+money
+
+27
+00:04:16,310 --> 00:04:27,370
+Answer: Silver jar never runs out is son's pair of hands.
+

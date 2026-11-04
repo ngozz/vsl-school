@@ -1,0 +1,8 @@
+1
+00:00:03,480 --> 00:00:11,850
+What does assignment require?
+
+2
+00:00:13,250 --> 00:00:24,620
+Answer: Assignment requires writing short paragraph describing a plant you like most.
+

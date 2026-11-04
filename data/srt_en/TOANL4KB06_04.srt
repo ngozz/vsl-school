@@ -1,0 +1,76 @@
+1
+00:00:02,450 --> 00:00:10,820
+Fraction and division of natural numbers
+
+2
+00:00:12,670 --> 00:00:22,650
+Discuss how to divide 3 cakes equally among 4 friends.
+
+3
+00:00:23,800 --> 00:00:35,850
+Each cake is divided into 4 equal parts and shared equally among 4 friends.
+
+4
+00:00:37,150 --> 00:00:52,050
+After sharing each friend gets how many parts of cake?
+
+5
+00:00:53,170 --> 00:01:04,520
+Result: Each friend gets three-fourths of cake.
+
+6
+00:01:05,320 --> 00:01:14,950
+We write: 3 divided by 4 equals three-fourths.
+
+7
+00:01:14,950 --> 00:01:30,620
+Conclusion: Can write result of division of 2 natural numbers as fraction,
+
+8
+00:01:31,870 --> 00:01:46,500
+numerator is dividend and denominator is divisor.
+
+9
+00:01:46,500 --> 00:01:52,820
+For example: 3 divided by 4 equals
+
+10
+00:01:52,820 --> 00:01:58,070
+5 divided by 4 equals
+
+11
+00:01:58,070 --> 00:02:05,720
+9 divided by 3 equals
+
+12
+00:02:07,270 --> 00:02:18,350
+Example 5: Fill number in blank to get appropriate fraction.
+
+13
+00:02:19,350 --> 00:02:28,650
+There are 5 apples divided equally among 4 friends.
+
+14
+00:02:28,870 --> 00:02:39,200
+Each friend gets how many apples?
+
+15
+00:02:41,200 --> 00:02:49,770
+There is 1 kg sugar; divided equally into 3 small bags;
+
+16
+00:02:49,770 --> 00:03:01,220
+Each bag weighs how many?
+
+17
+00:03:03,770 --> 00:03:10,550
+Colored paper is divided equally into 8 equal parts;
+
+18
+00:03:10,550 --> 00:03:20,650
+An cuts 3 parts to make craft,
+
+19
+00:03:20,650 --> 00:03:31,520
+so number of colored paper parts An took to make craft is how many?
+

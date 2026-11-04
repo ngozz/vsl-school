@@ -1,0 +1,8 @@
+1
+00:00:01,300 --> 00:00:08,350
+You have read lesson "Children's Law".
+
+2
+00:00:08,350 --> 00:00:20,300
+This lesson we will learn carefully the reading to understand what rights children have.
+

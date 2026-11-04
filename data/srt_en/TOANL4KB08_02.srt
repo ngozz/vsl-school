@@ -1,0 +1,64 @@
+1
+00:00:01,450 --> 00:00:09,870
+Adding two fractions with same denominator.
+
+2
+00:00:11,400 --> 00:00:16,270
+Observe picture beside and tell:
+
+3
+00:00:16,270 --> 00:00:24,420
+Paper strip divided into how many parts?
+
+4
+00:00:24,700 --> 00:00:30,900
+Nga colored how many parts?
+
+5
+00:00:30,900 --> 00:00:35,820
+Linh colored how many parts?
+
+6
+00:00:37,370 --> 00:00:47,050
+Write appropriate fraction corresponding to paper strip part each friend colored.
+
+7
+00:00:50,470 --> 00:00:57,850
+Both friends colored how many paper strip parts?
+
+8
+00:01:03,320 --> 00:01:12,300
+From drawing we know both friends colored five-eighths (paper strip).
+
+9
+00:01:13,570 --> 00:01:23,200
+To find number of paper strip parts 2 friends colored, we have addition:
+
+10
+00:01:23,950 --> 00:01:34,370
+two-eighths plus three-eighths equals five-eighths.
+
+11
+00:01:34,720 --> 00:01:49,020
+Comment numerator of sum equals sum of two numerators; denominator unchanged.
+
+12
+00:01:50,050 --> 00:02:08,300
+Conclusion: To add two fractions with same denominator, we add two numerators together, and keep denominator unchanged.
+
+13
+00:02:09,400 --> 00:02:14,420
+Add two fractions below:
+
+14
+00:02:14,420 --> 00:02:23,220
+one-fourth plus two-fourths equals how many?
+
+15
+00:02:23,420 --> 00:02:34,820
+According to comment above, fill blank then check again on drawing.
+
+16
+00:02:40,150 --> 00:02:50,120
+Add two fractions below: three-sevenths plus two-sevenths equals how many?
+

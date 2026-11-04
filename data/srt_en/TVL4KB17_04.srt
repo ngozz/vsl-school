@@ -1,0 +1,168 @@
+1
+00:00:01,626 --> 00:00:07,237
+Answer following questions.
+
+2
+00:00:08,650 --> 00:00:10,150
+Question 1
+
+3
+00:00:10,150 --> 00:00:20,572
+Question 1: Durian is specialty of which region?
+
+4
+00:00:22,239 --> 00:00:27,041
+You choose correct answer.
+
+5
+00:00:28,520 --> 00:00:30,652
+A
+
+6
+00:00:30,652 --> 00:00:33,339
+A. Northern region
+
+7
+00:00:33,767 --> 00:00:35,617
+B
+
+8
+00:00:35,617 --> 00:00:39,208
+B. Central region
+
+9
+00:00:39,993 --> 00:00:41,956
+C
+
+10
+00:00:41,956 --> 00:00:45,663
+C. Southern region
+
+11
+00:00:47,707 --> 00:00:49,653
+Answer
+
+12
+00:00:50,097 --> 00:00:58,760
+Answer: Durian is specialty of Southern region.
+
+13
+00:01:01,089 --> 00:01:08,130
+How are durian flowers, fruits and tree shape described?
+
+14
+00:01:10,455 --> 00:01:17,206
+Connect words in two columns to get correct answer.
+
+15
+00:01:18,772 --> 00:01:21,831
+Flowers
+
+16
+00:01:23,312 --> 00:01:26,258
+Fruits
+
+17
+00:01:27,903 --> 00:01:31,859
+Tree shape
+
+18
+00:01:33,186 --> 00:01:40,016
+tall straight, branches cross horizontally.
+
+19
+00:01:41,547 --> 00:01:47,650
+bloom in clusters, ivory white color.
+
+20
+00:01:49,333 --> 00:01:55,096
+look like ant nest.
+
+21
+00:01:57,839 --> 00:02:02,023
+Observe answer:
+
+22
+00:02:03,449 --> 00:02:09,268
+Flowers bloom in clusters, ivory white color.
+
+23
+00:02:11,295 --> 00:02:18,228
+Fruits look like ant nest.
+
+24
+00:02:20,456 --> 00:02:27,217
+Tree shape tall straight, branches cross horizontally.
+
+25
+00:02:29,252 --> 00:02:35,169
+What does durian fruit look like?
+
+26
+00:02:37,147 --> 00:02:42,492
+You choose correct answer.
+
+27
+00:02:44,177 --> 00:02:46,049
+A
+
+28
+00:02:46,049 --> 00:02:51,134
+A. like ant nest
+
+29
+00:02:53,030 --> 00:02:54,866
+B
+
+30
+00:02:53,866 --> 00:03:00,418
+B. like fish scales
+
+31
+00:03:02,105 --> 00:03:04,680
+C
+
+32
+00:03:04,680 --> 00:03:09,991
+C. like young lotus petals
+
+33
+00:03:11,619 --> 00:03:14,193
+Answer
+
+34
+00:03:14,488 --> 00:03:20,979
+Durian fruit looks like ant nest.
+
+35
+00:03:22,554 --> 00:03:31,226
+Which sentence describes durian fruit flavor?
+
+36
+00:03:35,215 --> 00:03:41,106
+Mark X on True or False box.
+
+37
+00:03:43,106 --> 00:03:52,279
+1. Durian is precious fruit of Northern region.
+
+38
+00:03:54,267 --> 00:04:03,755
+2. Flavor is charmingly strange.
+
+39
+00:04:05,344 --> 00:04:14,424
+3. Durian flowers bloom at start of year.
+
+40
+00:04:16,158 --> 00:04:27,040
+4. Durian smells like ripe jackfruit mixed with pomelo scent.
+
+41
+00:04:28,413 --> 00:04:40,364
+5. But when fruit ripens, fragrance spreads, taste sweet to obsession.
+
+42
+00:04:42,293 --> 00:04:48,053
+Observe answer.
+

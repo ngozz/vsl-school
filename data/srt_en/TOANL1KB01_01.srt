@@ -1,0 +1,12 @@
+1
+00:00:00,338 --> 00:00:02,369
+Hello everyone
+
+2
+00:00:05,308 --> 00:00:11,123
+Let's review numbers within 10 together
+
+3
+00:00:12,579 --> 00:00:19,625
+Practice counting, reading, and writing numbers within 10
+

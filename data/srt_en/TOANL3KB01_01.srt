@@ -1,0 +1,8 @@
+1
+00:00:02,550 --> 00:00:06,020
+Hello everyone.
+
+2
+00:00:06,020 --> 00:00:12,530
+Let's learn about numbers within 100000
+

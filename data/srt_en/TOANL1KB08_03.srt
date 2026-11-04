@@ -1,0 +1,36 @@
+1
+00:00:01,470 --> 00:00:06,670
+Example 2. Calculate 65 - 4
+
+2
+00:00:09,120 --> 00:00:13,930
+To perform calculation 65 - 4, we do as follows:
+
+3
+00:00:16,450 --> 00:00:19,860
+Set up
+
+4
+00:00:21,180 --> 00:00:34,040
+Perform subtraction from right to left. Subtract ones from ones. Subtract tens from tens.
+
+5
+00:00:36,990 --> 00:00:42,520
+Five minus four equals one, write 1.
+
+6
+00:00:44,590 --> 00:00:48,260
+Bring down 6, write 6.
+
+7
+00:00:51,040 --> 00:00:56,100
+Sixty-five minus four equals sixty-one.
+
+8
+00:00:58,810 --> 00:01:05,500
+Fill in the appropriate number in the blank:
+
+9
+00:01:07,960 --> 00:01:11,700
+Observe the answer:
+

@@ -1,0 +1,4 @@
+1
+00:00:02,330 --> 00:00:12,370
+You have read many lessons about school, today we learn lesson: "Expanding Vocabulary: School Topic".
+

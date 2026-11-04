@@ -1,0 +1,20 @@
+1
+00:00:00,946 --> 00:00:03,845
+Hello everyone!
+
+2
+00:00:07,095 --> 00:00:17,496
+Let's review <color=orange><b>multiplication</b></color> of multi-digit numbers with one-digit numbers.
+
+3
+00:00:18,677 --> 00:00:23,162
+Practice performing <color=orange><b>multiplication</b></color> <color=orange><b>two-digit numbers</b></color>,
+
+4
+00:00:23,162 --> 00:00:27,348
+<color=orange><b>three-digit numbers</b></color> and multi-digit numbers
+
+5
+00:00:27,348 --> 00:00:30,223
+with one-digit numbers
+

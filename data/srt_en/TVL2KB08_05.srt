@@ -1,0 +1,20 @@
+1
+00:00:02,600 --> 00:00:18,000
+Observe picture fill sequence number showing egg boiling steps, reading lesson guides how to boil eggs according to 4 steps, do each task one by one in order.
+
+2
+00:00:18,000 --> 00:00:24,710
+Pour water into pot.
+
+3
+00:00:24,710 --> 00:00:31,550
+Put eggs into pot.
+
+4
+00:00:32,310 --> 00:00:40,480
+Take eggs out, soak in cold water.
+
+5
+00:00:40,480 --> 00:00:50,350
+Boil eggs until water boils, wait more 5 minutes.
+

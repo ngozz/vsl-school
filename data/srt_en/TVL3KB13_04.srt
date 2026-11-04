@@ -1,0 +1,8 @@
+1
+00:00:01,000 --> 00:00:07,480
+Who do you like to write letter to?
+
+2
+00:00:07,480 --> 00:00:12,550
+What will you tell in letter?
+

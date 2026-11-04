@@ -1,0 +1,16 @@
+1
+00:00:01,700 --> 00:00:04,150
+Hello everyone!
+
+2
+00:00:05,559 --> 00:00:14,200
+Let's review numbers within 100 together.
+
+3
+00:00:15,900 --> 00:00:25,600
+Practice counting, reading, and writing numbers within 20, numbers within 100.
+
+4
+00:00:25,600 --> 00:00:35,000
+Reinforce numbers within 20, numbers within 100.
+

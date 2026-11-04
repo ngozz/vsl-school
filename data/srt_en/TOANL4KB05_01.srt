@@ -1,0 +1,12 @@
+1
+00:00:02,874 --> 00:00:05,331
+Hello everyone!
+
+2
+00:00:07,982 --> 00:00:24,483
+We have learned picture graph, bar graph.
+
+3
+00:00:27,082 --> 00:00:45,878
+We will review together to distinguish graph types, practice reading numbers from graph types.
+

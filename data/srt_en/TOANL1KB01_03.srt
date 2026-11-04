@@ -1,0 +1,68 @@
+1
+00:00:01,140 --> 00:00:09,650
+Numbers 6, 7, 8, 9, 10
+
+2
+00:00:12,250 --> 00:00:15,400
+Look at the picture and say
+
+3
+00:00:17,020 --> 00:00:23,800
+There are six balls
+
+4
+00:00:27,800 --> 00:00:37,370
+There are six round dots
+
+5
+00:00:39,310 --> 00:00:44,200
+Write number six
+
+6
+00:00:45,740 --> 00:00:53,280
+There are seven candies
+
+7
+00:00:54,680 --> 00:01:01,770
+There are seven boats
+
+8
+00:01:03,400 --> 00:01:09,110
+Write number seven
+
+9
+00:01:10,650 --> 00:01:18,170
+There are eight airplanes
+
+10
+00:01:20,110 --> 00:01:28,850
+There are eight round dots
+
+11
+00:01:30,250 --> 00:01:36,110
+Write number eight
+
+12
+00:01:38,510 --> 00:01:44,570
+There are nine trees
+
+13
+00:01:47,020 --> 00:01:56,170
+There are nine round dots
+
+14
+00:01:58,400 --> 00:02:04,140
+Write number nine
+
+15
+00:02:05,620 --> 00:02:12,680
+There are ten ladders
+
+16
+00:02:17,110 --> 00:02:25,250
+Ten round dots
+
+17
+00:02:26,770 --> 00:02:34,820
+Write number 10
+

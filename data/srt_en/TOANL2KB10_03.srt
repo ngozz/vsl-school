@@ -1,0 +1,12 @@
+1
+00:00:01,200 --> 00:00:10,780
+Relationship between multiplication and division.
+
+2
+00:00:11,610 --> 00:00:23,610
+What is the relationship between multiplication and division?
+
+3
+00:00:25,840 --> 00:00:57,960
+From multiplication, 4 x 2 = 8 we can write 2 divisions: 8 : 2 = 4 and 8 : 4 = 2
+

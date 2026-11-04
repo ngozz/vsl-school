@@ -1,0 +1,28 @@
+1
+00:00:01,200 --> 00:00:09,200
+You learn together meaning of some words:
+
+2
+00:00:09,440 --> 00:00:17,260
+atomic bomb
+
+3
+00:00:17,260 --> 00:00:26,840
+atomic bomb: is a bomb with very strong destructive power.
+
+4
+00:00:27,200 --> 00:00:31,480
+radiation
+
+5
+00:00:31,480 --> 00:00:44,480
+radiation: is substance emitted from atomic bomb, very harmful to health and environment.
+
+6
+00:00:45,570 --> 00:00:52,200
+legend
+
+7
+00:00:52,200 --> 00:01:01,110
+legend: is a story with miraculous elements.
+

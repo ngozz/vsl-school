@@ -1,0 +1,24 @@
+1
+00:00:02,730 --> 00:00:05,500
+There are some story books that children like to read.
+
+2
+00:00:05,500 --> 00:00:12,340
+You observe these books.
+
+3
+00:00:13,300 --> 00:00:16,410
+Names of some books introduced on screen.
+
+4
+00:00:16,410 --> 00:00:46,650
+Vietnamese Fairy Tales Treasure, Tam Cam, The Adventures of a Cricket, Grimm Fairy Tales, Andersen Fairy Tales.
+
+5
+00:00:48,050 --> 00:00:56,210
+Have you read these?
+
+6
+00:00:57,370 --> 00:01:03,770
+Do you like pictures in book?
+

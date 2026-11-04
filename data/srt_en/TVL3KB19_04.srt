@@ -1,0 +1,44 @@
+1
+00:00:02,870 --> 00:00:08,820
+What does first sentence of paragraph write?
+
+2
+00:00:08,820 --> 00:00:13,620
+What do following sentences write?
+
+3
+00:00:13,620 --> 00:00:21,750
+What does last sentence write?
+
+4
+00:00:22,250 --> 00:00:31,250
+Connect A with B to get correct answer:
+
+5
+00:00:31,250 --> 00:00:50,420
+A: Paragraph opening sentence; Body sentences; Paragraph last sentence.
+
+6
+00:00:50,420 --> 00:01:05,750
+B: State feeling or thought about favorite character.
+
+7
+00:01:05,750 --> 00:01:19,370
+Introduce favorite character, story name.
+
+8
+00:01:19,370 --> 00:01:34,900
+Reason why you like that character (about appearance, action or personality).
+
+9
+00:01:42,570 --> 00:01:58,100
+Answer: Paragraph opening sentence: Introduce favorite character, story name.
+
+10
+00:01:58,850 --> 00:02:18,200
+Body sentences: Reason why you like that character (about appearance, action or personality).
+
+11
+00:02:19,300 --> 00:02:32,400
+Paragraph last sentence: State feeling or thought about favorite character.
+

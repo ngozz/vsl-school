@@ -1,0 +1,4 @@
+1
+00:00:02,106 --> 00:00:11,291
+So what activities does your school have? Mark X on picture you choose.
+

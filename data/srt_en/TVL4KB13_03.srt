@@ -1,0 +1,36 @@
+1
+00:00:00,970 --> 00:00:07,460
+Learn meaning of words in lesson:
+
+2
+00:00:07,460 --> 00:00:14,240
+Statistics
+
+3
+00:00:14,240 --> 00:00:21,110
+Relax
+
+4
+00:00:21,550 --> 00:00:28,080
+Happy
+
+5
+00:00:29,060 --> 00:00:34,710
+Treat
+
+6
+00:00:35,840 --> 00:00:50,860
+Statistics: collect data about a phenomenon, event.
+
+7
+00:00:51,240 --> 00:01:06,130
+Relax: in loose state, creating comfortable feeling.
+
+8
+00:01:07,080 --> 00:01:19,080
+Happy: comfortable, pleasant.
+
+9
+00:01:19,080 --> 00:01:27,880
+Treat: cure disease.
+

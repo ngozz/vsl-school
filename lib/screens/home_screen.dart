@@ -522,6 +522,7 @@ class _LessonTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final english = App.settings.language == AppLanguage.en;
     return Center(
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 4),
@@ -557,7 +558,7 @@ class _LessonTile extends StatelessWidget {
                   ),
                   const SizedBox(width: 14),
                   Expanded(
-                    child: Text(lesson.title,
+                    child: Text(lesson.displayTitle(english: english),
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: theme.textTheme.bodyLarge

@@ -1,0 +1,56 @@
+1
+00:00:01,080 --> 00:00:08,560
+Statistics table
+
+2
+00:00:11,600 --> 00:00:14,410
+Example 2:
+
+3
+00:00:16,100 --> 00:00:29,840
+Statistics table of female students in grade 3 at elementary school.
+
+4
+00:00:31,660 --> 00:00:35,180
+Table has 2 rows:
+
+5
+00:00:35,970 --> 00:00:39,440
+Top row records names of classes.
+
+6
+00:00:40,220 --> 00:00:44,800
+Bottom row records number of female students in each class.
+
+7
+00:00:45,530 --> 00:00:48,910
+Looking at table we know:
+
+8
+00:00:49,840 --> 00:00:53,090
+Three classes recorded in table are:
+
+9
+00:00:53,390 --> 00:01:05,170
+class 3A, class 3B, class 3C.
+
+10
+00:01:06,140 --> 00:01:12,130
+Class 3A has 15 female students,
+
+11
+00:01:12,920 --> 00:01:19,720
+class 3B has 17 female students,
+
+12
+00:01:20,760 --> 00:01:27,810
+class 3C has 12 female students.
+
+13
+00:01:29,660 --> 00:01:38,620
+Based on table above we can know: Which class has most female students.
+
+14
+00:01:39,760 --> 00:01:45,230
+Which class has fewest female students.
+

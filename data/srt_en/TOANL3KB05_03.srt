@@ -1,0 +1,68 @@
+1
+00:00:04,580 --> 00:00:11,574
+Multiply <color=orange><b>three-digit numbers</b></color> with one-digit numbers
+
+2
+00:00:13,167 --> 00:00:21,392
+Perform calculation 123 times 2
+
+3
+00:00:22,154 --> 00:00:28,514
+Just like multiplying <color=orange><b>two-digit numbers</b></color> with <color=orange><b>one-digit numbers</b></color>
+
+4
+00:00:28,514 --> 00:00:34,839
+we set up then calculate
+
+5
+00:00:35,410 --> 00:00:41,777
+Set up correctly and perform multiplication from right to left
+
+6
+00:00:42,856 --> 00:00:44,625
+Perform calculation
+
+7
+00:00:44,625 --> 00:00:49,918
+Perform calculation: 2 times 3 equals 6, write 6
+
+8
+00:00:51,351 --> 00:00:58,798
+2 times 2 equals 4, write 4
+
+9
+00:01:00,096 --> 00:01:08,302
+2 times 1 equals 2, write 2
+
+10
+00:01:10,337 --> 00:01:19,744
+So 123 times 2 equals 246
+
+11
+00:01:24,172 --> 00:01:30,728
+Perform calculation 326 times 3
+
+12
+00:01:31,782 --> 00:01:39,490
+Be careful to perform multiplication accurately to get correct result
+
+13
+00:01:40,402 --> 00:01:49,342
+3 times 6 equals 18,
+
+14
+00:01:49,342 --> 00:01:56,873
+write 8 carry 1
+
+15
+00:01:58,171 --> 00:02:14,022
+3 times 2 equals 6, plus 1 equals 7, write 7
+
+16
+00:02:15,158 --> 00:02:25,152
+3 times 3 equals 9, write 9
+
+17
+00:02:26,499 --> 00:02:39,024
+Calculation result: 326 times 3 equals 978
+

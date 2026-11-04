@@ -1,0 +1,12 @@
+1
+00:00:03,800 --> 00:00:15,350
+Tell names of some stories you have learned or read.
+
+2
+00:00:20,620 --> 00:00:31,900
+You like (or don't like) which character in stories you just told?
+
+3
+00:00:35,470 --> 00:00:46,970
+You tell why you like that character?
+

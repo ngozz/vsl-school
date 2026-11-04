@@ -1,0 +1,164 @@
+1
+00:00:00,770 --> 00:00:08,550
+Addition, subtraction (with regrouping) within 1000
+
+2
+00:00:08,550 --> 00:00:16,050
+Let's learn how to perform addition with regrouping
+
+3
+00:00:16,050 --> 00:00:24,500
+435 + 127 = ?
+
+4
+00:00:24,500 --> 00:00:33,420
+We set up and calculate step by step as follows:
+
+5
+00:00:33,420 --> 00:00:39,720
+Step 1: Set up vertically
+
+6
+00:00:39,720 --> 00:01:00,000
+Write hundreds under hundreds, tens under tens, ones under ones.
+
+7
+00:01:00,000 --> 00:01:09,700
+Step 2. Calculate from right to left.
+
+8
+00:01:09,700 --> 00:01:18,050
+5 plus 7 equals 12, write 2, carry 1.
+
+9
+00:01:18,050 --> 00:01:27,000
+3 plus 2 equals 5 plus 1 equals 6, write 6.
+
+10
+00:01:27,470 --> 00:01:33,520
+4 plus 1 equals 5, write 5.
+
+11
+00:01:33,520 --> 00:01:43,000
+So 435 + 127 = 562
+
+12
+00:01:43,000 --> 00:01:48,800
+Similarly we perform the calculation
+
+13
+00:01:48,800 --> 00:01:57,320
+256 + 162 = ?
+
+14
+00:01:57,320 --> 00:02:04,850
+We set up and calculate step by step as follows:
+
+15
+00:02:04,850 --> 00:02:10,070
+Step 1: Set up vertically:
+
+16
+00:02:10,070 --> 00:02:27,570
+Write hundreds under hundreds, tens under tens, ones under ones.
+
+17
+00:02:27,570 --> 00:02:35,200
+Step 2. Calculate from right to left.
+
+18
+00:02:35,200 --> 00:02:41,300
+6 plus 2 equals 8, write 8.
+
+19
+00:02:41,300 --> 00:02:49,350
+5 plus 6 equals 11, write 1, carry 1.
+
+20
+00:02:49,350 --> 00:02:58,870
+2 plus 1 equals 3 plus 1 equals 4, write 4.
+
+21
+00:02:58,870 --> 00:03:09,220
+So 256 + 162 = 418
+
+22
+00:03:09,470 --> 00:03:15,050
+Let's learn how to perform the calculation
+
+23
+00:03:15,050 --> 00:03:22,320
+432 - 215 = ?
+
+24
+00:03:22,320 --> 00:03:28,420
+We set up and calculate step by step as follows:
+
+25
+00:03:28,420 --> 00:03:34,250
+Step 1: Set up vertically
+
+26
+00:03:34,250 --> 00:03:53,320
+Write hundreds under hundreds, tens under tens, ones under ones.
+
+27
+00:03:53,320 --> 00:04:00,920
+Step 2: Calculate from right to left
+
+28
+00:04:01,350 --> 00:04:12,470
+2 cannot subtract 5, take 12 minus 5 equals 7, write 7 carry 1.
+
+29
+00:04:12,470 --> 00:04:22,320
+1 plus 1 equals 2; 3 minus 2 equals 1, write 1.
+
+30
+00:04:22,650 --> 00:04:29,170
+4 minus 2 equals 2, write 2.
+
+31
+00:04:29,170 --> 00:04:38,700
+So 432 - 215 = 217
+
+32
+00:04:38,700 --> 00:04:44,270
+Similarly we perform the calculation
+
+33
+00:04:44,270 --> 00:04:51,170
+627 - 143 = ?
+
+34
+00:04:51,170 --> 00:04:56,670
+We set up and calculate step by step as follows:
+
+35
+00:04:56,670 --> 00:05:01,020
+Step 1: Set up vertically
+
+36
+00:05:01,020 --> 00:05:16,450
+Write hundreds under hundreds, tens under tens, ones under ones.
+
+37
+00:05:16,450 --> 00:05:22,820
+Step 2: Calculate from right to left
+
+38
+00:05:22,820 --> 00:05:28,570
+7 minus 3 equals 4, write 4.
+
+39
+00:05:28,570 --> 00:05:41,120
+2 cannot subtract 4, take 12 minus 4 equals 8, write 8, carry 1.
+
+40
+00:05:41,570 --> 00:05:53,120
+1 plus 1 equals 2; 6 minus 2 equals 4, write 4.
+
+41
+00:05:53,120 --> 00:06:03,400
+So 627 - 143 = 484
+

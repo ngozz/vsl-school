@@ -1,0 +1,28 @@
+1
+00:00:02,341 --> 00:00:05,891
+Liter
+
+2
+00:00:09,408 --> 00:00:18,423
+Let's learn about volume units together.
+
+3
+00:00:20,563 --> 00:00:27,248
+Observe the bottles to see which bottle holds more water.
+
+4
+00:00:32,140 --> 00:00:36,388
+This is a 1 liter box.
+
+5
+00:00:44,029 --> 00:00:54,845
+Conclusion: Liter is a volume unit.
+
+6
+00:00:56,082 --> 00:00:59,790
+Liter is abbreviated as <i>l</i>.
+
+7
+00:01:00,606 --> 00:01:07,436
+1 <i>l</i> is read as one liter.
+

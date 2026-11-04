@@ -1,0 +1,28 @@
+1
+00:00:02,650 --> 00:00:09,090
+Comparing numbers within 100.
+
+2
+00:00:12,650 --> 00:00:19,050
+Example 1: Compare numbers 43 and 49.
+
+3
+00:00:22,000 --> 00:00:26,660
+Fill in the blank.
+
+4
+00:00:28,980 --> 00:00:39,760
+Number 43 consists of 4 tens and 3 ones
+
+5
+00:00:41,500 --> 00:00:51,460
+Number 49 consists of 4 tens and 9 ones
+
+6
+00:00:53,900 --> 00:01:08,920
+Numbers 43 and 49 have the same tens digit equal to 4, so we compare the ones digit.
+
+7
+00:01:10,980 --> 00:01:19,600
+We see 3 < 9, so 43 < 49
+

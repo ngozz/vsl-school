@@ -1,0 +1,4 @@
+1
+00:00:01,744 --> 00:00:08,073
+Read the lesson again and continue with the next exercises
+

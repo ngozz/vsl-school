@@ -1,0 +1,44 @@
+1
+00:00:01,940 --> 00:00:08,800
+Draw a line segment with a given length.
+
+2
+00:00:13,420 --> 00:00:19,280
+Draw line segment AB 4 cm long.
+
+3
+00:00:20,510 --> 00:00:32,910
+To draw line segment AB 4 cm long, we do as follows:
+
+4
+00:00:35,280 --> 00:00:39,220
+Place the cm ruler on the white paper.
+
+5
+00:00:40,020 --> 00:00:42,480
+Left hand holds the ruler.
+
+6
+00:00:43,740 --> 00:00:45,250
+Right hand holds the pen.
+
+7
+00:00:45,710 --> 00:00:50,370
+Mark a point at the 0 mark.
+
+8
+00:00:51,340 --> 00:00:56,020
+Mark the second point at the 4 mark.
+
+9
+00:00:57,310 --> 00:01:06,820
+Use a pencil to connect from mark 0 to mark 4, write A, B at each point.
+
+10
+00:01:08,510 --> 00:01:24,140
+AB = 4 cm
+
+11
+00:01:25,800 --> 00:01:33,650
+Read the lesson again and continue with the exercises.
+

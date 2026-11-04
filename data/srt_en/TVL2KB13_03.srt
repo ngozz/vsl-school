@@ -1,0 +1,8 @@
+1
+00:00:00,710 --> 00:00:10,220
+What are rules?
+
+2
+00:00:11,020 --> 00:00:18,350
+Rules are regulations everyone must follow.
+

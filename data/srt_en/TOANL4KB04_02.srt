@@ -1,0 +1,36 @@
+1
+00:00:00,739 --> 00:00:12,985
+We already know to find arithmetic mean of two numbers, we do two steps as follows.
+
+2
+00:00:13,434 --> 00:00:22,723
+Step 1: Find sum of the numbers, when known or each number is determined clearly.
+
+3
+00:00:23,881 --> 00:00:32,896
+Step 2: Divide sum by 2.
+
+4
+00:00:33,626 --> 00:00:46,042
+To find arithmetic mean of two numbers we take sum of those two numbers divide by 2.
+
+5
+00:00:47,141 --> 00:00:56,722
+Example: Find sum of two numbers 4 and 8.
+
+6
+00:00:57,866 --> 00:01:04,602
+4 + 8 = 12
+
+7
+00:01:06,557 --> 00:01:12,784
+12 : 2 = 6
+
+8
+00:01:13,787 --> 00:01:21,971
+So sum of 4 and 8 is 12.
+
+9
+00:01:22,998 --> 00:01:33,973
+Arithmetic mean of 4 and 8 is 6.
+

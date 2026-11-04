@@ -1,0 +1,8 @@
+1
+00:00:01,087 --> 00:00:09,126
+Use cylinders, spheres, rectangular prisms to assemble shapes according to the sample
+
+2
+00:00:10,540 --> 00:00:17,066
+Read the lesson again and continue with the exercises.
+

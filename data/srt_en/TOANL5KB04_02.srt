@@ -1,0 +1,40 @@
+1
+00:00:01,680 --> 00:00:08,880
+Multiply one decimal number by one whole number.
+
+2
+00:00:08,880 --> 00:00:16,660
+Example: Calculate 1.2 times 3
+
+3
+00:00:17,150 --> 00:00:24,420
+To calculate 1.2 times 3 we do as follows:
+
+4
+00:00:24,420 --> 00:00:31,060
+Perform multiplication like multiplying natural numbers:
+
+5
+00:00:31,400 --> 00:00:44,860
+Decimal part of number 1.2 has one digit, we use comma to separate at product one digit counting from right to left, place comma in result.
+
+6
+00:00:45,060 --> 00:00:54,080
+So: 1.2 times 3 equals 3.6
+
+7
+00:00:54,510 --> 00:01:03,420
+Conclusion: To multiply one decimal number by one whole number we do as follows:
+
+8
+00:01:03,420 --> 00:01:08,770
+Multiply like multiplying natural numbers.
+
+9
+00:01:08,770 --> 00:01:20,950
+Count digits in decimal part then use comma to separate at product that many digits counting from right to left.
+
+10
+00:01:21,460 --> 00:01:37,000
+To firmly grasp rule we do more examples below:
+

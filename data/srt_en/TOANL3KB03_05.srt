@@ -1,0 +1,60 @@
+1
+00:00:04,040 --> 00:00:14,370
+Subtraction within 100000
+
+2
+00:00:14,370 --> 00:00:30,460
+Set up calculation 83576 minus 24194
+
+3
+00:00:30,460 --> 00:00:38,040
+To perform this calculation you need to note
+
+4
+00:00:38,040 --> 00:00:47,750
+Set up numbers in the same place aligned in columns
+
+5
+00:00:47,750 --> 00:00:56,000
+Perform calculation from right to left
+
+6
+00:00:56,750 --> 00:01:05,130
+6 minus 4 equals 2, write 2
+
+7
+00:01:05,130 --> 00:01:20,510
+7 cannot subtract 9 take 17 minus 9 equals 8, write 8 carry 1
+
+8
+00:01:20,510 --> 00:01:35,730
+1 plus 1 equals 2, 5 minus 2 equals 3, write 3
+
+9
+00:01:35,730 --> 00:01:50,280
+3 cannot subtract 4 take 13 minus 4 equals 9, write 9 carry 1
+
+10
+00:01:50,280 --> 00:02:06,600
+2 plus 1 equals 3, 8 minus 3 equals 5, write 5
+
+11
+00:02:07,240 --> 00:02:32,310
+So 83576 minus 24194 equals 59382
+
+12
+00:02:33,310 --> 00:02:51,550
+Set up then calculate 78784 minus 6957
+
+13
+00:02:52,570 --> 00:03:04,840
+To perform the calculation you need to note set up correctly and calculate from right to left
+
+14
+00:03:04,840 --> 00:03:11,400
+Check the result again
+
+15
+00:03:11,400 --> 00:03:28,710
+So 78784 minus 6957 equals 71827
+

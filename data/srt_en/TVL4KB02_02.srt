@@ -1,0 +1,40 @@
+1
+00:00:03,550 --> 00:00:10,420
+A boy is walking on street.
+
+2
+00:00:10,420 --> 00:00:16,260
+An old beggar steps in front of boy.
+
+3
+00:00:16,260 --> 00:00:25,020
+Old man's figure hunchbacked, clothes torn ragged.
+
+4
+00:00:25,640 --> 00:00:36,220
+Old man holds out swollen dirty hand begging for help.
+
+5
+00:00:37,080 --> 00:00:48,710
+Boy searches pockets but finds nothing to give old man.
+
+6
+00:00:50,040 --> 00:00:54,510
+Boy tightly holds old man's hand:
+
+7
+00:00:54,510 --> 00:01:05,820
+Grandpa don't be angry, I have nothing to give you.
+
+8
+00:01:06,800 --> 00:01:17,020
+Beggar looks at boy, pale lips smile.
+
+9
+00:01:17,020 --> 00:01:22,080
+Old man pats boy's hand, says:
+
+10
+00:01:22,080 --> 00:01:35,730
+Thank you child! Your sympathy is enough for me.
+

@@ -1,0 +1,4 @@
+1
+00:00:00,533 --> 00:00:13,660
+Hello everyone! We will learn together how to compare decimal numbers.
+

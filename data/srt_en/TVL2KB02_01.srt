@@ -1,0 +1,8 @@
+1
+00:00:02,060 --> 00:00:08,300
+You have read lesson: "The New School".
+
+2
+00:00:08,490 --> 00:00:14,380
+We will read again and learn content.
+

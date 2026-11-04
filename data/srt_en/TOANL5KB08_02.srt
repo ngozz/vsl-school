@@ -1,0 +1,180 @@
+1
+00:00:00,820 --> 00:00:12,500
+Rectangular prism.
+
+2
+00:00:12,500 --> 00:00:26,050
+Cube.
+
+3
+00:00:27,950 --> 00:00:36,620
+Let's observe figure below:
+
+4
+00:00:36,620 --> 00:00:46,300
+Box, brick have rectangular prism shape.
+
+5
+00:00:48,020 --> 00:00:55,620
+Let's observe rectangular prism figure then tell:
+
+6
+00:00:55,620 --> 00:01:01,700
+Rectangular prism has how many faces?
+
+7
+00:01:01,700 --> 00:01:25,700
+Rectangular prism has 6 faces: two bases (face 1 and face 2) and four side faces (face 3, face 4, face 5 and face 6) all are rectangles.
+
+8
+00:01:26,350 --> 00:01:31,750
+What do you notice between face 1 and face 2.
+
+9
+00:01:31,750 --> 00:01:36,000
+Face 3 and face 5.
+
+10
+00:01:36,000 --> 00:01:45,020
+Face 4 and face 6.
+
+11
+00:01:47,650 --> 00:01:52,970
+Face 1 equals face 2.
+
+12
+00:01:52,970 --> 00:01:58,420
+Face 3 equals face 5.
+
+13
+00:01:58,420 --> 00:02:07,650
+Face 4 equals face 6.
+
+14
+00:02:08,920 --> 00:02:15,420
+Let's observe figure below:
+
+15
+00:02:15,420 --> 00:02:23,450
+Rectangular prism has how many vertices? Tell vertex names of rectangular prism?
+
+16
+00:02:23,450 --> 00:02:29,950
+Rectangular prism has how many edges? Tell edge names of rectangular prism?
+
+17
+00:02:33,120 --> 00:02:39,020
+Rectangular prism has 8 vertices.
+
+18
+00:02:39,020 --> 00:02:42,500
+Vertex names of rectangular prism:
+
+19
+00:02:42,500 --> 00:02:44,500
+A
+
+20
+00:02:44,500 --> 00:02:46,500
+B
+
+21
+00:02:46,500 --> 00:02:48,750
+C
+
+22
+00:02:48,750 --> 00:02:50,750
+D
+
+23
+00:02:50,750 --> 00:02:52,750
+M
+
+24
+00:02:52,750 --> 00:02:54,750
+N
+
+25
+00:02:54,750 --> 00:02:56,750
+P
+
+26
+00:02:56,750 --> 00:02:58,750
+Q
+
+27
+00:03:01,970 --> 00:03:08,550
+Rectangular prism has 12 edges.
+
+28
+00:03:08,550 --> 00:03:15,150
+Rectangular prism edge names:
+
+29
+00:03:16,120 --> 00:03:18,620
+AB
+
+30
+00:03:18,620 --> 00:03:21,320
+CD
+
+31
+00:03:21,320 --> 00:03:24,200
+MN
+
+32
+00:03:24,200 --> 00:03:26,950
+PQ
+
+33
+00:03:26,950 --> 00:03:30,020
+AM
+
+34
+00:03:30,020 --> 00:03:33,370
+DQ
+
+35
+00:03:33,370 --> 00:03:36,500
+BN
+
+36
+00:03:36,500 --> 00:03:39,770
+CP
+
+37
+00:03:39,770 --> 00:03:42,500
+AD
+
+38
+00:03:42,500 --> 00:03:45,200
+BC
+
+39
+00:03:45,200 --> 00:03:48,050
+PN
+
+40
+00:03:48,050 --> 00:03:51,850
+MQ
+
+41
+00:03:53,850 --> 00:04:04,650
+Rectangular prism has how many dimensions.
+
+42
+00:04:06,320 --> 00:04:19,170
+Rectangular prism has three dimensions: length, width, height.
+
+43
+00:04:19,900 --> 00:04:32,450
+Cube
+
+44
+00:04:33,620 --> 00:04:40,850
+Let's observe figure below:
+
+45
+00:04:40,850 --> 00:04:52,450
+Cube has 6 faces which are equal squares.
+

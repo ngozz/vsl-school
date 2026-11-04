@@ -1,0 +1,100 @@
+1
+00:00:02,080 --> 00:00:09,000
+Answer the questions below:
+
+2
+00:00:11,040 --> 00:00:17,640
+a) What was the baby otter like before?
+
+3
+00:00:19,440 --> 00:00:26,560
+Mark X before correct answer.
+
+4
+00:00:28,120 --> 00:00:32,640
+Very diligent.
+
+5
+00:00:33,920 --> 00:00:38,000
+Very lazy to study.
+
+6
+00:00:38,960 --> 00:00:43,400
+Sometimes diligent, sometimes lazy
+
+7
+00:00:48,840 --> 00:00:55,360
+Answer: very lazy to study.
+
+8
+00:00:56,560 --> 00:01:02,880
+b) Why did the baby otter get lost in the forest?
+
+9
+00:01:04,200 --> 00:01:10,720
+Mark X before correct answer.
+
+10
+00:01:12,240 --> 00:01:18,320
+Because it was busy chasing the butterfly swarm.
+
+11
+00:01:19,720 --> 00:01:25,000
+Because it was busy reading signboard.
+
+12
+00:01:26,120 --> 00:01:31,000
+Because it was busy running after Mr. Lion.
+
+13
+00:01:36,680 --> 00:01:43,560
+Answer: Because it was busy chasing the butterfly swarm.
+
+14
+00:01:45,440 --> 00:01:53,400
+c) Why couldn't the baby otter find the way home?
+
+15
+00:01:55,000 --> 00:02:02,760
+Mark X before correct answer.
+
+16
+00:02:04,760 --> 00:02:10,400
+Because it was busy going to school.
+
+17
+00:02:11,800 --> 00:02:17,200
+Because it was busy chasing butterflies.
+
+18
+00:02:18,760 --> 00:02:24,040
+Because it couldn't read the signboard.
+
+19
+00:02:28,040 --> 00:02:36,680
+Answer: Because it couldn't read the signboard.
+
+20
+00:02:38,080 --> 00:02:49,760
+d) After Mr. Lion brought it home, how did the baby otter change?
+
+21
+00:02:51,200 --> 00:02:58,920
+Mark X before correct answer.
+
+22
+00:03:00,120 --> 00:03:05,720
+Still lazy to study.
+
+23
+00:03:06,880 --> 00:03:12,400
+Still refuses to go to school.
+
+24
+00:03:13,840 --> 00:03:18,160
+Very diligent.
+
+25
+00:03:21,280 --> 00:03:26,840
+Answer: Very diligent.
+

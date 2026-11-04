@@ -1,0 +1,40 @@
+1
+00:00:05,000 --> 00:00:13,170
+Answer question.
+
+2
+00:00:14,710 --> 00:00:22,080
+Good person you admire is whom?
+
+3
+00:00:22,710 --> 00:00:30,800
+What is that person's personality like?
+
+4
+00:00:31,750 --> 00:00:41,460
+What has that person done to help or encourage others?
+
+5
+00:00:42,220 --> 00:00:53,240
+What did you learn from that person?
+
+6
+00:00:54,770 --> 00:01:03,350
+Observe sample answer.
+
+7
+00:01:04,110 --> 00:01:21,800
+Good person I admire is friend Phuong in lesson "Letter to Friend".
+
+8
+00:01:22,370 --> 00:01:31,640
+Phuong is very kind, knows how to care for others.
+
+9
+00:01:32,150 --> 00:01:48,820
+Phuong wrote letter to visit Hong and sent money for Hong to buy study supplies.
+
+10
+00:01:50,240 --> 00:02:03,600
+I learned from Phuong sincere feelings and care for friend.
+

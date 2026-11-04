@@ -1,0 +1,32 @@
+1
+00:00:01,680 --> 00:00:09,110
+More than, less than, equal.
+
+2
+00:00:11,200 --> 00:00:17,420
+Look at the picture and draw symbols as I do.
+
+3
+00:00:18,770 --> 00:00:25,970
+The number of plates is more than the number of cups.
+
+4
+00:00:27,710 --> 00:00:33,110
+The number of cups is less than the number of plates.
+
+5
+00:00:35,000 --> 00:00:41,200
+Look at the picture, count the quantity, and draw symbols as I do.
+
+6
+00:00:42,820 --> 00:00:49,140
+Vietnamese has 2 ways of writing.
+
+7
+00:00:51,910 --> 00:00:55,970
+Sign language has 1 way.
+
+8
+00:00:56,940 --> 00:01:07,540
+The number of triangles equals the number of circles, or the number of triangles and circles are equal.
+

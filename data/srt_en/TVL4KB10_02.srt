@@ -1,0 +1,36 @@
+1
+00:00:05,000 --> 00:00:20,110
+You observe picture carefully to answer questions about picture content.
+
+2
+00:00:22,880 --> 00:00:34,530
+You find objects drawn in picture.
+
+3
+00:00:35,770 --> 00:00:49,480
+You carefully observe who they are, which trees, which objects?
+
+4
+00:00:51,080 --> 00:01:01,750
+Find words naming objects, words for people, objects, trees drawn in picture.
+
+5
+00:01:02,840 --> 00:01:15,680
+Ah old man, children, little ones, students, soldiers.
+
+6
+00:01:15,680 --> 00:01:26,220
+Ah boat, stone, stick, schoolbag.
+
+7
+00:01:28,020 --> 00:01:39,660
+Ah banana tree, eucalyptus, grass.
+
+8
+00:01:40,730 --> 00:01:51,840
+You answer question "What is noun"?
+
+9
+00:01:52,660 --> 00:02:04,000
+Noun is words naming objects (people, objects, animals, plants…).
+

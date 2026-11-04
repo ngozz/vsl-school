@@ -1,0 +1,12 @@
+1
+00:00:06,060 --> 00:00:13,510
+There are two words "bê" and "vác".
+
+2
+00:00:14,220 --> 00:00:25,200
+You choose word for each picture.
+
+3
+00:00:28,880 --> 00:00:44,400
+You observe answer to see if it matches your choice.
+

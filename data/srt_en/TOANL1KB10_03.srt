@@ -1,0 +1,36 @@
+1
+00:00:01,540 --> 00:00:08,940
+Centimeter
+
+2
+00:00:10,970 --> 00:00:26,200
+Centimeter is a length unit, abbreviated as cm.
+
+3
+00:00:27,400 --> 00:00:31,050
+1 cm
+
+4
+00:00:32,970 --> 00:00:45,490
+Read as: One centimeter.
+
+5
+00:00:46,540 --> 00:00:50,650
+4 cm
+
+6
+00:00:51,570 --> 00:01:00,000
+Read as: Four centimeters.
+
+7
+00:01:06,720 --> 00:01:15,600
+Example: Read the length measurement of the objects in the drawing:
+
+8
+00:01:16,240 --> 00:01:21,760
+The pencil is 9 cm long.
+
+9
+00:01:26,610 --> 00:01:34,030
+The box of colors is 12 cm long.
+

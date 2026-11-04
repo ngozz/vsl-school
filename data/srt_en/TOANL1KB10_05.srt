@@ -1,0 +1,40 @@
+1
+00:00:01,620 --> 00:00:08,920
+Clock, time
+
+2
+00:00:11,820 --> 00:00:17,020
+Observe the clock face:
+
+3
+00:00:18,380 --> 00:00:25,160
+On the clock face are numbers from 1 to 12.
+
+4
+00:00:27,050 --> 00:00:34,530
+On the clock face there are also the long hand and short hand.
+
+5
+00:00:36,810 --> 00:00:45,130
+When the clock shows the exact hour, the long hand always points to number 12.
+
+6
+00:00:46,730 --> 00:00:53,340
+The short hand points to the corresponding hour number.
+
+7
+00:00:54,340 --> 00:00:57,900
+For example:
+
+8
+00:00:59,060 --> 00:01:07,160
+The long hand points to number 12, the short hand points to number 3.
+
+9
+00:01:08,220 --> 00:01:13,380
+The clock shows 3 o'clock.
+
+10
+00:01:16,770 --> 00:01:28,980
+The clock shows 9 o'clock because the short hand points to number 9, the long hand points to number 12.
+

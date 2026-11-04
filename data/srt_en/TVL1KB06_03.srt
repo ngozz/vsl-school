@@ -1,0 +1,4 @@
+1
+00:00:00,570 --> 00:00:08,940
+Identify rhyme, choose sounds teacher reads!
+

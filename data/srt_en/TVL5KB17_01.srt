@@ -1,0 +1,12 @@
+1
+00:00:01,600 --> 00:00:13,250
+You have learned the use of periods, question marks, exclamation marks.
+
+2
+00:00:14,280 --> 00:00:22,250
+But when writing paragraphs, essays, you often forget to use them.
+
+3
+00:00:23,250 --> 00:00:30,970
+Today's lesson you will practice using end-of-sentence punctuation.
+

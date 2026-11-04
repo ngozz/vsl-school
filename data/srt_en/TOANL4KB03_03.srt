@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:05,000
+Observe example 1
+
+2
+00:00:07,710 --> 00:00:17,550
+First set up division like dividing by a one-digit number
+
+3
+00:00:17,550 --> 00:00:29,930
+Perform division from left to right
+
+4
+00:00:31,660 --> 00:00:46,620
+Take 70 divided by 47 equals 1, write 1 in quotient
+
+5
+00:00:46,620 --> 00:00:55,130
+1 times 7 equals 7, write 7 (under 0)
+
+6
+00:00:55,130 --> 00:01:03,480
+1 times 4 equals 4, write 4 (under 7)
+
+7
+00:01:03,480 --> 00:01:11,370
+Take 70 minus 47 equals 23
+
+8
+00:01:11,370 --> 00:01:20,420
+Remainder 23 is less than 47, the divisor
+
+9
+00:01:20,420 --> 00:01:32,020
+Bring down 5 (after 23) to get 235
+
+10
+00:01:32,020 --> 00:01:40,660
+Perform second division round, three steps
+
+11
+00:01:40,660 --> 00:01:52,840
+Divide 235 by 47, equals 5; write 5 (write quotient after 1)
+
+12
+00:01:52,840 --> 00:02:02,370
+Multiply: 5 times 7 equals 35, write 5 carry 3
+
+13
+00:02:02,370 --> 00:02:17,950
+5 times 4 equals 20, plus 3 equals 23, write 23
+
+14
+00:02:17,950 --> 00:02:27,060
+Subtract: 235 minus 235 equals 0, write 0
+
+15
+00:02:27,060 --> 00:02:39,600
+In division we perform 2 division rounds, dividing left to right in turn
+
+16
+00:02:40,660 --> 00:02:43,550
+Example 2
+
+17
+00:02:45,550 --> 00:02:54,020
+Set up then calculate 779 divided by 18
+
+18
+00:02:54,020 --> 00:03:02,660
+Set up like example 1
+
+19
+00:03:04,350 --> 00:03:21,020
+First division round take 77 divided by 18 equals 4, write 4 at quotient
+
+20
+00:03:21,020 --> 00:03:36,730
+4 times 8 equals 32, write 2 under 7, carry 3
+
+21
+00:03:36,730 --> 00:03:49,040
+4 times 1 equals 4 plus 3 equals 7, write 7 under 7
+
+22
+00:03:49,040 --> 00:03:57,770
+77 minus 72 equals 5, write 5
+
+23
+00:03:57,770 --> 00:04:04,400
+Bring down 9 to get 59
+
+24
+00:04:04,400 --> 00:04:09,570
+Perform second division round
+
+25
+00:04:09,570 --> 00:04:18,860
+59 divided by 18, equals 3, write 3 (at quotient after 4)
+
+26
+00:04:18,860 --> 00:04:30,800
+3 times 8 equals 24, write 4 (under 9), carry 2
+
+27
+00:04:30,800 --> 00:04:41,600
+3 times 1 equals 3 plus 2 equals 5, write 5 (under 5)
+
+28
+00:04:41,600 --> 00:04:48,680
+59 minus 54 equals 5, write 5
+
+29
+00:04:48,680 --> 00:05:01,060
+Note: Division 779 divided by 18 is division with remainder, remainder equals 5
+
+30
+00:05:01,060 --> 00:05:10,310
+Each division round remainder is always less than divisor
+

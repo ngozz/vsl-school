@@ -1,0 +1,4 @@
+1
+00:00:01,600 --> 00:00:07,970
+Review: "What is a polysemous word?"
+

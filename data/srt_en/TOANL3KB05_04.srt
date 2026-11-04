@@ -1,0 +1,132 @@
+1
+00:00:04,407 --> 00:00:10,401
+Multiply multi-digit numbers with one-digit numbers
+
+2
+00:00:11,631 --> 00:00:21,442
+Perform calculation 1034 times 2
+
+3
+00:00:21,956 --> 00:00:30,281
+Method: set up then calculate
+
+4
+00:00:30,957 --> 00:00:39,887
+When multiplying we perform multiplication from right to left
+
+5
+00:00:40,217 --> 00:00:50,483
+2 times 4 equals 8, write 8
+
+6
+00:00:53,565 --> 00:01:02,647
+2 times 3 equals 6, write 6
+
+7
+00:01:02,647 --> 00:01:12,693
+2 times 0 equals 0, write 0
+
+8
+00:01:13,879 --> 00:01:22,978
+2 times 1 equals 2, write 2
+
+9
+00:01:25,028 --> 00:01:39,183
+Calculation result: 1034 times 2 equals 2068
+
+10
+00:01:44,129 --> 00:01:55,396
+Find result of calculation: 2125 times 3
+
+11
+00:01:56,686 --> 00:02:08,451
+Set up and perform <color=orange><b>multiplication</b></color> from right to left
+
+12
+00:02:09,565 --> 00:02:24,559
+3 times 5 equals 15, write 5 carry 1
+
+13
+00:02:25,745 --> 00:02:40,281
+3 times 2 equals 6, plus 1 equals 7, write 7
+
+14
+00:02:42,066 --> 00:02:50,277
+3 times 1 equals 3, write 3
+
+15
+00:02:51,689 --> 00:03:00,991
+3 times 2 equals 6, write 6
+
+16
+00:03:01,816 --> 00:03:15,594
+Result of <color=orange><b>multiplication</b></color>: 2125 times 3 equals 6375
+
+17
+00:03:19,205 --> 00:03:27,586
+When performing this calculation, we have one carry
+
+18
+00:03:30,030 --> 00:03:42,033
+Find result of calculation 25317 times 3
+
+19
+00:03:43,460 --> 00:03:53,091
+Set up and calculate
+
+20
+00:03:57,311 --> 00:04:08,617
+3 times 7 equals 21, write 1 carry 2
+
+21
+00:04:09,311 --> 00:04:21,582
+3 times 1 equals 3, plus 2 equals 5, write 5
+
+22
+00:04:22,128 --> 00:04:30,214
+3 times 3 equals 9, write 9
+
+23
+00:04:31,214 --> 00:04:41,139
+3 times 5 equals 15, write 5 carry 1
+
+24
+00:04:42,229 --> 00:04:55,515
+3 times 2 equals 6, plus 1 equals 7, write 7
+
+25
+00:04:57,321 --> 00:05:11,227
+Calculation result: 25317 times 3 equals 75951
+
+26
+00:05:12,118 --> 00:05:22,607
+When performing calculation 25317 times 3, you have 2 carries
+
+27
+00:05:29,647 --> 00:05:38,282
+Perform calculation: 3000 times 2
+
+28
+00:05:41,574 --> 00:05:45,586
+To find result of this calculation, we mentally calculate
+
+29
+00:05:46,412 --> 00:05:54,284
+3 thousand times 2 equals 6 thousand
+
+30
+00:05:56,089 --> 00:06:02,000
+Write calculation result
+
+31
+00:06:03,183 --> 00:06:15,263
+3000 times 2 equals 6000
+
+32
+00:06:20,043 --> 00:06:31,263
+Mentally calculate 11000 times 4.
+
+33
+00:06:32,784 --> 00:06:45,700
+11000 times 4 equals 44000
+

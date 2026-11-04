@@ -1,0 +1,112 @@
+1
+00:00:03,750 --> 00:00:07,486
+Example 2.
+
+2
+00:00:08,581 --> 00:00:13,527
+Look at diagram.
+
+3
+00:00:14,566 --> 00:00:20,238
+What does problem state?
+
+4
+00:00:20,529 --> 00:00:28,121
+Both teams have 35 people.
+
+5
+00:00:28,866 --> 00:00:40,120
+Team A has 5 more people than Team B.
+
+6
+00:00:40,525 --> 00:00:46,261
+What does problem ask?
+
+7
+00:00:47,438 --> 00:00:55,961
+How many people does each team have?
+
+8
+00:00:57,123 --> 00:01:13,221
+Solution method 1: Look at diagram and fill blank.
+
+9
+00:01:13,853 --> 00:01:19,796
+From diagram beside, we see:
+
+10
+00:01:21,040 --> 00:01:34,185
+If remove 5 people from Team A, then number of people of two teams equals, equals number of people Team B.
+
+11
+00:01:35,229 --> 00:01:51,199
+From there find Team B number first, then infer Team A number, Team A has 5 more than Team B.
+
+12
+00:01:52,199 --> 00:01:58,479
+Conclusion: Method 1 has 3 steps.
+
+13
+00:02:00,114 --> 00:02:20,996
+Step 1: Find twice smaller number, equals total minus difference.
+
+14
+00:02:22,705 --> 00:02:37,097
+Step 2: Find smaller number equals result of step 1 divide 2.
+
+15
+00:02:37,097 --> 00:02:52,597
+Step 3: Find larger number equals smaller number plus difference.
+
+16
+00:02:53,181 --> 00:03:16,431
+Problem is type finding two numbers given sum of two numbers is 35, difference of two numbers is 5.
+
+17
+00:03:17,542 --> 00:03:23,624
+Solution method 2.
+
+18
+00:03:29,377 --> 00:03:38,034
+From diagram beside, we see:
+
+19
+00:03:39,706 --> 00:03:53,836
+If add 5 people to Team B, then number of people of two teams equals.
+
+20
+00:03:55,136 --> 00:04:12,994
+And equals number of people Team A, from there find Team A number first, then infer Team B number, Team B has 5 fewer than Team A.
+
+21
+00:04:14,822 --> 00:04:22,631
+Conclusion method 2 has three steps.
+
+22
+00:04:24,314 --> 00:04:40,458
+Step 1: Find twice larger number equals total plus difference.
+
+23
+00:04:42,191 --> 00:04:51,486
+Step 2: Find larger number equals result of step 1 divide 2.
+
+24
+00:04:52,758 --> 00:05:07,731
+Step 3: Find smaller number equals larger number minus difference.
+
+25
+00:05:09,237 --> 00:05:16,906
+Conclusion both methods have 3 steps:
+
+26
+00:05:18,060 --> 00:05:31,645
+Step 1: Find twice smaller number or twice larger number.
+
+27
+00:05:31,645 --> 00:05:41,538
+Step 2: Find one number take result of step 1 divide by 2.
+
+28
+00:05:41,538 --> 00:05:48,053
+Step 3: Find remaining number.
+

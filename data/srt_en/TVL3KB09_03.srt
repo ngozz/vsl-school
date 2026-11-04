@@ -1,0 +1,52 @@
+1
+00:00:07,340 --> 00:00:09,470
+There are 3 phrases:
+
+2
+00:00:10,250 --> 00:00:13,240
+teach and care
+
+3
+00:00:14,110 --> 00:00:15,740
+teachers
+
+4
+00:00:16,700 --> 00:00:18,730
+us
+
+5
+00:00:19,040 --> 00:00:27,820
+Arrange given words to form sentence.
+
+6
+00:00:28,810 --> 00:00:36,570
+Correct sentence is: Teachers teach and care for us.
+
+7
+00:00:42,350 --> 00:00:44,970
+There are 3 phrases:
+
+8
+00:00:46,170 --> 00:00:47,820
+diligent
+
+9
+00:00:48,700 --> 00:00:50,460
+us
+
+10
+00:00:51,200 --> 00:00:52,460
+study
+
+11
+00:00:52,730 --> 00:00:59,240
+Arrange the given words to form a sentence.
+
+12
+00:01:00,570 --> 00:01:07,200
+Vietnamese has 2 ways.
+
+13
+00:01:10,800 --> 00:01:18,200
+We study diligently. We diligently study.
+

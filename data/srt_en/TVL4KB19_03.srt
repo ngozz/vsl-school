@@ -1,0 +1,40 @@
+1
+00:00:02,880 --> 00:00:11,110
+You observe plant you like and answer questions in turn.
+
+2
+00:00:12,800 --> 00:00:27,050
+What tree is it? Where is it planted? Who planted it? (Planted since when?)
+
+3
+00:00:29,510 --> 00:00:40,020
+What shape does tree have (tall or short)?
+
+4
+00:00:42,650 --> 00:00:56,020
+How is canopy? What are prominent features of branches, leaves, roots,...?
+
+5
+00:00:59,400 --> 00:01:08,020
+What do you think about that tree?
+
+6
+00:01:10,680 --> 00:01:19,850
+To write essay describing plant you like, you need to answer following questions:
+
+7
+00:01:20,650 --> 00:01:31,800
+What tree is it? Where is it planted? Who planted it? (Planted since when?)
+
+8
+00:01:32,910 --> 00:01:39,770
+What shape does tree have (tall or short)?
+
+9
+00:01:40,850 --> 00:01:52,710
+How is canopy? What are prominent features of branches, leaves, roots,...?
+
+10
+00:01:53,740 --> 00:02:00,080
+What do you think about tree?
+

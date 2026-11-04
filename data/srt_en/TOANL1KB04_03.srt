@@ -1,0 +1,64 @@
+1
+00:00:05,840 --> 00:00:11,930
+Subtraction within 6
+
+2
+00:00:15,800 --> 00:00:24,060
+Look at the picture and answer the question
+
+3
+00:00:26,750 --> 00:00:32,680
+There are 6 ducks
+
+4
+00:00:38,770 --> 00:00:46,330
+There are 2 ducks that just went up
+
+5
+00:00:50,260 --> 00:00:56,480
+There are 4 ducks left in the pond
+
+6
+00:00:58,600 --> 00:01:07,220
+We have the calculation 6 - 2 = 4
+
+7
+00:01:10,130 --> 00:01:14,550
+There are 6 round dots
+
+8
+00:01:14,550 --> 00:01:19,530
+Cross out 2 round dots
+
+9
+00:01:28,510 --> 00:01:35,350
+There are 4 round dots left
+
+10
+00:01:38,080 --> 00:01:48,510
+We have the calculation 6 - 2 = 4
+
+11
+00:01:50,280 --> 00:02:00,710
+There are 5 round dots, cross out 2 round dots, there are 3 round dots left.
+
+12
+00:02:01,770 --> 00:02:07,660
+So 5 - 2 equals how many?
+
+13
+00:02:17,200 --> 00:02:23,440
+Five minus two equals three
+
+14
+00:02:26,770 --> 00:02:35,680
+We have the calculation 5 - 2 = 3
+
+15
+00:02:37,310 --> 00:02:41,620
+You perform the calculation
+
+16
+00:02:42,860 --> 00:02:51,280
+Example: 3 - 2 = 1
+

@@ -1,0 +1,60 @@
+1
+00:00:00,510 --> 00:00:04,820
+Addition within 6
+
+2
+00:00:06,650 --> 00:00:14,970
+Look at the picture and fill in the appropriate numbers
+
+3
+00:00:22,020 --> 00:00:36,770
+There are 3 birds on a branch, plus 2 more birds. There are 5 birds in total
+
+4
+00:00:43,340 --> 00:00:47,510
+Three plus two equals how many?
+
+5
+00:00:52,800 --> 00:00:57,710
+Three plus two equals five
+
+6
+00:00:59,310 --> 00:01:10,600
+There are 3 circles plus 2 circles. There are 5 circles in total
+
+7
+00:01:16,740 --> 00:01:20,880
+Three plus two equals how many?
+
+8
+00:01:28,110 --> 00:01:33,850
+Three plus two equals five
+
+9
+00:01:37,770 --> 00:01:46,420
+There are 4 trees and 2 trees. How many trees are there in total?
+
+10
+00:01:49,450 --> 00:01:53,370
+There are 6 trees in total
+
+11
+00:01:55,200 --> 00:02:01,910
+4 trees and 2 trees are 6 trees
+
+12
+00:02:04,970 --> 00:02:09,020
+Four plus two equals six
+
+13
+00:02:15,340 --> 00:02:28,880
+Look at the picture and fill in the appropriate equation
+
+14
+00:02:43,340 --> 00:02:59,880
+Look at the picture and fill in the appropriate equation
+
+15
+00:03:05,600 --> 00:03:12,620
+three plus three equals six
+

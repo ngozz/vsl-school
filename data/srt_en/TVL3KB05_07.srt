@@ -1,0 +1,4 @@
+1
+00:00:00,820 --> 00:00:05,000
+Review lesson and redo exercises above everyone!
+

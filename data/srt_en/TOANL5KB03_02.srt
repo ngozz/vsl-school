@@ -1,0 +1,56 @@
+1
+00:00:01,880 --> 00:00:07,932
+Add two decimal numbers.
+
+2
+00:00:08,580 --> 00:00:16,946
+We add two decimal numbers through example below.
+
+3
+00:00:17,545 --> 00:00:21,751
+To perform this calculation we do as follows:
+
+4
+00:00:22,510 --> 00:00:42,219
+Step 1: Set up: Write this addend under that addend so digits in same place are aligned in columns.
+
+5
+00:00:42,437 --> 00:00:51,584
+Step 2: Add like adding natural numbers.
+
+6
+00:00:52,446 --> 00:01:02,993
+Step 3: Place comma at sum aligned with comma at addends.
+
+7
+00:01:11,499 --> 00:01:21,597
+15.90 plus 8.75 equals 24.65.
+
+8
+00:01:23,492 --> 00:01:25,905
+Remember.
+
+9
+00:01:26,374 --> 00:01:32,733
+To add two decimal numbers we do as follows:
+
+10
+00:01:33,673 --> 00:01:48,826
+Write this addend under that addend so digits in same place aligned in columns.
+
+11
+00:01:50,009 --> 00:01:57,985
+Add like adding natural numbers.
+
+12
+00:01:59,195 --> 00:02:08,060
+Write comma at sum aligned with commas of addends.
+
+13
+00:02:11,547 --> 00:02:17,722
+Example 2:
+
+14
+00:02:15,043 --> 00:02:33,472
+Check setup. Correct mark D, wrong mark S.
+

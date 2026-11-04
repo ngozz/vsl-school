@@ -1,0 +1,92 @@
+1
+00:00:00,700 --> 00:00:05,220
+You answer some questions below.
+
+2
+00:00:08,970 --> 00:00:14,340
+What does the reading title tell about the content?
+
+3
+00:00:24,830 --> 00:00:29,520
+Answer: The reading mentions 2 issues:
+
+4
+00:00:32,140 --> 00:00:36,440
+1. Benefits of the internet.
+
+5
+00:00:38,920 --> 00:00:43,150
+2. Harms of the internet.
+
+6
+00:00:46,360 --> 00:00:51,710
+What benefits of the internet does the reading mention?
+
+7
+00:00:54,960 --> 00:01:02,290
+A. Reduce depression, increase awareness.
+
+8
+00:01:05,760 --> 00:01:11,000
+B. Sleep easier.
+
+9
+00:01:13,160 --> 00:01:20,290
+C. Open many learning opportunities for everyone.
+
+10
+00:01:23,260 --> 00:01:28,900
+D. Shorten the distance between everyone.
+
+11
+00:01:31,530 --> 00:01:39,580
+E. The internet also contributes to improving the national economy.
+
+12
+00:01:42,450 --> 00:01:50,200
+G. Create more jobs for everyone.
+
+13
+00:01:59,470 --> 00:02:06,530
+Why does the internet open many learning opportunities for everyone?
+
+14
+00:02:16,560 --> 00:02:25,230
+Answer: The internet opens many learning opportunities for everyone because:
+
+15
+00:02:27,280 --> 00:02:40,540
+The internet is a library, a huge and endless treasure of knowledge.
+
+16
+00:02:44,500 --> 00:02:53,600
+Students can also study online, with more flexible study time.
+
+17
+00:02:58,020 --> 00:03:04,400
+What harms does the reading mention if using the internet improperly?
+
+18
+00:03:07,820 --> 00:03:11,930
+A. Cause depression.
+
+19
+00:03:13,450 --> 00:03:18,270
+B. Cause insomnia.
+
+20
+00:03:20,750 --> 00:03:24,830
+C. Lose ability to concentrate.
+
+21
+00:03:27,880 --> 00:03:32,190
+D. Reduce memory.
+
+22
+00:03:42,100 --> 00:03:46,840
+You find the advice sentence in the passage?
+
+23
+00:03:49,340 --> 00:03:55,300
+Answer: "Please use the internet properly."
+

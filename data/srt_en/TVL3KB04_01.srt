@@ -1,0 +1,4 @@
+1
+00:00:00,710 --> 00:00:07,420
+Today you review words belonging to theme: "young generation".
+

@@ -1,0 +1,88 @@
+1
+00:00:01,310 --> 00:00:07,330
+Which sentence in application introduces student's name?
+
+2
+00:00:07,860 --> 00:00:12,840
+Choose correct answer:
+
+3
+00:00:14,620 --> 00:00:26,110
+A. Born June 29, 2011.
+
+4
+00:00:26,510 --> 00:00:39,240
+B. My name is: Luu Tuong Van.
+
+5
+00:00:41,040 --> 00:00:59,000
+C. Student of class 3C Kim Dong Elementary School.
+
+6
+00:01:01,530 --> 00:01:14,950
+Sentence in application introducing student's name is: My name is: Luu Tuong Van.
+
+7
+00:01:18,530 --> 00:01:24,040
+Student sends application to whom?
+
+8
+00:01:24,910 --> 00:01:29,730
+Mark X on correct answers.
+
+9
+00:01:30,460 --> 00:01:35,260
+Class 3C
+
+10
+00:01:35,970 --> 00:01:40,460
+Team Leader Board
+
+11
+00:01:40,860 --> 00:01:47,660
+Joint Troop Command Board
+
+12
+00:01:49,660 --> 00:02:18,350
+Student Van sends application to Team Leader Board and Joint Troop Command Board of Kim Dong Elementary School.
+
+13
+00:02:21,730 --> 00:02:27,170
+Student writes application to do what?
+
+14
+00:02:27,570 --> 00:02:32,660
+Choose correct answer.
+
+15
+00:02:33,110 --> 00:02:39,750
+Tell answer true or false.
+
+16
+00:02:40,060 --> 00:02:48,040
+1) Student writes application to learn about Team.
+
+17
+00:02:48,480 --> 00:02:53,400
+2) Student writes application to join Team.
+
+18
+00:02:57,220 --> 00:03:05,480
+Student writes application to join Team.
+
+19
+00:03:06,170 --> 00:03:13,550
+Student promises what?
+
+20
+00:03:14,570 --> 00:03:21,150
+Follow 5 things Uncle Ho taught.
+
+21
+00:03:21,460 --> 00:03:26,170
+Follow Team Charter.
+
+22
+00:03:26,170 --> 00:03:32,730
+Keep Team honor.
+

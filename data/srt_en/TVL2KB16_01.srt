@@ -1,0 +1,4 @@
+1
+00:00:00,300 --> 00:00:09,350
+You have read story and know story has characters Monkey and Crocodile.
+

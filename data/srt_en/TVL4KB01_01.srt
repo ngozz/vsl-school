@@ -1,0 +1,4 @@
+1
+00:00:04,000 --> 00:00:19,330
+Today you will review lesson "Legend of Ba Be Lake".
+

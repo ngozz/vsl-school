@@ -1,0 +1,100 @@
+1
+00:00:07,950 --> 00:00:14,330
+Who leads guests to visit school?
+
+2
+00:00:14,330 --> 00:00:23,240
+Choose True or False
+
+3
+00:00:25,130 --> 00:00:30,950
+School Principal leads guests to visit school.
+
+4
+00:00:31,910 --> 00:00:45,000
+Student Sung To Dinh leads guests to visit school.
+
+5
+00:00:47,750 --> 00:00:58,910
+Answer: Sung To Dinh, troop leader leads guests to visit school.
+
+6
+00:00:59,970 --> 00:01:05,820
+In passage above you see Dinh's school has what?
+
+7
+00:01:05,820 --> 00:01:11,460
+Choose correct answers.
+
+8
+00:01:11,460 --> 00:01:15,860
+school gate
+
+9
+00:01:15,860 --> 00:01:19,860
+classrooms
+
+10
+00:01:19,860 --> 00:01:23,910
+kitchen
+
+11
+00:01:23,910 --> 00:01:29,200
+sports field
+
+12
+00:01:29,200 --> 00:01:31,831
+dormitory
+
+13
+00:01:34,680 --> 00:01:47,570
+Answer: Student Dinh leads guests to visit classrooms, kitchen and dormitory.
+
+14
+00:01:58,280 --> 00:02:09,570
+At Dinh's boarding school, when do students study and do homework?
+
+15
+00:02:09,570 --> 00:02:17,240
+Match time and suitable activity:
+
+16
+00:02:20,640 --> 00:02:25,550
+Morning study in class.
+
+17
+00:02:25,550 --> 00:02:32,640
+Afternoon do homework.
+
+18
+00:02:41,660 --> 00:02:47,460
+Outside class hours, what do boarding school students do?
+
+19
+00:02:47,460 --> 00:02:53,170
+Choose correct answers.
+
+20
+00:02:53,170 --> 00:02:57,260
+sing dance
+
+21
+00:02:57,260 --> 00:03:01,020
+play sports
+
+22
+00:03:01,020 --> 00:03:05,110
+watch movies
+
+23
+00:03:05,110 --> 00:03:09,110
+grow vegetables
+
+24
+00:03:09,110 --> 00:03:11,203
+raise chickens
+
+25
+00:03:14,550 --> 00:03:28,260
+Answer: Outside class hours boarding school students sing dance, play sports or grow vegetables, raise chickens to improve meals.
+

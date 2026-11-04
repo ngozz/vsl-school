@@ -1,0 +1,44 @@
+1
+00:00:01,530 --> 00:00:07,930
+You answer questions about story you will tell.
+
+2
+00:00:10,440 --> 00:00:17,170
+Question 1: Story you will tell is about whom?
+
+3
+00:00:23,610 --> 00:00:31,980
+Question 2: Is it story you witnessed or directly participated in?
+
+4
+00:00:39,130 --> 00:00:45,410
+Question 3: How does story start?
+
+5
+00:00:52,750 --> 00:00:59,560
+Question 4: How does main plot develop?
+
+6
+00:01:06,700 --> 00:01:12,690
+Question 5: How does story end?
+
+7
+00:01:19,500 --> 00:01:28,800
+Question 1: Story you will tell is about whom?
+
+8
+00:01:28,800 --> 00:01:41,100
+Question 2: Is it story you witnessed or directly participated in?
+
+9
+00:01:41,720 --> 00:01:51,250
+Question 3: How does story start?
+
+10
+00:01:51,900 --> 00:02:02,000
+Question 4: How does main plot develop?
+
+11
+00:02:02,750 --> 00:02:11,970
+Question 5: How does story end?
+

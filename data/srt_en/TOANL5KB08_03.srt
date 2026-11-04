@@ -1,0 +1,104 @@
+1
+00:00:01,050 --> 00:00:12,250
+Lateral surface area, total surface area of rectangular prism and cube.
+
+2
+00:00:12,250 --> 00:00:21,600
+Lateral surface area, total surface area of rectangular prism.
+
+3
+00:00:21,600 --> 00:00:27,500
+Lateral surface area
+
+4
+00:00:27,500 --> 00:00:42,150
+Lateral surface area of rectangular prism is sum of area of four side faces of rectangular prism.
+
+5
+00:00:42,150 --> 00:00:51,270
+Example: given rectangular prism with length 8 cm,
+
+6
+00:00:51,270 --> 00:01:01,350
+Example: given rectangular prism with length 8 cm, width 5 cm and height 4 cm.
+
+7
+00:01:01,350 --> 00:01:10,520
+Calculate lateral surface area of that rectangular prism.
+
+8
+00:01:11,520 --> 00:01:20,650
+To calculate lateral surface area of rectangular prism we do as follows:
+
+9
+00:01:20,650 --> 00:01:30,850
+Lateral surface area of rectangular prism equals area of rectangular prism when unfolded has:
+
+10
+00:01:30,850 --> 00:01:46,520
+Length is: 5 + 8 + 5 + 8 = 26 (cm)
+
+11
+00:01:46,520 --> 00:01:54,450
+That is equal to perimeter of base face of prism.
+
+12
+00:01:55,150 --> 00:02:05,270
+Width 4 cm (that is equal to prism height).
+
+13
+00:02:05,270 --> 00:02:13,500
+Therefore, lateral surface area of that rectangular prism is:
+
+14
+00:02:13,500 --> 00:02:26,620
+26 x 4 = 104 (cm<sup>2</sup>)
+
+15
+00:02:27,650 --> 00:02:54,270
+Conclusion: To calculate lateral surface area of rectangular prism we take base perimeter times height (same unit).
+
+16
+00:02:56,300 --> 00:03:10,770
+Total surface area
+
+17
+00:03:12,070 --> 00:03:27,970
+Total surface area of rectangular prism is sum of lateral surface area and area of two bases.
+
+18
+00:03:29,970 --> 00:03:47,370
+Example: given rectangular prism with length 8 cm, width 5 cm and height 4 cm.
+
+19
+00:03:47,400 --> 00:03:58,670
+Calculate total surface area of that rectangular prism.
+
+20
+00:03:59,650 --> 00:04:07,650
+To calculate total surface area of rectangular prism we do as follows:
+
+21
+00:04:07,650 --> 00:04:14,700
+Calculate area of one base face.
+
+22
+00:04:14,700 --> 00:04:25,250
+Take lateral surface area plus area of two base faces.
+
+23
+00:04:26,120 --> 00:04:37,900
+Rectangular prism in example above has area of one base face is:
+
+24
+00:04:38,650 --> 00:04:47,870
+8 x 5 = 40 (cm<sup>2</sup>)
+
+25
+00:04:47,870 --> 00:04:56,350
+Therefore, total surface area of that rectangular prism is:
+
+26
+00:04:56,350 --> 00:05:11,820
+104 + 40 x 2 = 184 (cm<sup>2</sup>)
+

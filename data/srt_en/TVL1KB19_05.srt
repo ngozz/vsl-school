@@ -1,0 +1,76 @@
+1
+00:00:01,600 --> 00:00:06,900
+Answer the questions below.
+
+2
+00:00:06,900 --> 00:00:13,900
+What does the lion do when the mouse asks to spare?
+
+3
+00:00:13,900 --> 00:00:19,420
+Mark X before correct answer.
+
+4
+00:00:19,420 --> 00:00:24,150
+Does not spare the mouse.
+
+5
+00:00:24,150 --> 00:00:27,970
+Lets the mouse go.
+
+6
+00:00:27,970 --> 00:00:31,050
+Invites the mouse to be friends.
+
+7
+00:00:34,070 --> 00:00:42,000
+Answer: The lion lets the mouse go.
+
+8
+00:00:42,750 --> 00:00:49,250
+When spared by the lion, what does the mouse say?
+
+9
+00:00:49,250 --> 00:00:55,350
+Mark X before correct answer.
+
+10
+00:00:55,350 --> 00:00:59,220
+Thank you sir.
+
+11
+00:00:59,220 --> 00:01:03,770
+Sir is very kind.
+
+12
+00:01:03,770 --> 00:01:06,870
+Sir be friends with me.
+
+13
+00:01:10,450 --> 00:01:19,070
+Answer: The mouse says thank you sir.
+
+14
+00:01:19,070 --> 00:01:27,150
+What does the mouse do when the lion is caught in net?
+
+15
+00:01:27,720 --> 00:01:34,100
+Mark X before correct answer.
+
+16
+00:01:34,100 --> 00:01:38,400
+Does nothing.
+
+17
+00:01:38,400 --> 00:01:44,520
+Chew through net, save lion.
+
+18
+00:01:44,520 --> 00:01:47,400
+Call friends to help.
+
+19
+00:01:51,470 --> 00:02:00,570
+Answer: The mouse chews through net, saves lion.
+

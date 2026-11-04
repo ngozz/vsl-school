@@ -1,0 +1,24 @@
+1
+00:00:02,502 --> 00:00:07,148
+Kilogram
+
+2
+00:00:11,109 --> 00:00:16,184
+Let's learn about mass units together.
+
+3
+00:00:17,190 --> 00:00:25,595
+Observe the scale and point out which object is heavier, which is lighter.
+
+4
+00:00:39,243 --> 00:00:48,008
+Kilogram is a mass unit.
+
+5
+00:00:49,113 --> 00:00:53,697
+Kilogram is abbreviated as kg.
+
+6
+00:00:56,767 --> 00:01:04,819
+1 kg is read as one kilogram.
+

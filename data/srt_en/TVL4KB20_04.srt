@@ -1,0 +1,12 @@
+1
+00:00:01,200 --> 00:00:08,520
+You answer following questions below.
+
+2
+00:00:08,520 --> 00:00:23,520
+a) Observe picture and tell how many characters story has?
+
+3
+00:00:24,270 --> 00:00:38,170
+Answer: Story has appearance of animals: White Horse, Eagle Brother, Gray Wolf.
+

@@ -1,0 +1,80 @@
+1
+00:00:00,110 --> 00:00:06,820
+Multiplication
+
+2
+00:00:07,710 --> 00:00:16,370
+Let's observe the picture and count.
+
+3
+00:00:17,850 --> 00:00:25,170
+How many oranges are on each plate?
+
+4
+00:00:26,820 --> 00:00:33,170
+Each plate has 5 oranges.
+
+5
+00:00:34,480 --> 00:00:40,570
+How many oranges are there in total?
+
+6
+00:00:41,770 --> 00:00:51,340
+There are 3 plates like that. 5 is taken 3 times.
+
+7
+00:00:52,710 --> 00:01:02,310
+There are 5 + 5 + 5 = 15 oranges in total.
+
+8
+00:01:04,220 --> 00:01:23,200
+5 + 5 + 5 is the sum of 3 identical addends, each addend is 5.
+
+9
+00:01:25,080 --> 00:01:40,220
+We convert to multiplication, write as follows:
+
+10
+00:01:42,400 --> 00:01:50,620
+Read: Five times three equals fifteen.
+
+11
+00:01:53,220 --> 00:02:00,140
+x is called the multiplication sign.
+
+12
+00:02:03,370 --> 00:02:11,600
+Let's observe the picture and count.
+
+13
+00:02:12,570 --> 00:02:18,510
+How many round dots are on each card?
+
+14
+00:02:19,970 --> 00:02:25,220
+Each card has 3 round dots.
+
+15
+00:02:26,400 --> 00:02:30,050
+How many cards are there?
+
+16
+00:02:30,680 --> 00:02:35,170
+There are 4 cards.
+
+17
+00:02:36,080 --> 00:02:43,650
+3 is taken how many times?
+
+18
+00:02:45,540 --> 00:02:50,710
+3 is taken 4 times
+
+19
+00:02:51,420 --> 00:03:01,310
+3 + 3 + 3 + 3 = 12
+
+20
+00:03:02,510 --> 00:03:16,850
+We have multiplication: 3 x 4 = 12
+

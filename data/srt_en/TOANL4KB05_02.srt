@@ -1,0 +1,84 @@
+1
+00:00:06,370 --> 00:00:21,600
+Observe picture graph beside, tell
+
+2
+00:00:22,620 --> 00:00:32,840
+Graph name?
+
+3
+00:00:33,950 --> 00:00:47,950
+Grade 4 sports subjects participate
+
+4
+00:00:49,310 --> 00:00:56,510
+Participating classes (objects)?
+
+5
+00:00:56,510 --> 00:01:10,310
+Classes 4A, 4B, 4C
+
+6
+00:01:11,080 --> 00:01:21,970
+Names of sports subjects grade 4 classes participate?
+
+7
+00:01:21,970 --> 00:01:38,530
+Swimming, jump rope, badminton, chess
+
+8
+00:01:41,220 --> 00:02:03,910
+Which classes in grade 4 participate?
+
+9
+00:02:06,550 --> 00:02:24,440
+Sports each class participates?
+
+10
+00:02:29,000 --> 00:02:34,420
+Conclusion
+
+11
+00:02:34,420 --> 00:02:42,280
+Reading picture graph we know information
+
+12
+00:02:42,280 --> 00:02:58,820
+Graph name: Grade 4 sports subjects participate
+
+13
+00:03:00,200 --> 00:03:06,750
+Names of sports subjects
+
+14
+00:03:07,260 --> 00:03:18,310
+Swimming, jump rope, badminton, chess
+
+15
+00:03:18,310 --> 00:03:22,530
+Names of participating classes
+
+16
+00:03:22,530 --> 00:03:29,710
+4A, 4B, 4C
+
+17
+00:03:29,710 --> 00:03:38,400
+Data
+
+18
+00:03:39,660 --> 00:03:48,200
+3 classes 4A, 4B, 4C
+
+19
+00:03:48,510 --> 00:03:56,620
+4A participated subjects: 3 subjects
+
+20
+00:03:56,620 --> 00:04:00,710
+4B: 2 subjects
+
+21
+00:04:00,710 --> 00:04:06,730
+4C: 2 subjects
+

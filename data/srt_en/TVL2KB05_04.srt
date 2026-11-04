@@ -1,0 +1,28 @@
+1
+00:00:00,140 --> 00:00:07,570
+Do exercise to remember what little friend in picture introduced about himself!
+
+2
+00:00:07,650 --> 00:00:14,490
+Match each sentence with suitable picture.
+
+3
+00:00:15,490 --> 00:00:23,290
+Hello friends!
+
+4
+00:00:25,620 --> 00:00:32,730
+My name is Son.
+
+5
+00:00:35,530 --> 00:00:41,600
+I am a grade 2 student.
+
+6
+00:00:46,520 --> 00:00:52,200
+I like Math subject.
+
+7
+00:00:54,850 --> 00:01:04,670
+At school, I like recess because it is happiest.
+

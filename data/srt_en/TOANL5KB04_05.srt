@@ -1,0 +1,56 @@
+1
+00:00:00,910 --> 00:00:08,020
+Divide one decimal number by one decimal number
+
+2
+00:00:08,020 --> 00:00:16,620
+Calculate 30.24 divided by 8.4 we do as follows
+
+3
+00:00:16,620 --> 00:00:25,310
+Decimal part of divisor 8.4 has one digit.
+
+4
+00:00:25,880 --> 00:00:42,310
+Move comma of number 30.24 to right one digit to get 302.4; remove comma at number 8.4 to get 84.
+
+5
+00:00:42,310 --> 00:00:58,860
+Perform division 302.4 divided by 84 according to dividing decimal number by whole number as above.
+
+6
+00:00:58,860 --> 00:01:10,800
+So 30.24 divided by 8.4 equals 3.6.
+
+7
+00:01:10,800 --> 00:01:19,370
+Conclusion: To divide one decimal number by one decimal number we do as follows:
+
+8
+00:01:19,370 --> 00:01:38,800
+Count how many digits in decimal part of divisor then move comma at dividend to right that many digits.
+
+9
+00:01:40,060 --> 00:01:56,570
+Remove comma at divisor then perform division of decimal number divided by whole number.
+
+10
+00:01:58,040 --> 00:02:05,330
+To firmly grasp rule we do following example:
+
+11
+00:02:05,330 --> 00:02:14,680
+49.95 divided by 1.35
+
+12
+00:02:15,370 --> 00:02:30,750
+Decimal part of both numbers 49.95 and 1.35 both have two digits, remove comma at both numbers we get 4995 and 135.
+
+13
+00:02:30,750 --> 00:02:43,970
+Perform division 4995 divided by 135.
+
+14
+00:02:43,970 --> 00:02:54,060
+So 49.95 divided by 1.35 equals 37.
+

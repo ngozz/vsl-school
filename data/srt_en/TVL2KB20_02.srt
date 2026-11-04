@@ -1,0 +1,4 @@
+1
+00:00:04,200 --> 00:00:12,220
+Observe picture on screen.
+

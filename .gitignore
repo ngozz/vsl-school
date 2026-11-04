@@ -59,3 +59,10 @@ node_modules/
 .wrangler-deploy/
 .wrangler-configuration.json
 package-lock.json
+
+# English translation pipeline (regenerable, local debug only).
+# Shipped results live in data/i18n/en/ and data/srt_en/ and are committed.
+data/i18n/work/
+data/i18n/validation-*.txt
+data/i18n/inspect-*.txt
+data/i18n/dump-*.txt

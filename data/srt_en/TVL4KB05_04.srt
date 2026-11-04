@@ -1,0 +1,8 @@
+1
+00:00:01,660 --> 00:00:06,710
+Let's do following exercise.
+
+2
+00:00:06,710 --> 00:00:14,950
+Make sentence with words: help, love
+

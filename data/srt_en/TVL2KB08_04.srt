@@ -1,0 +1,24 @@
+1
+00:00:03,220 --> 00:00:11,930
+What work is mentioned in lesson?
+
+2
+00:00:11,930 --> 00:00:17,840
+Choose correct answer.
+
+3
+00:00:17,840 --> 00:00:25,310
+A. Talks about eggs.
+
+4
+00:00:25,770 --> 00:00:33,420
+B. Talks about how to boil eggs.
+
+5
+00:00:34,330 --> 00:00:41,620
+C. Talks about tasty boiled egg dish.
+
+6
+00:00:46,910 --> 00:00:55,260
+Talks about how to boil eggs.
+

@@ -1,0 +1,100 @@
+1
+00:00:04,480 --> 00:00:10,260
+Division table
+
+2
+00:00:13,860 --> 00:00:23,860
+Observe the division table, perform calculation 42 : 6
+
+3
+00:00:23,860 --> 00:00:34,860
+From number 6 in the first column following the arrow to number 42
+
+4
+00:00:34,860 --> 00:00:45,280
+From number 42 following the arrow up to first row meets number 7
+
+5
+00:00:45,280 --> 00:00:55,860
+42 : 6 = 7
+
+6
+00:00:55,860 --> 00:01:10,280
+Look at division table, fill in appropriate numbers into the flowers
+
+7
+00:01:10,280 --> 00:01:16,800
+Check the result.
+
+8
+00:01:18,640 --> 00:01:26,570
+49 divided by 7 equals 7
+
+9
+00:01:27,110 --> 00:01:36,370
+72 divided by 9 equals 8
+
+10
+00:01:37,240 --> 00:01:45,880
+64 divided by 8 equals 8
+
+11
+00:01:46,710 --> 00:01:55,400
+40 divided by 8 equals 5
+
+12
+00:01:55,970 --> 00:02:04,710
+54 divided by 6 equals 9
+
+13
+00:02:09,550 --> 00:02:14,370
+Division table 5
+
+14
+00:02:15,150 --> 00:02:20,330
+Example
+
+15
+00:02:22,060 --> 00:02:32,750
+5 : 5 = 1
+
+16
+00:02:35,460 --> 00:02:42,480
+Check division table 5 result
+
+17
+00:02:42,480 --> 00:02:51,200
+Ten divided by five equals two
+
+18
+00:02:51,200 --> 00:03:01,840
+Fifteen divided by five equals three
+
+19
+00:03:01,840 --> 00:03:12,260
+Twenty divided by five equals four
+
+20
+00:03:12,260 --> 00:03:23,220
+Twenty-five divided by five equals five
+
+21
+00:03:23,220 --> 00:03:34,730
+Thirty divided by five equals six
+
+22
+00:03:34,730 --> 00:03:43,330
+Thirty-five divided by five equals seven
+
+23
+00:03:43,330 --> 00:03:52,350
+Forty divided by five equals eight
+
+24
+00:03:52,350 --> 00:04:01,330
+Forty-five divided by five equals nine
+
+25
+00:04:01,330 --> 00:04:12,260
+Fifty divided by five equals ten
+

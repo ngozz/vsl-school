@@ -1,0 +1,28 @@
+1
+00:00:02,480 --> 00:00:08,400
+Read the lesson together with teacher.
+
+2
+00:00:10,040 --> 00:00:14,880
+The Turtle and the Rabbit
+
+3
+00:00:15,760 --> 00:00:21,000
+The Turtle and the Rabbit race.
+
+4
+00:00:22,200 --> 00:00:29,520
+The Rabbit thinks it runs fast, no need to hurry.
+
+5
+00:00:30,880 --> 00:00:39,560
+It chases butterflies, looks at flowers for a long time then runs.
+
+6
+00:00:40,640 --> 00:00:52,560
+The Turtle knows it runs slow so it is diligent, tries hard to run really fast.
+
+7
+00:00:53,800 --> 00:01:01,920
+That's why the Turtle arrives at the finish line before the Rabbit.
+

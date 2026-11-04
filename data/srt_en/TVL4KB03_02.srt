@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:07,680
+Reading: Letter to Friend.
+
+2
+00:00:08,400 --> 00:00:18,800
+Hanoi, August 5, 2020.
+
+3
+00:00:18,800 --> 00:00:23,420
+Dear Hong,
+
+4
+00:00:23,420 --> 00:00:30,710
+I am Nguyen Minh Phuong
+
+5
+00:00:30,710 --> 00:00:52,710
+I am Nguyen Minh Phuong, student of class 4A1 Ly Thai To Elementary School, Hanoi.
+
+6
+00:00:53,970 --> 00:01:06,170
+Today reading newspaper, I learned your family's house was washed away by flood.
+
+7
+00:01:07,110 --> 00:01:16,440
+I write this letter to ask about you and your family.
+
+8
+00:01:18,440 --> 00:01:33,640
+I send you a small amount of money I saved from breakfast money, for you to buy study supplies.
+
+9
+00:01:34,110 --> 00:01:42,130
+Please accept!
+
+10
+00:01:42,130 --> 00:01:52,550
+Hope you and family soon overcome difficulties.
+
+11
+00:01:52,550 --> 00:01:59,930
+Wish you healthy, study well.
+
+12
+00:01:59,930 --> 00:02:20,350
+Your friend Nguyen Minh Phuong.
+

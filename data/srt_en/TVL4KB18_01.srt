@@ -1,0 +1,12 @@
+1
+00:00:00,530 --> 00:00:06,330
+You have read lesson "Spring Arrives".
+
+2
+00:00:01,880 --> 00:00:10,680
+We will read comprehension lesson "Drawing About Safe Living".
+
+3
+00:00:06,330 --> 00:00:14,060
+We will read again and learn lesson content.
+

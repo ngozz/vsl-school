@@ -1,0 +1,8 @@
+1
+00:00:00,910 --> 00:00:03,250
+Hello everyone!
+
+2
+00:00:04,160 --> 00:00:11,460
+Today we will review comparing numbers within 1000 together.
+

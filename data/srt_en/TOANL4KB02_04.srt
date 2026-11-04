@@ -1,0 +1,108 @@
+1
+00:00:00,620 --> 00:00:07,840
+Example 1: Set up then calculate.
+
+2
+00:00:07,840 --> 00:00:18,400
+56 times 23
+
+3
+00:00:19,600 --> 00:00:25,640
+Perform calculation and set up as follows:
+
+4
+00:00:25,640 --> 00:00:31,930
+Set up vertically.
+
+5
+00:00:31,930 --> 00:00:37,970
+Find first partial product.
+
+6
+00:00:37,970 --> 00:00:46,040
+3 times 6 equals 18, write 8 carry 1
+
+7
+00:00:46,040 --> 00:00:59,840
+3 times 5 equals 15, plus 1 equals 16, write 16
+
+8
+00:01:01,150 --> 00:01:07,350
+Find second partial product
+
+9
+00:01:07,350 --> 00:01:16,440
+2 times 6 equals 12, write 2 carry 1
+
+10
+00:01:16,440 --> 00:01:27,310
+2 times 5 equals 10, plus 1 equals 11, write 11
+
+11
+00:01:27,710 --> 00:01:36,370
+Second partial product shifted left by 1 place.
+
+12
+00:01:36,370 --> 00:01:47,280
+Add 2 partial products we get 1288
+
+13
+00:01:48,020 --> 00:01:55,000
+Example 2: Set up then calculate.
+
+14
+00:01:55,530 --> 00:02:04,280
+Calculate 65 times 37
+
+15
+00:02:04,710 --> 00:02:13,370
+Set up multiplication like multiplying by a one-digit number.
+
+16
+00:02:14,040 --> 00:02:19,800
+Find first partial product.
+
+17
+00:02:20,400 --> 00:02:26,370
+Find second partial product
+
+18
+00:02:26,640 --> 00:02:35,370
+Add 2 partial products we get result.
+
+19
+00:02:35,600 --> 00:02:41,170
+First partial product.
+
+20
+00:02:42,440 --> 00:02:52,200
+7 times 65 equals 455
+
+21
+00:02:52,860 --> 00:03:01,530
+Second partial product set below first partial product and shifted one place because 3 is tens place.
+
+22
+00:03:01,530 --> 00:03:10,680
+3 times 65 equals 195
+
+23
+00:03:11,220 --> 00:03:23,330
+Adding two partial products we get 2405
+
+24
+00:03:24,170 --> 00:03:37,110
+Lesson end: When multiplying by a two-digit number we set up like multiplying by one-digit number then perform 3 steps calculation.
+
+25
+00:03:37,110 --> 00:03:39,550
+Find first partial product.
+
+26
+00:03:39,550 --> 00:03:46,330
+Find second partial product set below first partial product (shifted left one place).
+
+27
+00:03:46,330 --> 00:03:52,150
+Find sum of 2 partial products.
+

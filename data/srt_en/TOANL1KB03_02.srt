@@ -1,0 +1,116 @@
+1
+00:00:00,370 --> 00:00:06,880
+Addition. Plus sign
+
+2
+00:00:08,680 --> 00:00:13,450
+How many pink cups are there?
+
+3
+00:00:16,650 --> 00:00:21,200
+There are 2 pink cups.
+
+4
+00:00:22,220 --> 00:00:28,970
+How many blue cups are there?
+
+5
+00:00:31,340 --> 00:00:35,280
+There is 1 blue cup.
+
+6
+00:00:37,940 --> 00:00:41,050
+How many cups are there in total?
+
+7
+00:00:46,480 --> 00:00:51,400
+So there are 3 cups in total.
+
+8
+00:00:52,080 --> 00:00:56,970
+We write
+
+9
+00:01:03,850 --> 00:01:11,940
+Read: two plus one equals three
+
+10
+00:01:17,000 --> 00:01:20,940
+There are 2 chickens.
+
+11
+00:01:22,820 --> 00:01:26,940
+There is 1 chicken running over.
+
+12
+00:01:29,400 --> 00:01:32,280
+How many chickens are there in total
+
+13
+00:01:40,140 --> 00:01:45,510
+There are 3 chickens in total.
+
+14
+00:01:46,850 --> 00:01:50,570
+We write
+
+15
+00:01:58,620 --> 00:02:05,370
+Read: two plus one equals three
+
+16
+00:02:09,880 --> 00:02:14,020
+What is this sign?
+
+17
+00:02:15,140 --> 00:02:19,000
+This is the plus sign.
+
+18
+00:02:22,740 --> 00:02:26,080
+What is this sign?
+
+19
+00:02:27,080 --> 00:02:32,910
+This is the equals sign
+
+20
+00:02:35,020 --> 00:02:38,340
+This is addition.
+
+21
+00:02:44,620 --> 00:02:47,850
+There are 3 ducks in the pond.
+
+22
+00:02:48,570 --> 00:02:53,220
+There is 1 duck swimming over.
+
+23
+00:02:54,540 --> 00:02:58,220
+How many ducks are there in total?
+
+24
+00:03:02,170 --> 00:03:06,710
+There are 4 ducks in total.
+
+25
+00:03:07,770 --> 00:03:13,280
+Write
+
+26
+00:03:19,850 --> 00:03:29,020
+Read: three plus one equals four
+
+27
+00:03:30,880 --> 00:03:40,710
+There are 3 shirts, plus 1 more shirt, there are 4 shirts in total.
+
+28
+00:03:41,480 --> 00:03:45,940
+Write
+
+29
+00:03:50,000 --> 00:04:00,080
+Read: three plus one equals four
+

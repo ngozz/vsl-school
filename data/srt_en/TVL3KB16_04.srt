@@ -1,0 +1,88 @@
+1
+00:00:01,450 --> 00:00:06,270
+Answer following questions:
+
+2
+00:00:06,270 --> 00:00:11,750
+Story mentions names of which little friends?
+
+3
+00:00:11,750 --> 00:00:18,350
+Mark X before correct answer.
+
+4
+00:00:20,470 --> 00:00:36,220
+Story mentions names: Uyen, Van, Hue and Phong.
+
+5
+00:00:36,600 --> 00:00:45,050
+Uyen and friends went where? On what occasion?
+
+6
+00:00:45,050 --> 00:00:53,100
+Mark X before correct answer.
+
+7
+00:00:53,100 --> 00:01:01,150
+Go to flower market just before Tet.
+
+8
+00:01:01,550 --> 00:01:07,270
+Go to park just before Tet.
+
+9
+00:01:07,270 --> 00:01:14,420
+Go to flower market just before Tet.
+
+10
+00:01:15,320 --> 00:01:18,650
+Go to park after Tet.
+
+11
+00:01:24,350 --> 00:01:35,750
+Answer: Uyen and friends went to flower market just before Tet.
+
+12
+00:01:36,350 --> 00:01:45,470
+Uyen and friends met Van where?
+
+13
+00:01:46,150 --> 00:01:51,300
+Choose correct answer:
+
+14
+00:01:51,300 --> 00:01:58,350
+1. At flower market on Nguyen Hue street.
+
+15
+00:01:58,700 --> 00:02:02,550
+2. At summer camp Nha Trang.
+
+16
+00:02:05,520 --> 00:02:18,670
+Answer: Uyen and friends met Van at summer camp Nha Trang.
+
+17
+00:02:20,420 --> 00:02:27,970
+Reading Van's letter, friends wish what?
+
+18
+00:02:28,850 --> 00:02:35,720
+Mark X before correct answer.
+
+19
+00:02:36,420 --> 00:02:41,650
+Send letter to Van right away.
+
+20
+00:02:41,650 --> 00:02:48,600
+Send Van some Southern sunshine.
+
+21
+00:02:49,170 --> 00:02:53,220
+Go to Hanoi visit Van.
+
+22
+00:02:59,800 --> 00:03:11,050
+Answer: Reading Van's letter, friends wish to send Van some Southern sunshine.
+

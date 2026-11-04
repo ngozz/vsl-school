@@ -1,0 +1,36 @@
+1
+00:00:01,860 --> 00:00:12,610
+Solve simple problems related to data obtained from pie chart.
+
+2
+00:00:16,190 --> 00:00:19,380
+Problem 2:
+
+3
+00:00:23,140 --> 00:00:33,040
+Pie chart beside shows percentage of students participating in sports of class 5C.
+
+4
+00:00:33,540 --> 00:00:39,440
+Given class 5C has 32 students.
+
+5
+00:00:39,640 --> 00:00:47,530
+Ask how many students participate in Swimming?
+
+6
+00:00:48,400 --> 00:00:53,920
+- What does problem state?
+
+7
+00:00:54,280 --> 00:01:00,170
+- What does problem ask?
+
+8
+00:01:01,900 --> 00:01:13,230
+- Look at chart and tell what percent of students participate in Swimming?
+
+9
+00:01:14,530 --> 00:01:20,090
+So how many students participate in swimming?
+

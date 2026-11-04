@@ -1,0 +1,4 @@
+1
+00:00:02,000 --> 00:00:11,819
+Let's review how to compare numbers within 10, and practice distinguishing more than, less than, equal.
+

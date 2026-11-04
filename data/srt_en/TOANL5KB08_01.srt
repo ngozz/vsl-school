@@ -1,0 +1,4 @@
+1
+00:00:01,200 --> 00:00:11,370
+Hello everyone. Today we will learn about rectangular prism, cube.
+

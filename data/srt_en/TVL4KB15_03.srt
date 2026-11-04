@@ -1,0 +1,20 @@
+1
+00:00:01,790 --> 00:00:04,180
+You do exercise:
+
+2
+00:00:04,510 --> 00:00:07,930
+Arrange into complete sentence.
+
+3
+00:00:12,990 --> 00:00:18,300
+Complete sentence is: My mother is a doctor.
+
+4
+00:00:24,740 --> 00:00:31,000
+Complete sentence is: Boys are playing shuttlecock.
+
+5
+00:00:37,340 --> 00:00:42,910
+Complete sentence is: Flowers in garden are very beautiful.
+

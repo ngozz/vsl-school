@@ -1,0 +1,8 @@
+1
+00:00:01,470 --> 00:00:04,170
+Hello everyone.
+
+2
+00:00:05,980 --> 00:00:14,500
+Today we will review statistics of data.
+

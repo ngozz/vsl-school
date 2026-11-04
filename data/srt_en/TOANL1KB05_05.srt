@@ -1,0 +1,68 @@
+1
+00:00:04,860 --> 00:00:14,770
+Tens and ones
+
+2
+00:00:15,620 --> 00:00:26,570
+There are 10 cubes, also called one group of ten cubes.
+
+3
+00:00:26,930 --> 00:00:38,950
+10, also called 1 ten
+
+4
+00:00:42,240 --> 00:00:51,880
+There are 20 cubes, also called two groups of ten cubes.
+
+5
+00:00:52,550 --> 00:01:04,930
+20, also called 2 tens
+
+6
+00:01:06,310 --> 00:01:14,260
+There are 30 squares
+
+7
+00:01:14,840 --> 00:01:27,640
+30 cubes, also called 3 groups of ten cubes.
+
+8
+00:01:28,350 --> 00:01:35,130
+40 cubes
+
+9
+00:01:35,130 --> 00:01:45,730
+40 cubes is how many groups of ten cubes?
+
+10
+00:01:47,000 --> 00:01:53,150
+How many cubes are there?
+
+11
+00:01:54,170 --> 00:02:01,730
+There are 42 cubes
+
+12
+00:02:02,440 --> 00:02:13,820
+How many groups of ten cubes and how many loose cubes?
+
+13
+00:02:14,660 --> 00:02:22,970
+There are 4 groups of ten cubes and 2 loose cubes.
+
+14
+00:02:23,110 --> 00:02:26,640
+Conclusion
+
+15
+00:02:26,640 --> 00:02:38,480
+42 consists of 4 tens and 2 ones
+
+16
+00:02:39,350 --> 00:02:46,110
+Look at the picture and answer the question
+
+17
+00:02:46,110 --> 00:02:58,770
+65 consists of how many tens and how many ones?
+

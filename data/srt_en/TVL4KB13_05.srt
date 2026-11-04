@@ -1,0 +1,4 @@
+1
+00:00:01,260 --> 00:00:11,860
+Laughter has many good effects for health, so we should live happily every day.
+

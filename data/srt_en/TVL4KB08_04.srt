@@ -1,0 +1,8 @@
+1
+00:00:01,550 --> 00:00:10,730
+You observe pictures about two talented astronomers.
+
+2
+00:00:11,840 --> 00:00:16,400
+What are scientists' names?
+

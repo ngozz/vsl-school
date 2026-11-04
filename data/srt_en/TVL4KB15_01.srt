@@ -1,0 +1,4 @@
+1
+00:00:01,820 --> 00:00:14,060
+Today you learn about sentence and main parts of sentence.
+

@@ -1,0 +1,8 @@
+1
+00:00:01,330 --> 00:00:11,170
+Learn meaning of word "hesitate".
+
+2
+00:00:11,170 --> 00:00:20,800
+hesitate: try hard to do something.
+

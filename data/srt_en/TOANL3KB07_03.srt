@@ -1,0 +1,160 @@
+1
+00:00:00,530 --> 00:00:10,180
+Calculate value of expression with up to two operation signs.
+
+2
+00:00:14,190 --> 00:00:21,210
+Example 1: Calculate value of expression.
+
+3
+00:00:21,810 --> 00:00:32,440
+Expression: 20 + 50 - 5 has addition and subtraction.
+
+4
+00:00:33,410 --> 00:00:40,080
+Perform calculation take: 20 + 50 = 70
+
+5
+00:00:42,610 --> 00:00:50,650
+Then take: 70 - 5 = 65
+
+6
+00:00:51,890 --> 00:01:02,540
+So calculating value of expression 20 + 50 - 5 we perform operations in order from left to right
+
+7
+00:01:05,470 --> 00:01:16,480
+Expression 81 : 9 x 7 has division and multiplication.
+
+8
+00:01:17,960 --> 00:01:28,270
+We calculate value of expression 81 : 9 x 7 as follows:
+
+9
+00:01:29,650 --> 00:01:38,120
+Take 81 : 9 = 9 then multiply by 7.
+
+10
+00:01:38,990 --> 00:01:42,400
+then we have result equal to 63
+
+11
+00:01:43,740 --> 00:01:55,720
+So calculating expression 81 : 9 x 7 we also perform operations from left to right.
+
+12
+00:01:56,360 --> 00:02:02,260
+You need to remember if in expression there are only addition, subtraction
+
+13
+00:02:02,430 --> 00:02:13,820
+or only multiplication, division then we perform operations in order from left to right
+
+14
+00:02:22,400 --> 00:02:28,540
+Example 2: Calculate expression value.
+
+15
+00:02:29,790 --> 00:02:41,870
+In expression 253 + 10 x 4 what operations are there.
+
+16
+00:02:44,110 --> 00:02:55,130
+in expression 253 + 10 x 4 there is addition and multiplication
+
+17
+00:02:56,210 --> 00:03:05,170
+To calculate value of expression 253 + 10 x 4 we do as follows:
+
+18
+00:03:06,920 --> 00:03:12,130
+Perform multiplication first.
+
+19
+00:03:14,290 --> 00:03:19,780
+We have: 10 x 4 = 40
+
+20
+00:03:20,360 --> 00:03:31,170
+So: 253 + 10 x 4 = 253 + 40
+
+21
+00:03:33,720 --> 00:03:37,370
+Then perform addition
+
+22
+00:03:39,720 --> 00:03:46,670
+take 253 + 40 = 293
+
+23
+00:03:51,800 --> 00:04:01,100
+Perform calculation 93 - 48 : 8
+
+24
+00:04:05,260 --> 00:04:14,570
+In expression there are only subtraction and division then perform division first then subtraction after.
+
+25
+00:04:17,160 --> 00:04:22,010
+Check result of calculation:
+
+26
+00:04:29,160 --> 00:04:47,410
+You need to remember if in expression there are addition, subtraction, multiplication, division then perform multiplication, division first then addition, subtraction after.
+
+27
+00:04:53,560 --> 00:04:58,420
+Example 3: Calculate expression value.
+
+28
+00:05:01,100 --> 00:05:06,530
+Expression (40 + 5) : 5
+
+29
+00:05:08,000 --> 00:05:13,900
+Has addition, division and parentheses.
+
+30
+00:05:16,690 --> 00:05:27,320
+Calculate value of expression (40 + 5) : 5 by performing operations inside parentheses first.
+
+31
+00:05:28,240 --> 00:05:31,250
+We calculate as follows.
+
+32
+00:05:32,770 --> 00:05:36,050
+Inside parentheses.
+
+33
+00:05:37,790 --> 00:05:42,530
+(40 + 5) = 45
+
+34
+00:05:45,470 --> 00:05:50,270
+Take 45 divided by 5 gets 9
+
+35
+00:05:51,650 --> 00:06:00,780
+Value of expression (40 + 5 ) : 5 is 9
+
+36
+00:06:03,560 --> 00:06:12,200
+So when calculating value of expression with parentheses then we perform operations inside parentheses first.
+
+37
+00:06:20,700 --> 00:06:29,400
+Calculate expression value: 3 x (70 - 40)
+
+38
+00:06:33,890 --> 00:06:39,330
+Check calculation method and result again.
+
+39
+00:06:49,870 --> 00:06:59,330
+Perform calculating expression value: 435 - (20 + 15)
+
+40
+00:07:03,230 --> 00:07:08,990
+Check calculation method and result again.
+

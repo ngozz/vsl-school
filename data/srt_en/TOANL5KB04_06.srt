@@ -1,0 +1,12 @@
+1
+00:00:04,152 --> 00:00:11,686
+Multiply one decimal number by 10, 100, 1000,...
+
+2
+00:00:13,220 --> 00:00:40,956
+To multiply one decimal number by 10, 100, 1000,... just move comma of that number successively to right one, two, three,... digits.
+
+3
+00:00:44,533 --> 00:00:48,881
+Do exercise below:
+

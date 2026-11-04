@@ -1,0 +1,80 @@
+1
+00:00:00,260 --> 00:00:05,000
+You do following exercise together:
+
+2
+00:00:05,950 --> 00:00:12,510
+Classify words by group.
+
+3
+00:00:14,310 --> 00:00:21,620
+child
+
+4
+00:00:22,400 --> 00:00:30,020
+well-behaved
+
+5
+00:00:32,460 --> 00:00:37,550
+lovable
+
+6
+00:00:40,370 --> 00:00:44,550
+care
+
+7
+00:00:49,150 --> 00:00:53,550
+honest
+
+8
+00:00:57,930 --> 00:01:02,480
+teenager
+
+9
+00:01:06,310 --> 00:01:10,770
+kind
+
+10
+00:01:15,060 --> 00:01:20,150
+teen
+
+11
+00:01:24,150 --> 00:01:28,750
+concern
+
+12
+00:01:29,750 --> 00:01:36,130
+You classify words into 3 groups:
+
+13
+00:01:37,680 --> 00:01:44,240
+Group 1: Words for children.
+
+14
+00:01:45,620 --> 00:01:54,750
+Group 2: Words for children's personality.
+
+15
+00:01:56,330 --> 00:02:07,800
+Group 3: Words for feelings or adults' care toward children.
+
+16
+00:02:09,330 --> 00:02:22,680
+You observe teacher example on screen.
+
+17
+00:02:23,400 --> 00:02:32,550
+You do exercise according to example!
+
+18
+00:02:34,110 --> 00:02:52,260
+Words for children: child, teenager, teen.
+
+19
+00:02:53,840 --> 00:03:13,480
+Words for children's personality: well-behaved, honest, kind.
+
+20
+00:03:15,080 --> 00:03:32,080
+Words for feelings or adults' care toward children: lovable, care, concern.
+

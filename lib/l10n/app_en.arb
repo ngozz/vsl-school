@@ -39,10 +39,10 @@
   "updateCheckFailed": "Could not check: {error}",
   "upToDate": "Content is up to date.",
 
-  "subjectMath": "Maths",
-  "subjectLiterature": "Vietnamese",
+  "subjectMath": "Math",
+  "subjectLiterature": "Literature",
   "subjectMathShort": "Num",
-  "subjectLiteratureShort": "Viet",
+  "subjectLiteratureShort": "Lit",
   "gradeChip": "Grade {grade}",
   "hasUpdate": "Update available",
 

@@ -1,0 +1,44 @@
+1
+00:00:00,750 --> 00:00:07,970
+I have following occupation words:
+
+2
+00:00:08,300 --> 00:00:12,500
+doctor
+
+3
+00:00:12,920 --> 00:00:16,670
+teacher
+
+4
+00:00:17,200 --> 00:00:20,920
+farmer
+
+5
+00:00:21,400 --> 00:00:26,650
+builder
+
+6
+00:00:26,650 --> 00:00:30,900
+tailor
+
+7
+00:00:30,900 --> 00:00:35,070
+painter
+
+8
+00:00:35,720 --> 00:00:46,270
+You observe picture in picture and choose given word to point each person drawn.
+
+9
+00:00:48,850 --> 00:00:53,020
+Answer:
+
+10
+00:00:58,050 --> 00:01:06,870
+Person in picture is who, doing what?
+
+11
+00:01:07,200 --> 00:01:11,600
+Answer
+

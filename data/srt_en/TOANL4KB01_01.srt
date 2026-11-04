@@ -1,0 +1,16 @@
+1
+00:00:00,213 --> 00:00:02,703
+Hello everyone.
+
+2
+00:00:04,264 --> 00:00:10,329
+We will review multi-digit numbers.
+
+3
+00:00:12,913 --> 00:00:18,886
+Practice determining numbers by place and class.
+
+4
+00:00:21,166 --> 00:00:28,308
+Practice reading writing multi-digit numbers up to millions class.
+

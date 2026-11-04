@@ -1,0 +1,40 @@
+1
+00:00:00,800 --> 00:00:04,850
+Parallelogram
+
+2
+00:00:04,850 --> 00:00:12,720
+Observe picture beside.
+
+3
+00:00:14,420 --> 00:00:22,420
+Parallelogram ABCD has:
+
+4
+00:00:23,350 --> 00:00:32,470
+Side AB parallel to side DC.
+
+5
+00:00:33,370 --> 00:00:41,670
+AB = DC.
+
+6
+00:00:42,200 --> 00:00:49,900
+Side AD parallel to side BC.
+
+7
+00:00:49,900 --> 00:00:57,470
+AD = BC.
+
+8
+00:00:57,720 --> 00:01:04,220
+Parallelogram has characteristics:
+
+9
+00:01:04,650 --> 00:01:14,750
+Two pairs of opposite sides parallel and equal.
+
+10
+00:01:15,700 --> 00:01:31,420
+Conclusion: Parallelogram has two pairs of opposite sides parallel and equal.
+

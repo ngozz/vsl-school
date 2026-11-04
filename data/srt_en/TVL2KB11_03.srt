@@ -1,0 +1,36 @@
+1
+00:00:01,020 --> 00:00:16,170
+Story tells about two characters Son Tinh and Thuy Tinh.
+
+2
+00:00:17,770 --> 00:00:22,850
+Son Tinh is mountain god.
+
+3
+00:00:23,250 --> 00:00:30,080
+Thuy Tinh is water god.
+
+4
+00:00:31,570 --> 00:00:49,140
+In story, besides Son Tinh and Thuy Tinh, story also has King Hung and princess Mi Nuong.
+
+5
+00:00:51,250 --> 00:00:59,420
+Match word cell writing character name with character picture.
+
+6
+00:01:05,250 --> 00:01:13,770
+This is King Hung, father of princess Mi Nuong.
+
+7
+00:01:17,050 --> 00:01:23,310
+This is princess Mi Nuong.
+
+8
+00:01:26,340 --> 00:01:31,850
+This is Son Tinh (mountain god).
+
+9
+00:01:35,170 --> 00:01:42,570
+This is Thuy Tinh (water god).
+

@@ -1,0 +1,12 @@
+1
+00:00:02,810 --> 00:00:06,080
+A sentence usually has two parts:
+
+2
+00:00:08,730 --> 00:00:26,880
+First part is subject, answers question: Who (which person, thing)?
+
+3
+00:00:29,440 --> 00:00:45,950
+Second part is predicate, answers question: Is what? / Do what? / How?
+

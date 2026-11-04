@@ -1,0 +1,4 @@
+1
+00:00:01,220 --> 00:00:07,420
+Let's read lesson again and answer questions in lesson.
+

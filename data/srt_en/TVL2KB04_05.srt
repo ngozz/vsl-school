@@ -1,0 +1,20 @@
+1
+00:00:04,500 --> 00:00:12,550
+Do exercise to choose suitable phrase for blank in sentence.
+
+2
+00:00:14,170 --> 00:00:17,620
+First exercise.
+
+3
+00:00:18,520 --> 00:00:24,070
+Choose female teacher or student?
+
+4
+00:00:24,820 --> 00:00:29,470
+Second exercise.
+
+5
+00:00:30,450 --> 00:00:37,270
+Choose study or play?
+

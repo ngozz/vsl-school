@@ -1,0 +1,4 @@
+1
+00:00:01,460 --> 00:00:07,500
+We will read comprehension lesson "Grandfather".
+

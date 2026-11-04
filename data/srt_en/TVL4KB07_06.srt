@@ -1,0 +1,4 @@
+1
+00:00:01,575 --> 00:00:08,071
+Let's read story again and answer questions in lesson everyone!
+

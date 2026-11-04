@@ -1,0 +1,20 @@
+1
+00:00:02,020 --> 00:00:12,170
+You summarize Hang Trong Paintings.
+
+2
+00:00:12,620 --> 00:00:39,270
+Hint: You tell what information, understanding the passage brings to readers about Hang Trong paintings.
+
+3
+00:00:40,520 --> 00:00:50,700
+Hang Trong paintings have a very unique beauty of countryside life:
+
+4
+00:00:51,050 --> 00:00:59,120
+paintings of pigs, chickens, mice, frogs, coconut tree paintings, beauty paintings...
+
+5
+00:00:59,120 --> 00:01:14,570
+This is a simple but unique line of paintings, with color technique from ordinary trees and materials in nature.
+

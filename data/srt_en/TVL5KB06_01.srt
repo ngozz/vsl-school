@@ -1,0 +1,8 @@
+1
+00:00:02,550 --> 00:00:10,720
+You have read lesson "What Is Most Precious".
+
+2
+00:00:14,260 --> 00:00:23,170
+Reading is a conversation, debate about what is most precious in life.
+

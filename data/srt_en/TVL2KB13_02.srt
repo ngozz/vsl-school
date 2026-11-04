@@ -1,0 +1,36 @@
+1
+00:00:01,770 --> 00:00:09,110
+MONKEY ISLAND RULES
+
+2
+00:00:09,110 --> 00:00:16,820
+Monkey Island is an area preserving monkey species.
+
+3
+00:00:17,310 --> 00:00:28,730
+Visitors coming to Monkey Island need to follow these regulations:
+
+4
+00:00:29,550 --> 00:00:39,840
+1. Buy admission ticket before going up island.
+
+5
+00:00:40,950 --> 00:00:50,040
+2. Do not tease animals kept in cages.
+
+6
+00:00:50,240 --> 00:01:00,060
+3. Do not feed animals strange food.
+
+7
+00:01:00,680 --> 00:01:09,370
+4. Keep general hygiene on island.
+
+8
+00:01:09,510 --> 00:01:16,680
+January 15, 1990
+
+9
+00:01:16,680 --> 00:01:26,930
+MONKEY ISLAND TOURISM POINT MANAGEMENT BOARD
+

@@ -1,0 +1,100 @@
+1
+00:00:00,500 --> 00:00:08,120
+Subtraction (with regrouping) within 100
+
+2
+00:00:08,720 --> 00:00:21,220
+Perform calculation 51 - 45 = ?
+
+3
+00:00:22,570 --> 00:00:27,320
+Step 1: Set up
+
+4
+00:00:27,320 --> 00:00:40,750
+Write tens under tens, ones under ones.
+
+5
+00:00:40,750 --> 00:00:46,470
+Step 2: Calculate from right to left
+
+6
+00:00:46,470 --> 00:01:02,950
+1 cannot subtract 5, take 11 minus 5 equals 6, write 6 carry 1.
+
+7
+00:01:02,950 --> 00:01:12,370
+4 plus 1 equals 5; 5 minus 5 equals 0, write 0.
+
+8
+00:01:12,370 --> 00:01:19,400
+So 51 - 45 = 6
+
+9
+00:01:21,850 --> 00:01:32,750
+Perform calculation 31 - 5 = ?
+
+10
+00:01:33,620 --> 00:01:37,720
+Step 1: Set up
+
+11
+00:01:37,720 --> 00:01:49,800
+Write tens under tens, ones under ones.
+
+12
+00:01:50,320 --> 00:01:55,600
+Step 2: Calculate from right to left
+
+13
+00:01:55,970 --> 00:02:10,570
+1 cannot subtract 5, take 11 minus 5 equals 6, write 6 carry 1.
+
+14
+00:02:10,570 --> 00:02:17,920
+3 minus 1 equals 2, write 2.
+
+15
+00:02:17,920 --> 00:02:26,250
+So 31 - 5 = 26
+
+16
+00:02:28,970 --> 00:02:33,550
+Perform calculation
+
+17
+00:02:33,550 --> 00:02:41,870
+62 - 38 = ?
+
+18
+00:02:41,870 --> 00:02:54,150
+2 cannot subtract 8, take 12 minus 8 equals 4, write 4 carry 1.
+
+19
+00:02:54,150 --> 00:03:04,920
+3 plus 1 equals 4; 6 minus 4 equals 2, write 2.
+
+20
+00:03:05,520 --> 00:03:14,300
+So: 62 - 38 = 24
+
+21
+00:03:16,370 --> 00:03:21,820
+Perform calculation
+
+22
+00:03:21,820 --> 00:03:29,970
+62 - 8 = ?
+
+23
+00:03:31,250 --> 00:03:43,350
+2 cannot subtract 8, take 12 minus 8 equals 4, write 4 carry 1.
+
+24
+00:03:43,350 --> 00:03:51,200
+6 minus 1 equals 5, write 5.
+
+25
+00:03:51,200 --> 00:03:59,420
+So: 62 - 8 = 54
+

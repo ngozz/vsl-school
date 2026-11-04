@@ -1,0 +1,32 @@
+1
+00:00:01,060 --> 00:00:08,920
+Longer, shorter
+
+2
+00:00:10,140 --> 00:00:20,900
+Example: Look at the picture and tell which object is longer, which is shorter?
+
+3
+00:00:22,220 --> 00:00:30,430
+The orange paper strip is longer than the purple paper strip.
+
+4
+00:00:32,560 --> 00:00:40,450
+The purple paper strip is shorter than the orange paper strip.
+
+5
+00:00:45,040 --> 00:00:52,130
+Pencil A is longer than pencil B.
+
+6
+00:00:54,110 --> 00:01:00,960
+Pencil B is shorter than pencil A.
+
+7
+00:01:05,970 --> 00:01:13,860
+Ruler A is shorter than ruler B.
+
+8
+00:01:15,560 --> 00:01:22,960
+Ruler B is longer than ruler A.
+

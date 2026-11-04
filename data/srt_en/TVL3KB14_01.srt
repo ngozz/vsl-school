@@ -1,0 +1,4 @@
+1
+00:00:03,650 --> 00:00:09,680
+Today, you will learn how to write descriptive paragraph.
+

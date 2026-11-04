@@ -1,0 +1,28 @@
+1
+00:00:02,268 --> 00:00:11,317
+Tell about some activities of your school.
+
+2
+00:00:15,693 --> 00:00:23,760
+Daily, what do you and friends usually do at school?
+
+3
+00:00:26,000 --> 00:00:28,577
+study
+
+4
+00:00:28,577 --> 00:00:31,003
+play
+
+5
+00:00:31,724 --> 00:00:34,551
+read books
+
+6
+00:00:34,551 --> 00:00:37,176
+play sports
+
+7
+00:00:37,176 --> 00:00:51,280
+Mark X before your choice.
+

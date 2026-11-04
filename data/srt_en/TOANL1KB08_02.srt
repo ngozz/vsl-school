@@ -1,0 +1,24 @@
+1
+00:00:01,100 --> 00:00:09,000
+Example 1: Calculate 57 – 23
+
+2
+00:00:09,000 --> 00:00:14,020
+Step 1: Set up
+
+3
+00:00:14,200 --> 00:00:31,150
+Step 2: Perform subtraction from right to left. Subtract ones from ones. Subtract tens from tens.
+
+4
+00:00:31,600 --> 00:00:41,650
+We subtract as follows: seven minus three equals four, write four.
+
+5
+00:00:41,920 --> 00:00:49,250
+Five minus two equals three, write three.
+
+6
+00:00:49,820 --> 00:00:56,570
+Fifty-seven minus twenty-three equals thirty-four.
+

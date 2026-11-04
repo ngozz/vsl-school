@@ -1,0 +1,8 @@
+1
+00:00:01,550 --> 00:00:09,660
+Story is about whom?
+
+2
+00:00:09,660 --> 00:00:15,280
+Story is about two brothers.
+

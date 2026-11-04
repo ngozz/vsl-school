@@ -1,0 +1,164 @@
+1
+00:00:01,500 --> 00:00:13,950
+You observe pictures, read character speech.
+
+2
+00:00:14,770 --> 00:00:21,120
+What type of sentence is the child's speech?
+
+3
+00:00:21,120 --> 00:00:25,320
+statement
+
+4
+00:00:25,320 --> 00:00:29,820
+question
+
+5
+00:00:29,820 --> 00:00:35,800
+exclamation
+
+6
+00:00:39,300 --> 00:00:48,520
+Answer: The child's speech is a question.
+
+7
+00:00:50,250 --> 00:00:57,070
+What punctuation mark is at the end of the question?
+
+8
+00:00:57,070 --> 00:01:03,800
+A. question mark (?)
+
+9
+00:01:04,550 --> 00:01:10,900
+B. exclamation mark (!)
+
+10
+00:01:11,470 --> 00:01:15,870
+C. period (.)
+
+11
+00:01:19,120 --> 00:01:29,270
+Answer: At the end of the question is question mark (?).
+
+12
+00:01:30,700 --> 00:01:41,850
+You observe pictures, read character speech.
+
+13
+00:01:42,600 --> 00:01:56,570
+What does the child's speech express?
+
+14
+00:01:57,920 --> 00:02:11,720
+Answer: The child's speech expresses joy when seeing mother come home.
+
+15
+00:02:12,800 --> 00:02:19,570
+What type of sentence is the child's speech?
+
+16
+00:02:19,570 --> 00:02:24,470
+statement
+
+17
+00:02:24,470 --> 00:02:28,420
+question
+
+18
+00:02:28,420 --> 00:02:34,070
+exclamation
+
+19
+00:02:37,220 --> 00:02:45,450
+Answer: exclamation.
+
+20
+00:02:47,450 --> 00:02:57,450
+What punctuation mark is at the end of the exclamation?
+
+21
+00:02:58,570 --> 00:03:05,020
+A. question mark (?)
+
+22
+00:03:05,250 --> 00:03:12,000
+B. exclamation mark (!)
+
+23
+00:03:13,000 --> 00:03:16,920
+C. period (.)
+
+24
+00:03:19,800 --> 00:03:33,450
+Answer: At the end of the exclamation is exclamation mark (!).
+
+25
+00:03:34,770 --> 00:03:49,450
+You observe pictures, read character speeches.
+
+26
+00:03:51,350 --> 00:03:57,500
+Whose speech is a question?
+
+27
+00:03:57,500 --> 00:04:04,050
+A. Child's speech.
+
+28
+00:04:04,520 --> 00:04:08,320
+B. Mother's speech.
+
+29
+00:04:12,370 --> 00:04:19,620
+Answer: Child's speech.
+
+30
+00:04:19,620 --> 00:04:32,920
+Whose is the remaining speech? What is the purpose?
+
+31
+00:04:33,470 --> 00:04:45,670
+Answer: Mother's speech is the answer. Mother tells things she bought.
+
+32
+00:04:46,520 --> 00:04:52,570
+What type of sentence is mother's speech?
+
+33
+00:04:52,570 --> 00:04:59,120
+exclamation
+
+34
+00:04:59,800 --> 00:05:04,120
+question
+
+35
+00:05:04,120 --> 00:05:06,570
+statement
+
+36
+00:05:09,150 --> 00:05:14,870
+Answer: statement.
+
+37
+00:05:14,870 --> 00:05:21,950
+What punctuation mark is at the end of the statement?
+
+38
+00:05:22,570 --> 00:05:28,170
+A. period (.)
+
+39
+00:05:28,170 --> 00:05:35,600
+B. question mark (?)
+
+40
+00:05:35,600 --> 00:05:40,020
+C. exclamation mark (!)
+
+41
+00:05:43,000 --> 00:05:50,450
+Answer: period (.)
+

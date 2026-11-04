@@ -1,0 +1,64 @@
+1
+00:00:01,790 --> 00:00:10,440
+Triangle
+
+2
+00:00:14,380 --> 00:00:19,680
+Let's observe triangle ABC together.
+
+3
+00:00:28,560 --> 00:00:33,960
+Base and height of triangle.
+
+4
+00:00:38,190 --> 00:00:42,770
+Observing triangle ABC has:
+
+5
+00:00:45,720 --> 00:00:49,640
+BC is base
+
+6
+00:00:52,250 --> 00:00:59,080
+AH is height corresponding to base BC.
+
+7
+00:01:01,280 --> 00:01:10,120
+Length of AH is height.
+
+8
+00:01:15,660 --> 00:01:19,070
+Area of triangle.
+
+9
+00:01:20,480 --> 00:01:24,160
+How to calculate area of triangle.
+
+10
+00:01:26,450 --> 00:01:31,260
+Let S be area.
+
+11
+00:01:32,280 --> 00:01:39,340
+a is base length of triangle.
+
+12
+00:01:40,220 --> 00:01:46,250
+Let h be height of triangle.
+
+13
+00:01:48,200 --> 00:01:51,570
+To calculate area of triangle
+
+14
+00:01:52,040 --> 00:02:09,120
+take base length times height (same unit) then divide by 2.
+
+15
+00:02:10,890 --> 00:02:16,480
+We have formula for calculating area of triangle is:
+
+16
+00:02:17,130 --> 00:02:26,040
+S = (a x h) : 2
+

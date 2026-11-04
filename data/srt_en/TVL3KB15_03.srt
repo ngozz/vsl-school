@@ -1,0 +1,24 @@
+1
+00:00:01,970 --> 00:00:06,570
+Arrange given words to form sentence.
+
+2
+00:00:09,720 --> 00:00:11,360
+very love
+
+3
+00:00:12,220 --> 00:00:13,520
+I
+
+4
+00:00:14,100 --> 00:00:15,320
+grandparents
+
+5
+00:00:21,870 --> 00:00:23,450
+Answer:
+
+6
+00:00:24,250 --> 00:00:32,770
+Grandparents very love me, I very love grandparents.
+

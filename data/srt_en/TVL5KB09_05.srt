@@ -1,0 +1,52 @@
+1
+00:00:01,322 --> 00:00:13,082
+Through the passage (7 sentences) what does the description help the reader imagine about the described character?
+
+2
+00:00:15,699 --> 00:00:19,854
+The passage describes height,
+
+3
+00:00:19,854 --> 00:00:21,646
+The passage describes height, skin,
+
+4
+00:00:21,646 --> 00:00:23,772
+The passage describes height, skin, body shape, physique
+
+5
+00:00:23,772 --> 00:00:35,433
+The passage describes height, skin, body shape, physique, eyes, mouth, forehead of the character, helping us imagine the external appearance of the character.
+
+6
+00:00:40,807 --> 00:00:50,400
+First, introduce about character such as name, age, hometown.
+
+7
+00:00:55,363 --> 00:01:00,903
+Then, describe external appearance characteristics such as:
+
+8
+00:01:07,218 --> 00:01:11,983
+Describe height.
+
+9
+00:01:17,511 --> 00:01:23,233
+Describe skin.
+
+10
+00:01:28,546 --> 00:01:33,178
+Describe body shape: body parts.
+
+11
+00:01:38,244 --> 00:01:46,534
+Describe facial features such as: eyes, nose, mouth, forehead.
+
+12
+00:01:49,660 --> 00:01:58,431
+What do external appearance characteristics tell us about the character?
+
+13
+00:02:02,961 --> 00:02:15,525
+Know a bit about personality, character of the character.
+

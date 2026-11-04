@@ -1,0 +1,8 @@
+1
+00:00:02,510 --> 00:00:05,800
+Hello everyone.
+
+2
+00:00:07,450 --> 00:00:17,640
+Today, let's review length units, time units together.
+

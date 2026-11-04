@@ -1,0 +1,12 @@
+1
+00:00:00,950 --> 00:00:14,530
+Learn meaning of words <color=orange><b>park</b></color>, <color=orange><b>admire</b></color>.
+
+2
+00:00:16,970 --> 00:00:30,880
+Park: it is large garden with trees, flowers... as place for everyone to relax.
+
+3
+00:00:32,910 --> 00:00:40,950
+Admire: is emotion moved and admiring.
+

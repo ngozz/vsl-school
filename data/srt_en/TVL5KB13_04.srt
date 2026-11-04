@@ -1,0 +1,76 @@
+1
+00:00:01,260 --> 00:00:08,020
+Answer following questions below.
+
+2
+00:00:08,440 --> 00:00:17,970
+When was Sadako exposed to radiation?
+
+3
+00:00:18,640 --> 00:00:26,550
+A. When America dropped two atomic bombs on Japan.
+
+4
+00:00:26,930 --> 00:00:36,880
+B. Ten years after America dropped bombs on Japan.
+
+5
+00:00:37,170 --> 00:00:45,680
+C. Many years after America dropped bombs on Japan.
+
+6
+00:00:48,620 --> 00:01:03,750
+Answer: A. Sadako was exposed to radiation when America dropped two atomic bombs on Japan.
+
+7
+00:01:04,170 --> 00:01:14,400
+How did Sadako believe she would recover?
+
+8
+00:01:15,550 --> 00:01:25,350
+A. She folded enough 100 paper cranes.
+
+9
+00:01:25,350 --> 00:01:35,420
+B. She folded enough 644 paper cranes.
+
+10
+00:01:35,420 --> 00:01:44,400
+C. She folded enough 1000 paper cranes.
+
+11
+00:01:48,240 --> 00:02:01,750
+Answer: C. She folded enough 1000 paper cranes.
+
+12
+00:02:02,770 --> 00:02:15,440
+What did children around the world do to show solidarity and sympathy for Sadako?
+
+13
+00:02:15,440 --> 00:02:25,880
+A. Write letters to ask about Sadako's health.
+
+14
+00:02:26,080 --> 00:02:37,130
+B. Fold thousands of paper cranes to send to Sadako.
+
+15
+00:02:37,460 --> 00:02:44,860
+C. Raise money to build Sadako monument.
+
+16
+00:02:48,860 --> 00:03:04,080
+Answer: B. Fold thousands of paper cranes to send to Sadako.
+
+17
+00:03:04,510 --> 00:03:20,570
+What did children do to express their peace wish?
+
+18
+00:03:22,750 --> 00:03:46,000
+Hiroshima students raised money to build monument to remember atomic bomb victims.
+
+19
+00:03:46,530 --> 00:03:58,910
+The monument is engraved with lines expressing children's wish: this world forever peaceful.
+

@@ -1,0 +1,100 @@
+1
+00:00:02,370 --> 00:00:10,350
+Now I will read, you observe screen to know how to read student list.
+
+2
+00:00:11,660 --> 00:00:19,880
+Opening day, friends gather to read group list.
+
+3
+00:00:21,460 --> 00:00:35,750
+Group 1 this year has new friend named Tran Anh Dung.
+
+4
+00:00:38,260 --> 00:00:45,020
+Student list group 1, class 2A.
+
+5
+00:00:47,480 --> 00:00:49,750
+Order
+
+6
+00:00:50,260 --> 00:00:53,220
+Full name
+
+7
+00:00:54,130 --> 00:00:57,200
+Male, female
+
+8
+00:00:58,220 --> 00:01:02,460
+Date of birth
+
+9
+00:01:06,680 --> 00:01:21,950
+1. Nguyen Thi Lan Anh
+
+10
+00:01:22,620 --> 00:01:24,000
+Female
+
+11
+00:01:24,570 --> 00:01:32,310
+Date of birth: 7 - 4 - 2013
+
+12
+00:01:37,240 --> 00:01:48,170
+2. Phan Van Bac
+
+13
+00:01:48,620 --> 00:01:49,910
+Male
+
+14
+00:01:50,480 --> 00:01:58,260
+Date of birth: 16 - 5 - 2013
+
+15
+00:02:02,660 --> 00:02:14,480
+3. Ha Huy Cuong
+
+16
+00:02:15,000 --> 00:02:16,220
+Male
+
+17
+00:02:16,460 --> 00:02:25,220
+Date of birth: 24 - 8 - 2013
+
+18
+00:02:29,420 --> 00:02:43,080
+4. Tran Anh Dung
+
+19
+00:02:43,440 --> 00:02:44,910
+Male
+
+20
+00:02:45,280 --> 00:02:54,460
+Date of birth: 2 - 11 - 2013
+
+21
+00:02:58,750 --> 00:03:10,370
+5. Do Thi Dung
+
+22
+00:03:10,930 --> 00:03:12,570
+Female
+
+23
+00:03:13,000 --> 00:03:21,310
+Date of birth: 18 - 4 - 2013
+
+24
+00:03:22,860 --> 00:03:28,970
+Everyone wants to know new friend of class.
+
+25
+00:03:31,240 --> 00:03:41,600
+When reading list you read by rows, read words and information from left to right at each row.
+

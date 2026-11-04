@@ -1,0 +1,1173 @@
+{
+  "TOANL1KB01": [
+    "1. Introduction",
+    "2. Numbers 0, 1, 2, 3, 4, 5",
+    "3. Numbers 6, 7, 8, 9, 10"
+  ],
+  "TOANL1KB02": [
+    "1. Introduction",
+    "2. More than, less than, equal",
+    "3. Greater than, sign >. Less than, sign <. Equal, sign =",
+    "a. Greater than, less than signs: >, <",
+    "b. Equal: =",
+    "4. Reinforce - Remind"
+  ],
+  "TOANL1KB03": [
+    "1. Introduction",
+    "2. Addition. Plus sign",
+    "3. Addition within 6",
+    "4. Addition within 10"
+  ],
+  "TOANL1KB04": [
+    "1. Introduction",
+    "2. Subtraction, minus sign",
+    "3. Subtraction within 6",
+    "4. Subtraction within 10"
+  ],
+  "TOANL1KB05": [
+    "1. Introduction",
+    "2. Numbers within 20",
+    "3. Numbers 10, 20, 30, 40, 50, 60, 70, 80, 90",
+    "4. Two-digit numbers",
+    "5. Tens and ones"
+  ],
+  "TOANL1KB06": [
+    "1. Introduction",
+    "2. Comparing numbers within 100",
+    "2.1. Example 1",
+    "2.2. Example 2"
+  ],
+  "TOANL1KB07": [
+    "1. Introduction",
+    "2. Addition within 100",
+    "2.1. Example 1",
+    "2.2. Example 2",
+    "2.3. Example 3"
+  ],
+  "TOANL1KB08": [
+    "1. Introduction",
+    "2. Subtraction without regrouping within 100",
+    "2.1. Example 1",
+    "2.2. Example 2",
+    "2.3. Example 3"
+  ],
+  "TOANL1KB09": [
+    "1. Introduction",
+    "2. Square, circle, triangle, rectangle",
+    "3. Cube and rectangular prism"
+  ],
+  "TOANL1KB10": [
+    "1. Introduction",
+    "2. Longer, shorter",
+    "3. Centimeter",
+    "4. Days of the week",
+    "5. Clock, time"
+  ],
+  "TOANL2KB01": [
+    "1. Introduction",
+    "2. Addition within 20",
+    "3. Subtraction within 20"
+  ],
+  "TOANL2KB02": [
+    "1. Introduction",
+    "2. Some shapes learned in Grade 1",
+    "3. Point. Line segment. Straight line. Curve",
+    "4. Quadrilateral",
+    "5. Three collinear points, broken line",
+    "6. Draw a line segment of given length"
+  ],
+  "TOANL2KB03": [
+    "1. Introduction",
+    "2. Cylinder",
+    "3. Sphere",
+    "4. Practice assembling and folding shapes"
+  ],
+  "TOANL2KB04": [
+    "1. Introduction",
+    "2. Decimeter. Meter. Kilometer",
+    "3. Kilogram",
+    "4. Liter",
+    "5. Conclusion"
+  ],
+  "TOANL2KB05": [
+    "1. Introduction",
+    "2. Day, hour",
+    "3. Hour, minute",
+    "4. Day, month"
+  ],
+  "TOANL2KB06": [
+    "1. Introduction",
+    "2. Units, tens, hundreds, thousands",
+    "3. Numbers within 1000",
+    "4. Write number as sum of hundreds, tens, ones"
+  ],
+  "TOANL2KB07": [
+    "1. Introduction",
+    "2. Comparing numbers within 1000"
+  ],
+  "TOANL2KB08": [
+    "1. Introduction",
+    "2. Addition (with regrouping) within 100",
+    "3. Subtraction (with regrouping) within 100",
+    "4. Addition, subtraction (without regrouping) within 1000",
+    "5. Addition, subtraction (with regrouping) within 1000"
+  ],
+  "TOANL2KB09": [
+    "1. Introduction",
+    "2. Multiplication",
+    "3. Factor, product",
+    "4. Multiplication table 2, multiplication table 5"
+  ],
+  "TOANL2KB10": [
+    "1. Introduction",
+    "2. Division",
+    "3. Relationship between multiplication and division",
+    "4. Dividend, divisor, quotient",
+    "5. Division table 2, division table 5"
+  ],
+  "TOANL3KB01": [
+    "1. Introduction",
+    "2. Numbers up to 10000",
+    "3. Numbers up to 100000"
+  ],
+  "TOANL3KB02": [
+    "1. Introduction",
+    "2. Comparing numbers within 100000",
+    "2.1. Comparing numbers with different digits",
+    "2.2. Comparing numbers with equal digits"
+  ],
+  "TOANL3KB03": [
+    "1. Introduction",
+    "2. Addition, subtraction within 10000",
+    "2.1 Addition within 10000",
+    "2.2 Subtraction within 10000",
+    "3. Addition, subtraction within 100000",
+    "3.1 Addition within 100000",
+    "3.2 Subtraction within 100000"
+  ],
+  "TOANL3KB04": [
+    "1. Introduction",
+    "2. Multiplication table",
+    "3. Division table"
+  ],
+  "TOANL3KB05": [
+    "1. Introduction",
+    "2. Multiplying two-digit number by one-digit number",
+    "3. Multiplying three-digit number by one-digit number",
+    "4. Multiplying multi-digit number by one-digit number"
+  ],
+  "TOANL3KB06": [
+    "1. Introduction",
+    "2. Dividing multi-digit number by one-digit number"
+  ],
+  "TOANL3KB07": [
+    "1. Introduction",
+    "2. Numerical expression",
+    "3. Calculate value of expression with up to two operation signs"
+  ],
+  "TOANL3KB08": [
+    "1. Introduction",
+    "2. Right angle, non-right angle",
+    "3. Midpoint of a line segment",
+    "4. Rectangle, square",
+    "5. Circle"
+  ],
+  "TOANL3KB09": [
+    "1. Introduction",
+    "2. Millimeter length unit",
+    "3. Square centimeter area unit"
+  ],
+  "TOANL3KB10": [
+    "1. Introduction",
+    "2. Statistics of data",
+    "2.1 Data sequence",
+    "2.2 Statistics table"
+  ],
+  "TOANL4KB01": [
+    "1. Introduction",
+    "2. Review, read, write place and class of numbers up to 6 digits",
+    "3. Million and millions class"
+  ],
+  "TOANL4KB02": [
+    "1. Introduction",
+    "2. Mental multiplication by 10; 100; 1000",
+    "3. Multiplication with last factor ending in digit 0",
+    "4. Multiplying by two-digit number"
+  ],
+  "TOANL4KB03": [
+    "1. Introduction",
+    "2. Dividing by 10; 100; 1000",
+    "3. Dividing by two-digit number"
+  ],
+  "TOANL4KB04": [
+    "1. Introduction",
+    "2. How to find arithmetic mean of two numbers",
+    "3. How to find arithmetic mean of several numbers",
+    "4. Solve problem finding arithmetic mean of several numbers",
+    "5. Solve problem finding two numbers given sum and difference"
+  ],
+  "TOANL4KB05": [
+    "1. Introduction",
+    "2. Review picture graph",
+    "3. Review bar graph"
+  ],
+  "TOANL4KB06": [
+    "1. Introduction",
+    "2. Fraction",
+    "3. Practice fraction",
+    "4. Fraction and division of natural numbers",
+    "5. Reinforce, remind"
+  ],
+  "TOANL4KB07": [
+    "1. Introduction",
+    "2. Basic properties of fractions",
+    "3. Application of basic properties of fractions",
+    "a. Simplify fraction",
+    "b. Make common denominators for 2 fractions"
+  ],
+  "TOANL4KB08": [
+    "1. Introduction",
+    "2. Addition of two fractions with same denominator",
+    "3. Addition of two fractions with different denominators",
+    "4. Reinforce, remind"
+  ],
+  "TOANL4KB09": [
+    "1. Introduction",
+    "2. Parallelogram",
+    "3. Rhombus"
+  ],
+  "TOANL4KB10": [
+    "1. Introduction",
+    "2. Square decimeter",
+    "3. Square meter",
+    "4. Square kilometer"
+  ],
+  "TOANL5KB01": [
+    "1. Introduction",
+    "2. Structure of decimal",
+    "3. Read, write decimal",
+    "4. Express measurement using decimal"
+  ],
+  "TOANL5KB02": [
+    "1. Introduction",
+    "2. Compare two decimals with different whole parts",
+    "3. Compare two decimals with equal whole parts",
+    "4. Reinforce - Remind"
+  ],
+  "TOANL5KB03": [
+    "1. Introduce lesson",
+    "2. Add two decimals",
+    "2.1. Addition of two decimals",
+    "2.2. Properties of adding decimals",
+    "3. Subtract two decimals"
+  ],
+  "TOANL5KB04": [
+    "1. Introduction",
+    "2. Multiply a decimal by a whole number",
+    "3. Multiply a decimal by a decimal",
+    "4. Divide a decimal by a whole number",
+    "5. Divide a decimal by a decimal",
+    "6. Multiply (divide) a decimal by (into) 10, 100, 1000, ...",
+    "6.1. Multiply a decimal by 10, 100, 1000, ...",
+    "6.2. Divide a decimal by 10, 100, 1000, ..."
+  ],
+  "TOANL5KB05": [
+    "1. Introduction",
+    "2. Percentage",
+    "3. Calculate percentage of two numbers",
+    "4. Find number given percentage value"
+  ],
+  "TOANL5KB06": [
+    "1. Introduction",
+    "2. Map scale",
+    "3. Some applications of map scale"
+  ],
+  "TOANL5KB07": [
+    "1. Introduction",
+    "2. Triangle",
+    "3. Trapezoid",
+    "4. Circle, circular line"
+  ],
+  "TOANL5KB08": [
+    "1. Introduction",
+    "2. Rectangular prism, cube",
+    "3. Lateral area, total surface area of rectangular prism and cube",
+    "3.1. Lateral area, total surface area of rectangular prism",
+    "3.2. Lateral area and total surface area of cube",
+    "4. Volume of rectangular prism, cube"
+  ],
+  "TOANL5KB09": [
+    "1. Introduction",
+    "2. Speed",
+    "3. Distance",
+    "4. Time"
+  ],
+  "TOANL5KB10": [
+    "1. Introduction",
+    "2. Pie chart",
+    "3. Arrange data into given pie chart",
+    "4. Solve simple problems related to data obtained from pie chart"
+  ],
+  "TVL1KB01": [
+    "1. Introduce lesson",
+    "2. Practice reading sounds",
+    "2.1. Practice reading sounds",
+    "2.2. Identify sounds",
+    "3. Practice reading syllables/words",
+    "3.1. Practice reading syllables",
+    "3.2. Identify syllables/words",
+    "4. Reinforce - Remind"
+  ],
+  "TVL1KB02": [
+    "1. Practice reading sounds: e, ơ, d, k, h, n, m, v",
+    "2. Practice reading words and learn word meanings",
+    "2.1. Practice reading and learn word meaning: dẻ, nơ, kẻ",
+    "2.2. Practice reading and learn word meaning: hổ, hẹ, na",
+    "2.3. Practice reading and learn word meaning: mẹ, mũ, vở",
+    "2.4. Practice reading and learn word meaning: sẻ, bơ, vẽ"
+  ],
+  "TVL1KB03": [
+    "1. Practice reading sounds ê, ư, đ, kh, l, tr, ch, s",
+    "1.1 Teacher introduces lesson",
+    "1.2 Students practice reading: ê, đ, kh, ch",
+    "1.3 Students practice reading: ư, l, tr, s",
+    "2. Practice reading words and learn word meanings",
+    "2.1 Practice reading and learn word meaning: lê, tre, sò",
+    "2.2 Practice reading and learn word meaning: dê, sư tử, khỉ",
+    "2.3 Practice reading and learn word meaning: khế, lọ, đu đủ",
+    "2.4 Practice reading and learn word meaning: chả cá, cá trê, chè đỗ đỏ"
+  ],
+  "TVL1KB04": [
+    "1. Practice reading sounds: g - gh, ph, r, gi, nh",
+    "1.1. Teacher introduces lesson",
+    "1.2. Students practice reading: g, ph, gi",
+    "1.3. Students practice reading: gh, r, nh",
+    "2. Practice reading words and learn word meanings",
+    "2.1. Practice reading and learn word: ghẹ, gà, phở",
+    "2.2. Practice reading and learn word meaning: ghế đá, phố, gỗ",
+    "2.3. Practice reading and learn word meaning: phở, ghe, nhà",
+    "2.4. Practice reading and learn word meaning: rổ, cà phê, giá đỗ",
+    "2.5. Practice reading and learn word meaning: nho, nhổ cỏ, pi a nô"
+  ],
+  "TVL1KB05": [
+    "1. Practice reading sounds: th, qu, ng - ngh, x, y",
+    "1.1. Teacher introduces lesson",
+    "1.2. Students practice reading: th, qu, ng",
+    "1.3. Students practice reading: x, ngh, y",
+    "2. Practice reading words and learn word meanings",
+    "2.1. Practice reading and learn word meaning: thư, thỏ, thẻ đỏ",
+    "2.2. Practice reading and learn word meaning: quê, ngõ, ngũ quả",
+    "2.3. Practice reading and learn word meaning: ngô, ngà, quạ",
+    "2.4. Practice reading and learn word meaning: nghệ, chó xù, bé ngủ",
+    "2.5. Practice reading and learn word meaning: xe, xô, cá ngừ"
+  ],
+  "TVL1KB06": [
+    "1. Introduce lesson",
+    "2. Practice reading rhymes",
+    "2.1. Practice reading",
+    "2.2. Identify rhymes",
+    "3. Practice reading syllables/words",
+    "3.1. Practice reading",
+    "3.2. Identify syllables/words",
+    "4. Reinforce - Remind"
+  ],
+  "TVL1KB07": [
+    "1. Practice reading rhymes ai, ay, ây, oi, ôi, ơi, ui, ưi, uôi, ươi",
+    "1.1. Introduce lesson",
+    "1.2. Practice reading rhyme: ai, oi, ui",
+    "1.3. Practice reading rhyme: ay, ôi, ươi",
+    "1.4. Practice reading rhyme: ơi, ây, ưi, uôi",
+    "2. Practice reading words and learn word meanings",
+    "2.1. Practice reading and learn word meaning: tai, bơi, cây",
+    "2.2. Practice reading and learn word meaning: voi, núi, tay",
+    "2.3. Practice reading and learn word meaning: bưởi, gối, chuối",
+    "2.4. Practice reading and learn word meaning: mây, ngửi, chổi"
+  ],
+  "TVL1KB08": [
+    "1. Practice reading rhymes ao, eo, au, âu, êu, iu, iêu, yêu, ưu, ươu",
+    "1.1. Introduce lesson",
+    "1.2. Practice reading rhyme: ao, iu, eo",
+    "1.3. Practice reading rhyme: êu, iu, âu, iêu",
+    "1.4. Practice reading rhyme: yêu, ưu, ươu",
+    "2. Practice reading words and learn word meaning",
+    "2.1. Practice reading and learn word meaning: rau, táo, mèo",
+    "2.2. Practice reading and learn word meaning: phễu, rìu, diều",
+    "2.3. Practice reading and learn word meaning: quả lựu, con hươu, cái cầu",
+    "2.4. Practice reading and learn word meaning: yêu quý, cái kẹo, quả cau"
+  ],
+  "TVL1KB09": [
+    "1. Practice reading rhymes an, ăn, ân, on, ôn, ơn, en, ên, un, in, iên, yên, uôn, ươn",
+    "1.1. Introduce lesson",
+    "1.2. Practice reading rhyme: an, ên, ôn",
+    "1.3. Practice reading rhyme: un, ơn, ân, iên",
+    "1.4. Practice reading rhyme: in, on, en, ươn",
+    "1.5. Practice reading rhyme: ăn, uôn, yên",
+    "2. Practice reading words and learn word meanings",
+    "2.1. Practice reading and learn word meaning: chân, nhãn, khăn",
+    "2.2. Practice reading and learn word meaning: chồn, nón, lợn",
+    "2.3. Practice reading and learn word meaning: sen, nến, cún",
+    "2.4. Practice reading and learn word meaning: số chín, con kiến, yên xe",
+    "2.5. Practice reading and learn word meaning: chuồn chuồn, con lươn, phở cuốn"
+  ],
+  "TVL1KB10": [
+    "1. Practice reading rhymes at, ăt, ot, ôt, ơt, et, êt, it, ut, ưt, iêt, uôt, ươt",
+    "1.1. Introduce lesson",
+    "1.2. Practice reading rhyme: at, et, ươt",
+    "1.3. Practice reading rhyme: ăt, êt, ơt, it",
+    "1.4. Practice reading rhyme: ât, ôt, ưt, uôt",
+    "1.5. Practice reading rhyme: ut, ot, iêt",
+    "2. Practice reading words and learn word meanings",
+    "2.1. Practice reading and learn word meaning: mắt, bát, tất chân",
+    "2.2. Practice reading and learn word meaning: quả nhót, cà rốt, quả ớt",
+    "2.3. Practice reading and learn word meaning: quả mít, bồ kết, con vẹt",
+    "2.4. Practice reading and learn word meaning: bút bi, viết, mứt dừa",
+    "2.5. Practice reading and learn word meaning: cầu trượt, con chuột, lướt ván"
+  ],
+  "TVL1KB11": [
+    "1. Introduce lesson",
+    "2. Practice reading rhymes am, ăm, âm, om, ôm, ơm, em, êm, im, um, uôm, ươm, iêm, yêm",
+    "2.1. Practice reading rhyme: am, om, ươm",
+    "2.2. Practice reading rhyme: ăm, em, ôm, iêm",
+    "2.3. Practice reading rhyme: âm, êm, um, im",
+    "2.4. Practice reading rhyme: ơm, yêm, uôm",
+    "3. Practice reading words and learn word meanings",
+    "3.1. Practice reading and learn word meaning: cơm, cam, kem, chôm chôm",
+    "3.2. Practice reading and learn word meaning: tăm, đệm, chim, đom đóm",
+    "3.3. Practice reading and learn word meaning: dừa xiêm, cây nấm, chùm nhãn",
+    "3.4. Practice reading and learn word meaning: ao chuôm, bươm bướm, yếm dãi"
+  ],
+  "TVL1KB12": [
+    "1. Introduce lesson",
+    "2. Practice reading rhymes ap, ăp, âp, op, ôp, ơp, ep, êp, ip, up, ươp, iêp",
+    "2.1. Practice reading rhyme: ap, op, ip, up",
+    "2.2. Practice reading rhyme: ăp, ôp, ep, iêp",
+    "2.3. Practice reading rhyme: âp, ơp, êp, ươp",
+    "3. Practice reading words and learn word meanings",
+    "3.1. Practice reading and learn word meaning: bắp ngô, con cọp, cái nhíp",
+    "3.2. Practice reading and learn word meaning: hộp sữa, tia chớp, sáp nẻ",
+    "3.3. Practice reading and learn word meaning: tập vở, quả mướp, đôi dép",
+    "3.4. Practice reading and learn word meaning: tập chép, búp sen, rau diếp"
+  ],
+  "TVL1KB13": [
+    "1. Introduce lesson",
+    "2. Practice reading rhymes: ang, ăng, âng, ong, ông, ung, ưng, iêng, uông, ương, inh, ênh, anh",
+    "2.1. Practice reading rhyme: inh, ong, ang",
+    "2.2. Practice reading rhyme: ăng, ung, ênh",
+    "2.3. Practice reading rhyme: ưng, ông, ương",
+    "2.4. Practice reading rhyme: âng, iêng, anh, uông",
+    "3. Practice reading words and learn word meanings",
+    "3.1. Practice reading and learn word meaning: cây bàng, con sông, bay liệng",
+    "3.2. Practice reading and learn word meaning: măng cụt, cái chuông, bập bênh",
+    "3.3. Practice reading and learn word meaning: con ong, nhà tầng, bánh chưng",
+    "3.4. Practice reading and learn word meaning: cái gương, bông súng, máy vi tính"
+  ],
+  "TVL1KB14": [
+    "1. Introduce lesson",
+    "2. Practice reading rhymes: ac, ăc, âc, oc, ôc, uc, ưc, ich, êch, ach, iêc, uôc, ươc",
+    "2.1. Practice reading rhyme: ac, oc, ich",
+    "2.2. Practice reading rhyme: ăc, uc, êch, ươc",
+    "2.3. Practice reading rhyme: âc, ôc, iêc",
+    "2.4. Practice reading rhyme: ach, ưc, uôc",
+    "3. Practice reading words and learn word meanings",
+    "3.1. Practice reading and learn word meaning: hạt lạc, tờ lịch, con ốc",
+    "3.2. Practice reading and learn word meaning: mắc áo, viên thuốc, con ếch",
+    "3.3. Practice reading and learn word meaning: quả gấc, cặp sách, lọ mực",
+    "3.4. Practice reading and learn word meaning: chai nước, chiếc gối, cúc áo"
+  ],
+  "TVL1KB15": [
+    "1. Introduce lesson",
+    "2. Practice reading rhymes: oa, oe, oai, oay, oan, oăn, oat, oăt, oang, oăng, oanh, oac, oăc, oach.",
+    "2.1. Practice reading rhyme: oa, oe, oai",
+    "2.2. Practice reading rhyme: oan, oac, oay, oăt",
+    "2.3. Practice reading rhyme: oăn oang, oach, oăc",
+    "2.4. Practice reading rhyme: oat, oach, oăng",
+    "3. Practice reading words and learn word meanings",
+    "3.1. Practice reading and learn word meaning: củ khoai, hoa hoè, ghế xoay",
+    "3.2. Practice reading and learn word meaning: sách toán, bé loắt choắt, áo khoác",
+    "3.3. Practice reading and learn word meaning: tóc xoăn, khoang tàu, ngoắc tay, khoanh tay",
+    "3.4. Practice reading and learn word meaning: phim hoạt hình, con hoẵng, ngã oạch"
+  ],
+  "TVL1KB16": [
+    "1. Introduce lesson",
+    "2. Practice reading rhymes uê, uy, uơ, uân, uât, uây, uyên, uyêt, uyt",
+    "2.1. Practice reading rhyme: uê, uân, uyên",
+    "2.2. Practice reading rhyme: uy, uât, uyêt",
+    "2.3. Practice reading rhyme: uơ, uây, uyt",
+    "3. Practice reading words and learn word meanings",
+    "3.1. Practice reading and learn word meaning: quần yếm, hoa huệ, khuyên tai",
+    "3.2. Practice reading and learn word meaning: huy hiệu, duyệt binh, quả quất",
+    "3.3. Practice reading and learn word meaning: huơ tay, đĩa quẩy, quả quýt",
+    "3.4. Practice reading and learn word meaning: quyển truyện, khuấy bột, khuân vác"
+  ],
+  "TVL1KB17": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Introduce characters",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL1KB18": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Introduce characters",
+    "3.2. Explore vocabulary",
+    "3.3. Explore lesson content",
+    "4. Reinforce - Remind"
+  ],
+  "TVL1KB19": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Introduce characters",
+    "3.2. Explore vocabulary",
+    "3.3. Explore lesson content",
+    "4. Reinforce - Remind"
+  ],
+  "TVL1KB20": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Introduce characters",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL2KB01": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Recall lesson title and introduce characters",
+    "3.3. Explore lesson content",
+    "4. Reinforce - Remind"
+  ],
+  "TVL2KB02": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore vocabulary",
+    "3.1. Explore vocabulary",
+    "3.2. Explore main content of lesson",
+    "4. Reinforce - Remind"
+  ],
+  "TVL2KB03": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore vocabulary",
+    "4. Explore lesson content",
+    "5. Practice creating class list"
+  ],
+  "TVL2KB04": [
+    "1. Introduce lesson",
+    "2. Explore vocabulary",
+    "2.1. Vocabulary for school members",
+    "2.2. Vocabulary for activities of school members",
+    "3. Classify words by group",
+    "4. Practice",
+    "5. Reinforce - Remind"
+  ],
+  "TVL2KB05": [
+    "1. Introduce lesson",
+    "2. Explore how to introduce yourself",
+    "2.1. Observe picture",
+    "2.2. Explore how to introduce yourself",
+    "2.3 Practice",
+    "3. Suggest how to introduce yourself",
+    "4. Reinforce - Remind"
+  ],
+  "TVL2KB06": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Connect",
+    "5. Reinforce, comment"
+  ],
+  "TVL2KB07": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore characters",
+    "3.3. Explore lesson content",
+    "4. Connect",
+    "5. Reinforce - remind"
+  ],
+  "TVL2KB08": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Explore steps of performing task",
+    "5. Connect"
+  ],
+  "TVL2KB09": [
+    "1. Introduce lesson",
+    "2. Teacher tells story",
+    "3. Explore lesson",
+    "3.1. Introduce characters in story",
+    "3.2. Introduce each season",
+    "3.3. Explore lesson content",
+    "4. Storytelling",
+    "4.1. Recall story content",
+    "4.2. Retell entire story",
+    "5. Reinforce, remind"
+  ],
+  "TVL2KB10": [
+    "1. Introduce lesson",
+    "2. Explore vocabulary for household items",
+    "2.1. Observe picture/photo of household items",
+    "2.2. Vocabulary for items",
+    "3. Explore vocabulary for housework",
+    "4. Classify words by group",
+    "5. Practice using vocabulary",
+    "6. Reinforce - Remind"
+  ],
+  "TVL2KB11": [
+    "1. Introduce lesson",
+    "2 Read lesson",
+    "3. Explore lesson",
+    "3.1. Introduce characters",
+    "3.2. Explore vocabulary",
+    "3.3. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL2KB12": [
+    "1. Introduce lesson",
+    "2 Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.3. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL2KB13": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL2KB14": [
+    "1. Introduce lesson",
+    "2. Find weather vocabulary for each season",
+    "3. Practice",
+    "3.1. Classify weather vocabulary",
+    "3.2. Write question - answer about weather and seasons",
+    "4. Apply",
+    "5. Reinforce, remind"
+  ],
+  "TVL2KB15": [
+    "1. Introduce lesson",
+    "2. Observe picture, identify tasks to do",
+    "3. Practice writing paragraph retelling event",
+    "4. Reinforce, remind"
+  ],
+  "TVL2KB16": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson content",
+    "3.1. Introduce characters",
+    "3.2. Explore vocabulary",
+    "3.3. Explore story content",
+    "4. Reinforce - Remind"
+  ],
+  "TVL2KB17": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL2KB18": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL2KB19": [
+    "1. Introduce lesson",
+    "2. Explore tasks",
+    "3. Read sentences under picture",
+    "4. Explore sentence retelling event",
+    "5. Practice writing paragraph retelling event"
+  ],
+  "TVL2KB20": [
+    "1. Introduce lesson",
+    "2. Explore occupation vocabulary",
+    "2.1. Introduce occupations",
+    "2.2. Vocabulary for work of each occupation",
+    "3. Practice",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB01": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson content",
+    "3.1. Explore meaning of vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB02": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson content",
+    "3.1 Explore meaning of vocabulary",
+    "3.2 Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB03": [
+    "1. Introduce lesson",
+    "2. Practice reading vocabulary",
+    "3. Explore lesson content",
+    "3.1. Explore meaning of vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB04": [
+    "1. Introduce lesson",
+    "2. Explore meaning of vocabulary",
+    "3. Practice",
+    "3.1. Arrange vocabulary into suitable groups",
+    "3.2. Arrange vocabulary to form sentences",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB05": [
+    "1. Introduce lesson",
+    "2. Explore how to introduce yourself",
+    "2.1. Observe picture",
+    "2.2. Explore how to introduce yourself",
+    "2.3. Practice",
+    "3. Suggest how to introduce yourself",
+    "4. Write paragraph introducing yourself",
+    "5. Reinforce - remind"
+  ],
+  "TVL3KB06": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson content",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB07": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson content",
+    "3.1. Explore meaning of vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce - Remind"
+  ],
+  "TVL3KB08": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore meaning of vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce - remind"
+  ],
+  "TVL3KB09": [
+    "1. Introduce lesson",
+    "2. Practice",
+    "2.1. Arrange vocabulary into suitable groups",
+    "2.2. Arrange vocabulary to form sentences",
+    "3. Reinforce, remind"
+  ],
+  "TVL3KB10": [
+    "1. Introduce lesson",
+    "2. Explore assignment requirements",
+    "3. Answer questions about the school you attend (explore paragraph structure)",
+    "3.1. Introduce your school name",
+    "3.2. Tell about some features of your school",
+    "3.3. Tell about some activities of your school",
+    "3.4. Talk about your feelings toward your school",
+    "4. Practice writing paragraph",
+    "5. Reinforce, remind"
+  ],
+  "TVL3KB11": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB12": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB13": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB14": [
+    "1. Introduce lesson",
+    "2. Explore assignment requirements",
+    "3. Observe and answer questions about the pencil",
+    "4. Guide writing a paragraph describing the pencil",
+    "5. Practice writing a paragraph about the pencil"
+  ],
+  "TVL3KB15": [
+    "1. Introduce class period",
+    "2. Explore family vocabulary",
+    "3. Practice",
+    "4. Reinforce, remind."
+  ],
+  "TVL3KB16": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore meaning of vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB17": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB18": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore meaning of vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL3KB19": [
+    "1. Introduce lesson",
+    "2. Explore assignment requirements",
+    "3. Guide writing paragraph",
+    "3.1. Talk about your favorite character",
+    "3.2. Guide writing paragraph about a favorite character in a story",
+    "4. Practice writing paragraph"
+  ],
+  "TVL3KB20": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL4KB01": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce - Remind"
+  ],
+  "TVL4KB02": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary meaning",
+    "3.1. Explore lesson content",
+    "4. Reinforce - Remind"
+  ],
+  "TVL4KB03": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "a) Explain word meaning",
+    "b) Recall words",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL4KB04": [
+    "1. Introduce lesson",
+    "2. Find ideas for writing",
+    "2.1. Introduce some good deeds",
+    "2.2. Suggestive questions"
+  ],
+  "TVL4KB05": [
+    "1. Introduce lesson",
+    "2. Explore vocabulary",
+    "3. Practice",
+    "3.1. Find words by group",
+    "3.2. Practice using vocabulary",
+    "4. Reinforce - Remind"
+  ],
+  "TVL4KB06": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "4. Meaning of story"
+  ],
+  "TVL4KB07": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Divide segments for reading",
+    "3.2. Explore vocabulary",
+    "3.3. Explore lesson",
+    "4. Reinforce - Remind"
+  ],
+  "TVL4KB08": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore astronomers",
+    "3.3. Explore lesson content"
+  ],
+  "TVL4KB09": [
+    "1. Introduce lesson",
+    "2. Explore favorite books",
+    "3. Name favorite book",
+    "4. Explain reason for liking favorite book"
+  ],
+  "TVL4KB10": [
+    "1. Introduce lesson",
+    "2. Review parts of speech",
+    "2.1. Noun",
+    "2.2. Verb",
+    "2.3. Adjective",
+    "3. Practice distinguishing noun, verb, adjective"
+  ],
+  "TVL4KB11": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL4KB12": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL4KB13": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL4KB14": [
+    "1. Introduce lesson",
+    "2. Explore assignment requirements",
+    "3. Guide how to write paragraph retelling a good deed",
+    "3.1. Find examples of good deeds",
+    "3.2. Answer questions about story to tell",
+    "4. Practice"
+  ],
+  "TVL4KB15": [
+    "1. Introduce lesson",
+    "2. Identify sentence and main parts of sentence",
+    "3. Practice",
+    "4. Reinforce, remind"
+  ],
+  "TVL4KB16": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL4KB17": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL4KB18": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL4KB19": [
+    "1. Introduce lesson",
+    "2. Explore assignment topic",
+    "3. Guide writing paragraph describing a favorite tree",
+    "3.1. Observe and answer questions about a tree",
+    "3.2. Guide writing paragraph describing a tree you love.",
+    "4. Practice writing paragraph"
+  ],
+  "TVL4KB20": [
+    "1. Introduce lesson",
+    "2. Storytelling",
+    "2.1. Tell whole story",
+    "2.2. Tell each section by picture",
+    "3. Explore story",
+    "3.1. Introduce characters in story",
+    "3.2. Explore story content",
+    "4. Reinforce, remind"
+  ],
+  "TVL5KB01": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2 Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL5KB02": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Express personal opinion"
+  ],
+  "TVL5KB03": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore data in lesson",
+    "4. Reinforce - remind"
+  ],
+  "TVL5KB04": [
+    "1. Introduce lesson",
+    "2. Explore requirements",
+    "3. General outline of descriptive essay",
+    "4. Reinforce - remind"
+  ],
+  "TVL5KB05": [
+    "1. Introduce lesson",
+    "2. Practice",
+    "2.1: Complete synonyms",
+    "2.2: Incomplete synonyms",
+    "3. Apply",
+    "4. Reinforce"
+  ],
+  "TVL5KB06": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce - remind"
+  ],
+  "TVL5KB07": [
+    "1. Introduce lesson",
+    "2. Reread lesson",
+    "3. Explore lesson",
+    "4. Summarize story",
+    "5. Express personal opinion"
+  ],
+  "TVL5KB08": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce - remind"
+  ],
+  "TVL5KB09": [
+    "1. Introduce lesson",
+    "2. Practice observing appearance",
+    "3. Read paragraph describing person",
+    "4. Explore how to describe person",
+    "5. Suggest how to write essay describing a person's appearance",
+    "6. Reinforce - Remind"
+  ],
+  "TVL5KB10": [
+    "1. Introduce lesson",
+    "2. Explore polysemous words",
+    "2.1. Original meaning",
+    "2.2. Transferred meaning",
+    "2.3. What is polysemy",
+    "3. Practice",
+    "4. Reinforce, remind"
+  ],
+  "TVL5KB11": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore poem content",
+    "4. Reinforce - Remind"
+  ],
+  "TVL5KB12": [
+    "1. Introduce lesson",
+    "2. Read character introduction essay",
+    "3. Explore lesson",
+    "4. Reinforce, remind"
+  ],
+  "TVL5KB13": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL5KB14": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "a) Vocabulary",
+    "b) Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL5KB15": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ],
+  "TVL5KB16": [
+    "1. Introduce lesson",
+    "2. Explore how to express opinion",
+    "3. Practice presenting opinion."
+  ],
+  "TVL5KB17": [
+    "1. Introduce lesson",
+    "2. Practice using period, question mark, exclamation mark",
+    "3. Practice using period, question mark, exclamation mark",
+    "4. Reinforce, remind"
+  ],
+  "TVL5KB18": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore legal articles",
+    "4. Reinforce, remind"
+  ],
+  "TVL5KB19": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore legal articles",
+    "4. Reinforce, remind"
+  ],
+  "TVL5KB20": [
+    "1. Introduce lesson",
+    "2. Read lesson",
+    "3. Explore lesson",
+    "3.1. Explore vocabulary",
+    "3.2. Explore lesson content",
+    "4. Reinforce, remind"
+  ]
+}

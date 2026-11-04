@@ -1,0 +1,24 @@
+1
+00:00:01,250 --> 00:00:05,820
+Read sentences under picture.
+
+2
+00:00:06,740 --> 00:00:16,450
+Teacher guides watering plants.
+
+3
+00:00:19,310 --> 00:00:27,050
+Students bring water into sprayer.
+
+4
+00:00:28,880 --> 00:00:36,400
+Students water plants.
+
+5
+00:00:37,740 --> 00:00:45,370
+Students water flower pots.
+
+6
+00:00:46,570 --> 00:00:54,480
+Plants are green and good because of care.
+

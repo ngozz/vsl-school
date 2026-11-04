@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:08,260
+You have read rules at places below?
+
+2
+00:00:08,260 --> 00:00:19,260
+Mark blanks before places you have read rules:
+
+3
+00:00:19,460 --> 00:00:24,110
+In classroom
+
+4
+00:00:24,440 --> 00:00:29,150
+At school
+
+5
+00:00:29,660 --> 00:00:39,240
+At flower garden, park, playground
+
+6
+00:00:39,930 --> 00:00:49,440
+At apartment / residential area
+
+7
+00:00:50,370 --> 00:00:54,570
+At neighborhood
+
+8
+00:00:54,570 --> 00:01:02,680
+At village, hamlet
+
+9
+00:01:04,840 --> 00:01:12,150
+Read lesson again and answer questions in lesson.
+

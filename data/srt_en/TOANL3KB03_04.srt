@@ -1,0 +1,88 @@
+1
+00:00:04,840 --> 00:00:14,930
+Addition within 100000
+
+2
+00:00:16,110 --> 00:00:32,480
+Read the problem and set up calculation 45383 plus 29245
+
+3
+00:00:32,480 --> 00:00:54,130
+To perform calculation 45383 plus 29245 we set up then calculate
+
+4
+00:00:54,640 --> 00:01:03,750
+Step one set up, set digits in the same place aligned in columns
+
+5
+00:01:03,750 --> 00:01:12,440
+Step two perform calculation from right to left
+
+6
+00:01:13,510 --> 00:01:21,950
+3 plus 5 equals 8, write 8
+
+7
+00:01:21,950 --> 00:01:33,970
+8 plus 4 equals 12, write 2 carry 1
+
+8
+00:01:34,460 --> 00:01:44,930
+3 plus 2 equals 5 plus 1 equals 6, write 6
+
+9
+00:01:44,930 --> 00:01:56,060
+5 plus 9 equals 14, write 4 carry 1
+
+10
+00:01:56,620 --> 00:02:07,640
+4 plus 2 equals 6 plus 1 equals 7, write 7
+
+11
+00:02:07,640 --> 00:02:30,820
+So: 45383 plus 29245 equals 74628
+
+12
+00:02:32,220 --> 00:02:47,130
+Perform setting up and calculating operation 61729 plus 5437
+
+13
+00:02:47,130 --> 00:03:06,800
+To perform calculation 61729 plus 5437 we set up then calculate
+
+14
+00:03:07,750 --> 00:03:16,130
+To perform this calculation we note
+
+15
+00:03:16,130 --> 00:03:27,820
+Set up each number in the same place aligned in columns
+
+16
+00:03:28,200 --> 00:03:42,150
+Perform calculation from right to left
+
+17
+00:03:45,420 --> 00:03:51,060
+Check the result again
+
+18
+00:03:51,060 --> 00:04:00,950
+9 plus 7 equals 16, write 6 carry 1
+
+19
+00:04:00,950 --> 00:04:13,570
+3 plus 2 equals 5 plus 1 equals 6, write 6
+
+20
+00:04:13,570 --> 00:04:22,930
+7 plus 4 equals 11, write 1 carry 1
+
+21
+00:04:22,930 --> 00:04:38,710
+1 plus 5 equals 6 plus 1 equals 7, write 7 bring down 6
+
+22
+00:04:38,710 --> 00:04:57,130
+So 61729 plus 5437 equals 67166
+

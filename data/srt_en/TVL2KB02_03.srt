@@ -1,0 +1,36 @@
+1
+00:00:01,300 --> 00:00:06,000
+yellow wall
+
+2
+00:00:07,930 --> 00:00:11,300
+red tile
+
+3
+00:00:13,330 --> 00:00:17,100
+blue door
+
+4
+00:00:18,800 --> 00:00:24,830
+wooden desk and chair
+
+5
+00:00:28,360 --> 00:00:40,830
+Now match word cell with suitable picture.
+
+6
+00:00:44,630 --> 00:00:49,030
+Images of yellow walls, red tiles
+
+7
+00:00:49,460 --> 00:00:51,530
+Images of yellow walls, red tiles, blue doors
+
+8
+00:00:51,900 --> 00:00:53,730
+Images of yellow walls, red tiles, blue doors, wooden desks
+
+9
+00:00:54,160 --> 00:00:59,830
+Images of yellow walls, red tiles, blue doors, wooden desks are familiar images in school.
+

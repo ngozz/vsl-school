@@ -1,0 +1,208 @@
+1
+00:00:00,750 --> 00:00:08,150
+Numbers up to 10000
+
+2
+00:00:08,750 --> 00:00:15,880
+Look at the picture and see the answer.
+
+3
+00:00:16,550 --> 00:00:23,710
+How many thousands?
+
+4
+00:00:24,770 --> 00:00:31,420
+There is 1 thousand
+
+5
+00:00:31,970 --> 00:00:38,770
+How many hundreds?
+
+6
+00:00:40,080 --> 00:00:47,460
+There are 4 hundreds
+
+7
+00:00:49,460 --> 00:00:56,880
+How many tens?
+
+8
+00:00:57,860 --> 00:01:04,170
+There are 5 tens
+
+9
+00:01:05,460 --> 00:01:14,020
+How many ones?
+
+10
+00:01:16,200 --> 00:01:24,770
+There are 2 ones
+
+11
+00:01:25,930 --> 00:01:32,640
+Observe on screen
+
+12
+00:01:32,840 --> 00:01:39,950
+The thousands digit is what?
+
+13
+00:01:41,570 --> 00:01:46,510
+One
+
+14
+00:01:47,510 --> 00:01:56,150
+The hundreds digit is what?
+
+15
+00:01:56,970 --> 00:02:02,000
+Four
+
+16
+00:02:04,000 --> 00:02:11,770
+The tens digit is what?
+
+17
+00:02:12,200 --> 00:02:17,150
+Five
+
+18
+00:02:18,460 --> 00:02:25,770
+The ones digit is what?
+
+19
+00:02:28,640 --> 00:02:32,570
+Two
+
+20
+00:02:33,170 --> 00:02:57,040
+We have a number consisting of one thousand, four hundreds, five tens, two ones
+
+21
+00:02:57,640 --> 00:03:03,400
+Write: 1452
+
+22
+00:03:03,400 --> 00:03:16,220
+Read: "One thousand four hundred fifty-two".
+
+23
+00:03:17,570 --> 00:03:24,460
+Read the numbers according to the example
+
+24
+00:03:25,330 --> 00:03:52,480
+Example: Number consists of 2 thousands, 0 hundreds, 0 tens, 0 ones.
+
+25
+00:03:53,260 --> 00:04:04,680
+Write: 2000
+
+26
+00:04:04,680 --> 00:04:10,420
+Read: "Two thousand".
+
+27
+00:04:21,930 --> 00:04:27,530
+Check the result.
+
+28
+00:04:30,150 --> 00:04:40,840
+Write number 4278 as a sum.
+
+29
+00:04:40,840 --> 00:05:05,880
+Number 4278 consists of how many thousands, hundreds, tens, ones?
+
+30
+00:05:06,660 --> 00:05:17,280
+Number 4 278 consists of: 4 thousands
+
+31
+00:05:17,280 --> 00:05:22,860
+Number 4 278 consists of: 4 thousands, 2 hundreds
+
+32
+00:05:22,860 --> 00:05:27,020
+Number 4 278 consists of: 4 thousands, 2 hundreds, 7 tens
+
+33
+00:05:27,020 --> 00:05:34,820
+Number 4 278 consists of: 4 thousands, 2 hundreds, 7 tens, 8 ones.
+
+34
+00:05:35,660 --> 00:05:40,600
+Therefore we write
+
+35
+00:05:40,600 --> 00:05:57,710
+Therefore we write: 4278 = 4000 + 200 + 70 + 8
+
+36
+00:05:58,820 --> 00:06:12,750
+Now, write the following numbers as sums of two patterns.
+
+37
+00:06:14,750 --> 00:06:26,040
+Observe on screen and tell how many 1000 cards?
+
+38
+00:06:27,000 --> 00:06:36,020
+There are 7 cards of 1000.
+
+39
+00:06:38,020 --> 00:06:43,510
+How many thousands do we have?
+
+40
+00:06:44,770 --> 00:06:51,570
+There are 7000.
+
+41
+00:06:54,330 --> 00:07:03,770
+Observe on screen and fill in the appropriate number in the blank.
+
+42
+00:07:04,310 --> 00:07:16,350
+There are 8 cards of 1000.
+
+43
+00:07:19,150 --> 00:07:25,820
+How many thousands?
+
+44
+00:07:25,820 --> 00:07:33,220
+There are 8 thousands.
+
+45
+00:07:35,710 --> 00:07:46,480
+Fill in the appropriate number in the blank.
+
+46
+00:07:47,930 --> 00:07:58,680
+There are 9 cards of 1000.
+
+47
+00:08:00,680 --> 00:08:06,820
+How many thousands?
+
+48
+00:08:07,200 --> 00:08:13,660
+There are 9000.
+
+49
+00:08:16,640 --> 00:08:24,480
+Fill in the appropriate number in the blank.
+
+50
+00:08:25,040 --> 00:08:35,370
+There are 10 cards of 1000.
+
+51
+00:08:36,820 --> 00:08:44,640
+We have number 10000.
+
+52
+00:08:49,170 --> 00:08:56,000
+Read: "Ten thousand".
+

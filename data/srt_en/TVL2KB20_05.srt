@@ -1,0 +1,8 @@
+1
+00:00:00,850 --> 00:00:07,620
+What occupation do you like most?
+
+2
+00:00:08,070 --> 00:00:19,100
+Draw picture about work of person doing that occupation and write 1 sentence under your picture.
+

@@ -1,0 +1,32 @@
+1
+00:00:01,040 --> 00:00:16,130
+From friend Hoa's self-introduction above, teacher will guide you how to introduce yourself when meeting for first time.
+
+2
+00:00:16,130 --> 00:00:24,130
+First when meeting need to greet each other.
+
+3
+00:00:24,130 --> 00:00:31,930
+Then need to introduce yourself to friends.
+
+4
+00:00:32,260 --> 00:00:40,440
+Introduce name, introduce class.
+
+5
+00:00:40,440 --> 00:00:50,020
+Introduce birth date, birthplace.
+
+6
+00:00:50,480 --> 00:00:54,640
+Introduce hobby.
+
+7
+00:00:54,640 --> 00:00:59,440
+Introduce thing you like to do.
+
+8
+00:00:59,440 --> 00:01:05,930
+Introduce your dream.
+

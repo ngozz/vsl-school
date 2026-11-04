@@ -1,0 +1,56 @@
+1
+00:00:01,370 --> 00:00:10,710
+Time
+
+2
+00:00:13,880 --> 00:00:19,310
+Let's solve problem below.
+
+3
+00:00:20,080 --> 00:00:22,250
+Problem 3:
+
+4
+00:00:23,220 --> 00:00:36,820
+A car travels distance 170 km with speed 42.5 km/hour.
+
+5
+00:00:38,420 --> 00:00:46,970
+Calculate time car takes to travel that distance?
+
+6
+00:00:48,220 --> 00:00:59,800
+To calculate travel time of car, we take distance traveled divided by car speed.
+
+7
+00:01:01,250 --> 00:01:05,970
+How to write solution?
+
+8
+00:01:10,310 --> 00:01:14,480
+Time car travels is:
+
+9
+00:01:15,510 --> 00:01:27,080
+170 : 42.5 = 4 (hours)
+
+10
+00:01:28,910 --> 00:01:33,880
+Answer: 4 hours.
+
+11
+00:01:36,450 --> 00:01:50,940
+Rule: To calculate time we take distance divided by speed.
+
+12
+00:01:53,050 --> 00:02:19,340
+If we call s distance, v speed, t time, then we have formula:
+
+13
+00:02:19,970 --> 00:02:26,370
+t = s : v
+
+14
+00:02:27,620 --> 00:02:39,650
+Read lesson again and continue with exercises!
+

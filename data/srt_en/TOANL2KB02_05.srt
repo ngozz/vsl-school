@@ -1,0 +1,48 @@
+1
+00:00:00,800 --> 00:00:07,820
+Three collinear points, broken line.
+
+2
+00:00:09,770 --> 00:00:17,050
+3 points A, B, C lie on the same straight line.
+
+3
+00:00:17,770 --> 00:00:29,020
+We say A, B, C are three collinear points.
+
+4
+00:00:31,910 --> 00:00:56,020
+Broken line MNPQ consists of three straight segments MN, NP and PQ.
+
+5
+00:01:02,170 --> 00:01:09,680
+The shapes we learned today are:
+
+6
+00:01:11,820 --> 00:01:13,200
+Point
+
+7
+00:01:13,970 --> 00:01:15,170
+Line segment
+
+8
+00:01:15,910 --> 00:01:17,000
+Straight line
+
+9
+00:01:17,400 --> 00:01:19,340
+3 collinear points
+
+10
+00:01:20,020 --> 00:01:21,340
+Curve
+
+11
+00:01:22,020 --> 00:01:23,570
+Broken line
+
+12
+00:01:24,510 --> 00:01:31,940
+Quadrilateral
+

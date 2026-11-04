@@ -1,0 +1,36 @@
+1
+00:00:01,407 --> 00:00:12,165
+Need to fill number in blank to complete solution for problem.
+
+2
+00:00:13,218 --> 00:00:24,966
+What does problem state?
+
+3
+00:00:25,908 --> 00:00:34,569
+First session, Nga solved 3 exercises.
+
+4
+00:00:34,799 --> 00:00:43,138
+Second session, Nga solved 5 exercises.
+
+5
+00:00:43,787 --> 00:00:52,289
+Third session, Nga solved 4 exercises.
+
+6
+00:00:53,176 --> 00:00:59,100
+What does problem ask?
+
+7
+00:01:01,976 --> 00:01:16,543
+On average how many exercises does Nga solve per self-study session?
+
+8
+00:01:18,226 --> 00:01:30,562
+Find total number of exercises Nga solved?
+
+9
+00:01:32,014 --> 00:01:42,506
+Divide total exercises by 3 sessions, we get average exercises per session.
+

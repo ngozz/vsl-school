@@ -1,0 +1,20 @@
+1
+00:00:00,660 --> 00:00:09,330
+Comparing numbers with equal number of digits
+
+2
+00:00:09,330 --> 00:00:26,110
+If two numbers have the same number of digits and each pair of digits in the same place are identical, then the two numbers are equal.
+
+3
+00:00:30,260 --> 00:00:41,330
+Compare two numbers 6852 and number 6852
+
+4
+00:00:41,860 --> 00:01:01,310
+Because these two numbers have the same number of digits and each pair of digits in thousands, hundreds, tens, ones places are identical
+
+5
+00:01:02,200 --> 00:01:16,080
+We have result: 6852 equals 6852
+

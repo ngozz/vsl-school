@@ -1,0 +1,32 @@
+1
+00:00:01,300 --> 00:00:13,170
+Classify following words into two groups.
+
+2
+00:00:15,720 --> 00:00:19,020
+Group 1: person words.
+
+3
+00:00:19,450 --> 00:00:27,250
+Group 2: activity words.
+
+4
+00:00:32,750 --> 00:00:40,750
+Have you classified words into suitable groups?
+
+5
+00:00:41,970 --> 00:00:46,670
+Person words:
+
+6
+00:00:46,750 --> 00:01:02,000
+Person words: student, principal, male teacher, female teacher, security guard, chef.
+
+7
+00:01:03,150 --> 00:01:08,720
+Activity words:
+
+8
+00:01:08,750 --> 00:01:28,900
+Activity words: go to school, cook, jump rope, kick shuttlecock, draw picture, write, work.
+

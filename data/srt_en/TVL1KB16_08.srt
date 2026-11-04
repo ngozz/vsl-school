@@ -1,0 +1,48 @@
+1
+00:00:02,140 --> 00:00:10,910
+Follow teacher reading and find words:
+
+2
+00:01:02,600 --> 00:01:14,400
+Follow teacher reading and find suitable picture.
+
+3
+00:02:06,510 --> 00:02:14,570
+Observe answer.
+
+4
+00:02:16,340 --> 00:02:31,000
+quyển truyện
+
+5
+00:02:33,880 --> 00:02:48,420
+khuấy bột
+
+6
+00:02:51,050 --> 00:03:03,020
+khuân vác
+
+7
+00:03:05,940 --> 00:03:10,620
+Match picture to word correctly.
+
+8
+00:03:20,020 --> 00:03:26,970
+Observe answer.
+
+9
+00:03:29,880 --> 00:03:35,250
+quyển truyện
+
+10
+00:03:38,400 --> 00:03:44,420
+khuấy bột
+
+11
+00:03:46,510 --> 00:03:52,140
+khuân vác
+
+12
+00:03:54,220 --> 00:04:02,080
+Goodbye everyone! See you next lesson.
+

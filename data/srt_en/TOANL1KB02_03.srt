@@ -1,0 +1,32 @@
+1
+00:00:11,680 --> 00:00:18,940
+Look at the picture, count the quantity, and draw symbols as I do.
+
+2
+00:00:20,280 --> 00:00:31,820
+There are 4 blue round dots, there is 1 yellow round dot.
+
+3
+00:00:33,140 --> 00:00:42,220
+The number of blue round dots is more than the number of yellow round dots.
+
+4
+00:00:44,450 --> 00:00:50,970
+Write: 4 > 1
+
+5
+00:00:52,250 --> 00:01:00,620
+Read: Four is greater than one.
+
+6
+00:01:01,710 --> 00:01:07,650
+One round dot is less than four round dots.
+
+7
+00:01:08,110 --> 00:01:16,710
+Write: 1 < 4
+
+8
+00:01:17,420 --> 00:01:27,400
+Read: One is less than four
+

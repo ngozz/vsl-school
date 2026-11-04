@@ -1,0 +1,24 @@
+1
+00:00:00,811 --> 00:00:13,096
+To find arithmetic mean of several numbers we do two steps:
+
+2
+00:00:14,175 --> 00:00:21,853
+Step 1: Find sum of all numbers.
+
+3
+00:00:22,884 --> 00:00:31,090
+Step 2: Take sum divide by number of addends.
+
+4
+00:00:33,011 --> 00:00:47,405
+Example: Find arithmetic mean of three numbers 8, 11, 14.
+
+5
+00:00:48,579 --> 00:01:01,787
+So sum of 8, 11, 14 is 33.
+
+6
+00:01:02,850 --> 00:01:13,448
+Arithmetic mean of 8, 11, 14 is 11.
+

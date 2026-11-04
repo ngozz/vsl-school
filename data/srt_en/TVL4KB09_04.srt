@@ -1,0 +1,56 @@
+1
+00:00:02,000 --> 00:00:09,770
+Why do you like that book?
+
+2
+00:00:09,770 --> 00:00:18,040
+Requirement: You state reason why you like that book.
+
+3
+00:00:18,040 --> 00:00:26,220
+Example: You like pictures in book.
+
+4
+00:00:26,910 --> 00:00:33,480
+You like which character in book?
+
+5
+00:00:33,480 --> 00:00:45,000
+State clearly what you like about that character (personality, action, appearance of character).
+
+6
+00:00:45,770 --> 00:00:49,220
+3. Practice writing paragraph.
+
+7
+00:00:49,220 --> 00:01:00,820
+Write paragraph according to ideas.
+
+8
+00:01:01,840 --> 00:01:11,220
+1. Introduce book name.
+
+9
+00:01:12,170 --> 00:01:26,400
+2. When did you read book? (You were given / borrowed / or bought that book).
+
+10
+00:01:27,170 --> 00:01:37,420
+3. Why do you like that book?
+
+11
+00:01:38,480 --> 00:01:49,260
+4. Your feelings, thoughts after reading book.
+
+12
+00:01:50,840 --> 00:01:57,310
+5. Invite / recommend everyone to read that book.
+
+13
+00:01:57,310 --> 00:02:06,880
+You can change order of ideas in your paragraph suitably.
+
+14
+00:02:07,280 --> 00:02:17,150
+After writing you read again to revise paragraph.
+

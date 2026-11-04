@@ -1,0 +1,8 @@
+1
+00:00:01,100 --> 00:00:06,150
+We have read lesson "My Class Monitor".
+
+2
+00:00:06,150 --> 00:00:13,550
+This lesson we will learn carefully about lesson content.
+

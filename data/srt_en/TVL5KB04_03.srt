@@ -1,0 +1,20 @@
+1
+00:00:02,860 --> 00:00:19,370
+Choose suitable word for each content to have common outline of descriptive essay: opening, body, ending.
+
+2
+00:00:20,200 --> 00:00:26,330
+Introduce scene to describe.
+
+3
+00:00:26,330 --> 00:00:33,660
+Method 1: Describe each feature of scene in turn.
+
+4
+00:00:33,660 --> 00:00:42,620
+Method 2: Describe scene at each time point.
+
+5
+00:00:43,640 --> 00:00:51,770
+State feelings, thoughts about described scene.
+

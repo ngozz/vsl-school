@@ -1,0 +1,12 @@
+1
+00:00:00,350 --> 00:00:06,220
+You need to know the meaning of the word:
+
+2
+00:00:06,220 --> 00:00:09,700
+obligation
+
+3
+00:00:11,450 --> 00:00:22,950
+obligation: duty that one must undertake, take responsibility for.
+

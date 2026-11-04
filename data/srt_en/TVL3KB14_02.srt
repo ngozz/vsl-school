@@ -1,0 +1,8 @@
+1
+00:00:02,420 --> 00:00:07,710
+What does assignment require?
+
+2
+00:00:11,370 --> 00:00:20,370
+Assignment requires writing short paragraph describing your pencil.
+

@@ -1,0 +1,8 @@
+1
+00:00:00,890 --> 00:00:05,000
+Hello everyone!
+
+2
+00:00:05,310 --> 00:00:11,170
+Let's learn about addition within 10 together.
+

@@ -1,0 +1,12 @@
+1
+00:00:01,592 --> 00:00:09,337
+Let's review solving word problems together.
+
+2
+00:00:10,092 --> 00:00:20,487
+Practice finding arithmetic mean of two or several numbers.
+
+3
+00:00:21,239 --> 00:00:38,826
+Practice solving problem finding arithmetic mean and finding two numbers given sum and difference.
+

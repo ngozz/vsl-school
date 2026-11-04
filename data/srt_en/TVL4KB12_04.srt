@@ -1,0 +1,112 @@
+1
+00:00:01,110 --> 00:00:09,640
+Question 1: Where did Doctor Ly meet pirate?
+
+2
+00:00:09,840 --> 00:00:14,840
+Choose correct answer:
+
+3
+00:00:14,840 --> 00:00:19,330
+A. On a ship.
+
+4
+00:00:19,330 --> 00:00:24,570
+B. In an inn.
+
+5
+00:00:24,570 --> 00:00:27,710
+C. In a hospital.
+
+6
+00:00:30,710 --> 00:00:35,200
+Observe answer:
+
+7
+00:00:35,530 --> 00:00:44,020
+Doctor Ly met pirate in an inn.
+
+8
+00:00:45,200 --> 00:00:53,510
+Question 2: What did pirate order everyone to do?
+
+9
+00:00:53,710 --> 00:00:58,970
+Choose correct answer.
+
+10
+00:00:58,970 --> 00:01:02,950
+A. sing.
+
+11
+00:01:02,950 --> 00:01:06,750
+B. drink alcohol.
+
+12
+00:01:06,750 --> 00:01:09,150
+C. be silent.
+
+13
+00:01:11,150 --> 00:01:16,550
+Observe answer:
+
+14
+00:01:16,550 --> 00:01:24,110
+Pirate ordered everyone to be silent.
+
+15
+00:01:24,110 --> 00:01:34,910
+Question 3: Choose words describing characters correctly?
+
+16
+00:01:34,910 --> 00:01:39,840
+fierce
+
+17
+00:01:39,840 --> 00:01:40,710
+brave
+
+18
+00:01:43,710 --> 00:01:48,840
+Observe answer:
+
+19
+00:01:48,840 --> 00:01:54,170
+Doctor Ly is brave.
+
+20
+00:01:54,170 --> 00:02:00,110
+Pirate is fierce.
+
+21
+00:02:00,510 --> 00:02:12,910
+Question 4: Why could Doctor Ly defeat fierce pirate?
+
+22
+00:02:14,080 --> 00:02:20,060
+Choose correct answer.
+
+23
+00:02:20,060 --> 00:02:27,220
+A. Because Doctor Ly is stronger than pirate.
+
+24
+00:02:27,220 --> 00:02:34,530
+B. Because Doctor Ly speaks louder than pirate.
+
+25
+00:02:34,530 --> 00:02:38,370
+C. Because Doctor Ly is very brave.
+
+26
+00:02:41,000 --> 00:02:45,910
+Observe answer.
+
+27
+00:02:45,910 --> 00:02:59,370
+Doctor Ly defeated fierce pirate because: Doctor Ly is very brave.
+
+28
+00:03:05,000 --> 00:03:17,000
+Story praises Doctor Ly's courage in confrontation with fierce pirate.
+

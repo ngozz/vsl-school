@@ -1,0 +1,4 @@
+1
+00:00:00,880 --> 00:00:12,020
+You have read lesson "Monkey Island Rules". We will read again and learn lesson content.
+

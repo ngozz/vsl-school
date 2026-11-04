@@ -1,0 +1,52 @@
+1
+00:00:00,570 --> 00:00:10,600
+Distance
+
+2
+00:00:14,140 --> 00:00:18,220
+Let's solve problem below.
+
+3
+00:00:18,850 --> 00:00:20,850
+Problem 2:
+
+4
+00:00:22,020 --> 00:00:31,800
+A car travels for 4 hours with speed 42.5 km/hour.
+
+5
+00:00:32,600 --> 00:00:40,170
+Calculate distance car travels?
+
+6
+00:00:41,310 --> 00:00:51,110
+To calculate distance car travels, we take car speed times travel time.
+
+7
+00:00:52,220 --> 00:00:56,420
+How to write solution?
+
+8
+00:00:57,620 --> 00:01:03,740
+Distance car travels is:
+
+9
+00:01:04,310 --> 00:01:14,570
+42.5 x 4 = 170 (km)
+
+10
+00:01:15,600 --> 00:01:21,400
+Answer: 170 km.
+
+11
+00:01:22,510 --> 00:01:38,000
+Rule: To calculate distance we take speed times time.
+
+12
+00:01:39,820 --> 00:02:04,710
+If we call s distance, v speed, t time, then we have formula:
+
+13
+00:02:05,770 --> 00:02:13,570
+s = v x t
+

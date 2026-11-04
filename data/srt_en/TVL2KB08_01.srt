@@ -1,0 +1,8 @@
+1
+00:00:01,370 --> 00:00:09,940
+We have read lesson: How to boil tasty eggs.
+
+2
+00:00:09,940 --> 00:00:16,480
+Reading lesson helps you know how to boil eggs.
+

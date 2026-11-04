@@ -1,0 +1,40 @@
+1
+00:00:01,310 --> 00:00:08,490
+Pie chart
+
+2
+00:00:12,690 --> 00:00:22,260
+Let's look at pie chart via example below:
+
+3
+00:00:26,020 --> 00:00:31,290
+Look at chart tell:
+
+4
+00:00:32,410 --> 00:00:37,960
+- What percent of books are children's stories?
+
+5
+00:00:39,560 --> 00:00:45,450
+- What percent of books are textbooks?
+
+6
+00:00:45,840 --> 00:00:52,170
+- What percent of books are other types?
+
+7
+00:00:57,550 --> 00:01:01,520
+Looking at chart we know:
+
+8
+00:01:01,800 --> 00:01:07,470
+- 50% of books are children's stories;
+
+9
+00:01:08,210 --> 00:01:14,440
+- 25% of books are textbooks;
+
+10
+00:01:15,220 --> 00:01:21,140
+- 25% of books are other types.
+

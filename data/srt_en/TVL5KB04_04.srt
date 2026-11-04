@@ -1,0 +1,24 @@
+1
+00:00:01,150 --> 00:00:08,880
+You state outline of a descriptive essay.
+
+2
+00:00:10,880 --> 00:00:14,240
+Opening:
+
+3
+00:00:14,240 --> 00:00:20,950
+Opening: Introduce scene to describe.
+
+4
+00:00:20,950 --> 00:00:34,750
+Body: State objects to describe.
+
+5
+00:00:34,750 --> 00:00:50,400
+State features of scene at each specific time point (or describe each part of scene).
+
+6
+00:00:50,400 --> 00:01:01,820
+Ending: State feelings, thoughts about scenery.
+

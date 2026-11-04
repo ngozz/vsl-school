@@ -1,0 +1,104 @@
+1
+00:00:04,950 --> 00:00:15,640
+Numbers within 20.
+
+2
+00:00:15,640 --> 00:00:26,060
+Observe the picture and count the number of pencils in the picture.
+
+3
+00:00:26,060 --> 00:00:36,080
+How many pencils are there?
+
+4
+00:00:37,080 --> 00:00:45,750
+There are 13 pencils
+
+5
+00:00:46,710 --> 00:00:52,570
+Write
+
+6
+00:00:55,020 --> 00:01:07,130
+Read: Thirteen
+
+7
+00:01:10,150 --> 00:01:19,310
+Count the number of candies in the picture and answer the question.
+
+8
+00:01:19,770 --> 00:01:27,130
+How many candies are there?
+
+9
+00:01:28,420 --> 00:01:37,040
+There are 14 candies
+
+10
+00:01:38,130 --> 00:01:42,800
+Write
+
+11
+00:01:44,800 --> 00:01:55,200
+Read: Fourteen
+
+12
+00:02:03,600 --> 00:02:11,370
+Count the number of onions and answer the question.
+
+13
+00:02:11,370 --> 00:02:19,950
+How many onions are there?
+
+14
+00:02:21,750 --> 00:02:28,640
+There are 15 onions
+
+15
+00:02:31,530 --> 00:02:36,770
+Write
+
+16
+00:02:38,330 --> 00:02:47,660
+Read: Fifteen
+
+17
+00:02:57,060 --> 00:03:05,660
+Count the number of carrots in the picture and answer the question.
+
+18
+00:03:05,660 --> 00:03:13,080
+How many carrots are there?
+
+19
+00:03:13,570 --> 00:03:21,950
+19 carrots
+
+20
+00:03:23,710 --> 00:03:28,660
+Write
+
+21
+00:03:30,130 --> 00:03:41,000
+Read: Nineteen
+
+22
+00:03:49,000 --> 00:03:56,840
+Count the number of pumpkins in the picture and answer the question.
+
+23
+00:03:56,840 --> 00:04:03,370
+How many pumpkins are there?
+
+24
+00:04:04,770 --> 00:04:14,280
+20 pumpkins
+
+25
+00:04:16,150 --> 00:04:22,020
+Write
+
+26
+00:04:24,020 --> 00:04:32,930
+Read: Twenty
+

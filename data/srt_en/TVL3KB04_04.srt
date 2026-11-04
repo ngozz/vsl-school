@@ -1,0 +1,32 @@
+1
+00:00:04,970 --> 00:00:13,510
+There are words: help mom / cook rice / I.
+
+2
+00:00:13,750 --> 00:00:19,060
+You arrange given words to form sentence.
+
+3
+00:00:19,440 --> 00:00:21,860
+Correct sentence is:
+
+4
+00:00:22,420 --> 00:00:36,350
+"I cook rice to help mom" and "I help mom cook rice".
+
+5
+00:00:38,370 --> 00:00:47,660
+There are words: honest / little Lan / very.
+
+6
+00:00:48,000 --> 00:00:54,060
+You continue arranging given words to form sentence.
+
+7
+00:00:54,880 --> 00:00:57,550
+Correct sentence is:
+
+8
+00:00:58,040 --> 00:01:06,080
+Little Lan is very honest.
+

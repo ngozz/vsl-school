@@ -1,0 +1,12 @@
+1
+00:00:02,820 --> 00:00:11,400
+Divide one decimal number by 10, 100, 1000
+
+2
+00:00:11,400 --> 00:00:51,600
+To divide one decimal number by 10, 100, 1000,... just move comma of that number successively to left one, two, three,... digits.
+
+3
+00:00:52,820 --> 00:00:59,970
+Do exercise below:
+

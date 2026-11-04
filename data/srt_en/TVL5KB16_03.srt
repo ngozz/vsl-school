@@ -1,0 +1,8 @@
+1
+00:00:00,820 --> 00:00:08,770
+You write your opinion according to exercise requirements.
+
+2
+00:00:09,820 --> 00:00:25,050
+Assignment: Parents often forbid children from using smartphones. Do you agree or disagree? Why?
+

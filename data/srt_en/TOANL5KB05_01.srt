@@ -1,0 +1,8 @@
+1
+00:00:01,210 --> 00:00:03,467
+Hello everyone
+
+2
+00:00:03,851 --> 00:00:13,290
+Let's review percentage lesson together
+

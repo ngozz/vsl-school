@@ -1,0 +1,24 @@
+1
+00:00:01,910 --> 00:00:06,170
+Let's do following exercise.
+
+2
+00:00:07,000 --> 00:00:16,840
+Choose suitable phrase for blank in sentence.
+
+3
+00:00:17,950 --> 00:00:25,550
+After school I help mother
+
+4
+00:00:26,970 --> 00:00:32,880
+Choose cook rice or rice cooker?
+
+5
+00:00:37,680 --> 00:00:47,880
+These days weather is hot, father bought for me
+
+6
+00:00:48,770 --> 00:00:55,400
+Choose <color=orange><b>light bulb</b></color> or <color=orange><b>electric fan</b></color>?
+

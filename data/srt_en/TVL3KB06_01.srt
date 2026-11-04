@@ -1,0 +1,4 @@
+1
+00:00:01,660 --> 00:00:07,600
+Today, we read comprehension lesson "PE Class".
+

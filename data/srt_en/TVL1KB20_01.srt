@@ -1,0 +1,4 @@
+1
+00:00:01,270 --> 00:00:09,120
+We learn the lesson "The Little Goat Listens to Mother".
+

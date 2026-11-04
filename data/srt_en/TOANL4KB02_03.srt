@@ -1,0 +1,72 @@
+1
+00:00:00,260 --> 00:00:09,530
+Fill appropriate number in blank.
+
+2
+00:00:10,640 --> 00:00:19,880
+Note: 30 = 3 x 10
+
+3
+00:00:20,420 --> 00:00:33,680
+25 x 30 = 25 x (3 x 10)
+
+4
+00:00:34,420 --> 00:00:44,660
+Equals (25 x 3) x 10
+
+5
+00:00:44,660 --> 00:00:51,710
+Equals 75 x 10
+
+6
+00:00:51,710 --> 00:00:58,860
+Equals 750
+
+7
+00:00:59,640 --> 00:01:04,020
+We can set up calculation as follows:
+
+8
+00:01:04,020 --> 00:01:15,570
+25 x 30 = 750
+
+9
+00:01:16,020 --> 00:01:33,880
+3 times 25 equals 75, write 75 then add one zero to product 75 just found we get 750
+
+10
+00:01:34,310 --> 00:01:45,530
+Example 2: Calculate 230 times 70
+
+11
+00:01:45,530 --> 00:02:00,000
+230 times 70 how can we convert to multiplying a number by 100?
+
+12
+00:02:00,000 --> 00:02:14,310
+Split 230 into (23 x 10) and 70 into (7 x 10)
+
+13
+00:02:14,310 --> 00:02:22,800
+Then we get 23 x 7 x 100
+
+14
+00:02:22,800 --> 00:02:33,710
+23 times 7 we get 161 then multiply by 100
+
+15
+00:02:33,710 --> 00:02:42,350
+Result we get 16100
+
+16
+00:02:42,350 --> 00:02:51,770
+230 x 70 = 16100
+
+17
+00:02:51,770 --> 00:03:01,370
+Conclusion: When multiplying 1 number with a 2-digit number ending in digit 0
+
+18
+00:03:01,370 --> 00:03:12,800
+we practice calculating as multiplying by a 1-digit number, then add one zero to right of found product.
+

@@ -1,0 +1,36 @@
+1
+00:00:04,330 --> 00:00:12,433
+Compare two decimal numbers with different whole parts.
+
+2
+00:00:15,222 --> 00:00:17,433
+Example 1:
+
+3
+00:00:17,839 --> 00:00:28,666
+Compare 8.1 m and 7.9 m
+
+4
+00:00:29,660 --> 00:00:36,866
+To compare we do as follows.
+
+5
+00:00:39,100 --> 00:00:57,500
+Convert to unit dm Using comparison of natural numbers.
+
+6
+00:00:59,666 --> 00:01:18,330
+Fill: 8.1 m = 81 dm; 7.9 m = 79 dm
+
+7
+00:01:20,500 --> 00:01:37,366
+81 dm > 79 dm (81 > 79 because at tens place 8 > 7)
+
+8
+00:01:39,666 --> 00:01:49,100
+That is 8.1 m > 7.9 m.
+
+9
+00:01:51,566 --> 00:02:05,600
+So 8.1 > 7.9 (whole part has 8 > 7)
+

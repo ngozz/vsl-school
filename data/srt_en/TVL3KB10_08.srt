@@ -1,0 +1,28 @@
+1
+00:00:02,060 --> 00:00:12,280
+You write short paragraph (about 4 - 5 sentences) about your school.
+
+2
+00:00:12,280 --> 00:00:19,280
+Hint.
+
+3
+00:00:19,910 --> 00:00:25,220
+Introduce your school name.
+
+4
+00:00:25,220 --> 00:00:31,060
+Tell about some features of your school.
+
+5
+00:00:31,060 --> 00:00:36,800
+Tell about some activities you do at school.
+
+6
+00:00:36,800 --> 00:00:54,750
+Tell your feelings toward your school or what you like at your school.
+
+7
+00:00:55,840 --> 00:01:02,660
+Draw your school everyone!
+

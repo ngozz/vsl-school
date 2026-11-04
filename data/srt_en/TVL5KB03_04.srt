@@ -1,0 +1,112 @@
+1
+00:00:02,570 --> 00:00:07,950
+Look at statistics table and answer questions.
+
+2
+00:00:08,460 --> 00:00:14,510
+Question 1: Which dynasty organized most exams?
+
+3
+00:00:15,060 --> 00:00:17,970
+Answer A. Ly dynasty
+
+4
+00:00:18,040 --> 00:00:20,680
+Answer B. Tran dynasty
+
+5
+00:00:20,680 --> 00:00:23,860
+Answer C. Le dynasty
+
+6
+00:00:30,110 --> 00:00:37,880
+Question 1: Answer C. Le dynasty
+
+7
+00:00:38,400 --> 00:00:43,350
+Question 2: Which dynasty had most doctors?
+
+8
+00:00:43,750 --> 00:00:46,640
+Answer A. Le dynasty
+
+9
+00:00:46,860 --> 00:00:49,860
+Answer B. Mac dynasty
+
+10
+00:00:50,110 --> 00:00:54,310
+Answer C. Nguyen dynasty
+
+11
+00:00:58,710 --> 00:01:08,330
+Question 2: Answer A. Le dynasty
+
+12
+00:01:09,860 --> 00:01:16,970
+Question 3: Which dynasty had most top scholars?
+
+13
+00:01:18,040 --> 00:01:21,220
+Answer A. Tran dynasty
+
+14
+00:01:21,640 --> 00:01:25,000
+Answer B. Le dynasty
+
+15
+00:01:25,440 --> 00:01:28,510
+Answer C. Mac dynasty
+
+16
+00:01:31,080 --> 00:01:38,460
+Question 3: Answer B. Le dynasty
+
+17
+00:01:39,640 --> 00:01:51,910
+Le dynasty organized most exams, had most doctors and top scholars.
+
+18
+00:01:52,930 --> 00:02:00,530
+Look at statistics table and answer questions.
+
+19
+00:02:02,260 --> 00:02:10,680
+Which dynasty had 558 doctors?
+
+20
+00:02:11,710 --> 00:02:22,040
+Which dynasty had 11 top scholars?
+
+21
+00:02:23,020 --> 00:02:30,970
+Tran dynasty organized how many exams?
+
+22
+00:02:31,530 --> 00:02:37,060
+Now you will agree on answers.
+
+23
+00:02:38,060 --> 00:02:47,820
+For question which dynasty had 558 doctors.
+
+24
+00:02:48,550 --> 00:02:53,060
+Answer: Nguyen dynasty.
+
+25
+00:02:53,910 --> 00:03:02,730
+For question which dynasty had 11 top scholars.
+
+26
+00:03:04,040 --> 00:03:08,910
+Answer: Mac dynasty.
+
+27
+00:03:09,770 --> 00:03:16,730
+For question Tran dynasty organized how many exams.
+
+28
+00:03:17,530 --> 00:03:24,310
+Answer: Tran dynasty had 14 exams.
+

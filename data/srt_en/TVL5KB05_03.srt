@@ -1,0 +1,48 @@
+1
+00:00:08,200 --> 00:00:20,280
+You observe picture, find color words of rice field in picture.
+
+2
+00:00:22,000 --> 00:00:30,170
+green leaves
+
+3
+00:00:31,930 --> 00:00:45,440
+You observe picture, find color words of sky, sea?
+
+4
+00:00:46,880 --> 00:00:52,260
+sky blue
+
+5
+00:00:53,480 --> 00:00:58,130
+sea blue
+
+6
+00:01:03,660 --> 00:01:21,440
+You observe picture, find color words of young banana bud.
+
+7
+00:01:23,330 --> 00:01:39,770
+That is banana bud green.
+
+8
+00:01:54,680 --> 00:02:07,600
+Exercise 2: You learn various yellow words, they are:
+
+9
+00:02:09,170 --> 00:02:18,310
+lemon yellow
+
+10
+00:02:20,820 --> 00:02:29,080
+turmeric yellow
+
+11
+00:02:30,860 --> 00:02:37,510
+orange yellow
+
+12
+00:02:39,150 --> 00:02:49,280
+Connect yellow words with suitable objects.
+

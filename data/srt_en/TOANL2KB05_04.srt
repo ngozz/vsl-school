@@ -1,0 +1,24 @@
+1
+00:00:14,220 --> 00:00:23,640
+Observe the monthly calendar sheets
+
+2
+00:00:23,640 --> 00:00:41,970
+Looking at the calendar we know how many days are in a month
+
+3
+00:00:41,970 --> 00:00:48,220
+How many days does September have?
+
+4
+00:00:48,220 --> 00:00:56,150
+What day of the week is September 8?
+
+5
+00:00:56,880 --> 00:01:04,440
+Which dates are Sundays in September?
+
+6
+00:01:04,440 --> 00:01:12,220
+What day of the week is September 7?
+

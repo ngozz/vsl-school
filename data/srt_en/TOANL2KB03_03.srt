@@ -1,0 +1,28 @@
+1
+00:00:01,150 --> 00:00:06,240
+Sphere
+
+2
+00:00:06,240 --> 00:00:18,750
+Can you tell which objects have a sphere shape?
+
+3
+00:00:20,910 --> 00:00:27,460
+Let's review the solid figures we learned
+
+4
+00:00:27,460 --> 00:00:33,510
+Cube
+
+5
+00:00:33,510 --> 00:00:37,730
+Rectangular prism
+
+6
+00:00:37,730 --> 00:00:41,060
+Cylinder
+
+7
+00:00:41,060 --> 00:00:44,330
+Sphere
+

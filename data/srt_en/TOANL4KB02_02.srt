@@ -1,0 +1,8 @@
+1
+00:00:05,820 --> 00:00:17,170
+Fill appropriate number in blank
+
+2
+00:00:18,150 --> 00:00:39,330
+Rule: To multiply a number by 10; 100; or 1000..., just add 1, 2 or 3 zeros to the right of that number.
+

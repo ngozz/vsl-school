@@ -1,0 +1,16 @@
+1
+00:00:01,514 --> 00:00:04,400
+Hello everyone
+
+2
+00:00:05,360 --> 00:00:13,756
+We will review dividing by two-digit numbers together
+
+3
+00:00:16,500 --> 00:00:33,926
+Practice mental division of round tens, round hundreds, round thousands by 10; 100; 1000
+
+4
+00:00:34,360 --> 00:00:41,877
+Practice exact division and division with remainder
+

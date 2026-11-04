@@ -1,0 +1,4 @@
+1
+00:00:01,400 --> 00:00:08,750
+Choose the sounds teacher reads.
+

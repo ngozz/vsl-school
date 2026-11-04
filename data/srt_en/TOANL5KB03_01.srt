@@ -1,0 +1,12 @@
+1
+00:00:01,234 --> 00:00:03,695
+Hello everyone!
+
+2
+00:00:04,604 --> 00:00:12,025
+We will review addition, subtraction of decimal numbers together.
+
+3
+00:00:14,033 --> 00:00:23,331
+Practice doing calculations solving problems related to addition subtraction with decimal numbers.
+

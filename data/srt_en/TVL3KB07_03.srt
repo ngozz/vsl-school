@@ -1,0 +1,8 @@
+1
+00:00:01,120 --> 00:00:12,640
+Learn meaning of word <color=orange><b>surprised</b></color>.
+
+2
+00:00:14,200 --> 00:00:25,430
+<color=orange><b>surprised</b></color>: strange, unexpected.
+

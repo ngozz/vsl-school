@@ -8,10 +8,12 @@ import '../models/lesson.dart';
 class LessonService {
   List<Lesson> _lessons = const [];
   bool _loaded = false;
+  Map<String, List<String>>? _outlinesEn;
 
   int get count => _lessons.length;
 
-  /// Parses `{_id,title}` entries from the bundled title.json.
+  /// Parses `{_id,title}` entries from the bundled title.json, then overlays
+  /// English titles when `data/i18n/en/titles.json` is bundled.
   Future<void> load() async {
     if (_loaded) return;
     final raw = await rootBundle.loadString('data/json/title.json');
@@ -23,8 +25,45 @@ class LessonService {
         .where((l) => _validId(l.id))
         .toList()
       ..sort(_compare);
-    _lessons = lessons;
+    final english = await _loadEnglishTitles();
+    _lessons = [
+      for (final lesson in lessons)
+        lesson.withEnglish(english[lesson.id] ?? ''),
+    ];
     _loaded = true;
+  }
+
+  Future<Map<String, String>> _loadEnglishTitles() async {
+    try {
+      final raw = await rootBundle.loadString('data/i18n/en/titles.json');
+      final decoded = jsonDecode(raw) as Map<String, dynamic>;
+      return {
+        for (final entry in decoded.entries)
+          if (entry.value is String) entry.key: (entry.value as String).trim(),
+      };
+    } catch (_) {
+      return const {};
+    }
+  }
+
+  Future<Map<String, List<String>>> _loadEnglishOutlines() async {
+    final cached = _outlinesEn;
+    if (cached != null) return cached;
+    try {
+      final raw = await rootBundle.loadString('data/i18n/en/outlines.json');
+      final decoded = jsonDecode(raw) as Map<String, dynamic>;
+      final result = <String, List<String>>{};
+      for (final entry in decoded.entries) {
+        if (entry.value is List) {
+          result[entry.key] = [
+            for (final value in entry.value as List) '$value'.trim(),
+          ];
+        }
+      }
+      return _outlinesEn = result;
+    } catch (_) {
+      return _outlinesEn = const {};
+    }
   }
 
   static final RegExp _idRegex = RegExp(r'^(TOAN|TV)L([1-5])KB(\d+)$');
@@ -55,18 +94,27 @@ class LessonService {
       })
       .toList();
 
-  /// Ordered outline for one lesson. Lazily reads tablecontent.
+  /// Ordered outline for one lesson. Lazily reads tablecontent, then overlays
+  /// the English headings (matched by index; every source row has a video).
   Future<List<LessonSegment>> segments(String lessonId) async {
     try {
       final raw =
           await rootBundle.loadString('data/json/tablecontent/$lessonId.json');
       final data = jsonDecode(raw) as Map<String, dynamic>;
       final list = data['datas'] as List<dynamic>? ?? const [];
-      return list
+      final segments = list
           .whereType<Map<String, dynamic>>()
           .map(LessonSegment.fromJson)
           .whereType<LessonSegment>()
           .toList();
+      final english = (await _loadEnglishOutlines())[lessonId];
+      if (english == null || english.length != segments.length) {
+        return segments;
+      }
+      return [
+        for (var i = 0; i < segments.length; i++)
+          segments[i].withEnglish(english[i]),
+      ];
     } catch (_) {
       return const [];
     }

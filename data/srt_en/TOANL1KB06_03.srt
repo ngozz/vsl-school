@@ -1,0 +1,44 @@
+1
+00:00:03,960 --> 00:00:11,400
+Example 2: Compare numbers 32 and 28.
+
+2
+00:00:13,970 --> 00:00:18,330
+Fill in the blank.
+
+3
+00:00:20,720 --> 00:00:31,240
+Number 32 consists of 3 tens and 2 ones
+
+4
+00:00:33,040 --> 00:00:43,700
+Number 28 consists of 2 tens and 8 ones
+
+5
+00:00:45,370 --> 00:00:57,740
+Numbers 32 and 28 have different tens digits, so we compare the tens digits of these two numbers.
+
+6
+00:00:58,970 --> 00:01:08,480
+We see 3 > 2, so 32 > 28
+
+7
+00:01:09,780 --> 00:01:19,890
+Comparing two-digit numbers.
+
+8
+00:01:22,300 --> 00:01:32,490
+First, we compare the tens digits of the two numbers.
+
+9
+00:01:34,260 --> 00:01:44,940
+If the tens digit of one number is greater, then that number is greater.
+
+10
+00:01:46,100 --> 00:01:59,540
+If the tens digits of the two numbers are equal, we compare the ones digits of the two numbers.
+
+11
+00:02:01,880 --> 00:02:13,060
+At that point, the ones digit of whichever number is greater, that number is greater.
+

@@ -1,0 +1,60 @@
+1
+00:00:04,570 --> 00:00:08,460
+Basic properties of fraction.
+
+2
+00:00:13,360 --> 00:00:22,570
+Observe: Compare colored part in figure (a) and figure (b) in example 1:
+
+3
+00:00:26,590 --> 00:00:32,750
+We see two parts are exactly equal.
+
+4
+00:00:36,560 --> 00:00:42,590
+We say fraction one-third equals fraction two-sixths.
+
+5
+00:00:46,160 --> 00:00:49,290
+Write as
+
+6
+00:00:52,380 --> 00:00:59,660
+Comment: two fractions one-third and two-sixths.
+
+7
+00:01:00,320 --> 00:01:07,300
+Numerator and denominator of fraction one-third both multiplied by 2.
+
+8
+00:01:09,140 --> 00:01:16,020
+We get numerator and denominator of fraction two-sixths.
+
+9
+00:01:18,920 --> 00:01:20,340
+Conversely
+
+10
+00:01:21,280 --> 00:01:27,340
+Numerator and denominator of fraction two-sixths both divided by 2.
+
+11
+00:01:31,060 --> 00:01:37,740
+We get numerator and denominator of fraction one-third.
+
+12
+00:01:41,870 --> 00:01:51,390
+This property of fraction is basic property or equality property of fraction.
+
+13
+00:01:54,920 --> 00:01:56,360
+Property
+
+14
+00:01:58,930 --> 00:02:09,890
+When both numerator and denominator of fraction multiplied by same natural number not equal 0 we get fraction equal to given fraction.
+
+15
+00:02:16,060 --> 00:02:29,500
+If both numerator and denominator of a fraction both divided evenly by same natural number not equal 0 then after division we get a fraction equal to given fraction.
+

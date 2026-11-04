@@ -1,0 +1,4 @@
+1
+00:00:01,370 --> 00:00:09,480
+Choose two words from below and make sentence with each.
+

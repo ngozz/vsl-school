@@ -1,0 +1,196 @@
+1
+00:00:00,000 --> 00:00:05,750
+Numbers up to 100000
+
+2
+00:00:05,750 --> 00:00:15,550
+Observe on screen and answer
+
+3
+00:00:18,440 --> 00:00:32,170
+Ten thousands place is what?
+
+4
+00:00:34,060 --> 00:00:41,710
+Is three
+
+5
+00:00:43,710 --> 00:00:53,970
+Thousands place is what?
+
+6
+00:00:55,800 --> 00:01:02,170
+Two
+
+7
+00:01:03,460 --> 00:01:12,570
+Hundreds place is what?
+
+8
+00:01:15,950 --> 00:01:23,000
+Three
+
+9
+00:01:24,730 --> 00:01:34,730
+Tens place is what?
+
+10
+00:01:36,000 --> 00:01:42,820
+Two
+
+11
+00:01:44,370 --> 00:01:56,480
+Ones place is what?
+
+12
+00:01:57,660 --> 00:02:03,640
+Five
+
+13
+00:02:04,730 --> 00:02:09,480
+We have a number consisting of
+
+14
+00:02:09,480 --> 00:02:15,440
+Thirty-two thousand
+
+15
+00:02:15,440 --> 00:02:19,680
+Two thousand
+
+16
+00:02:20,550 --> 00:02:26,040
+Three hundred
+
+17
+00:02:26,040 --> 00:02:30,710
+Twenty
+
+18
+00:02:30,710 --> 00:02:38,130
+Five ones
+
+19
+00:02:38,130 --> 00:02:46,800
+Write: 32 325
+
+20
+00:02:50,550 --> 00:02:59,880
+Read: Thirty-two thousand three hundred twenty-five.
+
+21
+00:02:59,880 --> 00:03:05,880
+Read and write the number
+
+22
+00:03:05,880 --> 00:03:09,710
+Example:
+
+23
+00:03:09,710 --> 00:03:22,530
+Number consists of: Sixty thousand
+
+24
+00:03:22,530 --> 00:03:28,800
+Number consists of: Sixty thousand, zero thousand
+
+25
+00:03:28,800 --> 00:03:33,480
+Number consists of: Sixty thousand, zero thousand, zero hundred
+
+26
+00:03:33,480 --> 00:03:38,420
+Number consists of: Sixty thousand, zero thousand, zero hundred, zero tens
+
+27
+00:03:38,420 --> 00:03:46,550
+Number consists of: Sixty thousand, zero thousand, zero hundred, zero tens, zero ones
+
+28
+00:03:48,550 --> 00:04:00,880
+Write: Sixty thousand
+
+29
+00:04:00,880 --> 00:04:11,370
+Read: Sixty thousand
+
+30
+00:04:39,080 --> 00:04:50,080
+Observe on screen and fill in the blank.
+
+31
+00:04:50,080 --> 00:04:56,770
+How many ten-thousand cards?
+
+32
+00:04:57,330 --> 00:05:02,150
+There are seven ten-thousand cards.
+
+33
+00:05:02,710 --> 00:05:08,660
+How many thousands in total?
+
+34
+00:05:09,460 --> 00:05:18,660
+There are seventy thousand.
+
+35
+00:05:19,570 --> 00:05:27,880
+Observe on screen and fill in the blank.
+
+36
+00:05:28,310 --> 00:05:35,510
+How many ten-thousand cards?
+
+37
+00:05:36,550 --> 00:05:42,150
+There are eight ten-thousand cards.
+
+38
+00:05:42,550 --> 00:05:47,860
+How many thousands in total?
+
+39
+00:05:49,200 --> 00:05:56,860
+There are 80 thousand.
+
+40
+00:05:57,840 --> 00:06:03,950
+Fill in the appropriate number in the blank.
+
+41
+00:06:03,950 --> 00:06:10,660
+How many ten-thousand cards?
+
+42
+00:06:11,480 --> 00:06:16,770
+There are 9 ten-thousand cards.
+
+43
+00:06:17,310 --> 00:06:23,550
+How many thousands in total?
+
+44
+00:06:24,130 --> 00:06:30,970
+There are 90 thousand.
+
+45
+00:06:31,530 --> 00:06:36,480
+Observe on screen and tell.
+
+46
+00:06:36,480 --> 00:06:49,930
+How many ten-thousand cards?
+
+47
+00:06:50,970 --> 00:07:00,480
+There are 10 ten-thousand cards.
+
+48
+00:07:05,640 --> 00:07:12,710
+We have number: 100000.
+
+49
+00:07:12,710 --> 00:07:19,200
+This number is read: One hundred thousand.
+

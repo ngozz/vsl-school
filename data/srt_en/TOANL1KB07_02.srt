@@ -1,0 +1,36 @@
+1
+00:00:01,250 --> 00:00:11,300
+Addition within 100
+
+2
+00:00:11,300 --> 00:00:21,170
+Example 1: Calculate 25 + 14
+
+3
+00:00:21,420 --> 00:00:30,400
+To perform this calculation we do as follows:
+
+4
+00:00:30,400 --> 00:00:39,150
+Step 1: Set up
+
+5
+00:00:40,050 --> 00:00:46,120
+Step 2: Perform calculation
+
+6
+00:00:46,120 --> 00:01:01,020
+Add from right to left, add ones with ones, add tens with tens.
+
+7
+00:01:01,500 --> 00:01:11,800
+5 plus 4 equals 9, write 9
+
+8
+00:01:12,070 --> 00:01:22,350
+2 plus 1 equals 3, write 3
+
+9
+00:01:22,350 --> 00:01:30,720
+So: 25 + 14 = 39
+

@@ -1,0 +1,56 @@
+1
+00:00:01,640 --> 00:00:06,770
+Read, write decimal
+
+2
+00:00:06,770 --> 00:00:16,660
+We learn together how to read, how to write decimal via following examples:
+
+3
+00:00:17,770 --> 00:00:32,770
+Example 1: Decimal number 528,103 is read: five hundred twenty-eight point one zero three.
+
+4
+00:00:33,550 --> 00:00:47,930
+Example 2: Decimal number consisting of twenty-three ones, one tenth, seven hundredths written is: 23,17
+
+5
+00:00:48,600 --> 00:00:58,150
+Remember: To read a decimal number, we read in order from high place to low place:
+
+6
+00:00:58,150 --> 00:01:09,750
+First read whole part, read "comma", then read decimal part.
+
+7
+00:01:10,240 --> 00:01:19,330
+To write a decimal number, we write in order from high place to low place:
+
+8
+00:01:19,330 --> 00:01:33,570
+First write whole part, write "comma", then write decimal part.
+
+9
+00:01:34,110 --> 00:01:39,530
+Tell how to read decimal number below
+
+10
+00:01:39,530 --> 00:01:50,880
+Decimal number 105,407 is read: One hundred five point four zero seven
+
+11
+00:01:50,880 --> 00:01:59,000
+Fill in blank
+
+12
+00:01:59,480 --> 00:02:04,200
+Tell how to write decimal number below:
+
+13
+00:02:04,200 --> 00:02:16,330
+Decimal number consisting of two thousand zero hundred eight ones, three hundredths written is: 2008,03
+
+14
+00:02:18,080 --> 00:02:25,420
+Fill in blank
+

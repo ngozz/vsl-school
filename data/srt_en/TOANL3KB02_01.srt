@@ -1,0 +1,20 @@
+1
+00:00:01,201 --> 00:00:03,434
+Hello everyone
+
+2
+00:00:04,974 --> 00:00:12,415
+Let's review how to compare numbers within 100000
+
+3
+00:00:14,516 --> 00:00:21,731
+Practice comparing numbers with more digits
+
+4
+00:00:22,190 --> 00:00:26,396
+Arrange numbers in order from small to large
+
+5
+00:00:27,034 --> 00:00:30,940
+or from large to small
+

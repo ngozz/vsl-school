@@ -1,0 +1,152 @@
+1
+00:00:04,130 --> 00:00:11,330
+Comparing numbers within 10000
+
+2
+00:00:11,330 --> 00:00:18,170
+Comparing numbers with different digits
+
+3
+00:00:18,170 --> 00:00:29,260
+The number with fewer digits is smaller
+
+4
+00:00:29,260 --> 00:00:32,930
+Example 1
+
+5
+00:00:32,930 --> 00:00:44,970
+Compare number 998 with number 1000 by filling in the appropriate sign (>, <, =) in the blank
+
+6
+00:00:44,970 --> 00:00:51,510
+To compare we do as follows
+
+7
+00:00:51,510 --> 00:00:59,660
+Number 998 is a three-digit number
+
+8
+00:00:59,660 --> 00:01:08,510
+Number 1000 is a four-digit number
+
+9
+00:01:08,510 --> 00:01:16,020
+Number 998 has fewer digits than number 1000
+
+10
+00:01:16,020 --> 00:01:29,820
+So 998 is smaller than 1000
+
+11
+00:01:30,440 --> 00:01:40,730
+Compare number 9998 and number 10000
+
+12
+00:01:40,730 --> 00:01:47,550
+Number 9998 has 4 digits
+
+13
+00:01:47,550 --> 00:01:54,440
+Number 10000 has 5 digits
+
+14
+00:01:54,440 --> 00:02:09,530
+Number 9998 has fewer digits than number 10000
+
+15
+00:02:09,530 --> 00:02:20,820
+So: 9998 is smaller than 10000
+
+16
+00:02:20,820 --> 00:02:34,950
+The number with more digits is larger
+
+17
+00:02:34,950 --> 00:02:46,150
+Compare number 10000 and number 9998
+
+18
+00:02:46,150 --> 00:02:51,970
+To compare we do as follows
+
+19
+00:02:51,970 --> 00:03:00,020
+Number 10000 has 5 digits
+
+20
+00:03:00,550 --> 00:03:08,240
+Number 9998 has 4 digits
+
+21
+00:03:08,240 --> 00:03:20,080
+Number 10000 has more digits than number 9998
+
+22
+00:03:20,660 --> 00:03:34,620
+So: 10000 is larger than 9998
+
+23
+00:03:36,620 --> 00:03:52,750
+Compare two numbers 100000 and 99988
+
+24
+00:03:54,420 --> 00:04:01,170
+To compare two numbers we do as follows
+
+25
+00:04:01,170 --> 00:04:12,910
+Number 100000 has 6 digits
+
+26
+00:04:13,640 --> 00:04:23,350
+Number 99988 has 5 digits
+
+27
+00:04:23,880 --> 00:04:34,910
+We have number 100000 larger than number 99988
+
+28
+00:04:34,910 --> 00:04:56,680
+If two numbers have the same number of digits, compare each pair of digits in the same place, from left to right.
+
+29
+00:04:58,110 --> 00:05:05,440
+To compare two numbers we do as follows
+
+30
+00:05:05,440 --> 00:05:19,170
+Number 8000 and number 7999 both have 4 digits
+
+31
+00:05:19,170 --> 00:05:34,770
+Number 8000 is larger than number 7999 because in the thousands place there is 8 larger than 7
+
+32
+00:05:34,770 --> 00:05:50,530
+We have: 8000 is larger than 7999
+
+33
+00:05:50,530 --> 00:06:04,930
+Compare two numbers 84200 and number 84159
+
+34
+00:06:05,860 --> 00:06:12,950
+To compare these two numbers we do as follows
+
+35
+00:06:12,950 --> 00:06:22,950
+Number 84200 has 5 digits
+
+36
+00:06:22,950 --> 00:06:32,840
+Number 84159 has 5 digits
+
+37
+00:06:32,840 --> 00:06:51,660
+Since the two numbers have the same number of digits, same ten-thousands digit is 8, same thousands digit is 4, hundreds digit is 2 greater than 1.
+
+38
+00:06:51,660 --> 00:07:04,170
+So 84200 is larger than 84159
+

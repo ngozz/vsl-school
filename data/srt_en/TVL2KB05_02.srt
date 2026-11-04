@@ -1,0 +1,8 @@
+1
+00:00:07,080 --> 00:00:14,480
+Observe picture.
+
+2
+00:00:16,010 --> 00:00:24,780
+These are pictures students want to introduce themselves.
+

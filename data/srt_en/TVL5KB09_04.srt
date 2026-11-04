@@ -1,0 +1,60 @@
+1
+00:00:01,431 --> 00:00:13,156
+You read each sentence of the passage to know what the author describes about the coastal boy.
+
+2
+00:00:18,230 --> 00:00:22,982
+What does sentence 1 describe?
+
+3
+00:00:26,743 --> 00:00:36,363
+Sentence 1: General introduction about Thang as a coastal boy with swimming talent.
+
+4
+00:00:41,570 --> 00:00:46,442
+What does sentence 2 describe?
+
+5
+00:00:50,794 --> 00:00:59,624
+Describes Thang's height taller than friend Chan "Skinny" by a head.
+
+6
+00:01:05,582 --> 00:01:10,720
+What does sentence 3 describe?
+
+7
+00:01:18,605 --> 00:01:33,850
+Describes Thang's healthy sun-reddened skin because growing up with sun, salt water and sea wind.
+
+8
+00:01:39,316 --> 00:01:43,836
+What does sentence 4 describe?
+
+9
+00:01:50,540 --> 00:01:59,631
+Describes Thang's firm and strong body.
+
+10
+00:02:05,759 --> 00:02:11,060
+What does sentence 5 describe?
+
+11
+00:02:17,632 --> 00:02:23,808
+Describes Thang's big bright eyes.
+
+12
+00:02:31,161 --> 00:02:36,738
+What does sentence 6 describe?
+
+13
+00:02:39,432 --> 00:02:44,383
+Describes fresh mouth, likes to smile.
+
+14
+00:02:51,302 --> 00:02:56,983
+What does sentence 7 describe?
+
+15
+00:03:01,980 --> 00:03:07,624
+Describes Thang's protruding forehead, stubborn.
+

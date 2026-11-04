@@ -1,0 +1,4 @@
+1
+00:00:02,280 --> 00:00:11,600
+Today we read comprehension lesson "Application to Join the Team".
+

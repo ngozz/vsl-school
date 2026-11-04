@@ -1,0 +1,28 @@
+1
+00:00:00,750 --> 00:00:20,480
+We review rule of mental division of round tens, round hundreds, round thousands by 10; 100; 1000 via example 1
+
+2
+00:00:20,480 --> 00:00:36,970
+To multiply a number by 10; 100; 1000 just add 1; 2; 3 zeros to right of number
+
+3
+00:00:36,970 --> 00:00:54,350
+In question a to fill 35 in blank by finding a factor of product grade 2 we performed division
+
+4
+00:00:54,350 --> 00:01:05,080
+350 divided by 10 equals 35
+
+5
+00:01:05,080 --> 00:01:21,240
+Similarly with question b to find factor to fill blank we need to perform division 2500 divided by 100 equals 25
+
+6
+00:01:21,240 --> 00:01:36,910
+Similarly with question c we perform division 72000 divided by 1000 equals 72
+
+7
+00:01:36,910 --> 00:01:57,860
+Conclusion: When dividing round tens; round hundreds; round thousands... by 10; 100; 1000;... just remove 1; 2; 3... zeros to right of number
+

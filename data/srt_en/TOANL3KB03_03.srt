@@ -1,0 +1,88 @@
+1
+00:00:04,110 --> 00:00:14,170
+Subtraction within 10000
+
+2
+00:00:14,170 --> 00:00:28,770
+Perform setting up and calculating into operation 6538 minus 2375
+
+3
+00:00:29,110 --> 00:00:47,640
+To perform calculation 6538 minus 2375 we set up then calculate.
+
+4
+00:00:47,640 --> 00:00:54,950
+We need to note:
+
+5
+00:00:54,950 --> 00:01:05,710
+Set up numbers in the same place aligned in columns.
+
+6
+00:01:06,150 --> 00:01:15,570
+Perform calculation from right to left.
+
+7
+00:01:16,240 --> 00:01:23,770
+Let's perform the calculation together
+
+8
+00:01:23,770 --> 00:01:34,770
+8 minus 5 equals 3, write 3
+
+9
+00:01:34,770 --> 00:01:49,880
+3 cannot subtract 7 take 13 minus 7 equals 6, write 6 carry 1
+
+10
+00:01:50,480 --> 00:02:04,840
+3 plus 1 equals 4, 5 minus 4 equals 1, write 1
+
+11
+00:02:04,840 --> 00:02:13,510
+6 minus 2 equals 4, write 4
+
+12
+00:02:13,510 --> 00:02:31,080
+6538 minus 2375 equals 4163
+
+13
+00:02:31,570 --> 00:02:45,000
+Perform setting up and calculating operation 8563 minus 4728
+
+14
+00:02:45,000 --> 00:03:04,330
+To perform calculation 8563 minus 4728 we set up then calculate.
+
+15
+00:03:04,330 --> 00:03:12,110
+Set digits in the same place aligned in columns
+
+16
+00:03:12,110 --> 00:03:29,880
+3 cannot subtract 8 take 13 minus 8 equals 5, write 5 carry 1
+
+17
+00:03:29,880 --> 00:03:38,350
+2 plus 1 equals 3
+
+18
+00:03:38,350 --> 00:03:48,660
+6 minus 3 equals 3, write 3
+
+19
+00:03:48,660 --> 00:04:06,680
+5 cannot subtract 7 take 15 minus 7 equals 8, write 8 carry 1
+
+20
+00:04:06,680 --> 00:04:13,480
+4 plus 1 equals 5
+
+21
+00:04:13,480 --> 00:04:24,460
+8 minus 5 equals 3, write 3
+
+22
+00:04:25,060 --> 00:04:43,260
+8563 minus 4728 equals 3835
+

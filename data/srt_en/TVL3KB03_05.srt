@@ -1,0 +1,20 @@
+1
+00:00:01,330 --> 00:00:07,200
+When do we need to write application?
+
+2
+00:00:09,060 --> 00:00:16,460
+A. When need to present own wish.
+
+3
+00:00:17,370 --> 00:00:25,880
+B. When need to remind someone.
+
+4
+00:00:26,400 --> 00:00:33,110
+C. When need to thank someone who helped.
+
+5
+00:00:36,880 --> 00:00:47,260
+When need to present own wish then we need to write application.
+

@@ -1,0 +1,300 @@
+1
+00:00:01,400 --> 00:00:07,280
+Answer following questions below:
+
+2
+00:00:01,470 --> 00:00:15,250
+You have read lesson, now tell what season natural scenery in lesson is described?
+
+3
+00:00:07,840 --> 00:00:16,560
+1. What is contest theme?
+
+4
+00:00:15,250 --> 00:00:21,250
+Circle correct answer:
+
+5
+00:00:17,320 --> 00:00:22,720
+You choose correct answer.
+
+6
+00:00:21,670 --> 00:00:27,870
+A. spring
+
+7
+00:00:23,640 --> 00:00:30,560
+A. Wear helmet.
+
+8
+00:00:27,870 --> 00:00:34,020
+B. summer
+
+9
+00:00:31,600 --> 00:00:38,840
+B. I want to live safely.
+
+10
+00:00:34,020 --> 00:00:40,050
+C. autumn
+
+11
+00:00:39,720 --> 00:00:48,000
+C. My family is protected safely.
+
+12
+00:00:40,550 --> 00:00:44,950
+D. winter
+
+13
+00:00:46,820 --> 00:00:54,050
+Answer: A
+
+14
+00:00:48,680 --> 00:01:01,080
+Answer: B. Contest theme is: I want to live safely.
+
+15
+00:00:54,920 --> 00:01:01,650
+Which scenery is described in lesson?
+
+16
+00:01:01,650 --> 00:01:10,570
+Circle letters before line saying correct scenery described.
+
+17
+00:01:01,920 --> 00:01:08,520
+2) When was contest launched?
+
+18
+00:01:09,720 --> 00:01:15,840
+You choose correct answer:
+
+19
+00:01:11,350 --> 00:01:17,850
+A. sky and sun
+
+20
+00:01:16,520 --> 00:01:23,840
+A. June 2001.
+
+21
+00:01:17,850 --> 00:01:25,920
+B. garden trees and flowers
+
+22
+00:01:24,560 --> 00:01:31,920
+B. April 2010.
+
+23
+00:01:26,500 --> 00:01:33,600
+C. gardener
+
+24
+00:01:32,600 --> 00:01:39,520
+C. April 2001.
+
+25
+00:01:34,500 --> 00:01:38,870
+D. birds
+
+26
+00:01:41,080 --> 00:01:50,200
+Answer: C. April 2001.
+
+27
+00:01:42,900 --> 00:01:51,570
+Answer: A, B, D.
+
+28
+00:01:51,360 --> 00:01:58,920
+3) What are main contest information?
+
+29
+00:01:52,220 --> 00:01:59,900
+How does spring scenery change?
+
+30
+00:01:59,900 --> 00:02:10,600
+You find phrase to say change of each scenery when spring comes by connecting cells.
+
+31
+00:01:59,960 --> 00:02:09,240
+You connect left column with right column to get correct answer:
+
+32
+00:02:10,600 --> 00:02:14,470
+Answer:
+
+33
+00:02:10,960 --> 00:02:16,360
+You observe answer:
+
+34
+00:02:14,470 --> 00:02:19,820
+Sky – bluer.
+
+35
+00:02:17,380 --> 00:02:27,880
+Number of drawings: 50,000 drawings.
+
+36
+00:02:19,820 --> 00:02:25,650
+Yellow sun – increasingly bright.
+
+37
+00:02:25,820 --> 00:02:33,070
+Garden trees – sprout, bud, bloom.
+
+38
+00:02:28,460 --> 00:02:38,820
+Number of drawings selected to hang at exhibition: 60 drawings.
+
+39
+00:02:33,370 --> 00:02:39,870
+Flowers – spread fragrance.
+
+40
+00:02:39,260 --> 00:02:48,440
+Number of award-winning drawings: 46 drawings.
+
+41
+00:02:40,670 --> 00:02:47,320
+How fragrant is each flower?
+
+42
+00:02:47,320 --> 00:02:55,900
+Connect cells to correctly state fragrance of each flower.
+
+43
+00:02:48,860 --> 00:02:58,200
+4) How are drawings at exhibition reviewed?
+
+44
+00:02:57,100 --> 00:03:00,820
+Answer:
+
+45
+00:02:58,970 --> 00:03:20,450
+Answer: Drawings at exhibition are reviewed: bright colors, clear composition, innocent ideas, pure yet profound.
+
+46
+00:03:00,820 --> 00:03:06,720
+Pomelo flower – fragrant.
+
+47
+00:03:07,050 --> 00:03:13,200
+Longan flower – sweet.
+
+48
+00:03:13,200 --> 00:03:18,670
+Areca flower – faint.
+
+49
+00:03:19,750 --> 00:03:28,100
+Find word describing feature of each bird?
+
+50
+00:03:28,100 --> 00:03:35,270
+Now you will circle correct answer.
+
+51
+00:03:35,270 --> 00:03:44,920
+1. How is chick?
+
+52
+00:03:46,200 --> 00:03:52,550
+A. clever
+
+53
+00:03:52,550 --> 00:03:59,350
+B. quick
+
+54
+00:03:59,750 --> 00:04:04,700
+C. deep voice
+
+55
+00:04:08,150 --> 00:04:13,620
+Answer: B. quick.
+
+56
+00:04:14,020 --> 00:04:23,800
+2. How is cuckoo?
+
+57
+00:04:24,600 --> 00:04:30,520
+A. serene
+
+58
+00:04:30,520 --> 00:04:36,300
+B. quick
+
+59
+00:04:36,300 --> 00:04:40,050
+C. clever
+
+60
+00:04:43,800 --> 00:04:51,000
+Answer: C. clever.
+
+61
+00:04:52,650 --> 00:05:00,120
+3. How is koel?
+
+62
+00:05:00,120 --> 00:05:07,120
+A. deep voice
+
+63
+00:05:07,120 --> 00:05:13,500
+B. serene
+
+64
+00:05:13,500 --> 00:05:18,120
+C. fly jump
+
+65
+00:05:22,220 --> 00:05:28,720
+Answer: B. serene.
+
+66
+00:05:30,720 --> 00:05:39,170
+4. How is cuckoo shrike?
+
+67
+00:05:40,200 --> 00:05:46,900
+A. deep voice
+
+68
+00:05:46,900 --> 00:05:53,320
+B. quick
+
+69
+00:05:53,320 --> 00:05:57,400
+C. clever
+
+70
+00:06:01,200 --> 00:06:07,770
+Answer: A. deep voice.
+
+71
+00:06:08,770 --> 00:06:18,820
+In your opinion, how are author's feelings, emotions toward spring scenery?
+
+72
+00:06:18,820 --> 00:06:27,200
+Now you will choose suitable words for your opinion.
+
+73
+00:06:27,550 --> 00:06:35,470
+Love nature.
+
+74
+00:06:36,150 --> 00:06:41,970
+Happy with scenery changes.
+
+75
+00:06:41,970 --> 00:06:45,400
+Miss winter passing.
+

@@ -1,0 +1,8 @@
+1
+00:00:01,740 --> 00:00:03,510
+Hello everyone!
+
+2
+00:00:04,220 --> 00:00:30,280
+Today we review speed, distance and time of uniform motion.
+

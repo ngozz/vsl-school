@@ -1,0 +1,12 @@
+1
+00:00:00,596 --> 00:00:04,110
+Hello everyone!
+
+2
+00:00:05,018 --> 00:00:16,273
+Let's review addition, subtraction within 100000.
+
+3
+00:00:18,497 --> 00:00:36,245
+Practice doing calculations with addition and subtraction within 10000 and within 100000.
+

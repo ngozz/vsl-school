@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:10,240
+Choose answer "Should" or "Should not"
+
+2
+00:00:11,400 --> 00:00:18,970
+Should you demand parents buy too expensive things?
+
+3
+00:00:19,770 --> 00:00:26,500
+Should you be angry at people around for no reason?
+
+4
+00:00:30,260 --> 00:00:35,800
+Story shows feelings between brother and sister.
+
+5
+00:00:35,800 --> 00:00:51,730
+Story also advises us to know yield care for family members, should not only think of oneself.
+

@@ -1,0 +1,4 @@
+1
+00:00:01,500 --> 00:00:07,260
+Let's read lesson again and answer questions in the lesson everyone!
+

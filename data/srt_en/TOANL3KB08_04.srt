@@ -1,0 +1,100 @@
+1
+00:00:01,310 --> 00:00:03,460
+Rectangle
+
+2
+00:00:05,730 --> 00:00:07,960
+Square
+
+3
+00:00:12,380 --> 00:00:14,300
+Rectangle
+
+4
+00:00:16,840 --> 00:00:24,320
+Rectangle MNPQ has 4 vertices
+
+5
+00:00:25,460 --> 00:00:35,280
+angles with vertex M, vertex N, vertex P, vertex Q are all right angles.
+
+6
+00:00:38,980 --> 00:00:46,090
+Rectangle MNPQ has 4 sides
+
+7
+00:00:46,880 --> 00:00:57,810
+MN, NP, PQ, QM.
+
+8
+00:01:01,770 --> 00:01:12,760
+Among these four sides there are two long sides MN and PQ
+
+9
+00:01:16,510 --> 00:01:23,640
+two short sides are QM and NP.
+
+10
+00:01:26,350 --> 00:01:30,160
+Two long sides have equal lengths
+
+11
+00:01:31,480 --> 00:01:33,870
+write as
+
+12
+00:01:37,530 --> 00:01:40,850
+Two short sides have equal lengths
+
+13
+00:01:43,700 --> 00:01:46,480
+write as
+
+14
+00:01:50,400 --> 00:02:02,860
+Rectangle has 4 right angles, has 2 equal long sides and 2 equal short sides.
+
+15
+00:02:05,490 --> 00:02:09,250
+Length of long side is called length
+
+16
+00:02:12,100 --> 00:02:16,100
+length of short side is called width.
+
+17
+00:02:21,600 --> 00:02:23,690
+Square
+
+18
+00:02:26,560 --> 00:02:30,680
+Observing figure we see
+
+19
+00:02:33,360 --> 00:02:40,240
+Square ABCD has 4 vertices
+
+20
+00:02:40,880 --> 00:02:52,980
+angles with vertex A, vertex B, vertex C, vertex D are all right angles.
+
+21
+00:02:54,640 --> 00:03:00,880
+How many sides does square ABCD have?
+
+22
+00:03:04,580 --> 00:03:10,520
+Square ABCD has 4 sides
+
+23
+00:03:11,390 --> 00:03:21,580
+AB, BC, CD, DA.
+
+24
+00:03:23,650 --> 00:03:28,120
+Length of four sides of square are equal.
+
+25
+00:03:31,100 --> 00:03:37,580
+Square has four right angles and four equal sides.
+

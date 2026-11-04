@@ -1,0 +1,80 @@
+1
+00:00:00,460 --> 00:00:09,710
+Letter recipient name is what?
+
+2
+00:00:09,710 --> 00:00:22,240
+A. Nguyen Minh Phuong
+
+3
+00:00:24,240 --> 00:00:36,710
+B. Do Thi Hong
+
+4
+00:00:38,060 --> 00:00:51,220
+C. Nguyen Minh Hong
+
+5
+00:00:53,240 --> 00:01:10,170
+Letter recipient name is Do Thi Hong.
+
+6
+00:01:13,370 --> 00:01:21,950
+Letter sender name is what?
+
+7
+00:01:23,240 --> 00:01:36,060
+A. Nguyen Minh Phuong
+
+8
+00:01:37,170 --> 00:01:47,680
+B. Do Thi Hong
+
+9
+00:01:48,770 --> 00:02:02,730
+C. Nguyen Minh Hong
+
+10
+00:02:04,060 --> 00:02:22,750
+Letter sender name is Nguyen Minh Phuong.
+
+11
+00:02:23,730 --> 00:02:37,640
+Phuong writes letter to Hong to do what?
+
+12
+00:02:39,130 --> 00:02:49,020
+To ask about Hong and family.
+
+13
+00:02:49,860 --> 00:03:00,710
+To send study supplies to Hong.
+
+14
+00:03:01,600 --> 00:03:12,200
+Mark true or false column.
+
+15
+00:03:13,000 --> 00:03:31,550
+Phuong writes letter to Hong to ask about Hong and family.
+
+16
+00:03:33,130 --> 00:03:46,950
+Phuong does what to help Hong?
+
+17
+00:03:47,930 --> 00:03:58,770
+A. Buy newspaper for Hong to read.
+
+18
+00:04:00,330 --> 00:04:12,110
+B. Buy study supplies, give to Hong.
+
+19
+00:04:12,680 --> 00:04:26,840
+C. Send saved money to help Hong buy study supplies.
+
+20
+00:04:28,600 --> 00:04:43,640
+Phuong has sent saved money to help Hong buy study supplies.
+

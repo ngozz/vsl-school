@@ -1,0 +1,68 @@
+1
+00:00:01,870 --> 00:00:10,000
+Adding two fractions with different denominators
+
+2
+00:00:10,300 --> 00:00:17,770
+Calculate: three-fourths plus four-fifths equals how many?
+
+3
+00:00:17,770 --> 00:00:23,070
+We see 2 fractions have different denominators.
+
+4
+00:00:23,070 --> 00:00:29,100
+So to add two fractions, we do as follows:
+
+5
+00:00:29,100 --> 00:00:39,900
+Step 1: Make common denominators of two fractions.
+
+6
+00:00:39,900 --> 00:01:01,750
+Step 2: Add fractions with same denominator.
+
+7
+00:01:05,250 --> 00:01:16,370
+Conclusion To add two fractions with different denominators we perform two steps
+
+8
+00:01:16,370 --> 00:01:23,220
+Step 1: Make common denominators of two fractions.
+
+9
+00:01:23,220 --> 00:01:31,800
+Step 2: Add two fractions with same denominator.
+
+10
+00:01:33,100 --> 00:01:41,470
+Add fractions: two-thirds plus two-ninths equals how many?
+
+11
+00:01:44,220 --> 00:01:59,520
+Two fractions have different denominators, but between two denominators what is special, common denominator is what?
+
+12
+00:01:59,520 --> 00:02:06,520
+We see denominator 9 divided by 3 equals 3,
+
+13
+00:02:06,520 --> 00:02:21,700
+We see denominator 9 divided by 3 equals 3, so common denominator of two fractions two-thirds and two-ninths is what number? Is number 9.
+
+14
+00:02:27,600 --> 00:02:35,870
+Add fractions: three-fifths plus two-thirds equals how many?
+
+15
+00:02:35,870 --> 00:02:49,370
+Fill number or appropriate fraction into blank:
+
+16
+00:02:50,720 --> 00:02:58,720
+To add these two fractions, how do we do?
+
+17
+00:02:58,720 --> 00:03:17,100
+Common denominator of two fractions three-fifths and two-thirds is: 5 x 3 = 15.
+

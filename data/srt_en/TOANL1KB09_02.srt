@@ -1,0 +1,92 @@
+1
+00:00:01,450 --> 00:00:18,450
+Square, circle, triangle, rectangle
+
+2
+00:00:19,800 --> 00:00:28,000
+Look at the picture and name the objects in the picture
+
+3
+00:00:30,570 --> 00:00:36,280
+Floor tile
+
+4
+00:00:38,600 --> 00:00:44,310
+Wall picture
+
+5
+00:00:47,250 --> 00:00:51,220
+Towel
+
+6
+00:00:53,940 --> 00:00:57,140
+Wall clock
+
+7
+00:00:59,340 --> 00:01:09,000
+The floor tile has a square shape.
+
+8
+00:01:11,540 --> 00:01:16,820
+Let's observe the figure
+
+9
+00:01:19,540 --> 00:01:22,740
+This is a square.
+
+10
+00:01:24,570 --> 00:01:34,910
+The wall clock has a round shape.
+
+11
+00:01:36,710 --> 00:01:41,970
+Let's observe the figure.
+
+12
+00:01:44,970 --> 00:01:48,140
+This is a circle.
+
+13
+00:01:50,000 --> 00:01:59,020
+The towel has a triangle shape.
+
+14
+00:02:01,820 --> 00:02:08,110
+Let's observe the figure.
+
+15
+00:02:10,510 --> 00:02:14,020
+This is a triangle.
+
+16
+00:02:15,140 --> 00:02:25,850
+The picture has a rectangle shape
+
+17
+00:02:28,740 --> 00:02:34,970
+Let's observe the figure.
+
+18
+00:02:37,820 --> 00:02:41,970
+This is a rectangle.
+
+19
+00:02:45,600 --> 00:02:50,940
+Name the shapes
+
+20
+00:02:52,770 --> 00:02:55,510
+Square
+
+21
+00:02:56,850 --> 00:03:00,400
+Circle
+
+22
+00:03:01,480 --> 00:03:04,600
+Triangle
+
+23
+00:03:05,740 --> 00:03:09,600
+Rectangle
+

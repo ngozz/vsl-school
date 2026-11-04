@@ -1,0 +1,4 @@
+1
+00:00:02,730 --> 00:00:11,730
+Choose rhymes teacher reads.
+

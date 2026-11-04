@@ -1,0 +1,88 @@
+1
+00:00:02,240 --> 00:00:10,020
+Structure of decimal.
+
+2
+00:00:10,020 --> 00:00:20,370
+We learn together about decimal structure.
+
+3
+00:00:22,000 --> 00:00:25,680
+Each decimal number has 2 parts.
+
+4
+00:00:25,680 --> 00:00:38,200
+Whole part and decimal part.
+
+5
+00:00:38,200 --> 00:00:45,930
+they are separated by comma.
+
+6
+00:00:46,420 --> 00:00:53,620
+Digits on left of comma belong to whole part,
+
+7
+00:00:53,620 --> 00:01:02,860
+digits on right of comma belong to decimal part.
+
+8
+00:01:02,860 --> 00:01:16,440
+Tell whole part, decimal part of decimal number 9.36.
+
+9
+00:01:17,150 --> 00:01:27,350
+Example 1: With number 528,103
+
+10
+00:01:27,800 --> 00:01:40,620
+Observe table beside together
+
+11
+00:01:42,040 --> 00:01:59,930
+Whole part has ones, tens, hundreds
+
+12
+00:01:59,930 --> 00:02:12,130
+Decimal part has tenths, hundredths, thousandths
+
+13
+00:02:12,130 --> 00:02:17,620
+Relationship
+
+14
+00:02:17,620 --> 00:02:29,280
+Whole part: Each unit of a place equals 10 units of immediately lower place..
+
+15
+00:02:29,480 --> 00:02:42,040
+Decimal part: Each unit of a place equals 1/10 (or 0.1) unit of immediately higher place.
+
+16
+00:02:42,040 --> 00:02:52,460
+Find appropriate number to fill blank in example below together:
+
+17
+00:02:52,460 --> 00:03:01,910
+Example 1: In decimal number 528,103
+
+18
+00:03:01,910 --> 00:03:08,770
+Whole part consists of: 528
+
+19
+00:03:08,770 --> 00:03:21,310
+Decimal part consists of digits: 1; 0; 3
+
+20
+00:03:22,420 --> 00:03:32,020
+Example 2: In decimal number 497,256
+
+21
+00:03:32,020 --> 00:03:39,170
+Whole part consists of: 497
+
+22
+00:03:39,170 --> 00:03:52,240
+Decimal part consists of digits: 2; 5; 6
+

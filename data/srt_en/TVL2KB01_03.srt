@@ -1,0 +1,16 @@
+1
+00:00:04,010 --> 00:00:09,210
+pencil sharpener
+
+2
+00:00:14,910 --> 00:00:20,540
+eraser
+
+3
+00:00:25,280 --> 00:00:29,790
+reward (gift box)
+
+4
+00:00:31,790 --> 00:00:40,520
+Match word cell with suitable picture.
+

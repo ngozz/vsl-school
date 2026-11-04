@@ -1,0 +1,64 @@
+1
+00:00:03,640 --> 00:00:12,020
+Looking at list you see group 1 of class 2A has how many students?
+
+2
+00:00:28,910 --> 00:00:38,000
+Looking at list order column you know number of students.
+
+3
+00:00:39,770 --> 00:00:44,770
+Group 1 has 5 students.
+
+4
+00:00:51,910 --> 00:01:00,950
+Looking at list you see group 1 of class 2A has how many female students?
+
+5
+00:01:02,570 --> 00:01:07,170
+A. There are 2 female students.
+
+6
+00:01:07,950 --> 00:01:11,460
+B. There are 3 female students.
+
+7
+00:01:12,040 --> 00:01:15,930
+C. There are 5 female students.
+
+8
+00:01:27,130 --> 00:01:36,260
+Looking at list you see group 1 of class 2A has how many male students?
+
+9
+00:01:40,750 --> 00:01:45,040
+A. There are 2 male students.
+
+10
+00:01:45,400 --> 00:01:49,510
+B. There are 3 male students.
+
+11
+00:01:50,420 --> 00:01:54,880
+C. There are 5 male students.
+
+12
+00:02:02,350 --> 00:02:06,550
+Group 1 has new student.
+
+13
+00:02:07,660 --> 00:02:12,310
+What is student's name?
+
+14
+00:02:32,950 --> 00:02:48,350
+New student name is Tran Anh Dung.
+
+15
+00:02:51,620 --> 00:02:57,880
+In group 1 list new student is at number what?
+
+16
+00:03:15,080 --> 00:03:19,510
+New friend is at number 4.
+

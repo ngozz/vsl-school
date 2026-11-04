@@ -1,0 +1,96 @@
+1
+00:00:03,310 --> 00:00:14,960
+Read friend's self-introduction to know what he introduced about himself!
+
+2
+00:00:15,790 --> 00:00:27,080
+First what does friend do?
+
+3
+00:00:31,100 --> 00:00:36,360
+Ah, friend is greeting friends.
+
+4
+00:00:37,120 --> 00:00:45,550
+Right! When meeting we need to greet each other.
+
+5
+00:00:47,080 --> 00:00:57,390
+What is the little friend's name?
+
+6
+00:00:59,650 --> 00:01:09,870
+Little friend's name is Son.
+
+7
+00:01:12,440 --> 00:01:26,410
+After greeting we introduce our name.
+
+8
+00:01:30,020 --> 00:01:37,690
+What grade is little friend in?
+
+9
+00:01:39,050 --> 00:01:47,980
+Little friend Son is in grade 2.
+
+10
+00:01:50,430 --> 00:01:58,280
+Then introduce which grade?
+
+11
+00:02:00,640 --> 00:02:08,160
+What subject does little friend like?
+
+12
+00:02:10,700 --> 00:02:21,050
+Son likes Math.
+
+13
+00:02:23,810 --> 00:02:26,370
+Then introduce hobby.
+
+14
+00:02:26,610 --> 00:02:39,890
+Can be subject, can be food, can be a sport.
+
+15
+00:02:42,440 --> 00:02:45,720
+Example:
+
+16
+00:02:47,080 --> 00:03:00,960
+At school, recess is the happiest.
+
+17
+00:03:03,880 --> 00:03:08,400
+Then introduce happiest activity at school.
+
+18
+00:03:08,740 --> 00:03:25,450
+Can be recess, can be extracurricular activity, can be a subject.
+
+19
+00:03:28,180 --> 00:03:39,890
+Read again friend's self-introduction above!
+
+20
+00:03:41,940 --> 00:03:47,870
+Hello friends!
+
+21
+00:03:50,500 --> 00:03:57,960
+My name is Son.
+
+22
+00:04:01,440 --> 00:04:09,530
+I am a grade 2 student.
+
+23
+00:04:11,780 --> 00:04:17,710
+I like Math subject.
+
+24
+00:04:20,690 --> 00:04:28,750
+At school, I like recess because it is happiest.
+

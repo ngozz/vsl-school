@@ -1,0 +1,8 @@
+1
+00:00:00,420 --> 00:00:05,810
+Let's introduce ourselves according to hints below everyone!
+
+2
+00:00:06,030 --> 00:00:14,420
+Decorate the paragraph or illustration of your introduction!
+

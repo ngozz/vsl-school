@@ -1,0 +1,128 @@
+1
+00:00:01,180 --> 00:00:05,640
+Addition (with regrouping) within 100
+
+2
+00:00:09,050 --> 00:00:12,930
+Observe the picture and answer the question:
+
+3
+00:00:15,620 --> 00:00:19,290
+Grade 2A class has 29 students
+
+4
+00:00:22,730 --> 00:00:26,690
+Grade 2B class has 25 students.
+
+5
+00:00:28,990 --> 00:00:32,920
+How many students do both classes have in total?
+
+6
+00:00:36,110 --> 00:00:43,800
+To know how many students there are in total, which calculation do we use?
+
+7
+00:00:53,740 --> 00:00:59,550
+Addition calculation, 29 + 25 = ?
+
+8
+00:01:05,080 --> 00:01:12,120
+Set up and calculate step by step as follows:
+
+9
+00:01:14,110 --> 00:01:17,940
+Step 1: Set up
+
+10
+00:01:19,780 --> 00:01:34,970
+Write tens under tens, ones under ones
+
+11
+00:01:37,600 --> 00:01:41,940
+Step 2: Calculate from right to left
+
+12
+00:01:44,050 --> 00:01:51,570
+9 plus 5 equals 14, write 4, carry 1
+
+13
+00:01:55,940 --> 00:02:04,030
+2 plus 2 equals 4, plus 1 equals 5, write 5
+
+14
+00:02:08,170 --> 00:02:13,420
+So 29 + 25 = 54
+
+15
+00:02:19,610 --> 00:02:23,390
+Perform the calculation:
+
+16
+00:02:24,320 --> 00:02:28,430
+29 + 5 = ?
+
+17
+00:02:31,530 --> 00:02:34,810
+Step 1: Set up
+
+18
+00:02:37,010 --> 00:02:48,120
+Write tens under tens, ones under ones
+
+19
+00:02:50,410 --> 00:02:54,210
+Step 2: Calculate from right to left
+
+20
+00:02:56,160 --> 00:03:02,640
+9 plus 5 equals 14, write 4, carry 1
+
+21
+00:03:06,260 --> 00:03:10,890
+2 plus 1 equals 3, write 3
+
+22
+00:03:15,440 --> 00:03:20,010
+So 29 + 5 = 34
+
+23
+00:03:26,840 --> 00:03:30,820
+Perform the calculation:
+
+24
+00:03:31,380 --> 00:03:36,050
+38 + 25 = ?
+
+25
+00:03:39,930 --> 00:03:47,650
+8 plus 5 equals 13, write 3, carry 1
+
+26
+00:03:49,240 --> 00:03:57,000
+3 plus 2 equals 5, plus 1 equals 6, write 6
+
+27
+00:03:59,440 --> 00:04:04,760
+So 38 + 25 = 63
+
+28
+00:04:10,930 --> 00:04:15,400
+Perform the calculation
+
+29
+00:04:15,960 --> 00:04:21,060
+28 + 5 = ?
+
+30
+00:04:25,970 --> 00:04:35,120
+8 plus 5 equals 13, write 3, carry 1
+
+31
+00:04:36,110 --> 00:04:40,700
+2 plus 1 equals 3, write 3
+
+32
+00:04:43,130 --> 00:04:47,440
+So 28 + 5 = 33
+

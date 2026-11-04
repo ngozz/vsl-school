@@ -1,0 +1,20 @@
+1
+00:00:01,980 --> 00:00:10,580
+Division table 2, division table 5
+
+2
+00:00:11,850 --> 00:00:21,100
+We review division table 2
+
+3
+00:00:25,540 --> 00:00:33,360
+We review division table 5
+
+4
+00:00:34,730 --> 00:00:41,720
+We have division table 2, division table 5.
+
+5
+00:00:42,260 --> 00:00:49,690
+Remember to apply in calculation practice.
+

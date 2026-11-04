@@ -1,0 +1,36 @@
+1
+00:00:01,130 --> 00:00:09,080
+Divide one decimal number by one whole number
+
+2
+00:00:09,080 --> 00:00:21,820
+Example: Calculate 4.8 divided by 4 we do as follows:
+
+3
+00:00:21,820 --> 00:00:31,060
+4 divided by 4 write comma at right of quotient number
+
+4
+00:00:31,060 --> 00:00:38,800
+Continue take 8 divided by 4
+
+5
+00:00:38,800 --> 00:00:47,420
+Conclusion: To divide one decimal number by one whole number we do as follows:
+
+6
+00:00:47,950 --> 00:01:03,170
+Divide whole part of dividend by divisor.
+
+7
+00:01:05,170 --> 00:01:19,150
+Write comma at right of quotient found before taking first digit in decimal part of dividend to continue division.
+
+8
+00:01:19,150 --> 00:01:30,600
+Continue divide at decimal part of dividend.
+
+9
+00:01:30,600 --> 00:01:40,280
+To firmly grasp rule we do more examples below:
+

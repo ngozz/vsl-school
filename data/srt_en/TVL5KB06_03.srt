@@ -1,0 +1,4 @@
+1
+00:00:02,550 --> 00:00:11,860
+Read words under illustration: <color=orange><b>rice grain</b></color>, <color=orange><b>gold silver</b></color>
+

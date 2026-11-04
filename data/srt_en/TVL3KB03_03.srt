@@ -1,0 +1,20 @@
+1
+00:00:01,400 --> 00:00:12,310
+Learn meaning of words: charter, honor.
+
+2
+00:00:12,310 --> 00:00:16,970
+charter:
+
+3
+00:00:16,970 --> 00:00:23,000
+charter: regulations on activities of an organization.
+
+4
+00:00:24,150 --> 00:00:29,060
+honor:
+
+5
+00:00:29,060 --> 00:00:36,420
+honor: is good value of a person or collective.
+
