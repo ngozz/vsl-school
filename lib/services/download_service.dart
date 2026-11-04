@@ -12,6 +12,8 @@ import 'package:flutter/widgets.dart';
 import 'package:path_provider/path_provider.dart';
 
 import '../config.dart';
+import '../l10n/app_localizations.dart';
+import 'settings_service.dart';
 
 /// How the player plays a given video file.
 enum VideoSource { asset, localFile, network }
@@ -547,13 +549,17 @@ class DownloadService extends ChangeNotifier with WidgetsBindingObserver {
       final mb = remainingBytes >= 1073741824
           ? '${(remainingBytes / 1073741824).toStringAsFixed(1)} GB'
           : '${(remainingBytes / 1048576).round()} MB';
+      // No BuildContext here (called from the download path), so resolve the
+      // strings directly from the persisted language.
+      final l = lookupAppLocalizations(SettingsService.currentLanguage.locale);
       _dl.configureNotificationForGroup(
         _taskGroup,
         running: TaskNotification(
-            'Đang tải trong nền', '$total video (~$mb MB)'),
-        complete: const TaskNotification(
-            'Hoàn tất tải', 'Đã tải xong {numFinished} video'),
-        error: const TaskNotification('Lỗi tải bài học', '{numFailed} lỗi'),
+            l.notifRunningTitle, l.notifRunningBody(total, mb)),
+        complete: TaskNotification(
+            l.notifCompleteTitle, l.notifCompleteBody('{numFinished}')),
+        error: TaskNotification(
+            l.notifErrorTitle, l.notifErrorBody('{numFailed}')),
         groupNotificationId: 'vsl_school_downloads',
       );
     }

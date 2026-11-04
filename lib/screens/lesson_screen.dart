@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../l10n/l10n.dart';
 import '../main.dart';
 import '../models/lesson.dart';
 import '../services/download_service.dart';
@@ -45,7 +46,7 @@ class _LessonScreenState extends State<LessonScreen> {
           dl.entryFor(n) ?? VideoEntry(name: n, size: 0, sha256: ''),
     ];
     if (entries.isEmpty) {
-      _snack('Bài học đã được tải về máy.');
+      _snack(context.l10n.lessonDownloaded);
       return;
     }
     final bytes = entries.fold(0, (a, e) => a + e.size);
@@ -56,7 +57,7 @@ class _LessonScreenState extends State<LessonScreen> {
     if (!await DownloadDialogs.ensureNetworkOk(context, dl, bytes)) return;
     if (!mounted) return;
     final n = dl.enqueueAll(entries);
-    _snack('Đã bắt đầu tải $n video…');
+    _snack(context.l10n.downloadStarted(n));
   }
 
   void _snack(String msg) {
@@ -81,11 +82,12 @@ class _LessonScreenState extends State<LessonScreen> {
               builder: (context, _) {
                 if (_loading) return const SizedBox.shrink();
                 final names = _videoNames;
+                final l = context.l10n;
                 if (App.downloads.allDownloaded(names)) {
-                  return const IconButton(
-                    tooltip: 'Đã tải về máy',
-                    icon:
-                        Icon(Icons.download_done, color: Color(0xFF81C995)),
+                  return IconButton(
+                    tooltip: l.downloadedBadge,
+                    icon: const Icon(Icons.download_done,
+                        color: Color(0xFF81C995)),
                     onPressed: null,
                   );
                 }
@@ -105,7 +107,7 @@ class _LessonScreenState extends State<LessonScreen> {
                             ],
                           )),
                       IconButton(
-                        tooltip: 'Huỷ tải',
+                        tooltip: l.cancelDownload,
                         icon: const Icon(Icons.close),
                         onPressed: () => App.downloads.cancelTasks(names),
                       ),
@@ -113,7 +115,7 @@ class _LessonScreenState extends State<LessonScreen> {
                   );
                 }
                 return IconButton(
-                  tooltip: 'Tải bài này về máy',
+                  tooltip: l.downloadLesson,
                   icon: const Icon(Icons.download_outlined),
                   onPressed: _downloadLesson,
                 );
@@ -125,7 +127,7 @@ class _LessonScreenState extends State<LessonScreen> {
           ? const Center(child: CircularProgressIndicator())
           : _segments.isEmpty
               ? Center(
-                  child: Text('Bài học chưa có nội dung',
+                  child: Text(context.l10n.lessonEmpty,
                       style: theme.textTheme.bodyLarge))
               : Center(
                   child: ConstrainedBox(

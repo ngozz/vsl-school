@@ -3,19 +3,35 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../config.dart' show AppConfig;
 
-/// App settings (theme + video player prefs) stored in shared_preferences.
-/// Theme logic mirrors vsl-dictionary.
+/// App settings (theme, language, video player prefs) stored in
+/// shared_preferences. Theme logic mirrors vsl-dictionary.
 enum ThemeChoice { dark, black, light }
+
+/// Interface language. Vietnamese stays the default: the content itself is
+/// Vietnamese, and existing installs keep what they already had.
+enum AppLanguage {
+  vi,
+  en;
+
+  Locale get locale => Locale(name);
+}
 
 class SettingsService extends ChangeNotifier {
   static const _themeKey = 'vsl_school.theme';
+  static const _languageKey = 'vsl_school.language';
   static const _subtitlesKey = 'vsl_school.subtitles';
   static const _rememberSpeedKey = 'vsl_school.remember_speed';
   static const _speedKey = 'vsl_school.speed';
   static const _checkUpdatesKey = 'vsl_school.check_updates';
   static const _introKey = 'vsl_school.intro_seen';
 
+  /// Last selected language, readable from services that have no
+  /// [BuildContext] (background download notifications). Kept in sync by
+  /// [load] and [setLanguage] so it is never stale.
+  static AppLanguage currentLanguage = AppLanguage.vi;
+
   ThemeChoice _theme = ThemeChoice.dark;
+  AppLanguage _language = AppLanguage.vi;
   bool _subtitles = true; // CC on/off — always remembered, on by default
   bool _rememberSpeed = false; // opt-in: reuse the last speed for new videos
   double _speed = 1.0; // last chosen speed (only applied if _rememberSpeed)
@@ -24,6 +40,7 @@ class SettingsService extends ChangeNotifier {
   Future<void>? _loading; // load() is idempotent (main + home both call it)
 
   ThemeChoice get theme => _theme;
+  AppLanguage get language => _language;
   bool get subtitles => _subtitles;
   bool get rememberSpeed => _rememberSpeed;
   double get speed => _speed;
@@ -36,6 +53,9 @@ class SettingsService extends ChangeNotifier {
     final p = await SharedPreferences.getInstance();
     _theme = ThemeChoice.values.asNameMap()[p.getString(_themeKey)] ??
         ThemeChoice.dark;
+    _language = AppLanguage.values.asNameMap()[p.getString(_languageKey)] ??
+        AppLanguage.vi;
+    currentLanguage = _language;
     _subtitles = p.getBool(_subtitlesKey) ?? AppConfig.defaultSubtitles;
     _rememberSpeed = p.getBool(_rememberSpeedKey) ?? false;
     _speed = p.getDouble(_speedKey) ?? 1.0;
@@ -62,6 +82,15 @@ class SettingsService extends ChangeNotifier {
     _theme = choice;
     notifyListeners();
     (await SharedPreferences.getInstance()).setString(_themeKey, choice.name);
+  }
+
+  Future<void> setLanguage(AppLanguage language) async {
+    if (language == _language) return;
+    _language = language;
+    currentLanguage = language;
+    notifyListeners();
+    (await SharedPreferences.getInstance())
+        .setString(_languageKey, language.name);
   }
 
   Future<void> setSubtitles(bool on) async {

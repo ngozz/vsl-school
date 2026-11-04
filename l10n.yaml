@@ -1,0 +1,8 @@
+# ARB-based localization. Vietnamese is the template (and fallback) language;
+# English lives beside it in lib/l10n/app_en.arb. Generated code is committed
+# so `flutter analyze` / CI work without an extra codegen step.
+arb-dir: lib/l10n
+template-arb-file: app_vi.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false

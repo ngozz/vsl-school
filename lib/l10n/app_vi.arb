@@ -1,0 +1,270 @@
+{
+  "@@locale": "vi",
+
+  "appTitle": "VSL School",
+  "appWindowTitle": "VSL School — Bài giảng Ký hiệu Việt Nam",
+
+  "settingsTooltip": "Cài đặt",
+  "loadError": "Lỗi tải dữ liệu:\n{error}",
+  "@loadError": {
+    "description": "Fatal error while loading the bundled lesson data.",
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "cdnUnavailable": "CDN không khả dụng — tải/phát trực tuyến bị tắt.",
+
+  "settingsTitle": "Cài đặt",
+  "settingsTheme": "Giao diện",
+  "themeDark": "Tối",
+  "themeBlack": "Đen",
+  "themeLight": "Sáng",
+
+  "settingsLanguage": "Ngôn ngữ",
+  "@settingsLanguage": {
+    "description": "Settings heading for the interface language."
+  },
+  "languageVietnamese": "Tiếng Việt",
+  "@languageVietnamese": {
+    "description": "Language name — never translated."
+  },
+  "languageEnglish": "English",
+  "@languageEnglish": {
+    "description": "Language name — never translated."
+  },
+
+  "rememberSpeed": "Ghi nhớ tốc độ phát",
+  "rememberSpeedHint": "Áp dụng tốc độ đã chọn cho video kế tiếp",
+
+  "settingsDownloads": "Tải xuống & cập nhật",
+  "downloadedSummary": "Đã tải: {lessons}/{lessonsTotal} bài ({videos} video, {size})",
+  "@downloadedSummary": {
+    "description": "How much of the catalogue is stored locally.",
+    "placeholders": {
+      "lessons": { "type": "int", "format": "decimalPattern" },
+      "lessonsTotal": { "type": "int", "format": "decimalPattern" },
+      "videos": { "type": "int", "format": "decimalPattern" },
+      "size": { "type": "String" }
+    }
+  },
+  "checkUpdates": "Kiểm tra cập nhật khi mở ứng dụng",
+  "checkUpdatesOff": "Tắt = app hoàn toàn ngoại tuyến sau khi đã tải",
+  "downloadAll": "Tải toàn bộ nội dung",
+  "checkNow": "Kiểm tra cập nhật",
+  "deleteDownloaded": "Xoá dữ liệu đã tải",
+  "replayIntro": "Xem lại hướng dẫn",
+  "lessonCount": "Số bài học: {count}",
+  "@lessonCount": {
+    "placeholders": {
+      "count": { "type": "int", "format": "decimalPattern" }
+    }
+  },
+  "dataCredit": "Nội dung bài học từ “App Khiem Thinh” (qipedc.moet.gov.vn).",
+
+  "allDownloaded": "Toàn bộ nội dung đã được tải về máy.",
+  "downloadOnWifi": "Sẽ tải khi có Wi-Fi (mở lại màn hình này).",
+  "downloadStarted": "Đã bắt đầu tải {count} video…",
+  "@downloadStarted": {
+    "placeholders": {
+      "count": { "type": "int", "format": "decimalPattern" }
+    }
+  },
+  "deletedVideos": "Đã xoá {count} video.",
+  "@deletedVideos": {
+    "placeholders": {
+      "count": { "type": "int", "format": "decimalPattern" }
+    }
+  },
+  "updateCheckFailed": "Không thể kiểm tra: {error}",
+  "@updateCheckFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "upToDate": "Nội dung đã là bản mới nhất.",
+
+  "subjectMath": "Toán",
+  "subjectLiterature": "Tiếng Việt",
+  "subjectMathShort": "Số",
+  "@subjectMathShort": {
+    "description": "Two-or-three letter fallback shown when a Maths lesson thumbnail is missing."
+  },
+  "subjectLiteratureShort": "TV",
+  "@subjectLiteratureShort": {
+    "description": "Short fallback shown when a Vietnamese-language lesson thumbnail is missing."
+  },
+  "gradeChip": "Lớp {grade}",
+  "@gradeChip": {
+    "placeholders": {
+      "grade": { "type": "int" }
+    }
+  },
+  "hasUpdate": "Có bản cập nhật",
+
+  "lessonDownloaded": "Bài học đã được tải về máy.",
+  "lessonEmpty": "Bài học chưa có nội dung",
+  "downloadedBadge": "Đã tải về máy",
+  "cancelDownload": "Huỷ tải",
+  "downloadLesson": "Tải bài này về máy",
+
+  "bannerDeleting": "Đang xoá {done}/{total} video…",
+  "@bannerDeleting": {
+    "placeholders": {
+      "done": { "type": "int", "format": "decimalPattern" },
+      "total": { "type": "int", "format": "decimalPattern" }
+    }
+  },
+  "bannerCanceling": "Đang huỷ tải…",
+  "bannerDownloading": "Đang tải {done}/{total} video…",
+  "@bannerDownloading": {
+    "placeholders": {
+      "done": { "type": "int", "format": "decimalPattern" },
+      "total": { "type": "int", "format": "decimalPattern" }
+    }
+  },
+  "cancel": "Huỷ",
+
+  "deleteTitle": "Xoá dữ liệu đã tải",
+  "deleteBody": "Xoá {count} video đã tải (~{size})? Video sẽ phát trực tuyến từ CDN.",
+  "@deleteBody": {
+    "placeholders": {
+      "count": { "type": "int", "format": "decimalPattern" },
+      "size": { "type": "String" }
+    }
+  },
+  "delete": "Xoá",
+  "batchTitle": "Tải xuống nội dung",
+  "batchBody": "Sẽ tải {count} video (~{size}).\nNên dùng Wi-Fi. Tiếp tục?",
+  "@batchBody": {
+    "placeholders": {
+      "count": { "type": "int", "format": "decimalPattern" },
+      "size": { "type": "String" }
+    }
+  },
+  "later": "Để sau",
+  "download": "Tải",
+  "noWifiTitle": "Không thấy Wi-Fi",
+  "noWifiBody": "Thiết bị đang dùng dữ liệu di động. Tiếp tục tải (~{size})?",
+  "@noWifiBody": {
+    "placeholders": {
+      "size": { "type": "String" }
+    }
+  },
+  "continueLabel": "Tiếp tục",
+
+  "lessonDownloadTitle": "Đang tải bài học",
+  "lessonProgress": "{done}/{total} video — {doneSize} / {totalSize}",
+  "@lessonProgress": {
+    "description": "Live counters inside the iOS lesson-download dialog.",
+    "placeholders": {
+      "done": { "type": "int", "format": "decimalPattern" },
+      "total": { "type": "int", "format": "decimalPattern" },
+      "doneSize": { "type": "String" },
+      "totalSize": { "type": "String" }
+    }
+  },
+
+  "updateTitle": "Có bản cập nhật nội dung",
+  "updateChanged": "{count} video thay đổi",
+  "@updateChanged": {
+    "placeholders": {
+      "count": { "type": "int", "format": "decimalPattern" }
+    }
+  },
+  "updateRemoved": "{count} video bỏ",
+  "@updateRemoved": {
+    "placeholders": {
+      "count": { "type": "int", "format": "decimalPattern" }
+    }
+  },
+  "updateMore": "… và {count} bài khác",
+  "@updateMore": {
+    "placeholders": {
+      "count": { "type": "int", "format": "decimalPattern" }
+    }
+  },
+  "updateLessonLine": "{lesson}: {detail}",
+  "@updateLessonLine": {
+    "placeholders": {
+      "lesson": { "type": "String" },
+      "detail": { "type": "String" }
+    }
+  },
+  "updateOtherGroup": "Khác",
+  "@updateOtherGroup": {
+    "description": "Group label for changed files that do not belong to a known lesson."
+  },
+  "updateTotal": "Tổng: {files} video (~{size}). Cập nhật để dùng bản mới nhất.",
+  "@updateTotal": {
+    "placeholders": {
+      "files": { "type": "int", "format": "decimalPattern" },
+      "size": { "type": "String" }
+    }
+  },
+  "update": "Cập nhật",
+  "updateStarted": "Đang tải lại {count} video cập nhật…",
+  "@updateStarted": {
+    "placeholders": {
+      "count": { "type": "int", "format": "decimalPattern" }
+    }
+  },
+
+  "replay": "Phát lại",
+  "pause": "Tạm dừng",
+  "play": "Phát",
+  "subtitles": "Phụ đề",
+  "playbackSpeed": "Tốc độ phát",
+  "exitFullscreen": "Thu nhỏ",
+  "fullscreen": "Toàn màn hình",
+
+  "onboardingSkip": "Bỏ qua",
+  "onboardingNext": "Tiếp tục",
+  "onboardingStart": "Bắt đầu",
+  "languageTitle": "Chọn ngôn ngữ",
+  "@languageTitle": {
+    "description": "First onboarding step: interface language."
+  },
+  "languageSubtitle": "Bạn có thể đổi lại bất cứ lúc nào trong Cài đặt.",
+  "introWelcomeTitle": "Chào mừng đến với VSL School",
+  "introWelcomeBody": "Bài giảng Ký hiệu Việt Nam cho Toán và Tiếng Việt, lớp 1–5 — xem trực tuyến hoặc tải về để học offline.",
+  "introOfflineTitle": "Dùng offline hoàn toàn",
+  "introOfflineBody": "Vào Cài đặt → “Tải toàn bộ nội dung” (~2,9 GB) để tải mọi bài học về máy. Sau đó tắt “Kiểm tra cập nhật khi mở ứng dụng” — khi đó app không cần mạng nữa.",
+  "introSourceTitle": "Nguồn dữ liệu",
+  "introSourceBody": "Nội dung, video và phụ đề từ cổng Ký hiệu Việt Nam quốc gia: “App Khiem Thinh” (qipedc.moet.gov.vn) — Trung tâm Ký hiệu Việt Nam / Bộ Giáo dục và Đào tạo. Ứng dụng dùng làm cá nhân, không phải tác phẩm gốc. Chúc học tốt!",
+
+  "notifRunningTitle": "Đang tải trong nền",
+  "@notifRunningTitle": {
+    "description": "Android download notification title while a batch runs."
+  },
+  "notifRunningBody": "{total} video (~{size})",
+  "@notifRunningBody": {
+    "placeholders": {
+      "total": { "type": "int", "format": "decimalPattern" },
+      "size": { "type": "String" }
+    }
+  },
+  "notifCompleteTitle": "Hoàn tất tải",
+  "notifCompleteBody": "Đã tải xong {token} video",
+  "@notifCompleteBody": {
+    "description": "Android notification body at 100%.",
+    "placeholders": {
+      "token": {
+        "type": "String",
+        "example": "{numFinished}",
+        "description": "background_downloader placeholder, passed through verbatim."
+      }
+    }
+  },
+  "notifErrorTitle": "Lỗi tải bài học",
+  "notifErrorBody": "{token} lỗi",
+  "@notifErrorBody": {
+    "description": "Android notification body when downloads failed.",
+    "placeholders": {
+      "token": {
+        "type": "String",
+        "example": "{numFailed}",
+        "description": "background_downloader placeholder, passed through verbatim."
+      }
+    }
+  }
+}

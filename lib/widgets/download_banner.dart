@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/l10n.dart';
 import '../main.dart';
 
 /// Full-bleed status strip under the app bar: batch download progress
@@ -24,6 +25,7 @@ class DownloadBanner extends StatelessWidget {
       builder: (context, _) {
         final dl = App.downloads;
         final theme = Theme.of(context);
+        final l = context.l10n;
 
         final String label;
         final IconData icon;
@@ -32,12 +34,12 @@ class DownloadBanner extends StatelessWidget {
 
         if (dl.deleteTotal > 0) {
           icon = Icons.delete_outline;
-          label = 'Đang xoá ${dl.deleteDone}/${dl.deleteTotal} video…';
+          label = l.bannerDeleting(dl.deleteDone, dl.deleteTotal);
           progress = dl.deleteDone / dl.deleteTotal;
         } else if (dl.canceling) {
           // Indeterminate: the native cancel acks are still trickling in.
           icon = Icons.close;
-          label = 'Đang huỷ tải…';
+          label = l.bannerCanceling;
         } else {
           final busy = dl.busyBatchCount;
           final pending = dl.pendingBatchCount;
@@ -47,7 +49,7 @@ class DownloadBanner extends StatelessWidget {
           }
           final finished = (total - busy - pending).clamp(0, total);
           icon = Icons.cloud_download_outlined;
-          label = 'Đang tải $finished/$total video…';
+          label = l.bannerDownloading(finished, total);
           progress = finished / total;
           onCancel = () => dl.cancelBatch();
         }
@@ -89,7 +91,7 @@ class DownloadBanner extends StatelessWidget {
                           tapTargetSize: MaterialTapTargetSize.shrinkWrap,
                           foregroundColor: theme.colorScheme.onSurfaceVariant,
                         ),
-                        child: const Text('Huỷ'),
+                        child: Text(l.cancel),
                       ),
                   ],
                 ),

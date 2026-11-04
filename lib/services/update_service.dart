@@ -97,7 +97,9 @@ class UpdateService extends ChangeNotifier {
     for (final name in dl.downloadedNames) {
       final entry = remote.byName[name];
       final meta = dl.downloadedEntry(name);
-      final lesson = lessonIdOf(name) ?? 'Khác';
+      // Empty string marks "no known lesson"; the UI maps it to a localized
+      // group label.
+      final lesson = lessonIdOf(name) ?? '';
       if (entry == null) {
         groupFor(lesson).removed.add(name); // cleanup candidate
       } else if (meta != null && entry.size != meta.size) {

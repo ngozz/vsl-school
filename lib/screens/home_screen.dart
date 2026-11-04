@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 
+import '../l10n/l10n.dart';
 import '../main.dart';
 import '../models/lesson.dart';
 import '../services/settings_service.dart';
@@ -50,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
           !App.downloads.active) {
         WidgetsBinding.instance.addPostFrameCallback((_) {
           if (mounted) {
-            _snack('CDN không khả dụng — tải/phát trực tuyến bị tắt.');
+            _snack(context.l10n.cdnUnavailable);
           }
         });
       }
@@ -101,7 +102,7 @@ class _HomeScreenState extends State<HomeScreen> {
     if (!await DownloadDialogs.confirmDeleteAll(context, dl)) return;
     if (!mounted) return;
     final n = await dl.deleteAll();
-    _snack('Đã xoá $n video.');
+    if (mounted) _snack(context.l10n.deletedVideos(n));
   }
 
   Future<void> _showIntro() async {
@@ -135,7 +136,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final remaining = dl.remainingEntries();
     final bytes = remaining.fold(0, (a, e) => a + e.size);
     if (remaining.isEmpty) {
-      _snack('Toàn bộ nội dung đã được tải về máy.');
+      _snack(context.l10n.allDownloaded);
       return;
     }
     if (!await DownloadDialogs.confirmBatch(context, remaining.length, bytes)) {
@@ -143,24 +144,24 @@ class _HomeScreenState extends State<HomeScreen> {
     }
     if (!mounted) return;
     if (!await DownloadDialogs.ensureNetworkOk(context, dl, bytes)) {
-      _snack('Sẽ tải khi có Wi-Fi (mở lại màn hình này).');
+      if (mounted) _snack(context.l10n.downloadOnWifi);
       return;
     }
     if (!mounted) return;
     final started = dl.enqueueAll(remaining);
-    _snack('Đã bắt đầu tải $started video…');
+    _snack(context.l10n.downloadStarted(started));
   }
 
   Future<void> _manualUpdateCheck() async {
     await App.updates.check();
+    if (!mounted) return;
     if (App.updates.lastError != null) {
-      _snack('Không thể kiểm tra: ${App.updates.lastError}');
+      _snack(context.l10n.updateCheckFailed('${App.updates.lastError}'));
       return;
     }
     final diffs = App.updates.diffsFor(App.downloads);
-    if (!mounted) return;
     if (diffs.isEmpty) {
-      _snack('Nội dung đã là bản mới nhất.');
+      _snack(context.l10n.upToDate);
       return;
     }
     await DownloadDialogs.showUpdatePrompt(context, diffs);
@@ -183,6 +184,7 @@ class _HomeScreenState extends State<HomeScreen> {
           animation: Listenable.merge([App.settings, App.downloads, App.updates]),
           builder: (sheetContext, _) {
             final dl = App.downloads;
+            final l = sheetContext.l10n;
             final optionTitle = theme.textTheme.bodyMedium
                 ?.copyWith(fontWeight: FontWeight.w600);
             final muted = theme.textTheme.bodySmall
@@ -195,28 +197,53 @@ class _HomeScreenState extends State<HomeScreen> {
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Cài đặt', style: theme.textTheme.titleLarge),
+                      Text(l.settingsTitle, style: theme.textTheme.titleLarge),
                       const SizedBox(height: 16),
-                      Text('Giao diện', style: optionTitle),
+                      Text(l.settingsLanguage, style: optionTitle),
+                      const SizedBox(height: 8),
+                      SegmentedButton<AppLanguage>(
+                        showSelectedIcon: false, // no width change on select
+                        segments: [
+                          ButtonSegment(
+                            value: AppLanguage.vi,
+                            label: SizedBox(
+                              width: 96,
+                              child: Center(child: Text(l.languageVietnamese)),
+                            ),
+                          ),
+                          ButtonSegment(
+                            value: AppLanguage.en,
+                            label: SizedBox(
+                              width: 96,
+                              child: Center(child: Text(l.languageEnglish)),
+                            ),
+                          ),
+                        ],
+                        selected: {App.settings.language},
+                        onSelectionChanged: (sel) =>
+                            App.settings.setLanguage(sel.first),
+                      ),
+                      const SizedBox(height: 20),
+                      Text(l.settingsTheme, style: optionTitle),
                       const SizedBox(height: 8),
                       SegmentedButton<ThemeChoice>(
                         showSelectedIcon: false, // no width change on select
-                        segments: const [
+                        segments: [
                           ButtonSegment(
                               value: ThemeChoice.dark,
                               label: SizedBox(
-                                  width: 52,
-                                  child: Center(child: Text('Tối')))),
+                                  width: 60,
+                                  child: Center(child: Text(l.themeDark)))),
                           ButtonSegment(
                               value: ThemeChoice.black,
                               label: SizedBox(
-                                  width: 52,
-                                  child: Center(child: Text('Đen')))),
+                                  width: 60,
+                                  child: Center(child: Text(l.themeBlack)))),
                           ButtonSegment(
                               value: ThemeChoice.light,
                               label: SizedBox(
-                                  width: 52,
-                                  child: Center(child: Text('Sáng')))),
+                                  width: 60,
+                                  child: Center(child: Text(l.themeLight)))),
                         ],
                         selected: {App.settings.theme},
                         onSelectionChanged: (sel) =>
@@ -226,32 +253,29 @@ class _HomeScreenState extends State<HomeScreen> {
                       SwitchListTile(
                         contentPadding: EdgeInsets.zero,
                         dense: true,
-                        title: Text('Ghi nhớ tốc độ phát', style: optionTitle),
-                        subtitle: Text(
-                          'Áp dụng tốc độ đã chọn cho video kế tiếp',
-                          style: muted,
-                        ),
+                        title: Text(l.rememberSpeed, style: optionTitle),
+                        subtitle: Text(l.rememberSpeedHint, style: muted),
                         value: App.settings.rememberSpeed,
                         onChanged: (v) => App.settings.setRememberSpeed(v),
                       ),
                       if (dl.active) ...[
                         const SizedBox(height: 12),
-                        Text('Tải xuống & cập nhật', style: optionTitle),
+                        Text(l.settingsDownloads, style: optionTitle),
                         const SizedBox(height: 8),
                         Text(
-                          'Đã tải: ${dl.downloadedLessonCount}/${dl.catalogLessonCount} bài '
-                          '(${dl.downloadedCount} video, ${_fmtMB(dl.downloadedBytes)})',
+                          l.downloadedSummary(
+                            dl.downloadedLessonCount,
+                            dl.catalogLessonCount,
+                            dl.downloadedCount,
+                            _fmtMB(dl.downloadedBytes),
+                          ),
                           style: muted,
                         ),
                         SwitchListTile(
                           contentPadding: EdgeInsets.zero,
                           dense: true,
-                          title: Text('Kiểm tra cập nhật khi mở ứng dụng',
-                              style: optionTitle),
-                          subtitle: Text(
-                            'Tắt = app hoàn toàn ngoại tuyến sau khi đã tải',
-                            style: muted,
-                          ),
+                          title: Text(l.checkUpdates, style: optionTitle),
+                          subtitle: Text(l.checkUpdatesOff, style: muted),
                           value: App.settings.checkUpdates,
                           onChanged: (v) => App.settings.setCheckUpdates(v),
                         ),
@@ -263,7 +287,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             OutlinedButton.icon(
                               icon: const Icon(Icons.download_for_offline_outlined,
                                   size: 18),
-                              label: const Text('Tải toàn bộ nội dung'),
+                              label: Text(l.downloadAll),
                               onPressed: () {
                                 Navigator.pop(sheetContext);
                                 _downloadAllContent();
@@ -277,7 +301,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       child: CircularProgressIndicator(
                                           strokeWidth: 2))
                                   : const Icon(Icons.sync, size: 18),
-                              label: const Text('Kiểm tra cập nhật'),
+                              label: Text(l.checkNow),
                               onPressed: App.updates.checking
                                   ? null
                                   : () {
@@ -287,7 +311,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                             OutlinedButton.icon(
                               icon: const Icon(Icons.delete_outline, size: 18),
-                              label: const Text('Xoá dữ liệu đã tải'),
+                              label: Text(l.deleteDownloaded),
                               onPressed: dl.downloadedCount == 0
                                   ? null
                                   : () {
@@ -299,7 +323,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         TextButton.icon(
                           icon: const Icon(Icons.slideshow, size: 18),
-                          label: const Text('Xem lại hướng dẫn'),
+                          label: Text(l.replayIntro),
                           onPressed: () {
                             Navigator.pop(sheetContext);
                             _showIntro();
@@ -308,8 +332,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       ],
                       const SizedBox(height: 12),
                       Text(
-                        'Số bài học: ${App.lessons.count}\n\n'
-                        'Nội dung bài học từ “App Khiem Thinh” (qipedc.moet.gov.vn)',
+                        '${l.lessonCount(App.lessons.count)}\n\n'
+                        '${l.dataCredit}',
                         style: muted,
                       ),
                     ],
@@ -329,11 +353,11 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('VSL School',
-            style: TextStyle(fontWeight: FontWeight.w700, fontSize: 22)),
+        title: Text(context.l10n.appTitle,
+            style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 22)),
         actions: [
           IconButton(
-            tooltip: 'Cài đặt',
+            tooltip: context.l10n.settingsTooltip,
             icon: const Icon(Icons.settings_outlined),
             onPressed: () => _showSettings(context),
           ),
@@ -343,7 +367,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ? const Center(child: CircularProgressIndicator())
           : _error != null
               ? Center(
-                  child: Text('Lỗi tải dữ liệu:\n$_error',
+                  child: Text(context.l10n.loadError('$_error'),
                       textAlign: TextAlign.center))
               : ListenableBuilder(
                   listenable: Listenable.merge([App.downloads, App.updates]),
@@ -403,21 +427,22 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _filters() {
     final theme = Theme.of(context);
+    final l = context.l10n;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SegmentedButton<Subject>(
           showSelectedIcon: false, // no width change on select
-          segments: const [
+          segments: [
             ButtonSegment(
                 value: Subject.math,
                 label: SizedBox(
                     width: 104,
                     child: Center(
                         child: Row(mainAxisSize: MainAxisSize.min, children: [
-                      Icon(Icons.calculate, size: 15),
-                      SizedBox(width: 5),
-                      Text('Toán'),
+                      const Icon(Icons.calculate, size: 15),
+                      const SizedBox(width: 5),
+                      Text(l.subjectMath),
                     ])))),
             ButtonSegment(
                 value: Subject.literature,
@@ -425,9 +450,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     width: 104,
                     child: Center(
                         child: Row(mainAxisSize: MainAxisSize.min, children: [
-                      Icon(Icons.menu_book, size: 15),
-                      SizedBox(width: 5),
-                      Text('Tiếng Việt'),
+                      const Icon(Icons.menu_book, size: 15),
+                      const SizedBox(width: 5),
+                      Text(l.subjectLiterature),
                     ])))),
           ],
           selected: {_subject},
@@ -448,7 +473,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding: EdgeInsets.only(
                       right: (g == AppConfig.grades.last ? 0 : 8)),
                   child: ChoiceChip(
-                    label: Text('Lớp $g'),
+                    label: Text(context.l10n.gradeChip(g)),
                     selected: _grade == g,
                     showCheckmark: false,
                     labelPadding: const EdgeInsets.symmetric(horizontal: 14),
@@ -519,7 +544,9 @@ class _LessonTile extends StatelessWidget {
                       'data/thumbs/${lesson.id}.webp',
                       fit: BoxFit.contain,
                       errorBuilder: (_, _, _) => Text(
-                        lesson.id.startsWith('TOAN') ? 'Số' : 'TV',
+                        lesson.id.startsWith('TOAN')
+                            ? context.l10n.subjectMathShort
+                            : context.l10n.subjectLiteratureShort,
                         style: TextStyle(
                           fontWeight: FontWeight.w800,
                           fontSize: 13,
@@ -541,7 +568,7 @@ class _LessonTile extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(right: 10),
                       child: Tooltip(
-                        message: 'Có bản cập nhật',
+                        message: context.l10n.hasUpdate,
                         child: Container(
                           width: 10,
                           height: 10,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/l10n.dart';
 import '../main.dart';
 import '../services/download_service.dart';
 
@@ -21,22 +22,21 @@ abstract final class DownloadDialogs {
   /// "Xoá tất cả dữ liệu đã tải?" — the cleanup confirmation.
   static Future<bool> confirmDeleteAll(
       BuildContext context, DownloadService dl) async {
+    final l = context.l10n;
     return await showDialog<bool>(
           context: context,
           builder: (context) => AlertDialog(
-            title: const Text('Xoá dữ liệu đã tải'),
+            title: Text(l.deleteTitle),
             content: Text(
-                'Xoá ${dl.downloadedCount} video đã tải '
-                '(~${_fmtBytes(dl.downloadedBytes)})? '
-                'Video sẽ phát trực tuyến từ CDN.'),
+                l.deleteBody(dl.downloadedCount, _fmtBytes(dl.downloadedBytes))),
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(context, false),
-                child: const Text('Huỷ'),
+                child: Text(l.cancel),
               ),
               FilledButton(
                 onPressed: () => Navigator.pop(context, true),
-                child: const Text('Xoá'),
+                child: Text(l.delete),
               ),
             ],
           ),
@@ -72,21 +72,20 @@ abstract final class DownloadDialogs {
   /// "Sẽ tải N video (~X MB)" — the 3 GB-class warning before download-all.
   static Future<bool> confirmBatch(
       BuildContext context, int fileCount, int bytes) async {
+    final l = context.l10n;
     return await showDialog<bool>(
           context: context,
           builder: (context) => AlertDialog(
-            title: const Text('Tải xuống nội dung'),
-            content: Text(
-                'Sẽ tải $fileCount video (~${_fmtBytes(bytes)}).\n'
-                'Nên dùng Wi-Fi. Tiếp tục?'),
+            title: Text(l.batchTitle),
+            content: Text(l.batchBody(fileCount, _fmtBytes(bytes))),
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(context, false),
-                child: const Text('Để sau'),
+                child: Text(l.later),
               ),
               FilledButton(
                 onPressed: () => Navigator.pop(context, true),
-                child: const Text('Tải'),
+                child: Text(l.download),
               ),
             ],
           ),
@@ -97,21 +96,20 @@ abstract final class DownloadDialogs {
   /// Second gate when no Wi-Fi is visible: keep bytes flowing consciously.
   static Future<bool> confirmMobileData(
       BuildContext context, int bytes) async {
+    final l = context.l10n;
     return await showDialog<bool>(
           context: context,
           builder: (context) => AlertDialog(
-            title: const Text('Không thấy Wi-Fi'),
-            content: Text(
-                'Thiết bị đang dùng dữ liệu di động. '
-                'Tiếp tục tải (~${_fmtBytes(bytes)})?'),
+            title: Text(l.noWifiTitle),
+            content: Text(l.noWifiBody(_fmtBytes(bytes))),
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(context, false),
-                child: const Text('Huỷ'),
+                child: Text(l.cancel),
               ),
               FilledButton(
                 onPressed: () => Navigator.pop(context, true),
-                child: const Text('Tiếp tục'),
+                child: Text(l.continueLabel),
               ),
             ],
           ),
@@ -122,16 +120,21 @@ abstract final class DownloadDialogs {
   /// The dismissible startup prompt: per-lesson diffs, [Cập nhật] applies.
   static Future<void> showUpdatePrompt(
       BuildContext context, List<LessonDiff> diffs) async {
+    final l = context.l10n;
     final totalBytes = diffs.fold(0, (a, d) => a + d.bytes);
     final totalFiles = diffs.fold(0, (a, d) => a + d.changed.length);
     // Resolve the messenger before the dialog closes: looking it up from the
     // dialog's own (then deactivated) context is unsafe.
     final messenger = ScaffoldMessenger.of(context);
+    String detailOf(LessonDiff d) => [
+          if (d.changed.isNotEmpty) l.updateChanged(d.changed.length),
+          if (d.removed.isNotEmpty) l.updateRemoved(d.removed.length),
+        ].join(', ');
     await showDialog<void>(
       context: context,
       builder: (context) => AlertDialog(
         icon: const Icon(Icons.new_releases_outlined),
-        title: const Text('Có bản cập nhật nội dung'),
+        title: Text(l.updateTitle),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -140,22 +143,20 @@ abstract final class DownloadDialogs {
               Padding(
                 padding: const EdgeInsets.only(bottom: 4),
                 child: Text(
-                    '${d.lesson}: '
-                    '${d.changed.isNotEmpty ? '${d.changed.length} video thay đổi' : ''}'
-                    '${d.changed.isNotEmpty && d.removed.isNotEmpty ? ', ' : ''}'
-                    '${d.removed.isNotEmpty ? '${d.removed.length} video bỏ' : ''}',
+                    l.updateLessonLine(
+                        d.lesson.isEmpty ? l.updateOtherGroup : d.lesson,
+                        detailOf(d)),
                     style: Theme.of(context).textTheme.bodyMedium),
               ),
             if (diffs.length > 4)
               Padding(
                 padding: const EdgeInsets.only(bottom: 4),
-                child: Text('… và ${diffs.length - 4} bài khác',
+                child: Text(l.updateMore(diffs.length - 4),
                     style: Theme.of(context).textTheme.bodyMedium),
               ),
             const SizedBox(height: 6),
             Text(
-                'Tổng: $totalFiles video (~${_fmtBytes(totalBytes)}). '
-                'Cập nhật để dùng bản mới nhất.',
+                l.updateTotal(totalFiles, _fmtBytes(totalBytes)),
                 style: Theme.of(context).textTheme.bodySmall),
           ],
         ),
@@ -165,7 +166,7 @@ abstract final class DownloadDialogs {
               App.updates.dismissedThisSession = true;
               Navigator.pop(context);
             },
-            child: const Text('Để sau'),
+            child: Text(l.later),
           ),
           FilledButton(
             onPressed: () {
@@ -173,11 +174,10 @@ abstract final class DownloadDialogs {
                   .enqueueAll(diffs.expand((d) => d.changed).toList());
               App.updates.dismissedThisSession = true;
               Navigator.pop(context);
-              messenger.showSnackBar(SnackBar(
-                  content: Text(
-                      'Đang tải lại $totalFiles video cập nhật…')));
+              messenger.showSnackBar(
+                  SnackBar(content: Text(l.updateStarted(totalFiles))));
             },
-            child: const Text('Cập nhật'),
+            child: Text(l.update),
           ),
         ],
       ),
@@ -220,6 +220,7 @@ class _LessonProgressDialogState extends State<_LessonProgressDialog> {
 
   @override
   Widget build(BuildContext context) {
+    final l = context.l10n;
     return AnimatedBuilder(
       animation: widget.dl,
       builder: (context, _) {
@@ -237,14 +238,15 @@ class _LessonProgressDialogState extends State<_LessonProgressDialog> {
           doneBytes += (e.size * p).round();
         }
         return AlertDialog(
-          title: const Text('Đang tải bài học'),
+          title: Text(l.lessonDownloadTitle),
           content: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                  '$doneCount/${entries.length} video — '
-                  '${DownloadDialogs._fmtBytes(doneBytes)} / ${DownloadDialogs._fmtBytes(total)}',
+                  l.lessonProgress(doneCount, entries.length,
+                      DownloadDialogs._fmtBytes(doneBytes),
+                      DownloadDialogs._fmtBytes(total)),
                   style: Theme.of(context).textTheme.bodyMedium),
               const SizedBox(height: 12),
               LinearProgressIndicator(
@@ -259,7 +261,7 @@ class _LessonProgressDialogState extends State<_LessonProgressDialog> {
                     .cancelTasks(entries.map((e) => e.name));
                 Navigator.of(context).pop(false);
               },
-              child: const Text('Huỷ'),
+              child: Text(l.cancel),
             ),
           ],
         );

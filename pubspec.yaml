@@ -30,6 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
 
   shared_preferences: ^2.3.0
   video_player: ^2.14.1
@@ -68,6 +71,10 @@ flutter_launcher_icons:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+  # ARB-based localization (lib/l10n, l10n.yaml). The generated
+  # app_localizations*.dart files are committed so CI needs no codegen step.
+  generate: true
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

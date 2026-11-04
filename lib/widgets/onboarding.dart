@@ -1,9 +1,16 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/l10n.dart';
 import '../main.dart';
+import '../services/settings_service.dart' show AppLanguage;
 
-/// First-launch onboarding: three pages, shown once (re-openable from the
-/// settings sheet). Hand-rolled PageView — no onboarding dependency.
+/// First-launch onboarding: a language step followed by three info pages,
+/// shown once (re-openable from the settings sheet). Hand-rolled PageView —
+/// no onboarding dependency.
+///
+/// The language step is first on purpose: picking a language rebuilds the
+/// whole route instantly, so the following pages (and the buttons) are already
+/// in the chosen language.
 class OnboardingPage extends StatefulWidget {
   const OnboardingPage({super.key});
 
@@ -15,29 +22,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
   final _controller = PageController();
   int _page = 0;
 
-  static const _pages = [
-    (
-      Icons.school_outlined,
-      'Chào mừng đến với VSL School',
-      'Bài giảng Ký hiệu Việt Nam cho Toán và Tiếng Việt, lớp 1–5 — xem '
-          'trực tuyến hoặc tải về để học offline.',
-    ),
-    (
-      Icons.wifi_off_outlined,
-      'Dùng offline hoàn toàn',
-      'Vào Cài đặt → “Tải toàn bộ nội dung” (~2,9 GB) để tải mọi bài học '
-          'về máy. Sau đó tắt “Kiểm tra cập nhật khi mở ứng dụng” — khi đó '
-          'app không cần mạng nữa.',
-    ),
-    (
-      Icons.volunteer_activism_outlined,
-      'Nguồn dữ liệu',
-      'Nội dung, video và phụ đề từ cổng Ký hiệu Việt Nam quốc gia: '
-          '“App Khiem Thinh” (qipedc.moet.gov.vn) — Trung tâm Ký hiệu Việt '
-          'Nam / Bộ Giáo dục và Đào tạo. Ứng dụng dùng làm cá nhân, không '
-          'phải tác phẩm gốc. Chúc học tốt!',
-    ),
-  ];
+  static const _pageCount = 4;
 
   void _finish() {
     App.settings.setIntroSeen();
@@ -53,7 +38,30 @@ class _OnboardingPageState extends State<OnboardingPage> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final last = _page == _pages.length - 1;
+    final l = context.l10n;
+    final last = _page == _pageCount - 1;
+    final pages = <Widget>[
+      _languageStep(l, theme),
+      _introStep(
+        theme,
+        icon: Icons.school_outlined,
+        title: l.introWelcomeTitle,
+        body: l.introWelcomeBody,
+      ),
+      _introStep(
+        theme,
+        icon: Icons.wifi_off_outlined,
+        title: l.introOfflineTitle,
+        body: l.introOfflineBody,
+      ),
+      _introStep(
+        theme,
+        icon: Icons.volunteer_activism_outlined,
+        title: l.introSourceTitle,
+        body: l.introSourceBody,
+      ),
+    ];
+
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
       body: SafeArea(
@@ -61,42 +69,22 @@ class _OnboardingPageState extends State<OnboardingPage> {
           children: [
             Align(
               alignment: Alignment.topRight,
-              child: TextButton(onPressed: _finish, child: const Text('Bỏ qua')),
+              child: TextButton(
+                onPressed: _finish,
+                child: Text(l.onboardingSkip),
+              ),
             ),
             Expanded(
               child: PageView(
                 controller: _controller,
                 onPageChanged: (i) => setState(() => _page = i),
-                children: [
-                  for (final (icon, title, body) in _pages)
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 32),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(icon,
-                              size: 88, color: theme.colorScheme.primary),
-                          const SizedBox(height: 24),
-                          Text(title,
-                              textAlign: TextAlign.center,
-                              style: theme.textTheme.headlineSmall
-                                  ?.copyWith(fontWeight: FontWeight.w700)),
-                          const SizedBox(height: 12),
-                          Text(body,
-                              textAlign: TextAlign.center,
-                              style: theme.textTheme.bodyMedium?.copyWith(
-                                  color: theme
-                                      .colorScheme.onSurfaceVariant)),
-                        ],
-                      ),
-                    ),
-                ],
+                children: pages,
               ),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                for (var i = 0; i < _pages.length; i++)
+                for (var i = 0; i < _pageCount; i++)
                   Container(
                     width: 8,
                     height: 8,
@@ -124,11 +112,139 @@ class _OnboardingPageState extends State<OnboardingPage> {
                           curve: Curves.easeOut);
                     }
                   },
-                  child: Text(last ? 'Bắt đầu' : 'Tiếp tục'),
+                  child: Text(last ? l.onboardingStart : l.onboardingNext),
                 ),
               ),
             ),
           ],
+        ),
+      ),
+    );
+  }
+
+  /// Step 0: pick the interface language. Language names are endonyms (never
+  /// translated), so both options are always readable.
+  Widget _languageStep(AppLocalizations l, ThemeData theme) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 32),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Icon(Icons.translate, size: 88, color: theme.colorScheme.primary),
+          const SizedBox(height: 24),
+          Text(
+            l.languageTitle,
+            textAlign: TextAlign.center,
+            style: theme.textTheme.headlineSmall
+                ?.copyWith(fontWeight: FontWeight.w700),
+          ),
+          const SizedBox(height: 12),
+          Text(
+            l.languageSubtitle,
+            textAlign: TextAlign.center,
+            style: theme.textTheme.bodyMedium
+                ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
+          ),
+          const SizedBox(height: 24),
+          for (final lang in AppLanguage.values) ...[
+            _LanguageOption(
+              label: switch (lang) {
+                AppLanguage.vi => l.languageVietnamese,
+                AppLanguage.en => l.languageEnglish,
+              },
+              selected: App.settings.language == lang,
+              onTap: () async {
+                await App.settings.setLanguage(lang);
+                if (mounted) setState(() {});
+              },
+            ),
+            const SizedBox(height: 10),
+          ],
+        ],
+      ),
+    );
+  }
+
+  Widget _introStep(
+    ThemeData theme, {
+    required IconData icon,
+    required String title,
+    required String body,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 32),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(icon, size: 88, color: theme.colorScheme.primary),
+          const SizedBox(height: 24),
+          Text(title,
+              textAlign: TextAlign.center,
+              style: theme.textTheme.headlineSmall
+                  ?.copyWith(fontWeight: FontWeight.w700)),
+          const SizedBox(height: 12),
+          Text(body,
+              textAlign: TextAlign.center,
+              style: theme.textTheme.bodyMedium
+                  ?.copyWith(color: theme.colorScheme.onSurfaceVariant)),
+        ],
+      ),
+    );
+  }
+}
+
+/// One tappable language row. Deliberately plain (no Radio widget) so the
+/// selection ring is cheap to draw and identical on every platform.
+class _LanguageOption extends StatelessWidget {
+  final String label;
+  final bool selected;
+  final VoidCallback onTap;
+
+  const _LanguageOption({
+    required this.label,
+    required this.selected,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Material(
+      color: selected
+          ? theme.colorScheme.primaryContainer
+          : theme.colorScheme.surface,
+      borderRadius: BorderRadius.circular(16),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(16),
+        onTap: onTap,
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 18),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(
+              color: selected
+                  ? theme.colorScheme.primary
+                  : theme.colorScheme.outlineVariant,
+            ),
+          ),
+          child: Row(
+            children: [
+              Expanded(
+                child: Text(
+                  label,
+                  style: theme.textTheme.titleMedium
+                      ?.copyWith(fontWeight: FontWeight.w700),
+                ),
+              ),
+              Icon(
+                selected ? Icons.check_circle : Icons.circle_outlined,
+                color: selected
+                    ? theme.colorScheme.primary
+                    : theme.colorScheme.outline,
+              ),
+            ],
+          ),
         ),
       ),
     );

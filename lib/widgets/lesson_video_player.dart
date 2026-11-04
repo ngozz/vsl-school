@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:video_player/video_player.dart';
 
+import '../l10n/l10n.dart';
 import '../main.dart';
 import '../config.dart';
 import '../services/download_service.dart' show VideoSource;
@@ -475,6 +476,7 @@ class _ControlsState extends State<_Controls> {
     return ValueListenableBuilder<VideoPlayerValue>(
       valueListenable: _c,
       builder: (context, value, _) {
+        final l = context.l10n;
         final durMs = value.duration.inMilliseconds;
         final maxMs = durMs > 0 ? durMs.toDouble() : 1.0;
         final posMs = (_dragMs ?? value.position.inMilliseconds.toDouble())
@@ -508,7 +510,7 @@ class _ControlsState extends State<_Controls> {
                     : value.isPlaying
                         ? Icons.pause
                         : Icons.play_arrow,
-                tooltip: ended ? 'Phát lại' : value.isPlaying ? 'Tạm dừng' : 'Phát',
+                tooltip: ended ? l.replay : value.isPlaying ? l.pause : l.play,
                 onPressed: (ended && scrubLocked)
                     ? null
                     : () => _togglePlay(value.isPlaying, ended),
@@ -570,7 +572,7 @@ class _ControlsState extends State<_Controls> {
                     icon: on
                         ? Icons.closed_caption
                         : Icons.closed_caption_outlined,
-                    tooltip: 'Phụ đề',
+                    tooltip: l.subtitles,
                     color: on ? _accent : Colors.white,
                     onPressed: widget.hasCaptions
                         ? () {
@@ -585,7 +587,7 @@ class _ControlsState extends State<_Controls> {
               Builder(
                 builder: (ctx) => _BarButton(
                   icon: Icons.slow_motion_video,
-                  tooltip: 'Tốc độ phát',
+                  tooltip: l.playbackSpeed,
                   color: value.playbackSpeed == 1.0 ? Colors.white : _accent,
                   onPressed: () => _pickSpeed(ctx, value.playbackSpeed),
                 ),
@@ -594,7 +596,7 @@ class _ControlsState extends State<_Controls> {
                 icon: widget.isFullscreen
                     ? Icons.fullscreen_exit
                     : Icons.fullscreen,
-                tooltip: widget.isFullscreen ? 'Thu nhỏ' : 'Toàn màn hình',
+                tooltip: widget.isFullscreen ? l.exitFullscreen : l.fullscreen,
                 onPressed: widget.onFullscreen,
               ),
             ],

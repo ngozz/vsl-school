@@ -1,6 +1,7 @@
 ﻿import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'l10n/app_localizations.dart';
 import 'services/settings_service.dart';
 import 'services/lesson_service.dart';
 import 'services/download_service.dart';
@@ -8,10 +9,18 @@ import 'services/update_service.dart';
 import 'screens/home_screen.dart';
 import 'config.dart' show AppConfig;
 
-void main() {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // Default orientation: portrait on mobile (fullscreen video rotates later).
   SystemChrome.setPreferredOrientations(const [DeviceOrientation.portraitUp]);
+  // Load persisted settings (theme, language) before the first frame so a
+  // saved English UI never flashes Vietnamese on launch. Failures fall
+  // through: HomeScreen surfaces load errors in its own error state.
+  try {
+    await App.settings.load();
+  } catch (_) {
+    // ignore — handled by the first screen
+  }
   runApp(const VslSchoolApp());
 }
 
@@ -135,8 +144,11 @@ class _VslSchoolAppState extends State<VslSchoolApp> {
   Widget build(BuildContext context) {
     final choice = App.settings.theme;
     return MaterialApp(
-      title: 'VSL School',
+      onGenerateTitle: (context) => AppLocalizations.of(context).appWindowTitle,
       debugShowCheckedModeBanner: false,
+      locale: App.settings.language.locale,
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
       theme: _buildTheme(ThemeChoice.light),
       darkTheme: _buildTheme(
           choice == ThemeChoice.light ? ThemeChoice.dark : choice),
