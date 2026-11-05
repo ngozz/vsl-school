@@ -1,0 +1,24 @@
+VSL School turns the Vietnamese primary-school curriculum into sign-language
+video lessons: 150 lessons covering Math and Literature for grades 1-5, based
+on "App Khiem Thinh" (qipedc.moet.gov.vn).
+
+FEATURES
+
+- 150 lessons with full outlines - tap any section to jump straight to that
+  part of the lesson.
+- A video player built for learning: Vietnamese and English subtitles,
+  playback speed control and fullscreen mode.
+- Two subjects, five grades - filter instantly from the home screen.
+- English support: English lesson titles, outlines and subtitles, shown in
+  English or Mixed mode (English with Vietnamese underneath); Vietnamese mode
+  stays purely Vietnamese.
+- Offline capable: lessons stream from the CDN by default and can be
+  downloaded in-app; the app checks for new content automatically.
+
+DATA
+
+Lesson content from "App Khiem Thinh" (qipedc.moet.gov.vn) - Vietnam Sign
+Language Centre / Ministry of Education and Training. This is a personal-use
+app, not the original work.
+
+Source code: https://github.com/ngozz/vsl-school

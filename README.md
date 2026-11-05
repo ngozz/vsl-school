@@ -1,34 +1,79 @@
 # VSL School — Trường học Ký hiệu Việt Nam
 
-An offline-first Flutter app of sign-language **video lessons** — Toán (math)
-and Tiếng Việt (literature) for grades 1–5. Distilled from the "App Khiem Thinh"
-lesson app into a lightweight, Vietnamese-interface reader with a custom video
-player.
+**English** | [Tiếng Việt](README.vi.md)
+
+[![Build](https://github.com/ngozz/vsl-school/actions/workflows/build.yml/badge.svg)](https://github.com/ngozz/vsl-school/actions/workflows/build.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/ngozz/vsl-school?display_name=tag)](https://github.com/ngozz/vsl-school/releases)
+<!-- F-Droid: [![F-Droid](https://img.shields.io/f-droid/v/com.ngozz.vsl_school.svg)](https://f-droid.org/packages/com.ngozz.vsl_school/) -->
+
+An offline-first Flutter app of sign-language **video lessons** — Math
+(Toán) and Literature (Tiếng Việt) for grades 1–5, following Vietnam's
+national primary-school curriculum. Distilled from the "App Khiem Thinh"
+lesson app into a lightweight reader with a custom video player. Interface
+in Vietnamese or English.
 
 **Source data:** lesson content, videos and captions from the National Sign
 Language portal of [qipedc.moet.gov.vn (App Khiem Thinh)](https://qipedc.moet.gov.vn/)
-(Trung tâm Kỹ hiệu Việt Nam / Bộ Giáo dục và Đào tạo).
+(Trung tâm Ký hiệu Việt Nam / Bộ Giáo dục và Đào tạo).
+
+## Languages
+
+- **Interface:** Vietnamese or English (Settings → Language; also asked on
+  first launch).
+- **Content:** everything being taught is originally **Vietnamese** — the
+  national primary-school curriculum, lesson titles, outlines, captions and
+  the videos themselves. English titles, outlines and subtitles are a
+  translated companion layer, shown in English mode; Vietnamese mode stays
+  purely Vietnamese.
+- Subject naming follows the interface: **Toán** is *Math*, and **Tiếng Việt**
+  (the Vietnamese reading/writing subject) is *Literature* in English.
+- *Translation note:* English text was translated with AI assistance and
+  partially reviewed by hand. Some lines may still read awkwardly —
+  corrections are very welcome via issues.
+
+## Install
+
+- **Android:** latest signed APK from
+  [Releases](https://github.com/ngozz/vsl-school/releases)
+  (`vsl-school-android.apk` — lessons stream from the CDN and download
+  in-app for offline use).
+- **Web:** <https://ngozz.github.io/vsl-school/>
+- **iOS** (unsigned IPA): add to SideStore/AltStore with the source below.
 
 ## Screenshots
 
+English UI:
+
 <p align="center">
-  <a href="ss/1.jpg"><img src="ss/1.jpg" width="23%" alt="Onboarding — Chào mừng đến với VSL School"></a>&nbsp;<a href="ss/2.jpg"><img src="ss/2.jpg" width="23%" alt="Lesson browser — subject and grade chips"></a>&nbsp;<a href="ss/3.jpg"><img src="ss/3.jpg" width="23%" alt="Settings — theme, playback speed and offline downloads"></a>&nbsp;<a href="ss/4.jpg"><img src="ss/4.jpg" width="23%" alt="Lesson player — captions and segment outline"></a>
+  <a href="ss/1.jpg"><img src="ss/1.jpg" width="23%" alt="Onboarding (English UI)"></a>&nbsp;<a href="ss/2.jpg"><img src="ss/2.jpg" width="23%" alt="Math lessons — grade filter (English UI)"></a>&nbsp;<a href="ss/3.jpg"><img src="ss/3.jpg" width="23%" alt="Literature lessons (English UI)"></a>&nbsp;<a href="ss/4.jpg"><img src="ss/4.jpg" width="23%" alt="Lesson player — English titles, outline and captions"></a>
+</p>
+
+Vietnamese UI:
+
+<p align="center">
+  <a href="ss/1_vn.jpg"><img src="ss/1_vn.jpg" width="23%" alt="Onboarding — Chào mừng đến với VSL School"></a>&nbsp;<a href="ss/2_vn.jpg"><img src="ss/2_vn.jpg" width="23%" alt="Trang môn Toán — chọn lớp"></a>&nbsp;<a href="ss/3_vn.jpg"><img src="ss/3_vn.jpg" width="23%" alt="Trang môn Tiếng Việt"></a>&nbsp;<a href="ss/4_vn.jpg"><img src="ss/4_vn.jpg" width="23%" alt="Màn hình bài học — video và đề mục"></a>
 </p>
 
 *Click a screenshot to open it full size.*
 
 ## What it does
 
-- **Lesson browsing** — subject chips (Toán / Tiếng Việt) + grade chips
-  (Lớp 1–5), lesson list with video thumbnails.
-- **Lesson player** — segment outline synced to lesson videos; tap a segment to
-  jump to it.
+- **Lesson browsing** — subject chips (Toán / Tiếng Việt, or Math /
+  Literature) + grade chips (Lớp 1–5 / Grade 1–5), lesson list with video
+  thumbnails.
+- **Lesson player** — segment outline synced to the lesson video; tap a
+  segment to jump to it.
 - **Custom player** (`lib/widgets/lesson_video_player.dart`, built on
-  `video_player`) — H.264/AAC mp4 playback, SRT captions with a CC toggle,
-  speed menu (0.25×–1.5×), tap-to-show auto-hiding controls, native-style
-  fullscreen with portrait/landscape handling.
-- **Personal touches** — remember-speed option, three themes (Tối / Đen / Sáng,
-  green-seeded Material 3), interface in Vietnamese.
+  `video_player`) — H.264/AAC mp4 playback, SRT captions (Vietnamese, or
+  English in the English interface) with a CC toggle, speed menu
+  (0.25×–1.5×), tap-to-show auto-hiding controls, native-style fullscreen
+  with portrait/landscape handling.
+- **English content** — lesson titles, outlines and subtitles in English;
+  captions switch with the interface language.
+- **Personal touches** — remember-speed option, three themes (dark /
+  pure-black AMOLED / light, green-seeded Material 3), downloads with update
+  checks.
 
 ## Project layout
 
@@ -39,14 +84,15 @@ vsl-school/
 │   │   └── tablecontent/  # 150 lesson outlines (segment + video mapping)
 │   ├── videos/          # 772 re-encoded lesson videos (H.264 mp4 + AAC)
 │   ├── srt/             # 753 Vietnamese caption files (SRT)
+│   ├── srt_en/          # 751 English caption files (SRT)
 │   └── thumbs/          # 150 lesson thumbnails (WebP)
 ├── lib/
 │   ├── main.dart        # app entry + Material You themes
 │   ├── models/lesson.dart
-│   ├── services/        # lesson catalogue, settings
+│   ├── services/        # lesson catalogue, settings, downloads, captions
 │   ├── screens/         # home (browse) + lesson screen
 │   └── widgets/lesson_video_player.dart
-├── ss/                  # screenshots used in this README
+├── ss/                  # screenshots used in this README (English + Vietnamese UI)
 ├── .github/workflows/   # build + release CI (see below)
 └── icon.png             # launcher icon source
 ```
@@ -123,6 +169,8 @@ The web artifact is also **deployed to GitHub Pages** automatically on each
 `main` build (base path is baked at build time so it works under `/<repo>/`),
 at `https://ngozz.github.io/vsl-school/`.
 
+Thinking about Play Store or F-Droid? See [PUBLISHING.md](PUBLISHING.md).
+
 ## iOS via SideStore / AltStore
 
 The iOS build can be added to SideStore or AltStore using this source:
@@ -151,10 +199,17 @@ during installation (same scheme as vsl-dictionary). The file lives in
 4. Media (~2.7 GB) makes the repo big; consider
    [`git lfs`](https://git-lfs.com) for `data/videos/*` if you hit push limits
    — or keep media out of git and stream it from a CDN in a later iteration.
+   Note that F-Droid's build server clones the whole repo, so slimming this
+   down matters before submitting there (see [PUBLISHING.md](PUBLISHING.md)).
 
 ## Data attribution
 
 Lesson content sourced from the national sign-language portal
 [App Khiem Thinh (qipedc.moet.gov.vn)](https://qipedc.moet.gov.vn/)
-(Trung tâm Kỹ hiệu Việt Nam / Bộ Giáo dục và Đào tạo). This project is a
+(Trung tâm Ký hiệu Việt Nam / Bộ Giáo dục và Đào tạo). This project is a
 personal-use reader, not the original work.
+
+## License
+
+[MIT](LICENSE) — the lesson content itself belongs to its original publishers
+(see attribution above).

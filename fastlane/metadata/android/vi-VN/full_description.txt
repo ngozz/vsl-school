@@ -1,0 +1,24 @@
+VSL School biến chương trình tiểu học Việt Nam thành bài giảng ký hiệu:
+150 bài học Toán và Tiếng Việt cho lớp 1-5, dựa trên "App Khiem Thinh"
+(qipedc.moet.gov.vn).
+
+TÍNH NĂNG
+
+- 150 bài học với đề mục đầy đủ - chạm vào mục bất kỳ để nhảy thẳng đến phần
+  đó của bài.
+- Trình phát video dành cho việc học: phụ đề Tiếng Việt / English, điều khiển
+  tốc độ phát và toàn màn hình.
+- Hai môn, năm lớp - lọc ngay trên màn hình chính.
+- Hỗ trợ tiếng Anh: tiêu đề, đề mục và phụ đề tiếng Anh, hiển thị ở chế độ
+  English hoặc Kết hợp (tiếng Anh kèm tiếng Việt bên dưới); chế độ Tiếng Việt
+  giữ nguyên thuần Việt.
+- Offline: bài học phát từ CDN theo mặc định, có thể tải về trong ứng dụng;
+  ứng dụng tự kiểm tra nội dung mới.
+
+DỮ LIỆU
+
+Nội dung bài học từ "App Khiem Thinh" (qipedc.moet.gov.vn) - Trung tâm Ký hiệu
+Việt Nam / Bộ Giáo dục và Đào tạo. Đây là ứng dụng dùng cá nhân, không phải
+sản phẩm gốc.
+
+Mã nguồn: https://github.com/ngozz/vsl-school
