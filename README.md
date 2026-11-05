@@ -36,8 +36,10 @@ Language portal of [qipedc.moet.gov.vn (App Khiem Thinh)](https://qipedc.moet.go
 
 - **Android:** latest signed APK from
   [Releases](https://github.com/ngozz/vsl-school/releases)
-  (`vsl-school-android.apk` — lessons stream from the CDN and download
-  in-app for offline use).
+  (`vsl-school-android.apk` — the **lite** flavor: lessons stream from the
+  CDN and download in-app for offline use). Releases ship the lite variant
+  only; the full (bundled-videos) build is a local build — see
+  [Build variants](#build-variants-flutter-flavors) below.
 - **Web:** <https://ngozz.github.io/vsl-school/>
 - **iOS** (unsigned IPA): add to SideStore/AltStore with the source below.
 
@@ -111,11 +113,28 @@ flutter build web --release          # Web → build/web (always lite)
 flutter build ios --no-codesign --flavor lite  # iOS (needs Xcode + macOS)
 ```
 
-`lite` is the default flavor (`default-flavor: lite`); `full` bundles
-`data/videos/` and appends `.full` to the Android application ID and iOS
-bundle ID so it installs alongside lite. CI publishes the lite variant only.
-Web builds use the default (lite) flavor, so they never include the bundled
-videos.
+### Build variants (Flutter flavors)
+
+`lite` is the default flavor (`default-flavor: lite`); `full` additionally
+bundles `data/videos/` so playback needs no network. The flavor also drives
+`CdnConfig.useCdn` (`appFlavor != 'full'`), so code and assets cannot drift
+apart.
+
+| Flavor | Media | APK size |
+|---|---|---|
+| `lite` (default) | streamed from the CDN, downloadable in-app | ~54 MB |
+| `full` | `data/videos/` bundled | ~3 GB |
+
+- **Releases ship the lite variant only.** At ~3 GB the full APK is too large
+  for GitHub Releases, so CI only runs `flutter build apk --release
+  --flavor lite` and the unsigned lite IPA. The full flavor still builds
+  locally: `flutter build apk --release --flavor full` (and
+  `flutter build ios --no-codesign --flavor full` on macOS). It installs
+  next to lite because `full` appends `.full` to the Android application ID
+  and iOS bundle ID. A local full build is debug-signed unless you set up
+  `android/key.properties` as described below.
+- **Web is always lite** (the default flavor), so the bundled-video assets
+  are excluded automatically.
 
 ### Android release signing
 
@@ -162,13 +181,13 @@ new APK.
 
 | Trigger | Effect |
 |---|---|
-| Push commit whose **message contains `[build]`** | Full build: Android APK + Web + unsigned iOS IPA |
+| Push commit whose **message contains `[build]`** | Lite build: Android APK + Web + unsigned iOS IPA |
 | **Manual** (`workflow_dispatch`) | Same, any time |
 | Any other push | CI skipped on purpose |
 
 Each build run **creates a GitHub Release** (`build<run-number>`) containing:
 
-- `vsl-school-android.apk` — sideload-ready (release-signed in CI)
+- `vsl-school-android.apk` — lite flavor, sideload-ready (release-signed in CI)
 - `vsl-school-ios-unsigned.ipa` — not code-signed; resign or use a sideload
   tool (e.g. AltStore, Sideloadly) to install
 - `vsl-school-web.zip` — static web build

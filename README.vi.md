@@ -34,8 +34,10 @@ ngữ ký hiệu quốc gia [qipedc.moet.gov.vn (App Khiem Thinh)](https://qiped
 
 - **Android:** APK đã ký mới nhất tại
   [Releases](https://github.com/ngozz/vsl-school/releases)
-  (`vsl-school-android.apk` — bài học phát từ CDN và tải về trong ứng dụng
-  để dùng offline).
+  (`vsl-school-android.apk` — bản **lite**: bài học phát từ CDN và tải về
+  trong ứng dụng để dùng offline). Release chỉ phát hành bản lite; bản full
+  (kèm video) là bản build local — xem
+  [Biến thể build](#biến-thể-build-flutter-flavor) bên dưới.
 - **Web:** <https://ngozz.github.io/vsl-school/>
 - **iOS** (IPA chưa ký): thêm vào SideStore/AltStore bằng nguồn bên dưới.
 
@@ -107,10 +109,28 @@ flutter build web --release          # Web → build/web (luôn lite)
 flutter build ios --no-codesign --flavor lite  # iOS (cần Xcode + macOS)
 ```
 
-`lite` là flavor mặc định (`default-flavor: lite`); `full` kèm
-`data/videos/` và thêm `.full` vào application ID (Android) / bundle ID (iOS)
-nên cài song song với bản lite được. CI chỉ phát hành bản lite. Web build
-dùng flavor mặc định (lite) nên không bao giờ kèm video.
+### Biến thể build (Flutter flavor)
+
+`lite` là flavor mặc định (`default-flavor: lite`); `full` kèm thêm
+`data/videos/` nên phát video không cần mạng. Flavor cũng điều khiển
+`CdnConfig.useCdn` (`appFlavor != 'full'`), nên code và asset không thể lệch
+nhau.
+
+| Flavor | Media | Kích thước APK |
+|---|---|---|
+| `lite` (mặc định) | phát từ CDN, tải về trong ứng dụng | ~54 MB |
+| `full` | kèm `data/videos/` | ~3 GB |
+
+- **Release chỉ phát hành bản lite.** APK full ~3 GB là quá lớn cho GitHub
+  Releases, nên CI chỉ chạy `flutter build apk --release --flavor lite` và
+  IPA lite chưa ký. Bản full vẫn build local được:
+  `flutter build apk --release --flavor full` (và
+  `flutter build ios --no-codesign --flavor full` trên macOS). Nó cài cạnh
+  bản lite được vì `full` thêm `.full` vào application ID (Android) / bundle
+  ID (iOS). Bản full build local sẽ ký debug nếu chưa tạo
+  `android/key.properties` như bên dưới.
+- **Web luôn là lite** (flavor mặc định), nên asset video kèm sẵn bị loại
+  tự động.
 
 ### Ký release Android
 
@@ -142,8 +162,8 @@ Thêm bốn repository secrets (**Settings → Secrets and variables → Actions
 ```
 
 CI giải mã vào `android/app/vsl-school.jks` và ghi `android/key.properties`
-(`storeFile=vsl-school.jks`) trước khi `flutter build apk --release`; thiếu
-secret thì APK được ký debug.
+(`storeFile=vsl-school.jks`) trước khi `flutter build apk --release --flavor
+lite`; thiếu secret thì APK được ký debug.
 
 **Chuyển đổi một lần:** APK trước đây được ký debug nên Android không cho cài
 bản ký release đè lên. Gỡ ứng dụng cũ một lần (điều này cũng xóa video đã tải
@@ -155,13 +175,13 @@ và cài đặt), rồi cài APK mới.
 
 | Trigger | Kết quả |
 |---|---|
-| Commit có **tin nhắn chứa `[build]`** | Build đủ: Android APK + Web + iOS IPA chưa ký |
+| Commit có **tin nhắn chứa `[build]`** | Build bản lite: Android APK + Web + iOS IPA chưa ký |
 | **Thủ công** (`workflow_dispatch`) | Như trên, bất cứ lúc nào |
 | Push khác | CI được bỏ qua có chủ đích |
 
 Mỗi lần build **tạo một GitHub Release** (`build<số-run>`) chứa:
 
-- `vsl-school-android.apk` — cài trực tiếp được (được ký release trong CI)
+- `vsl-school-android.apk` — bản lite, cài trực tiếp được (được ký release trong CI)
 - `vsl-school-ios-unsigned.ipa` — chưa ký; ký lại hoặc dùng công cụ sideload
   (ví dụ AltStore, Sideloadly) để cài
 - `vsl-school-web.zip` — bản web tĩnh
