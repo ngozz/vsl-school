@@ -1,22 +1,22 @@
 ﻿import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show appFlavor;
 
 /// Central app configuration.
 ///
-/// `tools/toggle_videos.ps1` flips [CdnConfig.useCdn] together with the
-/// `- data/videos/` asset line in pubspec.yaml, so the two can never drift.
-/// One flag decides everything:
+/// The build flavor decides where media comes from. Flavors are declared in
+/// pubspec.yaml (`default-flavor: lite`) and mirrored by Android product
+/// flavors, iOS build configurations and Xcode schemes:
 ///
-///   - useCdn = false → FULL build: data/videos is bundled as APK assets,
-///     producing a **very large** APK (~3 GB). Playback loads straight from
-///     assets — fully offline, no network involved.
-///   - useCdn = true → SMALL build (~50 MB): data/videos is *not* bundled;
-///     videos stream from [baseUrl] and downloaded local copies win over
-///     the network.
+///   - `lite` (default, and the only variant for web): data/videos is *not*
+///     bundled. Videos stream from [baseUrl], and downloaded local copies
+///     win over the network.
+///   - `full`: data/videos is bundled as APK/IPA assets, producing a
+///     **very large** build (~3 GB). Playback loads straight from assets —
+///     fully offline, no network involved.
 class CdnConfig {
-  /// true = SMALL (CDN) build — videos stream/download from the Workers host.
-  /// false = FULL build — data/videos bundled as APK assets (~3 GB APK).
-  /// Flipped together with the pubspec assets line by tools/toggle_videos.ps1.
-  static const bool useCdn = true;
+  /// true = lite (CDN) build — videos stream/download from the Workers host.
+  /// false = full build — data/videos bundled as assets.
+  static const bool useCdn = appFlavor != 'full';
 
   /// Base URL of the media Workers (static assets) host, no trailing slash.
   /// Serves /videos/{name}.mp4, /srt/, /thumbs/, /json mirrors.

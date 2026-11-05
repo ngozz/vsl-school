@@ -100,11 +100,17 @@ thành H.264/AAC mp4 để chạy đa nền tảng, phụ đề xuất ra SRT.
 
 ```bash
 flutter pub get
-flutter run              # chạy trên thiết bị
-flutter build apk --release         # Android (CI ký release; local ký debug)
-flutter build web --release         # Web → build/web
-flutter build ios --no-codesign     # iOS (cần Xcode + macOS)
+flutter run                          # chạy trên thiết bị (flavor lite)
+flutter build apk --release          # Android, lite (flavor mặc định; CI ký release)
+flutter build apk --release --flavor full   # Android, kèm video (~3 GB)
+flutter build web --release          # Web → build/web (luôn lite)
+flutter build ios --no-codesign --flavor lite  # iOS (cần Xcode + macOS)
 ```
+
+`lite` là flavor mặc định (`default-flavor: lite`); `full` kèm
+`data/videos/` và thêm `.full` vào application ID (Android) / bundle ID (iOS)
+nên cài song song với bản lite được. CI chỉ phát hành bản lite. Web build
+dùng flavor mặc định (lite) nên không bao giờ kèm video.
 
 ### Ký release Android
 

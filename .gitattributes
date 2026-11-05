@@ -1,0 +1,3 @@
+# Normalize all text files to LF (repo + working tree).
+# Keep the working tree LF too: no tracked .bat/.cmd files need CRLF.
+* text=auto eol=lf

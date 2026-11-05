@@ -70,7 +70,8 @@ class _LessonVideoPlayerState extends State<LessonVideoPlayer> {
         debugPrint('[VIDEO] stale player dispose: $e');
       }));
     }
-    // Resolver order: downloaded file → CDN stream → bundled asset.
+    // Resolver order: downloaded file → CDN stream (lite) or bundled asset
+    // (full flavor).
     final name = widget.videoAsset.split('/').last; // e.g. TOANL3KB01_02.mp4
     // DownloadService stores _downloaded keys without the .mp4 extension.
     final bare = name.endsWith('.mp4')

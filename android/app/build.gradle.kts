@@ -29,6 +29,24 @@ android {
         // flag during build.
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        // Labels differ per flavor so the two installs are distinguishable.
+        manifestPlaceholders["appLabel"] = "VSL School"
+    }
+
+    // Two variants built from one checkout:
+    //   lite (default) - lessons stream from the CDN (~50 MB APK)
+    //   full           - data/videos bundled (~3 GB APK, local use only);
+    //                    the .full suffix lets it coexist with lite.
+    flavorDimensions += "variant"
+    productFlavors {
+        create("lite") {
+            dimension = "variant"
+        }
+        create("full") {
+            dimension = "variant"
+            applicationIdSuffix = ".full"
+            manifestPlaceholders["appLabel"] = "VSL School Full"
+        }
     }
 
     // CI injects android/key.properties (from GitHub secrets); when absent,

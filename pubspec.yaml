@@ -72,6 +72,11 @@ flutter_launcher_icons:
 # The following section is specific to Flutter packages.
 flutter:
 
+  # Flavor used when no --flavor is passed. lite = videos stream from the CDN
+  # (~50 MB APK); full = everything bundled (~3 GB APK, local use only).
+  # Web has no flavors and therefore always gets lite.
+  default-flavor: lite
+
   # ARB-based localization (lib/l10n, l10n.yaml). The generated
   # app_localizations*.dart files are committed so CI needs no codegen step.
   generate: true
@@ -89,8 +94,11 @@ flutter:
     - data/srt/
     - data/srt_en/
     - data/i18n/en/
-    # - data/videos/   # excluded: CDN mode (run tools\toggle_videos.ps1 -Bundled $true to include)
     - data/thumbs/
+    # Bundled only in the `full` flavor; lite streams them from the CDN.
+    - path: data/videos/
+      flavors:
+        - full
 
   # To add assets to your application, add an assets section, like this:
   # assets:

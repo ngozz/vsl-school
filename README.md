@@ -104,11 +104,18 @@ H.264/AAC mp4 for broad platform support, captions exported to SRT.
 
 ```bash
 flutter pub get
-flutter run              # run on a device
-flutter build apk --release         # Android (CI release-signs; debug-signed locally)
-flutter build web --release         # Web → build/web
-flutter build ios --no-codesign     # iOS (needs Xcode + macOS)
+flutter run                          # run on a device (lite flavor)
+flutter build apk --release          # Android, lite (default flavor; CI release-signs)
+flutter build apk --release --flavor full   # Android, videos bundled (~3 GB)
+flutter build web --release          # Web → build/web (always lite)
+flutter build ios --no-codesign --flavor lite  # iOS (needs Xcode + macOS)
 ```
+
+`lite` is the default flavor (`default-flavor: lite`); `full` bundles
+`data/videos/` and appends `.full` to the Android application ID and iOS
+bundle ID so it installs alongside lite. CI publishes the lite variant only.
+Web builds use the default (lite) flavor, so they never include the bundled
+videos.
 
 ### Android release signing
 
@@ -141,7 +148,8 @@ Add four repository secrets (**Settings → Secrets and variables → Actions**)
 
 CI decodes that into `android/app/vsl-school.jks` and writes
 `android/key.properties` (`storeFile=vsl-school.jks`) before
-`flutter build apk --release`; without the secret the APK stays debug-signed.
+`flutter build apk --release --flavor lite`; without the secret the APK stays
+debug-signed.
 
 **One-time migration:** the previously published APK was debug-signed, so
 Android refuses to install a release-signed build over it. Uninstall the old

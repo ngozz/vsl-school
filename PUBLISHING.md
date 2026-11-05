@@ -36,8 +36,9 @@ Before submitting, resolve two things reviewers will hit:
 - **Content licensing.** Lesson videos/text come from "App Khiem Thinh"
   (qipedc.moet.gov.vn) and the app disclaims being the original work.
   Reviewers may tag NonFreeAssets; have the portal's terms (or permission)
-  ready to point to. The APK itself bundles no videos — media is downloaded
-  from the CDN at runtime.
+  ready to point to. The lite APK bundles no videos — media is downloaded
+  from the CDN at runtime; build with `flutter build apk --release --flavor
+  lite` (`lite` is the default flavor).
 
 Notes:
 - F-Droid signs the APK with its own key; `vsl-school.jks` stays local and is
@@ -45,7 +46,7 @@ Notes:
 
 ## Play Store (optional)
 - One-time $25 fee; reuse the fastlane text and screenshots for the listing.
-- Build an AAB: `flutter build appbundle --release`.
+- Build an AAB: `flutter build appbundle --release --flavor lite`.
 - Data safety: the app collects no user data. Content rating: educational.
 
 ## Never commit
